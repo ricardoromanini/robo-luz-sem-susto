@@ -18,7 +18,16 @@ PASTA_RELATORIOS = RAIZ / "relatorios"
 
 
 def carregar_env() -> None:
-    """Carrega o arquivo .env (se existir) sem sobrescrever o que já está no ambiente."""
+    """Carrega o arquivo .env (se existir) sem sobrescrever o que já está no ambiente.
+    Também lê o client_secret_youtube.json (baixado do Google Cloud), se existir."""
+    cs = RAIZ / "client_secret_youtube.json"
+    if cs.exists():
+        import json
+
+        dados = json.loads(cs.read_text(encoding="utf-8"))
+        info = dados.get("installed") or dados.get("web") or {}
+        os.environ.setdefault("YOUTUBE_CLIENT_ID", info.get("client_id", ""))
+        os.environ.setdefault("YOUTUBE_CLIENT_SECRET", info.get("client_secret", ""))
     arq = RAIZ / ".env"
     if not arq.exists():
         return

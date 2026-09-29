@@ -36,6 +36,17 @@ def main() -> None:
             enviados.append(nome)
         else:
             print(f"❌ {nome}: {r.stderr.strip()[:200]}")
+    # credenciais do YouTube baixadas do Google Cloud (arquivo local, nunca vai para o repositório)
+    cs = RAIZ / "client_secret_youtube.json"
+    if cs.exists():
+        import json
+
+        info = next(iter(json.loads(cs.read_text(encoding="utf-8")).values()))
+        for nome, chave in (("YOUTUBE_CLIENT_ID", "client_id"), ("YOUTUBE_CLIENT_SECRET", "client_secret")):
+            r = subprocess.run([gh, "secret", "set", nome, "--body", info[chave]], cwd=RAIZ, capture_output=True, text=True)
+            (enviados.append(nome) if r.returncode == 0 else print(f"❌ {nome}: {r.stderr.strip()[:200]}"))
+            if nome in vazios:
+                vazios.remove(nome)
     print(f"✅ {len(enviados)} chave(s) enviadas ao GitHub: {', '.join(enviados)}")
     if vazios:
         print(f"ℹ️ Ainda vazias (preencha e rode de novo quando tiver): {', '.join(vazios)}")
