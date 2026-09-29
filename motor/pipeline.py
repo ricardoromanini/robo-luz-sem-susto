@@ -61,17 +61,23 @@ def proximo_horario(pagina: Pagina, formato: str) -> str:
         if quando <= agora:
             quando += timedelta(days=7)
         return quando.isoformat()
+    # vários posts por dia: preenche os horários livres, na ordem de preferência (melhor horário aprendido primeiro)
     aprendido = estado.ler(pagina, "aprendizado", {}).get("melhor_horario")
-    cands = freq.get("horarios_candidatos") or [freq.get("horario_inicial", "12:00")]
-    hora = aprendido or freq.get("horario_inicial", cands[0])
-    if random.random() < 0.2:
-        hora = random.choice(cands)
-    h, m = map(int, hora.split(":"))
-    quando = agora.replace(hour=h, minute=m, second=0, microsecond=0)
-    ocupados = {i.get("horario_publicacao", "")[:13] for i in estado.fila(pagina) if i["status"] in ("aprovado", "aguardando_aprovacao")}
-    while quando <= agora + timedelta(minutes=30) or quando.isoformat()[:13] in ocupados:
-        quando += timedelta(days=1)
-    return quando.isoformat()
+    cands = list(freq.get("horarios_candidatos") or [freq.get("horario_inicial", "12:00")])
+    n_dia = int(freq.get("shorts_por_dia", 1))
+    preferidos = ([aprendido] if aprendido in cands else []) + [c for c in cands if c != aprendido]
+    if n_dia < len(cands):
+        preferidos = preferidos[:n_dia]  # usa só os N melhores horários do dia
+    ocupados = {i.get("horario_publicacao", "")[:16] for i in estado.fila(pagina)
+                if i["status"] in ("aprovado", "aguardando_aprovacao", "aguardando_contas")}
+    for dias in range(0, 30):
+        base = agora + timedelta(days=dias)
+        for hora in sorted(preferidos):
+            h, m = map(int, hora.split(":"))
+            quando = base.replace(hour=h, minute=m, second=0, microsecond=0)
+            if quando > agora + timedelta(minutes=30) and quando.isoformat()[:16] not in ocupados:
+                return quando.isoformat()
+    return (agora + timedelta(days=1)).isoformat()
 
 
 def escrever_e_verificar(pagina: Pagina, formato: str, excluir: set[str] | None = None, observacao_humana: str = "") -> tuple[dict, dict, dict]:

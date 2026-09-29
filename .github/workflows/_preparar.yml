@@ -30,7 +30,7 @@ permissions:
 jobs:
   rodar:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     env:
       TZ: America/Sao_Paulo
       PYTHONIOENCODING: utf-8

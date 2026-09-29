@@ -82,7 +82,7 @@ velocidade_voz: 1.05
 # Frequência e horários (horário de Brasília)
 # -----------------------------------------------------------------------------
 frequencia:
-  shorts_por_dia: 1
+  shorts_por_dia: 4          # primeiras semanas: 4 por dia (decisão do Ricardo, 29/09/2026); depois ajustar pelas métricas
   horarios_candidatos: ["07:30", "12:00", "18:30", "20:30"]   # o módulo de métricas escolhe o melhor
   horario_inicial: "12:00"
   video_longo:
