@@ -19,8 +19,9 @@ def main() -> None:
     env = RAIZ / ".env"
     if not env.exists():
         sys.exit("Arquivo .env não encontrado.")
+    print(f"Lendo: {env}")
     enviados, vazios = [], []
-    for linha in env.read_text(encoding="utf-8").splitlines():
+    for linha in env.read_text(encoding="utf-8-sig").splitlines():
         linha = linha.strip()
         if not linha or linha.startswith("#") or "=" not in linha:
             continue
