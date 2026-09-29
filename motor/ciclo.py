@@ -222,7 +222,13 @@ def _publicar_item(p: Pagina, item: dict) -> None:
 def publicar_vencidos(p: Pagina) -> None:
     if pipeline.controle(p)["pausado"]:
         return
+    alguma_conta = (youtube.configurado(p) or meta.ig_configurado(p) or meta.fb_configurado(p))
     for item in sorted(estado.fila(p), key=lambda x: x["horario_publicacao"]):
+        if item["status"] == "aprovado" and datetime.fromisoformat(item["horario_publicacao"]) <= p.agora() and not alguma_conta:
+            estado.atualizar_item(p, item["id"], status="aguardando_contas")
+            telegram.enviar_texto(f"📦 \"{item['titulo']}\" foi aprovado, mas as contas do YouTube/Instagram/Facebook ainda "
+                                  "não estão ligadas ao robô. O vídeo fica guardado; você pode postar à mão o vídeo da prévia.")
+            continue
         if item["status"] == "aprovado" and datetime.fromisoformat(item["horario_publicacao"]) <= p.agora():
             try:
                 _publicar_item(p, item)
