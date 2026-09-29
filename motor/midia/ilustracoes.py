@@ -22,6 +22,7 @@ from ..registro import obter
 log = obter("ilustracoes")
 
 MODELO = "@cf/black-forest-labs/flux-1-schnell"
+COTA_ESGOTADA = False  # vira True quando a Cloudflare avisa que a cota grátis do dia acabou
 NEGATIVO = ("no text, no letters, no words, no numbers, no captions, no watermark, no logos, no brand names, "
             "no signs with writing")
 
@@ -70,6 +71,11 @@ def _chamar(prompt: str) -> Image.Image | None:
         try:
             r = requests.post(url, headers={"Authorization": f"Bearer {env('CLOUDFLARE_API_TOKEN')}"},
                               json={"prompt": prompt, "steps": 8}, timeout=240)
+            if r.status_code == 429 and ("daily free allocation" in r.text or "neurons" in r.text):
+                global COTA_ESGOTADA
+                COTA_ESGOTADA = True  # cota diária grátis acabou: não adianta insistir hoje
+                log.warning("cota diária grátis de ilustrações da Cloudflare esgotada")
+                return None
             if r.status_code == 429 or r.status_code >= 500:
                 time.sleep(10 * (tentativa + 1))
                 continue
@@ -139,7 +145,7 @@ def fiscal_de_imagem(img: Image.Image) -> tuple[bool, str]:
 def gerar(pagina: Pagina, descricao: str, semente: int | str | None = None, termos_proibidos: list[str] | None = None,
           fiscalizar: bool = True) -> Image.Image | None:
     """Gera (ou reaproveita do cache) uma ilustração 1024x1024 aprovada pelo fiscal. None = usar outro fundo."""
-    if not configurado() or not descricao:
+    if not configurado() or not descricao or COTA_ESGOTADA:
         return None
     descricao = limpar_descricao(descricao, termos_proibidos or [])
     prompt = prompt_final(pagina, descricao)

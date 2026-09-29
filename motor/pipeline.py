@@ -10,11 +10,15 @@ from datetime import datetime, timedelta
 
 from . import armazenamento, equipe, estado, ideias, llm, qc_tecnico, roteiro, telegram
 from .config import Pagina
-from .midia import legendas, montagem, visuais, voz
+from .midia import ilustracoes, legendas, montagem, visuais, voz
 from .registro import obter
 
 log = obter("pipeline")
 MAX_RODADAS_AJUSTE = 2
+
+
+class CotaImagensEsgotada(RuntimeError):
+    """Sem ilustrações hoje: o vídeo é adiado (a página prefere qualidade a quantidade)."""
 MAX_PAUTAS = 3
 
 
@@ -122,6 +126,8 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
     t_cenas = time.time()
     for i, c in enumerate(rot["cenas"]):
         cm = visuais.cena(pagina, c, pauta, fmt_video, usadas, rodape=rot.get("rodape", ""), indice=i, total=len(rot["cenas"]))
+        if ilustracoes.COTA_ESGOTADA and pagina.cfg.get("midia", {}).get("exigir_ilustracoes", True):
+            raise CotaImagensEsgotada("cota diária grátis de ilustrações esgotada — vídeo adiado para quando renovar")
         camada = pasta / f"cena_{i:02d}_camada.png"
         cm["camada"].save(camada)
         if cm["fundo"]["tipo"] == "video":

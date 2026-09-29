@@ -48,6 +48,10 @@ def cmd_gerar(args) -> None:
             try:
                 item = pipeline.gerar_post(p, args.formato)
                 log.info("gerado: %s (%s)", item["titulo"], item["status"])
+            except pipeline.CotaImagensEsgotada as e:
+                from motor import telegram
+                telegram.enviar_texto(f"🖼️ {p.nome}: {e}. Tento de novo na próxima rodada.")
+                break
             except Exception as e:  # noqa: BLE001
                 alertar_erro(f"gerando post ({args.formato}) de {p.nome}", e)
 

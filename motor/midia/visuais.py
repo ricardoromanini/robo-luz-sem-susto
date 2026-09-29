@@ -190,6 +190,9 @@ def buscar_midia(pagina: Pagina, consultas: list[str], formato: str, usadas: set
         usadas.add(str(p))
         return {"tipo": "imagem", "imagem": Image.open(p).convert("RGB"), "credito": ""}
     consultas = [c for c in dict.fromkeys(consultas) if c]
+    if not ilustracao and consultas:
+        # o roteirista não descreveu a ilustração: monta a partir do assunto da cena/pauta
+        ilustracao = f"{consultas[0]}, in a cozy Brazilian home"
     if ilustracao and random.random() < float(cfg.get("chance_ilustracao", 0.7)):
         from . import ilustracoes
 
