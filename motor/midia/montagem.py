@@ -48,18 +48,18 @@ def montar(pasta: Path, cenas: list[dict], audios: list[Path], duracoes: list[fl
                   f"[b][1:v]overlay=0:0,format=yuv420p[v]")
             _ff(["-stream_loop", "-1", "-i", str(c["fundo"]), "-loop", "1", "-i", str(c["camada"]),
                  "-filter_complex", fc, "-map", "[v]", "-an", "-frames:v", str(frames),
-                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(saida)])
+                 "-c:v", "libx264", "-preset", "ultrafast", "-crf", "16", str(saida)])
         else:
             # foto/cartão: zoom lento alternando entrada/saída (movimento sem distrair); camada parada por cima
             if c.get("zoom", True):
                 z = f"1+0.08*on/{frames}" if i % 2 == 0 else f"1.08-0.08*on/{frames}"
-                mov = (f"scale={w * 2}:{h * 2},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={w}x{h}:fps={FPS}")
+                mov = (f"scale={int(w * 1.25) // 2 * 2}:{int(h * 1.25) // 2 * 2},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={w}x{h}:fps={FPS}")
             else:
                 mov = f"scale={w}:{h},fps={FPS}"
             fc = f"[0:v]{mov},setsar=1[b];[b][1:v]overlay=0:0,format=yuv420p[v]"
             _ff(["-loop", "1", "-framerate", str(FPS), "-i", str(c["fundo"]), "-loop", "1", "-i", str(c["camada"]),
                  "-filter_complex", fc, "-map", "[v]", "-frames:v", str(frames),
-                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(saida)])
+                 "-c:v", "libx264", "-preset", "ultrafast", "-crf", "16", str(saida)])
         clipes.append(saida)
     # vídeo contínuo
     lista = tmp / "lista.txt"

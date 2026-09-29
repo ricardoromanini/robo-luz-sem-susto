@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import random
 import re
+import time
 import unicodedata
 from datetime import datetime, timedelta
 
@@ -118,6 +119,7 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
     if pauta.get("grafico") and not any(c["visual"] == "grafico" for c in rot["cenas"]) and len(rot["cenas"]) >= 3:
         alvo = min(2, len(rot["cenas"]) - 2)
         rot["cenas"][alvo]["visual"] = "grafico"
+    t_cenas = time.time()
     for i, c in enumerate(rot["cenas"]):
         cm = visuais.cena(pagina, c, pauta, fmt_video, usadas, rodape=rot.get("rodape", ""), indice=i, total=len(rot["cenas"]))
         camada = pasta / f"cena_{i:02d}_camada.png"
@@ -131,6 +133,7 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
         cenas.append({"fundo_tipo": cm["fundo"]["tipo"], "fundo": fundo, "camada": camada, "zoom": cm["zoom"]})
         if cm["credito"] and cm["credito"] not in creditos:
             creditos.append(cm["credito"])
+    log.info("ilustrações/cenas prontas em %.0fs", time.time() - t_cenas)
     inicios, t = [], 0.0
     for d in duracoes:
         inicios.append(t)
@@ -138,7 +141,9 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
     fonte = visuais.caminho_fonte(pagina)
     nome_fonte = "Arial" if "arial" in fonte.lower() else "DejaVu Sans"
     ass = legendas.gerar_ass(pagina, falas, inicios, duracoes, w, h, pasta / "legendas.ass", nome_fonte)
+    t_mont = time.time()
     video = montagem.montar(pasta, cenas, audios, duracoes, ass, w, h, pasta / "video.mp4")
+    log.info("montagem em %.0fs", time.time() - t_mont)
     extra = {}
     if formato == "longo":
         extra["capa"] = str(visuais.capa(pagina, rot["titulo"], pasta / "capa.jpg"))
