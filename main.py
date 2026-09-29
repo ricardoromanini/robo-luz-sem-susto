@@ -17,6 +17,7 @@ import http.server
 import json
 import sys
 import threading
+import time
 import urllib.parse
 import webbrowser
 from pathlib import Path
@@ -140,8 +141,10 @@ def _receber_codigo(porta: int, url_autorizacao: str) -> str:
     class H(http.server.BaseHTTPRequestHandler):
         def do_GET(self):  # noqa: N802
             q = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
-            codigo["code"] = (q.get("code") or [""])[0]
-            codigo["erro"] = (q.get("error") or [""])[0]
+            if q.get("code"):
+                codigo["code"] = q["code"][0]
+            if q.get("error"):
+                codigo["erro"] = q["error"][0]
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
@@ -151,11 +154,19 @@ def _receber_codigo(porta: int, url_autorizacao: str) -> str:
             pass
 
     srv = http.server.HTTPServer(("localhost", porta), H)
-    t = threading.Thread(target=srv.handle_request)
+    srv.timeout = 2
+
+    def atender():
+        # atende várias chamadas (o navegador às vezes pede outra coisa antes) até chegar o código ou o erro
+        fim = time.time() + 900
+        while time.time() < fim and not (codigo.get("code") or codigo.get("erro")):
+            srv.handle_request()
+
+    t = threading.Thread(target=atender)
     t.start()
-    print("Abrindo o navegador para você autorizar... (se não abrir, copie o link abaixo)\n" + url_autorizacao)
+    print("Abrindo o navegador para você autorizar... (se não abrir, copie o link abaixo)\n" + url_autorizacao, flush=True)
     webbrowser.open(url_autorizacao)
-    t.join(timeout=600)
+    t.join(timeout=920)
     srv.server_close()
     if not codigo.get("code"):
         raise SystemExit(f"Autorização não concluída: {codigo.get('erro') or 'tempo esgotado'}")
