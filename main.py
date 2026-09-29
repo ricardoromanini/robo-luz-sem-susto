@@ -194,7 +194,7 @@ def cmd_token_meta(args) -> None:
     redir = f"http://localhost:{porta}/"
     app_id, secret = env("META_APP_ID", obrigatorio=True), env("META_APP_SECRET", obrigatorio=True)
     v = env("META_GRAPH_VERSION") or "v23.0"
-    escopos = "pages_show_list,pages_read_engagement,pages_manage_posts,business_management,instagram_basic,instagram_content_publish,instagram_manage_insights,read_insights"
+    escopos = env("META_ESCOPOS") or "pages_show_list,pages_read_engagement,pages_manage_posts,business_management,instagram_basic,instagram_content_publish"
     url = f"https://www.facebook.com/{v}/dialog/oauth?" + urllib.parse.urlencode(
         {"client_id": app_id, "redirect_uri": redir, "scope": escopos, "response_type": "code"})
     code = _receber_codigo(porta, url)
@@ -209,7 +209,15 @@ def cmd_token_meta(args) -> None:
         raise SystemExit("Nenhuma Página do Facebook encontrada nesta conta.")
     for i, pg in enumerate(paginas):
         print(f"  [{i}] {pg['name']} (id {pg['id']}) — Instagram vinculado: {bool(pg.get('instagram_business_account'))}")
-    esc = paginas[int(input("Número da Página desta marca: ")) if len(paginas) > 1 else 0]
+    nome_marca = carregar_pagina(args.pagina).nome.lower()
+    certas = [pg for pg in paginas if pg["name"].strip().lower() == nome_marca]
+    if certas:
+        esc = certas[0]
+    elif len(paginas) == 1:
+        esc = paginas[0]
+    else:
+        esc = paginas[int(input("Número da Página desta marca: "))]
+    print(f"Página escolhida: {esc['name']}")
     suf = args.pagina.upper().replace("-", "_")
     _gravar_env(f"META_PAGE_TOKEN_{suf}", esc["access_token"])
     _gravar_env(f"FB_PAGE_ID_{suf}", esc["id"])
