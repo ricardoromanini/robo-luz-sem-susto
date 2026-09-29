@@ -1,0 +1,22 @@
+# Todo dia às 06:00 (Brasília): gera os posts do dia e manda a prévia no Telegram.
+# Sexta às 07:00: gera também o vídeo longo de sábado.
+name: diario
+on:
+  schedule:
+    - cron: "0 9 * * *"     # 06:00 BRT
+    - cron: "0 10 * * 5"    # 07:00 BRT sexta (vídeo longo)
+  workflow_dispatch:
+    inputs:
+      formato:
+        description: "short ou longo"
+        default: short
+permissions:
+  contents: write
+concurrency: {group: estado, cancel-in-progress: false}
+jobs:
+  gerar:
+    uses: ./.github/workflows/_preparar.yml
+    with:
+      comando: >-
+        gerar --formato ${{ github.event.inputs.formato || (github.event.schedule == '0 10 * * 5' && 'longo') || 'short' }}
+    secrets: inherit

@@ -1,0 +1,52 @@
+# Configuração GLOBAL do motor (vale para todas as páginas).
+# Cada página tem a sua própria pasta em paginas/<nome>/config.yaml.
+
+fuso_horario: "America/Sao_Paulo"
+
+# ---------------------------------------------------------------------------
+# Modelos de IA (texto). A ordem é a ordem de tentativa: se o 1º falhar ou
+# estourar a cota, o motor passa para o próximo automaticamente.
+# O REDATOR e a EQUIPE DE VERIFICAÇÃO usam famílias de modelos DIFERENTES de
+# propósito: assim um modelo não "confirma" o erro do outro.
+# ---------------------------------------------------------------------------
+llm:
+  redator:
+    - {provedor: gemini, modelo: "gemini-3.5-flash"}
+    - {provedor: gemini, modelo: "gemini-3.8-flash"}
+    - {provedor: gemini, modelo: "gemini-flash-latest"}
+    - {provedor: groq, modelo: "openai/gpt-oss-120b"}
+    - {provedor: openrouter, modelo: "nvidia/nemotron-3-ultra-550b-a55b:free"}   # NVIDIA: 3ª família, grátis
+    - {provedor: openrouter, modelo: "nvidia/nemotron-3-super-120b-a12b:free"}
+    - {provedor: ollama, modelo: "qwen3:14b"}
+  verificador:
+    - {provedor: groq, modelo: "openai/gpt-oss-120b"}
+    - {provedor: gemini, modelo: "gemma-4-26b-a4b-it"}   # outra família, cota separada do Gemini
+    - {provedor: openrouter, modelo: "nvidia/nemotron-3-ultra-550b-a55b:free"}   # NVIDIA: 3ª família, grátis
+    - {provedor: openrouter, modelo: "nvidia/nemotron-3-super-120b-a12b:free"}
+    - {provedor: gemini, modelo: "gemini-3.5-flash"}
+    - {provedor: ollama, modelo: "gemma3:12b"}
+  temperatura_redator: 0.8
+  temperatura_verificador: 0.1
+
+# ---------------------------------------------------------------------------
+# Voz. Google Cloud TTS (Chirp 3 HD) na nuvem; Piper (grátis, local) de reserva.
+# ---------------------------------------------------------------------------
+voz:
+  # gemini = voz "atuada" (Gemini-TTS, com estilo/emoção) · google = Chirp 3 HD · piper = local, grátis
+  provedores: [gemini, google, piper]
+  modelo_atuada: "gemini-2.5-flash-preview-tts"
+  piper_modelo: "modelos/piper/pt_BR-faber-medium.onnx"
+
+# Modelos de visão do "fiscal de imagem" (em ordem de tentativa)
+fiscal_imagem: ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-flash-lite-latest", "gemini-3.5-flash"]  # "lite" = cota separada da do roteirista
+
+# ---------------------------------------------------------------------------
+# Legendas: Groq Whisper na nuvem; faster-whisper local de reserva.
+# ---------------------------------------------------------------------------
+legendas:
+  provedores: [groq, faster_whisper]
+  faster_whisper_modelo: "small"
+
+# Onde os vídeos prontos esperam a aprovação (entre uma execução e outra).
+# local = pasta saida/ (no seu PC) · github_release = anexos de uma release do repositório (nuvem)
+armazenamento: auto   # auto = github_release quando roda no GitHub Actions, senão local

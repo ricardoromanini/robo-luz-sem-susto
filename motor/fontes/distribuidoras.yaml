@@ -1,0 +1,36 @@
+# Nome popular e estado de cada distribuidora (SigAgente da ANEEL -> nome, UF).
+# Só distribuidoras listadas aqui entram em posts de reajuste/ranking/calculadora,
+# para o robô nunca publicar um nome errado. Para incluir outra, acrescente uma linha.
+CEMIG-D: {nome: "Cemig", uf: "MG"}
+ELETROPAULO: {nome: "Enel São Paulo", uf: "SP"}
+LIGHT SESA: {nome: "Light", uf: "RJ"}
+ENEL RJ: {nome: "Enel Rio", uf: "RJ"}
+ENEL CE: {nome: "Enel Ceará", uf: "CE"}
+COELBA: {nome: "Neoenergia Coelba", uf: "BA"}
+Neoenergia PE: {nome: "Neoenergia Pernambuco", uf: "PE"}
+COSERN: {nome: "Neoenergia Cosern", uf: "RN"}
+Neoenergia Brasília: {nome: "Neoenergia Brasília", uf: "DF"}
+ELEKTRO: {nome: "Neoenergia Elektro", uf: "SP"}
+COPEL-DIS: {nome: "Copel", uf: "PR"}
+CELESC: {nome: "Celesc", uf: "SC"}
+RGE: {nome: "RGE", uf: "RS"}
+CEEE-D: {nome: "CEEE Equatorial", uf: "RS"}
+EDP ES: {nome: "EDP Espírito Santo", uf: "ES"}
+EDP SP: {nome: "EDP São Paulo", uf: "SP"}
+CPFL-PAULISTA: {nome: "CPFL Paulista", uf: "SP"}
+CPFL-PIRATINING: {nome: "CPFL Piratininga", uf: "SP"}
+EQUATORIAL PA: {nome: "Equatorial Pará", uf: "PA"}
+EQUATORIAL MA: {nome: "Equatorial Maranhão", uf: "MA"}
+EQUATORIAL PI: {nome: "Equatorial Piauí", uf: "PI"}
+EQUATORIAL AL: {nome: "Equatorial Alagoas", uf: "AL"}
+EQUATORIAL GO: {nome: "Equatorial Goiás", uf: "GO"}
+CEA: {nome: "CEA Equatorial", uf: "AP"}
+EMT: {nome: "Energisa Mato Grosso", uf: "MT"}
+EMS: {nome: "Energisa Mato Grosso do Sul", uf: "MS"}
+ETO: {nome: "Energisa Tocantins", uf: "TO"}
+EAC: {nome: "Energisa Acre", uf: "AC"}
+ERO: {nome: "Energisa Rondônia", uf: "RO"}
+EPB: {nome: "Energisa Paraíba", uf: "PB"}
+ESE: {nome: "Energisa Sergipe", uf: "SE"}
+Âmbar Amazonas: {nome: "Amazonas Energia", uf: "AM"}
+Âmbar Energia RR: {nome: "Roraima Energia", uf: "RR"}

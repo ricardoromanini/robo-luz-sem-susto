@@ -1,0 +1,85 @@
+# Passos comuns (reutilizável): instala Python, FFmpeg, dependências e a voz Piper de reserva.
+name: preparar
+on:
+  workflow_call:
+    inputs:
+      comando:
+        required: true
+        type: string
+    secrets:
+      GEMINI_API_KEY: {required: false}
+      GROQ_API_KEY: {required: false}
+      OPENROUTER_API_KEY: {required: false}
+      GOOGLE_TTS_API_KEY: {required: false}
+      PEXELS_API_KEY: {required: false}
+      CLOUDFLARE_ACCOUNT_ID: {required: false}
+      CLOUDFLARE_API_TOKEN: {required: false}
+      PIXABAY_API_KEY: {required: false}
+      TELEGRAM_BOT_TOKEN: {required: false}
+      TELEGRAM_CHAT_ID: {required: false}
+      YOUTUBE_CLIENT_ID: {required: false}
+      YOUTUBE_CLIENT_SECRET: {required: false}
+      YOUTUBE_REFRESH_TOKEN_ENERGIA_EM_CASA: {required: false}
+      META_PAGE_TOKEN_ENERGIA_EM_CASA: {required: false}
+      FB_PAGE_ID_ENERGIA_EM_CASA: {required: false}
+      IG_USER_ID_ENERGIA_EM_CASA: {required: false}
+
+permissions:
+  contents: write
+
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TZ: America/Sao_Paulo
+      PYTHONIOENCODING: utf-8
+      GITHUB_TOKEN: ${{ github.token }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN_ENERGIA_EM_CASA: ${{ secrets.YOUTUBE_REFRESH_TOKEN_ENERGIA_EM_CASA }}
+      META_PAGE_TOKEN_ENERGIA_EM_CASA: ${{ secrets.META_PAGE_TOKEN_ENERGIA_EM_CASA }}
+      FB_PAGE_ID_ENERGIA_EM_CASA: ${{ secrets.FB_PAGE_ID_ENERGIA_EM_CASA }}
+      IG_USER_ID_ENERGIA_EM_CASA: ${{ secrets.IG_USER_ID_ENERGIA_EM_CASA }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: FFmpeg e fontes
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core > /dev/null
+      - name: Dependências
+        run: pip install -q -r requirements.txt
+      - name: Voz de reserva (Piper) em cache
+        uses: actions/cache@v4
+        with:
+          path: modelos/piper
+          key: piper-pt_BR-faber-medium
+      - name: Baixar voz Piper (se não estiver no cache)
+        run: |
+          mkdir -p modelos/piper
+          [ -f modelos/piper/pt_BR-faber-medium.onnx ] || curl -sL -o modelos/piper/pt_BR-faber-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx
+          [ -f modelos/piper/pt_BR-faber-medium.onnx.json ] || curl -sL -o modelos/piper/pt_BR-faber-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx.json
+      - name: Rodar
+        run: python main.py ${{ inputs.comando }}
+      - name: Salvar o "cérebro" (estado e relatórios)
+        if: always()
+        run: |
+          git config user.name "robo-redes-sociais"
+          git config user.email "robo@users.noreply.github.com"
+          git add estado relatorios || true
+          if ! git diff --cached --quiet; then
+            git commit -q -m "estado: ${{ inputs.comando }} $(date +'%Y-%m-%d %H:%M')"
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
+          fi

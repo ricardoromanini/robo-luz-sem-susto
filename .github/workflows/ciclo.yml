@@ -1,0 +1,16 @@
+# A cada 20 minutos: lê seus botões/comandos do Telegram e publica o que está aprovado e na hora.
+# (O agendador do GitHub pode atrasar alguns minutos em horários de pico — é normal.)
+name: ciclo
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: {group: estado, cancel-in-progress: false}
+jobs:
+  ciclo:
+    uses: ./.github/workflows/_preparar.yml
+    with:
+      comando: ciclo
+    secrets: inherit

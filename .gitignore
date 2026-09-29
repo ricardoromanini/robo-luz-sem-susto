@@ -1,0 +1,21 @@
+# Segredos — NUNCA vão para o GitHub
+.env
+*.token
+credenciais*.json
+client_secret*.json
+
+# Arquivos gerados
+saida/
+cache/
+modelos/
+__pycache__/
+*.pyc
+logs/
+
+# Suas fotos de obra ficam só no seu PC (podem ter endereço/cliente)
+paginas/*/midia_propria/*
+!paginas/*/midia_propria/LEIA-ME.md
+
+# Documentos pessoais de estratégia (ficam só no seu PC)
+RELATORIO_ESTRATEGIA.md
+pesquisa/

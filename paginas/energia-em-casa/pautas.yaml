@@ -1,0 +1,131 @@
+# Pautas "atemporais" (evergreen). Cada pauta traz os FATOS permitidos, com fonte.
+# O robô SÓ pode afirmar o que está aqui (ou no dado oficial da ANEEL, nas pautas automáticas).
+# Para acrescentar uma pauta: copie um bloco, mude o id e confira cada fato na fonte.
+#
+# Regra de ouro: na dúvida sobre um fato, NÃO coloque. Pauta sem número também funciona.
+
+- id: dr-areas-molhadas
+  busca: "electrical panel breaker"
+  categoria: seguranca
+  tema: "O dispositivo DR: a proteção contra choque que a norma exige em banheiro e cozinha"
+  fatos:
+    - {texto: "O DR (dispositivo diferencial-residual) desliga o circuito quando detecta fuga de corrente, como num choque elétrico.", fonte: "ABNT NBR 5410"}
+    - {texto: "A NBR 5410 exige DR de alta sensibilidade (até 30 mA) nos circuitos que atendem banheiros, cozinhas, copas, lavanderias, áreas de serviço, garagens e áreas externas.", fonte: "ABNT NBR 5410:2004, item 5.1.3.2.2"}
+    - {texto: "O disjuntor comum protege os fios contra sobrecarga e curto-circuito; ele não foi feito para proteger pessoas contra choque. Quem faz isso é o DR.", fonte: "ABNT NBR 5410"}
+    - {texto: "O DR tem um botão de teste; apertá-lo deve desligar o dispositivo, o que indica que ele está funcionando.", fonte: "manuais de fabricantes de DR"}
+  aviso_seguranca: true
+
+- id: sinais-sobrecarga
+  busca: "power strip overloaded"
+  categoria: seguranca
+  tema: "5 sinais de que a instalação elétrica da sua casa está sobrecarregada"
+  fatos:
+    - {texto: "Sinais de alerta: disjuntor que desarma com frequência, tomada ou plugue esquentando, cheiro de queimado, lâmpadas que piscam quando um aparelho liga e fios ou tomadas escurecidos.", fonte: "boas práticas de segurança elétrica (NBR 5410 / Abracopel)"}
+    - {texto: "Adaptador em T (benjamim) e régua ligando vários aparelhos de alta potência na mesma tomada podem sobrecarregar o circuito.", fonte: "boas práticas de segurança elétrica"}
+    - {texto: "Desligar o disjuntor e chamar um eletricista habilitado é o caminho certo ao notar esses sinais.", fonte: "boas práticas"}
+  aviso_seguranca: true
+
+- id: tomada-tres-pinos
+  busca: "power outlet plug"
+  categoria: seguranca
+  tema: "Por que a tomada tem 3 pinos — e por que você não deve quebrar o pino do meio"
+  fatos:
+    - {texto: "O padrão brasileiro de plugues e tomadas é definido pela norma ABNT NBR 14136.", fonte: "ABNT NBR 14136"}
+    - {texto: "O pino do meio é o de aterramento: ele dá um caminho seguro para a corrente em caso de falha no aparelho.", fonte: "ABNT NBR 14136 / NBR 5410"}
+    - {texto: "Quebrar o terceiro pino ou usar adaptador que elimina o terra tira essa proteção.", fonte: "boas práticas de segurança elétrica"}
+    - {texto: "O aterramento só funciona se a tomada estiver de fato ligada a um condutor de proteção; isso deve ser conferido por eletricista.", fonte: "ABNT NBR 5410"}
+  aviso_seguranca: true
+
+- id: chuveiro-cuidados
+  busca: "electric shower"
+  categoria: seguranca
+  tema: "Chuveiro elétrico: os cuidados que evitam choque e fio derretido"
+  fatos:
+    - {texto: "O chuveiro elétrico costuma ser o aparelho de maior potência de uma casa, muitas vezes entre 5.000 W e 7.500 W.", fonte: "etiquetas de fabricantes / Inmetro"}
+    - {texto: "Fio fino demais para a potência do chuveiro esquenta e pode derreter a isolação; a bitola certa depende da potência e da distância e deve ser calculada por eletricista.", fonte: "ABNT NBR 5410"}
+    - {texto: "Mexer na resistência ou na chave de temperatura deve ser feito com o disjuntor desligado.", fonte: "manuais de fabricantes"}
+    - {texto: "Chuveiro precisa de aterramento e de circuito com DR, pois fica em área molhada.", fonte: "ABNT NBR 5410"}
+  aviso_seguranca: true
+
+- id: dps-surtos
+  busca: "lightning storm"
+  categoria: seguranca
+  tema: "DPS: o protetor contra surtos que fica no quadro de luz"
+  fatos:
+    - {texto: "DPS significa Dispositivo de Proteção contra Surtos; ele desvia picos de tensão, como os causados por descargas atmosféricas na rede, antes que cheguem aos aparelhos.", fonte: "ABNT NBR 5410 / NBR IEC 61643"}
+    - {texto: "O DPS fica instalado no quadro de distribuição e trabalha junto com o aterramento.", fonte: "ABNT NBR 5410"}
+    - {texto: "Filtro de linha comum (régua) não substitui o DPS no quadro.", fonte: "boas práticas"}
+  aviso_seguranca: true
+
+- id: lei-14300-fio-b
+  busca: "solar panels roof"
+  categoria: solar
+  tema: "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou"
+  fatos:
+    - {texto: "A Lei 14.300/2022 é o marco legal da micro e minigeração distribuída, que inclui a energia solar nos telhados.", fonte: "Lei 14.300/2022"}
+    - {texto: "Para sistemas com pedido de acesso feito a partir de 7 de janeiro de 2023, a energia injetada na rede passou a pagar, de forma escalonada, a parcela da tarifa chamada TUSD Fio B.", fonte: "Lei 14.300/2022, art. 27"}
+    - {texto: "O escalonamento do Fio B é: 15% em 2023, 30% em 2024, 45% em 2025, 60% em 2026, 75% em 2027 e 90% em 2028.", fonte: "Lei 14.300/2022, art. 27"}
+    - {texto: "Mesmo com o Fio B, a energia solar continua reduzindo a conta; o que muda é o tempo de retorno do investimento, que precisa ser calculado caso a caso.", fonte: "análise geral"}
+  aviso_seguranca: false
+
+- id: creditos-60-meses
+  busca: "solar panels house"
+  categoria: solar
+  tema: "Os créditos da energia solar vencem: você sabia que o prazo é de 60 meses?"
+  fatos:
+    - {texto: "Na geração distribuída, a energia que o sistema solar joga na rede e não é usada na hora vira crédito em kWh.", fonte: "Lei 14.300/2022"}
+    - {texto: "Esses créditos podem ser usados nos meses seguintes e expiram em 60 meses.", fonte: "Lei 14.300/2022"}
+    - {texto: "Os créditos podem ser usados em outro imóvel do mesmo titular atendido pela mesma distribuidora (autoconsumo remoto).", fonte: "Lei 14.300/2022"}
+    - {texto: "Dimensionar o sistema muito acima do consumo gera créditos que podem vencer sem uso.", fonte: "análise geral"}
+  aviso_seguranca: false
+
+- id: micro-mini-geracao
+  busca: "solar panels roof"
+  categoria: solar
+  tema: "Microgeração ou minigeração: qual é o seu caso?"
+  fatos:
+    - {texto: "Microgeração distribuída é a central geradora com potência instalada de até 75 kW.", fonte: "Lei 14.300/2022, art. 1º"}
+    - {texto: "Acima de 75 kW, entra na categoria de minigeração distribuída.", fonte: "Lei 14.300/2022, art. 1º"}
+    - {texto: "A maioria dos sistemas residenciais é microgeração.", fonte: "análise geral"}
+  aviso_seguranca: false
+
+- id: solar-cuidados-contratar
+  busca: "solar panel installation"
+  categoria: solar
+  tema: "Vai colocar energia solar? 5 perguntas para fazer antes de assinar"
+  fatos:
+    - {texto: "Perguntas importantes: quem é o engenheiro responsável (com ART), qual é a garantia dos módulos e do inversor, quem faz a homologação junto à distribuidora, como foi calculada a geração esperada e se o telhado aguenta o peso.", fonte: "boas práticas do setor"}
+    - {texto: "A ART (Anotação de Responsabilidade Técnica) registra no CREA o profissional responsável pelo projeto e pela instalação.", fonte: "Lei 6.496/1977"}
+    - {texto: "O sistema só pode ser ligado à rede depois da aprovação (parecer de acesso) da distribuidora.", fonte: "ANEEL — REN 1.000/2021"}
+  aviso_seguranca: false
+
+- id: tusd-te
+  busca: "electricity bill paper"
+  categoria: entenda_conta
+  tema: "TUSD e TE: as duas letrinhas que formam o preço da sua energia"
+  fatos:
+    - {texto: "A tarifa de energia tem duas partes: TUSD (Tarifa de Uso do Sistema de Distribuição), que paga o transporte da energia pelos fios, e TE (Tarifa de Energia), que paga a energia em si.", fonte: "ANEEL"}
+    - {texto: "Os valores das tarifas são homologados pela ANEEL para cada distribuidora, normalmente uma vez por ano.", fonte: "ANEEL"}
+    - {texto: "Sobre a tarifa ainda incidem impostos (ICMS, PIS e Cofins), a bandeira tarifária e, em muitas cidades, a contribuição de iluminação pública.", fonte: "ANEEL"}
+  aviso_seguranca: false
+
+- id: tarifa-branca
+  busca: "clock night city lights"
+  categoria: entenda_conta
+  tema: "Tarifa Branca: quando ela pode deixar sua conta mais barata"
+  fatos:
+    - {texto: "A Tarifa Branca é uma opção para consumidores de baixa tensão (como residências) em que o preço do kWh muda conforme o horário do dia.", fonte: "ANEEL"}
+    - {texto: "Ela tem três postos: ponta (o horário mais caro, no início da noite), intermediário (uma hora antes e uma hora depois da ponta) e fora de ponta (o resto do dia e os fins de semana e feriados).", fonte: "ANEEL"}
+    - {texto: "Ela só compensa para quem consegue concentrar o consumo fora da ponta; para quem usa muita energia no início da noite, pode sair mais cara.", fonte: "ANEEL"}
+    - {texto: "A adesão é pedida à distribuidora, e o consumidor pode voltar para a tarifa convencional.", fonte: "ANEEL"}
+  aviso_seguranca: false
+
+- id: selo-procel
+  busca: "home appliances store"
+  categoria: entenda_conta
+  tema: "A etiqueta amarela do Inmetro: como ler antes de comprar um eletrodoméstico"
+  fatos:
+    - {texto: "A Etiqueta Nacional de Conservação de Energia (ENCE), do Inmetro, classifica a eficiência dos aparelhos por faixas de letras.", fonte: "Inmetro — Programa Brasileiro de Etiquetagem"}
+    - {texto: "A etiqueta também informa o consumo de energia estimado do aparelho, que ajuda a comparar modelos.", fonte: "Inmetro"}
+    - {texto: "O Selo Procel indica os produtos mais eficientes da categoria.", fonte: "Procel / Eletrobras"}
+  aviso_seguranca: false

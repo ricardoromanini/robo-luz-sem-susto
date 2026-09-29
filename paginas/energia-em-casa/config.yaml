@@ -1,0 +1,143 @@
+# =============================================================================
+#  PÁGINA: Energia em casa
+#  Tudo aqui pode ser mudado sem mexer no código.
+# =============================================================================
+
+ativa: true
+nome: "Luz Sem Susto"            # nome provisório da marca (troque quando escolher o definitivo)
+arroba: "@luzsemsusto"           # provisório
+descricao_curta: "Conta de luz, energia solar e segurança elétrica explicadas com dados oficiais."
+
+nicho: >
+  Conta de luz, tarifas e bandeiras tarifárias, energia solar (geração distribuída,
+  Lei 14.300) e segurança elétrica em casa. Público: famílias brasileiras que pagam
+  conta de luz e querem entender, economizar e evitar acidentes.
+
+tom_de_voz: >
+  Direto, calmo e confiável, como um engenheiro amigo explicando na cozinha.
+  Frases curtas, linguagem simples, sem jargão (ou explicando o jargão).
+  Sem sensacionalismo, sem alarmismo, sem promessa de economia garantida.
+  Nunca opina sobre políticos, partidos ou governos.
+
+# Identidade visual dos vídeos
+visual:
+  cor_fundo: "#0E1A2B"
+  cor_destaque: "#FFC107"
+  cor_texto: "#FFFFFF"
+  cor_secundaria: "#4FC3F7"
+  fonte: "arialbd.ttf"           # no Linux (GitHub) o motor troca por DejaVu Sans Bold
+
+# Fotos e vídeos de fundo
+midia:
+  chance_ilustracao: 1.0     # 100% das cenas com ILUSTRAÇÃO PRÓPRIA gerada por IA (sem texto, estilo da página)
+  usar_banco_de_imagens: false  # Pexels/Pixabay DESLIGADOS: traziam texto em inglês e cenas fora do assunto
+  chance_video: 0.5
+  # Cenas de reserva sem nenhum texto (usadas se a ilustração da cena for reprovada pelo fiscal)
+  ilustracoes_seguras:
+    - "a glowing light bulb in a cozy Brazilian living room at night"
+    - "a cozy Brazilian house at dusk with warm lights glowing in the windows"
+    - "power lines crossing a green Brazilian countryside at golden hour"
+  chance_foto_propria: 0.7   # se houver fotos suas em midia_propria/, usa em 70% das cenas
+  usar_openverse: false      # banco sem chave: desligado (imagens pouco relevantes e com logos)
+
+# Estilo das ilustrações próprias (em inglês, é como o gerador entende melhor)
+estilo_ilustracao: >-
+  Vibrant 3D illustration, modern animated movie style, warm cinematic lighting, rich colors with navy blue
+  and golden yellow accents, clean composition with one clear subject, Brazilian home setting.
+
+# Mascote da página (aparece na cena final "siga a página" e serve de foto de perfil)
+mascote:
+  arquivo: "marca/mascote.png"
+  nome: "Seu Faísca"
+
+# Como a voz deve pronunciar nomes difíceis (escreva como se fala)
+pronuncia:
+  "EDP": "E D P"
+  "Cosern": "Cozérn"
+  "Coelba": "Coélba"
+  "Celesc": "Selésqui"
+  "Copel": "Copél"
+  "Cemig": "Cemíg"
+
+# Vozes do Google Cloud TTS (Chirp 3 HD). O motor alterna entre elas para não
+# ficar sempre a mesma voz (sinal de "conteúdo produzido em massa").
+# Voz principal: "atuada" (Gemini-TTS), em rodízio — escolhidas pelo Ricardo em 29/09/2026
+vozes_atuadas:
+  - {voz: "Algenib", estilo: "apresentador_firme"}
+  - {voz: "Algenib", estilo: "curioso_animado"}
+  - {voz: "Fenrir", estilo: "apresentador_firme"}
+estilos_voz:
+  apresentador_firme: >-
+    Narre como um apresentador de TV brasileiro confiante: voz firme e grave, ritmo dinâmico,
+    pausa curta antes dos valores, ênfase forte nos números, final decidido.
+  curioso_animado: >-
+    Narre como um criador de conteúdo brasileiro animado revelando um fato surpreendente: energia alta,
+    entonação bem variada, curiosidade na pergunta, empolgação ao revelar o valor.
+# Reserva (se a voz atuada falhar ou a cota acabar): Chirp 3 HD
+vozes_google: ["pt-BR-Chirp3-HD-Algenib", "pt-BR-Chirp3-HD-Fenrir"]   # escolhidas pelo Ricardo em 29/09/2026
+velocidade_voz: 1.05
+
+# -----------------------------------------------------------------------------
+# Frequência e horários (horário de Brasília)
+# -----------------------------------------------------------------------------
+frequencia:
+  shorts_por_dia: 1
+  horarios_candidatos: ["07:30", "12:00", "18:30", "20:30"]   # o módulo de métricas escolhe o melhor
+  horario_inicial: "12:00"
+  video_longo:
+    ativo: true
+    dia_semana: "sabado"
+    horario: "10:00"
+
+duracao_short_segundos: {minimo: 25, alvo: 40, maximo: 58}
+duracao_longo_minutos: {minimo: 4, alvo: 6, maximo: 10}
+
+# -----------------------------------------------------------------------------
+# Plataformas
+# -----------------------------------------------------------------------------
+plataformas:
+  youtube:   {ativa: true, categoria_id: "27", rotulo_ia: true}     # 27 = Educação
+  instagram: {ativa: true}
+  facebook:  {ativa: true}
+  tiktok:    {ativa: true, modo: manual}   # TikTok: o Telegram te manda o vídeo pronto para postar
+
+hashtags_base: ["#contadeluz", "#energia", "#energiasolar", "#economia"]
+
+# Frases de fechamento (CTA). O robô usa uma delas, em rodízio. Sem "isca de engajamento".
+cta_opcoes:
+  - "Siga a página para entender sua conta de luz todo mês."
+  - "Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização."
+  - "Salve este vídeo para consultar quando a conta chegar."
+  - "Siga para mais dados oficiais sobre a sua energia, sem enrolação."
+
+# -----------------------------------------------------------------------------
+# Aprovação pelo Telegram
+#   manual = nada é publicado sem o seu toque em "Aprovar"
+#   auto   = piloto automático (a equipe de verificação continua podendo BARRAR)
+# -----------------------------------------------------------------------------
+aprovacao:
+  modo: manual
+  sugerir_piloto_apos: 15     # após 15 aprovações seguidas sem ajuste, o bot sugere ligar o piloto
+
+# -----------------------------------------------------------------------------
+# Mistura de pautas (pesos iniciais — o módulo de métricas ajusta sozinho)
+# -----------------------------------------------------------------------------
+categorias:
+  reajuste_tarifa:   {peso: 3, descricao: "Reajuste recente homologado pela ANEEL para uma distribuidora"}
+  bandeira:          {peso: 2, descricao: "Bandeira tarifária do mês e quanto ela pesa na conta"}
+  calculadora:       {peso: 3, descricao: "Quanto custa X (banho, ar-condicionado, taxa mínima) na tarifa de uma distribuidora"}
+  ranking:           {peso: 1, descricao: "Comparação de tarifas entre distribuidoras do Brasil"}
+  seguranca:         {peso: 3, descricao: "Segurança elétrica em casa (sem ensinar serviço perigoso)"}
+  solar:             {peso: 2, descricao: "Energia solar e geração distribuída (Lei 14.300)"}
+  entenda_conta:     {peso: 2, descricao: "Entenda sua conta de luz e seus direitos"}
+
+# Ressalvas que o texto SEMPRE precisa trazer quando o assunto aparece
+ressalvas:
+  tarifa: "valores sem impostos (ICMS, PIS/Cofins) e sem bandeira"
+  seguranca: "serviço elétrico é com eletricista habilitado"
+
+# Afiliados (deixe vazio até se cadastrar). Link de afiliado SEMPRE vem com aviso.
+afiliados:
+  ativo: false
+  aviso: "Link de afiliado: posso ganhar comissão, sem custo extra para você."
+  links: {}

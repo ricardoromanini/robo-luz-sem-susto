@@ -1,0 +1,15 @@
+# Toda segunda às 08:00 (Brasília): coleta métricas, ajusta temas/horários e gera o relatório semanal.
+name: semanal
+on:
+  schedule:
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: {group: estado, cancel-in-progress: false}
+jobs:
+  semanal:
+    uses: ./.github/workflows/_preparar.yml
+    with:
+      comando: semanal
+    secrets: inherit
