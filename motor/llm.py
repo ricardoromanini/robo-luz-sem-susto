@@ -61,7 +61,7 @@ def _gemini(modelo, sistema, usuario, temperatura, json_saida):
     return "".join(p.get("text", "") for p in partes if not p.get("thought"))
 
 
-def _openai_compat(base, chave_env, modelo, sistema, usuario, temperatura, json_saida, extra_headers=None):
+def _openai_compat(base, chave_env, modelo, sistema, usuario, temperatura, json_saida, extra_headers=None, max_tokens=None):
     chave = env(chave_env)
     if not chave:
         raise SemProvedor(f"{chave_env} ausente")
@@ -70,6 +70,8 @@ def _openai_compat(base, chave_env, modelo, sistema, usuario, temperatura, json_
         "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}],
         "temperature": temperatura,
     }
+    if max_tokens:
+        corpo["max_tokens"] = max_tokens
     if json_saida:
         corpo["response_format"] = {"type": "json_object"}
     h = {"Authorization": f"Bearer {chave}"}
@@ -79,7 +81,10 @@ def _openai_compat(base, chave_env, modelo, sistema, usuario, temperatura, json_
         corpo.pop("response_format", None)  # o modelo errou o formato: tenta de novo e extraímos o JSON do texto
         r = requests.post(f"{base}/chat/completions", json=corpo, headers=h, timeout=180)
     r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"]
+    txt = r.json()["choices"][0]["message"]["content"]
+    if not txt:  # resposta vazia (ex.: o modelo gastou o limite "pensando"): conta como falha e tenta de novo/outro
+        raise KeyError("resposta vazia")
+    return txt
 
 
 def _ollama(modelo, sistema, usuario, temperatura, json_saida):
@@ -107,7 +112,8 @@ def _chamar(provedor, modelo, sistema, usuario, temperatura, json_saida):
         if not conta:
             raise SemProvedor("CLOUDFLARE_ACCOUNT_ID ausente")
         return _openai_compat(f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/v1", "CLOUDFLARE_API_TOKEN",
-                              modelo, sistema, usuario, temperatura, json_saida)
+                              modelo, sistema, usuario, temperatura, json_saida,
+                              max_tokens=8000)  # o padrão da Cloudflare (256) corta o roteiro no meio
     if provedor == "gemini":
         return _gemini(modelo, sistema, usuario, temperatura, json_saida)
     if provedor == "groq":
