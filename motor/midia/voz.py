@@ -89,8 +89,13 @@ def _azure(texto: str, voz: str, velocidade: float, destino: Path) -> None:
     from xml.sax.saxutils import escape
 
     corpo = re.sub(r"\[pause[^\]]*\]", '<break time="300ms"/>', escape(texto))
-    ssml = (f'<speak version="1.0" xml:lang="pt-BR" xmlns="http://www.w3.org/2001/10/synthesis">'
-            f'<voice name="{voz}"><prosody rate="{(velocidade - 1) * 100:+.0f}%">{corpo}</prosody></voice></speak>')
+    voz, _, estilo = voz.partition("|")  # "pt-BR-Caio:MAI-Voice-2-Flash|excited" = voz com estilo (emoção)
+    if abs(velocidade - 1) > 0.01:
+        corpo = f'<prosody rate="{(velocidade - 1) * 100:+.0f}%">{corpo}</prosody>'
+    if estilo:
+        corpo = f'<mstts:express-as style="{estilo}">{corpo}</mstts:express-as>'
+    ssml = ('<speak version="1.0" xml:lang="pt-BR" xmlns="http://www.w3.org/2001/10/synthesis" '
+            f'xmlns:mstts="http://www.w3.org/2001/mstts"><voice name="{voz}">{corpo}</voice></speak>')
     r = requests.post(f"https://{regiao}.tts.speech.microsoft.com/cognitiveservices/v1", timeout=120,
                       headers={"Ocp-Apim-Subscription-Key": chave, "Content-Type": "application/ssml+xml",
                                "X-Microsoft-OutputFormat": "riff-24khz-16bit-mono-pcm", "User-Agent": "robo-luz-sem-susto"},
