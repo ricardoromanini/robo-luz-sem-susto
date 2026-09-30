@@ -42,152 +42,26 @@
     "publicacoes": {}
   },
   {
-    "id": "20260930-071513-quanto-custa-usar-a-air-fryer-na-tarifa-",
+    "id": "20260930-073350-quanto-custa-usar-um-chuveiro-de-5-5-kw-",
     "status": "aguardando_aprovacao",
-    "criado_em": "2026-09-30T07:15:13.864567-03:00",
+    "criado_em": "2026-09-30T07:33:50.159927-03:00",
     "formato": "short",
     "horario_publicacao": "2026-09-30T12:00:00-03:00",
     "categoria": "calculadora",
-    "chave": "calc:airfryer:EPB",
+    "chave": "calc:chuveiro:COPEL-DIS",
     "partes": [],
-    "titulo": "Quanto custa usar a air fryer na tarifa da Energisa Paraíba",
-    "texto_falado": "Quanto você paga por usar a air fryer todos os dias? Vamos calcular agora. A tarifa residencial convencional da Energisa Paraíba é R$ 0,71 por kWh, sem impostos nem bandeira; a sua pode variar. Um modelo típico de air fryer tem 1.500 W, potência é exemplo; varia por modelo, usa 30 minutos diários. Isso gera cerca de 22,5 kWh por mês, usando a conta 1,5 kW × 0,5 h × 30 dias. O custo estimado, só da tarifa, fica em torno de R$ 15,97 por mês, sem impostos. Com ICMS, PIS/Cofins e bandeira, o valor final da conta será maior que o estimado. Siga a página para entender sua conta de luz todo mês.",
+    "titulo": "Quanto custa usar um chuveiro de 5,5 kW na tarifa da Copel",
+    "texto_falado": "Um chuveiro de 5,5 kW pode aumentar sua conta de luz em cerca de R$ 31,68 por mês? A Copel cobra R$ 0,768 por kWh na tarifa residencial convencional, sem impostos e bandeira. Um chuveiro de 5.500 W usado 15 minutos por dia consome cerca de 41,2 kWh por mês. Isso gera um custo estimado de aproximadamente R$ 31,68 mensais, apenas a tarifa, sem impostos. Lembre‑se: tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; sua pode variar, potência é exemplo, varia por modelo. Fonte: ANEEL. Com impostos e bandeira, o valor pode subir, mas o cálculo base ajuda a planejar o consumo. Siga a página para entender sua conta de luz todo mês.",
     "legenda": {
-      "social": "Calculei quanto a sua air fryer pode custar na conta de luz usando a tarifa da Energisa Paraíba. A tarifa residencial convencional é R$ 0,71/kWh, sem impostos nem bandeira; o consumo estimado é 22,5 kWh/mês, resultando em cerca de R$ 15,97 por mês antes de impostos. Com ICMS, PIS/Cofins e bandeira o valor final será maior. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#energia #contadeluz #airfryer #EnergisaParaíba #energiasolar #economia",
-      "youtube": "Calculei quanto a sua air fryer pode custar na conta de luz usando a tarifa da Energisa Paraíba. A tarifa residencial convencional é R$ 0,71/kWh, sem impostos nem bandeira; o consumo estimado é 22,5 kWh/mês, resultando em cerca de R$ 15,97 por mês antes de impostos. Com ICMS, PIS/Cofins e bandeira o valor final será maior. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #airfryer #EnergisaParaíba #energiasolar #economia"
+      "social": "Veja quanto paga só pela tarifa ao usar um chuveiro de 5,5 kW 15 min/dia. O custo base fica em torno de R$ 31,68 por mês, sem ICMS, PIS/Cofins e bandeira. Lembre‑se que sua tarifa pode ser diferente e a potência varia por modelo. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#energia #contadeluz #Copel #chuveiro #energiasolar #economia",
+      "youtube": "Veja quanto paga só pela tarifa ao usar um chuveiro de 5,5 kW 15 min/dia. O custo base fica em torno de R$ 31,68 por mês, sem ICMS, PIS/Cofins e bandeira. Lembre‑se que sua tarifa pode ser diferente e a potência varia por modelo. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #Copel #chuveiro #energiasolar #economia"
     },
     "rotulo_ia": false,
     "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
     "video": {
       "modo": "github_release",
-      "asset_id": 600628386,
-      "nome": "20260930-071513-quanto-custa-usar-a-air-fryer-na-tarifa-.mp4"
-    },
-    "capa": null,
-    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
-    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "qc": {
-      "ok": true,
-      "problemas": [],
-      "info": {
-        "duracao_s": 55.6,
-        "lufs": -16.13,
-        "fala_confere": 0.9
-      }
-    },
-    "equipe": {
-      "decisao": "APROVADO",
-      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
-      "rodadas": 2,
-      "alertas_dossie": []
-    },
-    "publicacoes": {}
-  },
-  {
-    "id": "20260930-072223-microgeracao-ou-minigeracao-descubra-ond",
-    "status": "aguardando_aprovacao",
-    "criado_em": "2026-09-30T07:22:23.162676-03:00",
-    "formato": "short",
-    "horario_publicacao": "2026-09-30T18:30:00-03:00",
-    "categoria": "solar",
-    "chave": "pauta:micro-mini-geracao",
-    "partes": [],
-    "titulo": "Microgeração ou minigeração: descubra onde sua casa se encaixa",
-    "texto_falado": "Sua casa pode gerar energia sem ultrapassar setenta e cinco kilowatts em média? Microgeração distribuída é a geração central com potência instalada de até setenta e cinco kW, segundo a lei. Acima de setenta e cinco kW, a classificação muda para minigeração distribuída, também prevista na lei. A maioria dos sistemas residenciais se enquadra na microgeração, pois suas instalações são menores que setenta e cinco kW. Se sua casa tem menos de setenta e cinco kW de painéis, está na microgeração. Qual a potência dos seus painéis? Avalie se está na micro ou minigeração e otimize. Siga a página para entender sua conta de luz todo mês.",
-    "legenda": {
-      "social": "Entenda a diferença entre microgeração e minigeração: até 75 kW é micro, acima é mini. A maioria das residências está na primeira categoria. Saiba onde sua casa se encaixa e aproveite energia limpa. Fonte: Lei 14.300/2022.\n\n#energia #solar #microgeração #contadeluz #energiasolar #economia",
-      "youtube": "Entenda a diferença entre microgeração e minigeração: até 75 kW é micro, acima é mini. A maioria das residências está na primeira categoria. Saiba onde sua casa se encaixa e aproveite energia limpa. Fonte: Lei 14.300/2022.\n\n#energia #solar #microgeração #contadeluz #energiasolar #economia"
-    },
-    "rotulo_ia": false,
-    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
-    "video": {
-      "modo": "github_release",
-      "asset_id": 600638865,
-      "nome": "20260930-072223-microgeracao-ou-minigeracao-descubra-ond.mp4"
-    },
-    "capa": null,
-    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
-    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "qc": {
-      "ok": true,
-      "problemas": [],
-      "info": {
-        "duracao_s": 49.9,
-        "lufs": -15.75,
-        "fala_confere": 0.84
-      }
-    },
-    "equipe": {
-      "decisao": "APROVADO",
-      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
-      "rodadas": 1,
-      "alertas_dossie": []
-    },
-    "publicacoes": {}
-  },
-  {
-    "id": "20260930-072540-quando-a-tarifa-branca-pode-reduzir-sua-",
-    "status": "aguardando_aprovacao",
-    "criado_em": "2026-09-30T07:25:40.638186-03:00",
-    "formato": "short",
-    "horario_publicacao": "2026-09-30T20:30:00-03:00",
-    "categoria": "entenda_conta",
-    "chave": "pauta:tarifa-branca",
-    "partes": [],
-    "titulo": "Quando a Tarifa Branca pode reduzir sua conta de luz",
-    "texto_falado": "Você sabia que mudar de tarifa pode reduzir sua conta, mas só em determinados horários? A Tarifa Branca é para residências e ajusta o preço do kWh conforme o horário do dia. São três períodos: ponta, mais caro ao anoitecer; intermediário, uma hora antes e depois; fora de ponta, resto do dia. Compensa quem consegue concentrar o consumo fora da ponta; quem usa muito à noite pode pagar mais. Para aderir, basta solicitar à sua distribuidora; se precisar, pode voltar à tarifa convencional a qualquer momento. Analise seu padrão de uso: se a maior parte ocorre fora da ponta, a Tarifa Branca pode baixar a conta. Siga a página para entender sua conta de luz todo mês.",
-    "legenda": {
-      "social": "A Tarifa Branca muda o preço do kWh conforme o horário. Ela tem três períodos e só compensa quem consome fora da ponta. Para aderir, peça à sua distribuidora e volte se precisar. Avalie seu consumo antes de mudar.\nFonte: ANEEL\n\n#TarifaBranca #ContaDeLuz #EnergiaResidencial #contadeluz #energia #energiasolar #economia",
-      "youtube": "A Tarifa Branca muda o preço do kWh conforme o horário. Ela tem três períodos e só compensa quem consome fora da ponta. Para aderir, peça à sua distribuidora e volte se precisar. Avalie seu consumo antes de mudar.\nFonte: ANEEL\n\n#TarifaBranca #ContaDeLuz #EnergiaResidencial #contadeluz #energia #energiasolar #economia"
-    },
-    "rotulo_ia": false,
-    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
-    "video": {
-      "modo": "github_release",
-      "asset_id": 600643970,
-      "nome": "20260930-072540-quando-a-tarifa-branca-pode-reduzir-sua-.mp4"
-    },
-    "capa": null,
-    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
-    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "qc": {
-      "ok": true,
-      "problemas": [],
-      "info": {
-        "duracao_s": 52.4,
-        "lufs": -16.63,
-        "fala_confere": 0.99
-      }
-    },
-    "equipe": {
-      "decisao": "APROVADO",
-      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
-      "rodadas": 1,
-      "alertas_dossie": []
-    },
-    "publicacoes": {}
-  },
-  {
-    "id": "20260930-072802-custo-estimado-do-ferro-na-tarifa-da-ene",
-    "status": "aguardando_aprovacao",
-    "criado_em": "2026-09-30T07:28:02.633777-03:00",
-    "formato": "short",
-    "horario_publicacao": "2026-10-01T07:30:00-03:00",
-    "categoria": "calculadora",
-    "chave": "calc:ferro:ENEL CE",
-    "partes": [],
-    "titulo": "Custo estimado do ferro na tarifa da Enel Ceará: cerca de R$ 3,61 por mês",
-    "texto_falado": "Você sabia que usar o ferro de passar pode subir sua conta em cerca de R$ 3,61 por mês? A tarifa residencial convencional da Enel Ceará custa R$ 0,702 por kilowatt-hora, sem impostos nem bandeira. Um ferro de 1.200 watts usado uma hora por semana consome cerca de 5,1 kilowatt-hora por mês. Com a tarifa de R$ 0,702, esse consumo gera um custo estimado de R$ 3,61 mensais. Lembre‑se, o valor final inclui ICMS, PIS/Cofins e bandeira, podendo ser maior na sua conta. Sua tarifa pode mudar se usar a Tarifa Branca ou se estiver na Tarifa Social, verifique. Lembre‑se, a potência do ferro pode mudar conforme modelo; verifique a etiqueta antes de calcular. Siga a página para entender sua conta de luz todo mês.",
-    "legenda": {
-      "social": "O ferro de 1.200 W usado 1 h/semana consome ~5,1 kWh/mês. Na tarifa residencial da Enel Ceará (R$ 0,702/kWh) o custo estimado é R$ 3,61 por mês, sem impostos nem bandeira. Lembre‑se que ICMS, PIS/Cofins e bandeira aumentam o valor final. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#energia #contadeluz #EnelCeará #economia #energiasolar",
-      "youtube": "O ferro de 1.200 W usado 1 h/semana consome ~5,1 kWh/mês. Na tarifa residencial da Enel Ceará (R$ 0,702/kWh) o custo estimado é R$ 3,61 por mês, sem impostos nem bandeira. Lembre‑se que ICMS, PIS/Cofins e bandeira aumentam o valor final. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #EnelCeará #economia #energiasolar"
-    },
-    "rotulo_ia": false,
-    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
-    "video": {
-      "modo": "github_release",
-      "asset_id": 600654019,
-      "nome": "20260930-072802-custo-estimado-do-ferro-na-tarifa-da-ene.mp4"
+      "asset_id": 600667036,
+      "nome": "20260930-073350-quanto-custa-usar-um-chuveiro-de-5-5-kw-.mp4"
     },
     "capa": null,
     "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
@@ -195,18 +69,146 @@
     "qc": {
       "ok": false,
       "problemas": [
-        "duração 62s fora do limite (25–58s)"
+        "duração 64s fora do limite (25–58s)"
       ],
       "info": {
-        "duracao_s": 61.6,
-        "lufs": -16.05,
-        "fala_confere": 0.92
+        "duracao_s": 64.0,
+        "lufs": -15.9,
+        "fala_confere": 0.9
       }
     },
     "equipe": {
       "decisao": "APROVADO",
-      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 8, 0 obrigatório(s), 1 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
       "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-09-30T07:39:34.755594-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-09-30T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:ELETROPAULO",
+    "partes": [],
+    "titulo": "Entenda a taxa mínima da conta de luz na Enel São Paulo",
+    "texto_falado": "Sabia que, mesmo consumindo quase nada, sua conta de luz tem um valor mínimo obrigatório? A chamada taxa mínima, ou custo de disponibilidade, garante um consumo mínimo de 30, 50 ou 100 kWh. Esse valor funciona como piso: se seu consumo supera o mínimo, paga‑se só o que realmente usou. A regra é nacional da ANEEL, aplicável a todas as distribuidoras; o preço varia conforme a tarifa local. Na Enel São Paulo, o piso monofásico de 30 kWh custa cerca de R$ 23,68; bifásico R$ 39,47; trifásico R$ 78,94, antes de impostos. Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, a conta tem um piso de consumo que gera um valor mínimo. Na Enel São Paulo, esse piso varia de R$ 23,68 a R$ 78,94, dependendo da conexão. Lembre‑se: a tarifa usada pode mudar conforme seu tipo de contrato. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #EnelSP #energia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, a conta tem um piso de consumo que gera um valor mínimo. Na Enel São Paulo, esse piso varia de R$ 23,68 a R$ 78,94, dependendo da conexão. Lembre‑se: a tarifa usada pode mudar conforme seu tipo de contrato. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #EnelSP #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 600674609,
+      "nome": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": false,
+      "problemas": [
+        "duração 66s fora do limite (25–58s)"
+      ],
+      "info": {
+        "duracao_s": 66.1,
+        "lufs": -16.25,
+        "fala_confere": 0.91
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-09-30T07:42:44.640401-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-09-30T20:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:dr-areas-molhadas",
+    "partes": [],
+    "titulo": "DR: proteção contra choque obrigatória em banheiro e cozinha",
+    "texto_falado": "Você sabia que o disjuntor só protege os fios, não você? O DR cuida da sua segurança. O DR (dispositivo diferencial-residual) desliga o circuito ao detectar fuga de corrente, como em choque elétrico. A norma NBR 5410 exige DR de alta sensibilidade, até 30 mA, em banheiros, cozinhas e áreas externas. O disjuntor comum protege fios contra sobrecarga e curto, mas não impede choques; essa função é do DR. Todo DR tem botão de teste; pressione e ele deve desligar, confirmando que está operando corretamente. Instalações ou substituições de DR devem ser feitas por eletricista habilitado, garantindo segurança e conformidade. Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "O DR desliga o circuito ao detectar fuga de corrente, protegendo vidas em áreas como banheiro e cozinha. A norma NBR 5410 exige dispositivos de até 30 mA nesses ambientes. Teste o botão regularmente e nunca realize a instalação sem eletricista habilitado. Segurança elétrica começa com o equipamento certo. Fonte: ABNT NBR 5410.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurança #eletricidade #DR #contadeluz #energia #energiasolar #economia",
+      "youtube": "O DR desliga o circuito ao detectar fuga de corrente, protegendo vidas em áreas como banheiro e cozinha. A norma NBR 5410 exige dispositivos de até 30 mA nesses ambientes. Teste o botão regularmente e nunca realize a instalação sem eletricista habilitado. Segurança elétrica começa com o equipamento certo. Fonte: ABNT NBR 5410.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurança #eletricidade #DR #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 600681010,
+      "nome": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 58.0,
+        "lufs": -16.05,
+        "fala_confere": 0.91
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20260930-074602-tarifas-residenciais-as-mais-caras-e-as-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-09-30T07:46:02.766046-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-01T07:30:00-03:00",
+    "categoria": "ranking",
+    "chave": "ranking:2026-09",
+    "partes": [],
+    "titulo": "Tarifas residenciais: as mais caras e as mais baratas no Brasil",
+    "texto_falado": "Sabia que a tarifa de energia pode chegar a mais de um real por quilowatt‑hora? A Enel Rio lidera a lista, cobrando cerca de R$ 1,06 por kWh consumido. Em seguida, Energisa Tocantins e Energisa Mato Grosso do Sul cobram quase R$ 0,99 por kWh. Do outro lado, Enel Ceará paga apenas cerca de R$ 0,70 por kWh, a tarifa mais baixa. Logo depois, Energisa Paraíba e CPFL Paulista ficam entre 71 e 74 centavos por kWh. A tarifa mais cara é 51% maior que a mais barata, valores sem impostos e sem bandeira (fonte: ANEEL). Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Descubra quais distribuidoras cobram mais e menos por kWh na tarifa residencial convencional, sem impostos e sem bandeira. A diferença pode chegar a 51% entre a mais cara e a mais barata. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #tarifas #energiasolar #economia",
+      "youtube": "Descubra quais distribuidoras cobram mais e menos por kWh na tarifa residencial convencional, sem impostos e sem bandeira. A diferença pode chegar a 51% entre a mais cara e a mais barata. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #tarifas #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 600686299,
+      "nome": "20260930-074602-tarifas-residenciais-as-mais-caras-e-as-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 55.3,
+        "lufs": -16.26,
+        "fala_confere": 0.79
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 8, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
       "alertas_dossie": []
     },
     "publicacoes": {}
