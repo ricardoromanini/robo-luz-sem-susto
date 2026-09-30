@@ -179,7 +179,8 @@ def _openverse(consulta: str, usadas: set[str]) -> dict | None:
     return None
 
 
-def buscar_midia(pagina: Pagina, consultas: list[str], formato: str, usadas: set[str], ilustracao: str = "") -> dict | None:
+def buscar_midia(pagina: Pagina, consultas: list[str], formato: str, usadas: set[str], ilustracao: str = "",
+                 fala: str = "") -> dict | None:
     """Fundo da cena: {"tipo": "video", "caminho"} | {"tipo": "imagem", "imagem"}, com "credito". None = usa cartão."""
     w, h = FORMATOS[formato]
     orient = "portrait" if h > w else "landscape"
@@ -200,11 +201,27 @@ def buscar_midia(pagina: Pagina, consultas: list[str], formato: str, usadas: set
 
         nomes = [d["nome"] for d in distribuidoras().values()] + list(distribuidoras())
         nomes += ["Energisa", "Equatorial", "Neoenergia", "Enel", "CPFL", "Cemig", "Copel", "Celesc", "Light", "EDP", "ANEEL", "Inmetro"]
+        seguras = cfg.get("ilustracoes_seguras") or ["a glowing light bulb in a cozy Brazilian living room at night"]
+        # ACERVO BRASILEIRO: objeto que a IA desenha no padrão errado (tomada, plugue, chuveiro...) sai a partir da
+        # foto real de referência. A fala manda (é o que o público ouve); a descrição da cena vem em seguida.
+        from . import acervo
+
+        objeto = acervo.casar(pagina, fala) or acervo.casar(pagina, ilustracao)
+        if objeto:
+            img = ilustracoes.gerar_com_referencia(pagina, objeto, variante=len(usadas), semente=len(usadas))
+            if img is not None:
+                usadas.add(f"acervo:{objeto['id']}:{len(usadas)}")
+                return {"tipo": "ilustracao", "imagem": img, "credito": ""}
+            ilustracao, consultas = "", []  # não conseguiu no padrão brasileiro: melhor uma cena segura do que o padrão errado
+        elif acervo.sem_referencia(pagina, f"{fala} {ilustracao}"):
+            ilustracao, consultas = "", []  # objeto sem referência ainda: cena segura
+        if not ilustracao:
+            ilustracao = seguras[len(usadas) % len(seguras)]
         # 1ª tentativa: a cena pedida · 2ª: o assunto da pauta, simples · 3ª: cena segura da página
         tentativas = [ilustracao]
         if consultas:
             tentativas.append(f"{consultas[-1]}, simple composition, one object, cozy Brazilian home")
-        tentativas += cfg.get("ilustracoes_seguras") or ["a glowing light bulb in a cozy Brazilian living room at night"]
+        tentativas += seguras
         for desc in tentativas[:4]:
             if desc in usadas:
                 continue
@@ -465,7 +482,7 @@ def cena(pagina: Pagina, c: dict, pauta: dict, formato: str, usadas: set[str], r
             fundo = {"tipo": "imagem", "imagem": _cena_mascote(pagina, mascote, w, h)}
             camada = _camada(pagina, w, h, c, False, rodape, indice, total, False, layout="cta")
             return {"fundo": fundo, "camada": camada, "credito": "", "zoom": True}
-        midia = buscar_midia(pagina, consultas, formato, usadas, c.get("ilustracao", ""))
+        midia = buscar_midia(pagina, consultas, formato, usadas, c.get("ilustracao", ""), fala=c.get("fala", ""))
         layout = "cartao"
         if midia:
             credito = midia.get("credito", "")

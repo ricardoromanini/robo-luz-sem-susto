@@ -17,6 +17,7 @@ import requests
 from PIL import Image
 
 from ..config import PASTA_CACHE, Pagina, env
+from . import acervo
 from ..registro import obter
 
 log = obter("ilustracoes")
@@ -87,16 +88,18 @@ def _chamar(prompt: str) -> Image.Image | None:
     return None
 
 
-def fiscal_de_imagem(img: Image.Image) -> tuple[bool, str]:
+def fiscal_de_imagem(img: Image.Image, regras_extra: str = "") -> tuple[bool, str]:
     """Olha a imagem pronta (Gemini, visão) e reprova se tiver texto, número, logotipo, marca, dinheiro ou
     defeito grave. Retorna (aprovada, motivo). Fiscal fora do ar = reprova (na dúvida, nada de texto na tela)."""
     chave = env("GEMINI_API_KEY")
     buf = io.BytesIO()
-    img.resize((512, 512)).save(buf, format="JPEG", quality=85)
+    img.resize((768, 768)).save(buf, format="JPEG", quality=88)
     pergunta = ("Você é o fiscal de imagens de uma página brasileira. Responda SOMENTE JSON "
                 '{"aprovada": true|false, "motivo": "..."}. REPROVE se a imagem tiver QUALQUER texto legível ou '
                 "pseudo-texto, letras, números, logotipo, nome de marca, cédula/dinheiro, bandeira de empresa, "
                 "ou deformação grave (mãos/rostos monstruosos). Aprove se for uma ilustração limpa, sem nada escrito.")
+    if regras_extra:
+        pergunta += " REGRAS DO BRASIL (também obrigatórias): " + regras_extra
     corpo = {"contents": [{"parts": [{"text": pergunta},
                                      {"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(buf.getvalue()).decode()}}]}],
              "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
@@ -182,11 +185,49 @@ def gerar(pagina: Pagina, descricao: str, semente: int | str | None = None, term
         img = _chamar(prompt if tentativa == 0 else prompt + " Absolutely no writing of any kind anywhere in the image.")
         if img is None:
             return None
-        ok, motivo = fiscal_de_imagem(img) if fiscalizar else (True, "")
+        ok, motivo = fiscal_de_imagem(img, acervo.regra_geral(pagina)) if fiscalizar else (True, "")
         if ok:
             img.save(arq, quality=94)
             return img
         log.info("fiscal reprovou ilustração (%s): %s", descricao[:40], motivo)
+    return None
+
+
+MODELO_REFERENCIA = "@cf/black-forest-labs/flux-2-klein-4b"  # aceita foto de referência (licença Apache-2.0)
+
+
+def gerar_com_referencia(pagina: Pagina, objeto: dict, variante: int = 0, semente: int | str | None = None) -> Image.Image | None:
+    """Ilustração de um objeto do ACERVO BRASILEIRO: a IA recebe a foto real de referência e desenha a cena no
+    estilo da página mantendo o objeto igual (ex.: tomada NBR 14136). O fiscal confere o padrão. None = não deu."""
+    if not configurado() or COTA_ESGOTADA:
+        return None
+    cenas = objeto.get("cenas") or []
+    if not cenas:
+        return None
+    PASTA_CACHE.mkdir(exist_ok=True)
+    regras = (objeto.get("conferir", "") + " " + acervo.regra_geral(pagina)).strip()
+    url = f"https://api.cloudflare.com/client/v4/accounts/{env('CLOUDFLARE_ACCOUNT_ID')}/ai/run/{MODELO_REFERENCIA}"
+    for tentativa in range(3):
+        cena = cenas[(variante + tentativa) % len(cenas)]
+        prompt = prompt_final(pagina, cena)
+        arq = PASTA_CACHE / ("ia_ref_" + hashlib.md5(f"{prompt}|{semente}|{tentativa}".encode()).hexdigest() + ".jpg")
+        if arq.exists():
+            return Image.open(arq).convert("RGB")
+        try:
+            r = requests.post(url, headers={"Authorization": f"Bearer {env('CLOUDFLARE_API_TOKEN')}"}, timeout=300,
+                              files={"prompt": (None, prompt), "width": (None, "1024"), "height": (None, "1024"),
+                                     "input_image_0": ("referencia.jpg", objeto["arquivo"].read_bytes(), "image/jpeg")})
+            r.raise_for_status()
+            img = Image.open(io.BytesIO(base64.b64decode(r.json()["result"]["image"]))).convert("RGB")
+        except (requests.RequestException, KeyError, OSError) as e:
+            log.warning("ilustração com referência (%s) falhou: %s", objeto["id"], e)
+            continue
+        ok, motivo = fiscal_de_imagem(img, regras)
+        if ok:
+            img.save(arq, quality=94)
+            log.info("ilustração com referência brasileira: %s", objeto["id"])
+            return img
+        log.info("fiscal reprovou ilustração com referência (%s): %s", objeto["id"], motivo)
     return None
 
 
