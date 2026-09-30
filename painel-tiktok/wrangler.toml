@@ -1,0 +1,20 @@
+name = "luz-sem-susto-painel"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+account_id = "e5a474f214e0f1df6ff8f981149ce43f"
+workers_dev = true
+
+# Guarda as chaves de acesso do TikTok (renovadas sozinhas) e quais posts já foram publicados
+[[kv_namespaces]]
+binding = "KV"
+id = "3cc4ea15971c406aa0a2ac563f697322"
+
+[vars]
+REPO = "ricardoromanini/robo-luz-sem-susto"
+PAGINA = "energia-em-casa"
+NOME_PAGINA = "Luz Sem Susto"
+SITE = "https://ricardoromanini.github.io/robo-luz-sem-susto/"
+
+[observability]
+enabled = true
+# Segredos (wrangler secret put): TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET, LINK_SECRET

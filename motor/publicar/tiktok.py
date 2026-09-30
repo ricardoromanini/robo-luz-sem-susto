@@ -114,3 +114,20 @@ def publicar(pagina: Pagina, video: Path, legenda: str) -> dict:
     arroba = cfg.get("arroba", "")
     return {"id": pid, "modo": modo,
             "url": (f"https://www.tiktok.com/{arroba}" if arroba else "") if modo == "direto" else "rascunho no app TikTok"}
+
+
+PAINEL = "https://luz-sem-susto-painel.ricardoromanini9.workers.dev"
+
+
+def link_painel(post_id: str, dias: int = 3, rota: str = "publicar") -> str:
+    """Link assinado para o painel de publicação no TikTok (vale alguns dias). Usa TIKTOK_LINK_SECRET."""
+    import hashlib
+    import hmac
+    from urllib.parse import urlencode
+
+    segredo = env("TIKTOK_LINK_SECRET")
+    if not segredo:
+        return ""
+    exp = int(time.time()) + dias * 86400
+    sig = hmac.new(segredo.encode(), f"{post_id}.{exp}".encode(), hashlib.sha256).hexdigest()
+    return f"{PAINEL}/{rota}?" + urlencode({"post": post_id, "exp": exp, "sig": sig})
