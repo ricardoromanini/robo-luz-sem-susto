@@ -44,13 +44,17 @@ def publicar_instagram(pagina: Pagina, video: Path, legenda: str) -> dict:
     with open(video, "rb") as f:
         up = requests.post(f"https://rupload.facebook.com/ig-api-upload/{_v()}/{cont}",
                            headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(tam)}, data=f, timeout=1800)
-    _erro(up)
-    for _ in range(60):  # espera o processamento (até ~10 min)
+    # A Meta às vezes responde 400 "ProcessingFailedError" aqui e MESMO ASSIM processa o vídeo (visto em 30/09/2026).
+    # Por isso quem decide é o status do contêiner, consultado logo abaixo — não a resposta do envio.
+    erro_envio = f"Meta API {up.status_code}: {up.text[:300]}" if up.status_code >= 400 else ""
+    for n in range(60):  # espera o processamento (até ~10 min)
         s = requests.get(f"{g}/{cont}", params={"fields": "status_code,status", "access_token": tok}, timeout=30).json()
         if s.get("status_code") == "FINISHED":
             break
         if s.get("status_code") == "ERROR":
-            raise RuntimeError(f"Instagram recusou o vídeo: {s.get('status')}")
+            raise RuntimeError(f"Instagram recusou o vídeo: {s.get('status')} {erro_envio}")
+        if erro_envio and n >= 12 and s.get("status_code") != "IN_PROGRESS":
+            raise RuntimeError(f"Instagram não recebeu o vídeo: {erro_envio}")
         time.sleep(10)
     else:
         raise RuntimeError("Instagram não terminou de processar o vídeo a tempo")
