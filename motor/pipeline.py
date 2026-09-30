@@ -189,7 +189,7 @@ def gerar_post(pagina: Pagina, formato: str = "short", enviar_telegram: bool = T
     (pasta / "parecer_equipe.json").write_text(json.dumps(parecer_salvo, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
     (pasta / "legenda.txt").write_text(legenda["social"], encoding="utf-8")
     (pasta / "descricao_youtube.txt").write_text(legenda["youtube"], encoding="utf-8")
-    ref = armazenamento.guardar(pagina.glob, pagina.id, midia["video"])
+    ref = armazenamento.guardar(pagina.glob, pagina.id, midia["video"], nome=f"{post_id}.mp4")
     item = {
         "id": post_id, "status": "aguardando_aprovacao", "criado_em": agora.isoformat(), "formato": formato,
         "horario_publicacao": proximo_horario(pagina, formato), "categoria": pauta["categoria"], "chave": pauta["chave"],

@@ -45,16 +45,18 @@ def _release(tag: str) -> dict:
     return r.json()
 
 
-def guardar(glob: dict, pagina_id: str, arquivo: Path) -> dict:
+def guardar(glob: dict, pagina_id: str, arquivo: Path, nome: str | None = None) -> dict:
+    """nome: nome único do anexo na nuvem (o GitHub recusa dois anexos com o mesmo nome)."""
     if modo(glob) == "local":
         return {"modo": "local", "caminho": str(arquivo)}
+    nome = nome or arquivo.name
     rel = _release(f"fila-{pagina_id}")
     url = rel["upload_url"].split("{")[0]
     with open(arquivo, "rb") as f:
         r = requests.post(url, headers={**_h(), "Content-Type": "application/octet-stream"},
-                          params={"name": arquivo.name}, data=f, timeout=600)
+                          params={"name": nome}, data=f, timeout=600)
     r.raise_for_status()
-    return {"modo": "github_release", "asset_id": r.json()["id"], "nome": arquivo.name}
+    return {"modo": "github_release", "asset_id": r.json()["id"], "nome": nome}
 
 
 def recuperar(ref: dict, destino_pasta: Path) -> Path:
