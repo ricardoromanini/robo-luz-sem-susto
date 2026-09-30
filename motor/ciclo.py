@@ -208,7 +208,7 @@ def _publicar_item(p: Pagina, item: dict) -> None:
             else:
                 alvos.append(("instagram", lambda: meta.publicar_instagram(p, video, leg["social"],
                                                                            armazenamento.url_publica(item["video"], p.id))))
-        if p.plataforma_ativa("tiktok") and tiktok.configurado(p):
+        if p.plataforma_ativa("tiktok") and tiktok.configurado(p) and _modo_tiktok(p) != "painel":
             alvos.append(("tiktok", lambda: tiktok.publicar(p, video, legenda_tiktok(p, leg["social"]))))
         if p.plataforma_ativa("facebook") and meta.fb_configurado(p):
             alvos.append(("facebook", lambda: meta.publicar_facebook(p, video, leg["social"])))
@@ -254,7 +254,10 @@ def _publicar_item(p: Pagina, item: dict) -> None:
     if pubs.get("youtube", {}).get("privado"):
         msg += ("\n\n⚠️ YouTube: o vídeo ficou PRIVADO porque o app ainda não passou na auditoria do Google. "
                 "Abra o app YouTube Studio > Conteúdo > este vídeo > Visibilidade > Público.")
-    if (concluido and item["formato"] == "short" and p.plataforma_ativa("tiktok") and "tiktok" in pubs
+    painel = _modo_tiktok(p) == "painel" and item["formato"] == "short" and p.plataforma_ativa("tiktok")
+    if concluido and painel and tiktok.link_painel(item["id"]):
+        msg += "\n\n📲 TikTok: toque para publicar (a legenda já vai junto):\n" + tiktok.link_painel(item["id"])
+    elif (concluido and item["formato"] == "short" and p.plataforma_ativa("tiktok") and "tiktok" in pubs
             and pubs["tiktok"].get("modo") == "rascunho"):
         msg += ("\n\n📲 TikTok: o vídeo já está na sua caixa de entrada do app TikTok (notificação). Abra, cole a legenda "
                 "abaixo, ative \"Conteúdo gerado por IA\" e publique.")
@@ -263,12 +266,27 @@ def _publicar_item(p: Pagina, item: dict) -> None:
                 "\"Conteúdo gerado por IA\" nas configurações do post.")
     if msg and not aguardando_ig:  # com o Instagram ainda processando, o aviso sai completo no próximo ciclo
         telegram.enviar_texto(msg)
-        if concluido and item["formato"] == "short":
+        if concluido and item["formato"] == "short" and not painel:
             telegram.enviar_texto(legenda_tiktok(p, item["legenda"]["social"]))
     if erros:
         alertar_erro(f"publicando \"{item['titulo']}\" (tentativa {tentativas}/{MAX_TENTATIVAS})\n" + "\n".join(erros))
-    if concluido:
+    if concluido and not painel:
         armazenamento.apagar(item["video"])
+    # no modo painel o vídeo fica guardado até o TikTok ser publicado (limpar_videos apaga depois de alguns dias)
+
+
+def _modo_tiktok(p: Pagina) -> str:
+    return p.cfg.get("plataformas", {}).get("tiktok", {}).get("modo_api", "rascunho")
+
+
+def limpar_videos(p: Pagina, dias: int = 4) -> None:
+    """Apaga da nuvem os vídeos já publicados há mais de N dias (no modo painel eles ficam para o TikTok)."""
+    limite = p.agora() - timedelta(days=dias)
+    for item in estado.fila(p):
+        if item.get("status") == "publicado" and item.get("publicado_em") and not item.get("video_apagado"):
+            if datetime.fromisoformat(item["publicado_em"]) < limite:
+                armazenamento.apagar(item["video"])
+                estado.atualizar_item(p, item["id"], video_apagado=True)
 
 
 def publicar_vencidos(p: Pagina) -> None:
@@ -318,5 +336,6 @@ def rodar() -> None:
             expirar_antigos(p)
             publicar_vencidos(p)
             conferir_tokens(p)
+            limpar_videos(p)
         except Exception as e:  # noqa: BLE001
             alertar_erro(f"ciclo da página {p.nome}", e)
