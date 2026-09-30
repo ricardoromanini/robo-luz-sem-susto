@@ -44,6 +44,12 @@ REGRAS INEGOCIÁVEIS
     frases curtas e variadas (algumas bem curtas, de impacto), reticências (…) logo antes do número principal para criar
     expectativa, e uma frase final firme. Nada de tom de leitura escolar.
 11. Título sem clickbait: nada de "Veja como!", "Descubra!", "Você não vai acreditar". Descreva o que o vídeo mostra.
+14. ESTRUTURA do vídeo curto, nesta ordem (uma ou duas cenas para cada parte):
+    (a) GANCHO: pergunta ou dor direta do bolso ou da segurança de quem assiste;
+    (b) DADO OFICIAL: o fato ou número principal do dossiê, dizendo de onde vem (fonte do dossiê);
+    (c) EXPLICAÇÃO: como se chega nisso, em linguagem de casa (quando houver cálculo: potência, tempo de uso, kWh e o valor em reais);
+    (d) DICA SEGURA: o que a pessoa pode fazer ou conferir sem risco; serviço elétrico é sempre com eletricista habilitado.
+    Depois vem a cena final de chamada para seguir a página, com a frase exata que for indicada.
 
 DATA DE HOJE: {hoje}. Datas do dossiê são fatos já ocorridos ou vigentes.
 

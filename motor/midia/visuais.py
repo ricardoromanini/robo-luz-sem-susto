@@ -195,7 +195,7 @@ def _openverse(consulta: str, usadas: set[str]) -> dict | None:
 
 
 def buscar_midia(pagina: Pagina, consultas: list[str], formato: str, usadas: set[str], ilustracao: str = "",
-                 fala: str = "") -> dict | None:
+                 fala: str = "", com_mascote: bool = False) -> dict | None:
     """Fundo da cena: {"tipo": "video", "caminho"} | {"tipo": "imagem", "imagem"}, com "credito". None = usa cartão."""
     w, h = FORMATOS[formato]
     orient = "portrait" if h > w else "landscape"
@@ -222,6 +222,13 @@ def buscar_midia(pagina: Pagina, consultas: list[str], formato: str, usadas: set
         from . import acervo
 
         objeto = acervo.casar(pagina, fala) or acervo.casar(pagina, ilustracao)
+        if com_mascote and (objeto or not acervo.sem_referencia(pagina, f"{fala} {ilustracao}")):
+            # o MASCOTE apresenta a cena (com o objeto brasileiro do acervo, quando houver)
+            img = ilustracoes.gerar_com_mascote(pagina, ilustracao, objeto, variante=len(usadas), semente=len(usadas),
+                                                termos_proibidos=nomes)
+            if img is not None:
+                usadas.add(f"mascote:{objeto['id'] if objeto else ilustracao}:{len(usadas)}")
+                return {"tipo": "ilustracao", "imagem": img, "credito": ""}
         if objeto:
             img = ilustracoes.gerar_com_referencia(pagina, objeto, variante=len(usadas), semente=len(usadas))
             if img is not None:
@@ -503,7 +510,11 @@ def cena(pagina: Pagina, c: dict, pauta: dict, formato: str, usadas: set[str], r
             fundo = {"tipo": "imagem", "imagem": _cena_mascote(pagina, mascote, w, h)}
             camada = _camada(pagina, w, h, c, False, rodape, indice, total, False, layout="cta")
             return {"fundo": fundo, "camada": camada, "credito": "", "zoom": True}
-        midia = buscar_midia(pagina, consultas, formato, usadas, c.get("ilustracao", ""), fala=c.get("fala", ""))
+        cfg_m = pagina.cfg.get("mascote", {})
+        # mascote como apresentador: aparece em cenas alternadas (nunca na 1ª, que é o gancho com o objeto em destaque)
+        com_mascote = bool(cfg_m.get("nas_cenas")) and mascote is not None and indice % int(cfg_m.get("a_cada", 2)) == 1
+        midia = buscar_midia(pagina, consultas, formato, usadas, c.get("ilustracao", ""), fala=c.get("fala", ""),
+                             com_mascote=com_mascote)
         layout = "cartao"
         if midia:
             credito = midia.get("credito", "")

@@ -10,6 +10,7 @@
 # Campos:
 #   gatilhos   expressões (regex, sem diferenciar maiúsculas) procuradas na FALA e na descrição da cena
 #   cenas      descrições (inglês) usadas em rodízio; sempre mantêm o objeto igual ao da referência
+#   cenas_mascote  ações (inglês) do MASCOTE com o objeto (2ª referência), usadas quando o mascote aparece na cena
 #   conferir   o que o fiscal de imagem exige ver (português); fora disso, reprova
 #   norma      norma/regra brasileira que define o objeto (para o pesquisador e para consulta)
 # ---------------------------------------------------------------------------------------------
@@ -24,6 +25,9 @@ objetos:
       - "Close-up of the exact same power socket from the reference image (hexagonal recess with exactly three identical round holes: left, right, and one in the middle slightly lower; no slots, no other openings), mounted on a wall of a cozy Brazilian home"
       - "Keep the wall socket from the reference image exactly as it is (same hexagonal shape, same three round holes in the same positions), on a kitchen wall above a countertop in a Brazilian home, no plug, no hands"
       - "The exact same wall socket from the reference image (hexagonal recess, three round holes), low on a bedroom wall in a Brazilian home at dusk, soft golden light, no plug, no hands"
+    cenas_mascote:
+      - "crouching next to a wall and pointing at the wall power socket from the second reference image (hexagonal recess with exactly three round holes), in a cozy Brazilian living room. Keep the socket faithful to the second reference"
+      - "standing beside a wall, showing with an open hand the wall power socket from the second reference image (hexagonal recess with exactly three round holes), in a Brazilian kitchen. Keep the socket faithful to the second reference"
     conferir: "A tomada deve ser do padrão brasileiro: recesso em forma de hexágono alongado com exatamente 3 furos REDONDOS (um à esquerda, um à direita e um no meio um pouco deslocado). Reprove se tiver fendas retas/retangulares (padrão americano), furo em T, 2 fendas + 1 furo, ou qualquer outro padrão."
     fonte: "https://commons.wikimedia.org/wiki/File:Brazilian_3-pin_socket_20A.jpg"
     credito: "Sylx (Wikimedia Commons)"
@@ -39,6 +43,8 @@ objetos:
     cenas:
       - "The black power plug from the reference image, same shape: flat black body with exactly three round metal pins in a row, lying on a wooden table in a cozy Brazilian living room, close-up, pins clearly visible from the front. Keep the plug identical to the reference"
       - "The black three-pin power plug from the reference image (exactly three round cylindrical metal pins side by side in a row), held up by a hand against a softly blurred Brazilian kitchen, pins pointing at the camera. Keep the plug identical to the reference"
+    cenas_mascote:
+      - "holding up in one hand the black three-pin power plug from the second reference image (exactly three round metal pins in a row), showing it to the viewer, in a cozy Brazilian living room. Keep the plug faithful to the second reference"
     conferir: "O plugue deve ser do padrão brasileiro: pinos REDONDOS (cilíndricos), 2 ou 3, alinhados em fila. Reprove se tiver pinos chatos/lâminas (padrão americano), pinos retangulares (britânico) ou mais de 3 pinos."
     fonte: "https://commons.wikimedia.org/wiki/File:NBR_14136_plugs_and_outlet.jpg"
     credito: "Fasouzafreitas (Wikimedia Commons) — recorte"
@@ -53,6 +59,9 @@ objetos:
     cenas:
       - "The white electric shower head from the reference image (Brazilian electric shower: round white plastic shower head on a short pipe arm coming out of a tiled bathroom wall), with warm water falling and light steam, clean modern Brazilian bathroom. Same shower head shape as the reference, no exposed wires"
       - "The same white Brazilian electric shower head from the reference image, seen from below, water drops falling, tiled bathroom wall behind, soft warm light. Same shower head shape as the reference, no exposed wires, no people"
+    cenas_mascote:
+      - "standing in a Brazilian bathroom and pointing up at the white electric shower head from the second reference image (round white plastic shower head on a short pipe arm on a tiled wall). Keep the shower head faithful to the second reference"
+      - "standing in a tiled Brazilian bathroom, looking up with a friendly smile at the white electric shower head from the second reference image with warm water falling. Keep the shower head faithful to the second reference"
     conferir: "O chuveiro deve ser um chuveiro elétrico brasileiro: cabeça redonda de plástico branco (ou clara) presa a um braço/cano curto na parede. Reprove se for ducha metálica de hotel, chuveiro de teto embutido, banheira, aquecedor a gás ou se aparecer pessoa sem roupa."
     fonte: "https://commons.wikimedia.org/wiki/File:At_Paraty_2023_022.jpg"
     credito: "Mike Peel, www.mikepeel.net (Wikimedia Commons)"

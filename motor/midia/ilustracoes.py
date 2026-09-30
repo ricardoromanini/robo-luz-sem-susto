@@ -231,6 +231,67 @@ def gerar_com_referencia(pagina: Pagina, objeto: dict, variante: int = 0, sement
     return None
 
 
+def _jpg(arquivo, lado: int = 768) -> bytes:
+    im = Image.open(arquivo).convert("RGB")
+    im.thumbnail((lado, lado))
+    buf = io.BytesIO()
+    im.save(buf, format="JPEG", quality=90)
+    return buf.getvalue()
+
+
+def gerar_com_mascote(pagina: Pagina, descricao: str, objeto: dict | None = None, variante: int = 0,
+                      semente: int | str | None = None, termos_proibidos: list[str] | None = None) -> Image.Image | None:
+    """Cena com o MASCOTE da página apresentando o assunto. A IA recebe a imagem oficial do mascote (1ª referência)
+    e, se a cena tem objeto do acervo brasileiro, a foto real dele (2ª referência). None = não deu (usa outra cena)."""
+    cfg = pagina.cfg.get("mascote", {})
+    arq_masc = pagina.pasta / cfg.get("arquivo", "marca/mascote.png")
+    if not configurado() or COTA_ESGOTADA or not arq_masc.exists():
+        return None
+    personagem = cfg.get("descricao_cena") or ("The cartoon electrician character from the first reference image (same face, same "
+                                                "yellow safety helmet with a lightning bolt, same navy blue work uniform)")
+    if objeto:
+        acoes = objeto.get("cenas_mascote") or []
+        if not acoes:
+            return None
+        regras = objeto.get("conferir", "")
+    else:
+        assunto = limpar_descricao(descricao, termos_proibidos or [])
+        if not assunto:
+            return None
+        acoes = [f"standing in the scene and pointing at the main subject with a friendly smile. Scene: {assunto}",
+                 f"presenting the scene with an open hand gesture, looking at the viewer. Scene: {assunto}"]
+        regras = ""
+    regras = (regras + " O personagem deve ser o mascote da página: eletricista de desenho animado com capacete amarelo e "
+              "uniforme azul-marinho, um só, sem deformações. " + acervo.regra_geral(pagina)).strip()
+    PASTA_CACHE.mkdir(exist_ok=True)
+    url = f"https://api.cloudflare.com/client/v4/accounts/{env('CLOUDFLARE_ACCOUNT_ID')}/ai/run/{MODELO_REFERENCIA}"
+    for tentativa in range(3):
+        acao = acoes[(variante + tentativa) % len(acoes)]
+        prompt = prompt_final(pagina, f"{personagem} {acao}. Keep the character faithful to the first reference image. "
+                                      "Only one character, no exposed wires")
+        arq = PASTA_CACHE / ("ia_masc_" + hashlib.md5(f"{prompt}|{semente}|{tentativa}".encode()).hexdigest() + ".jpg")
+        if arq.exists():
+            return Image.open(arq).convert("RGB")
+        arquivos = {"prompt": (None, prompt), "width": (None, "1024"), "height": (None, "1024"),
+                    "input_image_0": ("mascote.jpg", _jpg(arq_masc), "image/jpeg")}
+        if objeto:
+            arquivos["input_image_1"] = ("objeto.jpg", _jpg(objeto["arquivo"]), "image/jpeg")
+        try:
+            r = requests.post(url, headers={"Authorization": f"Bearer {env('CLOUDFLARE_API_TOKEN')}"}, timeout=300, files=arquivos)
+            r.raise_for_status()
+            img = Image.open(io.BytesIO(base64.b64decode(r.json()["result"]["image"]))).convert("RGB")
+        except (requests.RequestException, KeyError, OSError) as e:
+            log.warning("cena com mascote falhou: %s", e)
+            continue
+        ok, motivo = fiscal_de_imagem(img, regras)
+        if ok:
+            img.save(arq, quality=94)
+            log.info("cena com mascote%s", f" + referência brasileira: {objeto['id']}" if objeto else "")
+            return img
+        log.info("fiscal reprovou cena com mascote: %s", motivo)
+    return None
+
+
 MASCOTE_BASE = ("A friendly Brazilian electrician mascot character, 3D animated movie style, warm smile, "
                 "yellow safety helmet with a small lightning bolt symbol, navy blue work uniform, holding a "
                 "glowing light bulb, giving a thumbs up, upper body portrait, centered, plain solid dark navy "
