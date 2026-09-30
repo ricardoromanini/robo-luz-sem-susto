@@ -1,0 +1,30 @@
+[
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Equatorial Piauí",
+    "chave": "calc:chuveiro:EQUATORIAL PI",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Seu banho de 15 minutos custa cerca de R$ 39,05 por mês na Equatorial Piauí? [TELA: R$ 39,05]”: O título e a primeira tela apresentam o valor de R$ 39,05 como se fosse o custo final do banho na conta, mas o dossiê (F4) e o próprio corpo do texto deixam claro que esse valor refere-se apenas à tarifa de energia, sem impostos (ICMS, PIS/Cofins) nem bandeira tarifária. A omissão de 'antes de impostos' no título induz o leitor a acreditar que verá esse valor na fatura, o que configura distorção por omissão de contexto essencial.. Correção: Reescrever o título e a tela inicial para: 'Seu banho de 15 minutos custa cerca de R$ 39,05 por mês só na tarifa (sem impostos) na Equatorial Piauí?' ou 'Quanto pesa o banho de 15 min na tarifa da Equatorial Piauí? Cerca de R$ 39,05 (sem impostos)'.",
+    "em": "2026-09-29T21:43:08.780803"
+  },
+  {
+    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
+    "chave": "pauta:lei-14300-fio-b",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Seu painel solar passa a pagar 60% do Fio B em 2026”: O dossiê (F2) restringe a cobrança escalonada do Fio B aos sistemas com pedido de acesso protocolado a partir de 7 de janeiro de 2023. O texto generaliza para 'seu painel solar', induzindo o público a crer que a regra vale para todos os sistemas existentes, o que é falso para quem entrou antes da data (regras de transição diferentes).. Correção: Reescrever para: 'Para sistemas com pedido de acesso a partir de 7/01/2023, o painel solar passa a pagar 60% do Fio B em 2026.'\n- [🔎 Checador de fatos] “conforme previsto no artigo 27 da lei anual”: A Lei 14.300/2022 não é uma 'lei anual' (termo que sugere renovação todo ano), mas o marco legal permanente da GD. O uso de 'lei anual' confunde a natureza da norma.. Correção: Substituir por: 'conforme previsto no artigo 27 da Lei 14.300/2022'.\n- [⚖️ Revisor jurídico e de políticas] “Seu painel solar passa a pagar 60% do Fio B em 2026 — veja quanto isso pesa no bolso. / Em 2026, o escalonamento do Fio B chega a 60%, conforme previsto no artigo 27 da lei anual. / Em 2026 o Fio B chega a 60% para quem gera energia solar.”: 1. CDC (arts. 31 e 37) — publicidade enganosa/omissão de informação essencial. Correção: A regra de transição do Art. 27 da Lei 14.300/2022 define percentuais anuais conforme a DATA DA SOLICITAÇÃO DE ACESSO. Em 2026, o percentual de 60% (4º ano) vale apenas para quem solicitou acesso em 2023. Quem solicitou em 2024 paga 45% (3º ano); em 2025 pa",
+    "em": "2026-09-29T21:58:52.262941"
+  },
+  {
+    "tema": "A etiqueta amarela do Inmetro: como ler antes de comprar um eletrodoméstico",
+    "chave": "pauta:selo-procel",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Uma letra avançada, próxima do A, pode reduzir sua conta em dezenas de reais ao longo do ano.”: O dossiê não traz valores monetários de economia (reais/ano). A economia depende de tarifa local, tempo de uso e tipo de aparelho; o número 'dezenas de reais' é uma estimativa sem fonte citada.. Correção: Remover o valor ou reescrever para: 'Uma letra mais próxima de A indica maior eficiência, o que tende a reduzir o valor da conta de luz ao longo do tempo.'",
+    "em": "2026-09-29T22:14:25.171247"
+  },
+  {
+    "tema": "5 sinais de que a instalação elétrica da sua casa está sobrecarregada",
+    "chave": "pauta:sinais-sobrecarga",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “-”: verificador indisponível (Nenhuma IA respondeu: groq/openai/gpt-oss-120b: cota esgotada nesta execução | gemini/gemma-4-26b-a4b-it: HTTP 403 | openrouter/nvidia/nemotron-3-super-120b-a12b:free: HTTP 429 | openrouter/nvidia/nemotron-3-super-120b-a12b:free: HTTP 429 | gemini/gemini-3.5-flash: HTTP 403 | ollama/gemma3:12b: Ollama não está rodando). Correção: tentar de novo mais tarde\n- [⚖️ Revisor jurídico e de políticas] “-”: verificador indisponível (Nenhuma IA respondeu: groq/openai/gpt-oss-120b: cota esgotada nesta execução | gemini/gemma-4-26b-a4b-it: HTTP 403 | openrouter/nvidia/nemotron-3-super-120b-a12b:free: cota esgotada nesta execução | gemini/gemini-3.5-flash: HTTP 403 | ollama/gemma3:12b: Ollama não está rodando). Correção: tentar de novo mais tarde\n- [✍️ Revisor de qualidade] “-”: verificador indisponível (Nenhuma IA respondeu: groq/openai/gpt-oss-120b: cota esgotada nesta execução | gemini/gemma-4-26b-a4b-it: HTTP 403 | openrouter/nvidia/nemotron-3-super-120b-a12b:free: cota esgotada nesta execução | gemini/gemini-3.5-flash: HTTP 403 | ollama/gemma3:12b: Ollama não está rodando). Correção: tentar de novo mais tarde",
+    "em": "2026-09-29T22:22:58.124915"
+  }
+]

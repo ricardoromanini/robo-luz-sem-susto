@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "20260929-213537-por-que-a-tomada-tem-3-pinos-e-a-importa",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-09-29T21:35:37.654481-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-09-30T07:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:tomada-tres-pinos",
+    "partes": [],
+    "titulo": "Por que a tomada tem 3 pinos e a importância do pino de aterramento",
+    "texto_falado": "Sabia que o terceiro pino protege sua casa contra choques, mesmo em falhas? O padrão brasileiro de plugues e tomadas segue a norma ABNT NBR 14136, que define três pinos. O pino do meio é o aterramento; ele cria um caminho seguro se houver falha no aparelho. Quebrar esse terceiro pino ou usar adaptador sem terra elimina a proteção e pode causar risco. O aterramento só funciona se a tomada estiver ligada a um condutor de proteção, verifique com eletricista habilitado. Qual sua experiência com tomadas sem terra? Compartilhe nos comentários e proteja sua família. Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "A tomada brasileira tem três pinos por uma razão de segurança.\nO pino central é o aterramento, que protege contra choques se houver falha.\nQuebrá‑lo ou usar adaptador sem terra elimina essa proteção.\nVerifique sempre a conexão com um eletricista habilitado.\nEntenda mais sobre sua conta e segurança elétrica aqui.\nFonte: ABNT NBR 14136\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #tomada3pinos #energia #contadeluz #energiasolar #economia",
+      "youtube": "A tomada brasileira tem três pinos por uma razão de segurança.\nO pino central é o aterramento, que protege contra choques se houver falha.\nQuebrá‑lo ou usar adaptador sem terra elimina essa proteção.\nVerifique sempre a conexão com um eletricista habilitado.\nEntenda mais sobre sua conta e segurança elétrica aqui.\nFonte: ABNT NBR 14136\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #tomada3pinos #energia #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "piper",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 599649200,
+      "nome": "20260929-213537-por-que-a-tomada-tem-3-pinos-e-a-importa.mp4"
+    },
+    "capa": null,
+    "ia_redator": "groq/openai/gpt-oss-120b",
+    "ia_verificador": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 34.9,
+        "lufs": -14.51,
+        "fala_confere": 0.92
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 7.5, 0 obrigatório(s), 2 observação(ões))\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  }
+]
