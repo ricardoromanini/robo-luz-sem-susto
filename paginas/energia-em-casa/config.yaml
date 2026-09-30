@@ -51,6 +51,8 @@ estilo_ilustracao: >-
 # Mascote da página (aparece na cena final "siga a página" e serve de foto de perfil)
 mascote:
   arquivo: "marca/mascote.png"
+  nas_cenas: true    # o Seu Faísca apresenta o assunto dentro das cenas (aprovado em 30/09/2026)
+  a_cada: 2          # em cenas alternadas (2ª, 4ª, 6ª...); a 1ª mostra só o objeto e a última é o "Siga"
   nome: "Seu Faísca"
 
 # Como a voz deve pronunciar nomes difíceis (escreva como se fala)
