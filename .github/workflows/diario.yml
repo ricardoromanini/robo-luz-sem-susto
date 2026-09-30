@@ -8,6 +8,9 @@ on:
       formato:
         description: "short ou longo"
         default: short
+      extra:
+        description: "opções a mais (ex.: --forcar --quantidade 2)"
+        default: ""
 permissions:
   contents: write
 concurrency: {group: estado, cancel-in-progress: false}
@@ -16,5 +19,5 @@ jobs:
     uses: ./.github/workflows/_preparar.yml
     with:
       comando: >-
-        gerar --formato ${{ github.event.inputs.formato || (github.event.schedule == '37 1 * * 6' && 'longo') || 'short' }}
+        gerar --formato ${{ github.event.inputs.formato || (github.event.schedule == '37 1 * * 6' && 'longo') || 'short' }} ${{ github.event.inputs.extra }}
     secrets: inherit

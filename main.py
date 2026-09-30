@@ -44,7 +44,7 @@ def cmd_gerar(args) -> None:
     for p in _paginas(args):
         n = 1 if args.formato == "longo" else int(args.quantidade or p.cfg.get("frequencia", {}).get("shorts_por_dia", 1))
         pendentes = [i for i in estado.fila(p) if i["status"] in ("aguardando_aprovacao", "aprovado") and i["formato"] == args.formato]
-        if args.formato == "short" and len(pendentes) >= n + 2:
+        if args.formato == "short" and len(pendentes) >= n + 2 and not args.forcar:
             log.info("%s: já há %d posts na fila; não gero mais hoje", p.nome, len(pendentes))
             continue
         for _ in range(n):
@@ -269,6 +269,7 @@ def main() -> None:
     g.add_argument("--pagina")
     g.add_argument("--formato", default="short", choices=["short", "longo"])
     g.add_argument("--quantidade", type=int)
+    g.add_argument("--forcar", action="store_true", help="gera mesmo com a fila cheia (rodada extra pedida pelo dono)")
     sub.add_parser("ciclo")
     s = sub.add_parser("semanal")
     s.add_argument("--pagina")
