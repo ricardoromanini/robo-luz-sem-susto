@@ -196,7 +196,7 @@ def _publicar_item(p: Pagina, item: dict) -> None:
         alvos.append(("youtube", lambda: youtube.publicar(p, video, item["titulo"], leg["youtube"], tags, item["rotulo_ia"], item.get("capa"))))
     if item["formato"] == "short":
         if p.plataforma_ativa("instagram") and meta.ig_configurado(p):
-            alvos.append(("instagram", lambda: meta.publicar_instagram(p, video, leg["social"])))
+            alvos.append(("instagram", lambda: meta.publicar_instagram(p, video, leg["social"], armazenamento.url_publica(item["video"], p.id))))
         if p.plataforma_ativa("facebook") and meta.fb_configurado(p):
             alvos.append(("facebook", lambda: meta.publicar_facebook(p, video, leg["social"])))
     if not alvos:

@@ -53,7 +53,7 @@ def guardar(glob: dict, pagina_id: str, arquivo: Path, nome: str | None = None) 
     rel = _release(f"fila-{pagina_id}")
     url = rel["upload_url"].split("{")[0]
     with open(arquivo, "rb") as f:
-        r = requests.post(url, headers={**_h(), "Content-Type": "application/octet-stream"},
+        r = requests.post(url, headers={**_h(), "Content-Type": "video/mp4"},
                           params={"name": nome}, data=f, timeout=600)
     r.raise_for_status()
     return {"modo": "github_release", "asset_id": r.json()["id"], "nome": nome}
@@ -82,3 +82,10 @@ def apagar(ref: dict) -> None:
         requests.delete(f"{_API}/repos/{_repo()}/releases/assets/{ref['asset_id']}", headers=_h(), timeout=30)
     except requests.RequestException as e:
         log.warning("não consegui apagar o anexo %s: %s", ref.get("nome"), e)
+
+
+def url_publica(ref: dict, pagina_id: str) -> str:
+    """Endereço público do vídeo guardado na release (repositório público). "" se não houver."""
+    if ref.get("modo") != "github_release" or not os.environ.get("GITHUB_REPOSITORY"):
+        return ""
+    return f"https://github.com/{_repo()}/releases/download/fila-{pagina_id}/{ref['nome']}"
