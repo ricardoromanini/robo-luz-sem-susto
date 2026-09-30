@@ -35,7 +35,7 @@ def gerar_ass(pagina: Pagina, falas: list[str], inicios: list[float], duracoes: 
     v = pagina.cfg.get("visual", {})
     vertical = h > w
     tam = 78 if vertical else 64
-    margem_v = int(h * (0.20 if vertical else 0.08))
+    margem_v = int(h * (0.155 if vertical else 0.08))  # vertical: logo abaixo da imagem, acima do @ e do rodapé
     cab = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {w}

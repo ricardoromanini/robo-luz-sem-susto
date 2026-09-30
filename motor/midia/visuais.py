@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 import requests  # noqa: E402
 from PIL import Image, ImageDraw, ImageFilter, ImageFont  # noqa: E402
 
-from ..config import PASTA_CACHE, Pagina, env  # noqa: E402
+from ..config import PASTA_CACHE, RAIZ, Pagina, env  # noqa: E402
 from ..registro import obter  # noqa: E402
 
 log = obter("visuais")
@@ -47,6 +47,21 @@ def _fonte(pagina: Pagina, tamanho: int) -> ImageFont.FreeTypeFont:
         except OSError:
             continue
     return ImageFont.load_default(tamanho)
+
+
+def _fonte_titulo(pagina: Pagina, tamanho: int) -> ImageFont.FreeTypeFont:
+    """Fonte de TÍTULO (chamativa, tipo manchete). Se não houver, usa a fonte normal da página."""
+    nome = pagina.cfg.get("visual", {}).get("fonte_titulo", "")
+    for c in ([str(RAIZ / "recursos" / "fontes" / nome), nome] if nome else []):
+        try:
+            return ImageFont.truetype(c, tamanho)
+        except OSError:
+            continue
+    return _fonte(pagina, tamanho)
+
+
+def _tem_fonte_titulo(pagina: Pagina) -> bool:
+    return _fonte_titulo(pagina, 20).path != _fonte(pagina, 20).path
 
 
 def caminho_fonte(pagina: Pagina) -> str:
@@ -412,9 +427,14 @@ def _camada(pagina: Pagina, w: int, h: int, c: dict, com_midia: bool, rodape: st
             tela = f"Siga {pagina.cfg.get('arroba') or pagina.nome}"
             caixa = (60, int(h * 0.55), w - 60, int(h * 0.68)) if vertical else (100, int(h * 0.68), w - 100, int(h * 0.82))
         else:
-            caixa = (50, int(h * 0.635), w - 50, int(h * 0.735)) if vertical else (100, int(h * 0.80), w - 100, int(h * 0.90))
+            # TÍTULO em cima, imagem no meio, legenda (o que está sendo falado) embaixo: um não se confunde com o outro
+            caixa = (50, int(h * 0.035), w - 50, int(h * 0.185)) if vertical else (100, int(h * 0.80), w - 100, int(h * 0.90))
         if tela and not e_grafico:
-            _texto_destacado(d, caixa, tela, lambda s: _fonte(pagina, s), cor_txt, cor_dest, 100 if layout == "cta" else 84, 40, contorno=5)
+            if layout == "moldura" and vertical:
+                titulo = tela.upper() if _tem_fonte_titulo(pagina) else tela
+                _texto_destacado(d, caixa, titulo, lambda s: _fonte_titulo(pagina, s), cor_txt, cor_dest, 120, 48, contorno=6)
+            else:
+                _texto_destacado(d, caixa, tela, lambda s: _fonte(pagina, s), cor_txt, cor_dest, 100 if layout == "cta" else 84, 40, contorno=5)
         return _comum(pagina, img, w, h, indice, total, rodape, cor_dest)
     if com_midia:
         # degradê escuro só onde há texto (topo e parte de baixo) — o meio da imagem fica limpo e chamativo
@@ -456,7 +476,8 @@ def _comum(pagina: Pagina, img: Image.Image, w: int, h: int, indice: int, total:
         d.rectangle((0, 0, int(w * (indice + 1) / total), 10), fill=cor_dest + (255,))
     f = _fonte(pagina, 40 if vertical else 34)
     marca = pagina.cfg.get("arroba") or pagina.nome
-    d.text((w / 2 - d.textlength(marca, font=f) / 2, int(h * 0.05 if vertical else h * 0.04)), marca, font=f,
+    # no vertical o topo é do título: o @ fica embaixo, entre a legenda e o rodapé
+    d.text((w / 2 - d.textlength(marca, font=f) / 2, int(h * 0.868 if vertical else h * 0.04)), marca, font=f,
            fill=cor_dest + (255,), stroke_width=3, stroke_fill=(0, 0, 0))
     if rodape:
         _texto_centralizado(d, (60, int(h * 0.915), w - 60, int(h * 0.985)), rodape, lambda s: _fonte(pagina, s),
@@ -523,7 +544,7 @@ def _moldura(pagina: Pagina, ilustr: Image.Image, w: int, h: int) -> Image.Image
     fundo = Image.blend(fundo, Image.new("RGB", (w, h), _hex(v.get("cor_fundo", "#0E1A2B"))), 0.55)
     if h > w:
         lado = w - 80
-        x, y = 40, int(h * 0.10)
+        x, y = 40, int(h * 0.20)  # abaixo do título
     else:
         lado = int(h * 0.80)
         x, y = (w - lado) // 2, int(h * 0.06)
