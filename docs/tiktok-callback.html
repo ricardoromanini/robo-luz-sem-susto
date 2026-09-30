@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luz Sem Susto — autorização do TikTok</title>
+<link rel="stylesheet" href="estilo.css">
+<style>
+  .codigo { font-family: monospace; font-size: 1.1rem; word-break: break-all; background: #0E1A2B; color: #FFC107;
+            padding: 16px; border-radius: 10px; margin: 16px 0; }
+  button { font-size: 1rem; padding: 10px 18px; border-radius: 8px; border: 0; background: #FFC107; color: #0E1A2B; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Autorização do TikTok</h1>
+  <div id="ok" hidden>
+    <p>✅ Autorização recebida. Copie o código abaixo e cole na janela do robô (a janela preta que pediu o código).</p>
+    <div class="codigo" id="codigo"></div>
+    <button id="copiar">Copiar código</button>
+    <p><small>O código vale só por alguns minutos e sozinho não dá acesso à conta.</small></p>
+  </div>
+  <div id="erro" hidden>
+    <p>⚠️ A autorização não foi concluída: <span id="motivo"></span></p>
+  </div>
+</main>
+<script>
+  const q = new URLSearchParams(location.search);
+  const code = q.get("code");
+  if (code) {
+    document.getElementById("ok").hidden = false;
+    document.getElementById("codigo").textContent = code;
+    document.getElementById("copiar").onclick = () => navigator.clipboard.writeText(code);
+  } else {
+    document.getElementById("erro").hidden = false;
+    document.getElementById("motivo").textContent = q.get("error_description") || q.get("error") || "sem código na resposta";
+  }
+</script>
+</body>
+</html>
