@@ -59,6 +59,8 @@ jobs:
       IG_USER_ID_ENERGIA_EM_CASA: ${{ secrets.IG_USER_ID_ENERGIA_EM_CASA }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}   # estado MAIS RECENTE na hora em que a execução começa (não o da hora do agendamento)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
