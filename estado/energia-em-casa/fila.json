@@ -87,7 +87,7 @@
   },
   {
     "id": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-09-30T07:39:34.755594-03:00",
     "formato": "short",
     "horario_publicacao": "2026-09-30T18:30:00-03:00",
@@ -127,11 +127,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-09-30T07:42:44.640401-03:00",
     "formato": "short",
     "horario_publicacao": "2026-09-30T20:30:00-03:00",
@@ -169,7 +170,8 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20260930-074602-tarifas-residenciais-as-mais-caras-e-as-",
@@ -300,7 +302,7 @@
   },
   {
     "id": "20260930-072540-quando-a-tarifa-branca-pode-reduzir-sua-",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-09-30T07:25:40.638186-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-01T20:30:00-03:00",
@@ -338,11 +340,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20260930-072802-custo-estimado-do-ferro-na-tarifa-da-ene",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-09-30T07:28:02.633777-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-02T07:30:00-03:00",
@@ -382,6 +385,7 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   }
 ]
