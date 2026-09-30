@@ -29,6 +29,7 @@ from motor.config import RAIZ, carregar_env, carregar_pagina, env, listar_pagina
 carregar_env()
 
 from motor import ciclo, estado, pipeline, relatorio  # noqa: E402
+from motor import llm  # noqa: E402
 from motor.midia import voz  # noqa: E402
 from motor.registro import alertar_erro, obter  # noqa: E402
 
@@ -53,6 +54,11 @@ def cmd_gerar(args) -> None:
             except pipeline.CotaImagensEsgotada as e:
                 from motor import telegram
                 telegram.enviar_texto(f"🖼️ {p.nome}: {e}. Tento de novo na próxima rodada.")
+                break
+            except llm.SemProvedor:
+                from motor import telegram
+                telegram.enviar_texto(f"🤖 {p.nome}: nenhuma IA de texto respondeu agora (Gemini bloqueado ou cotas grátis "
+                                      "do dia esgotadas). Não gerei os posts desta rodada; tento de novo na próxima.")
                 break
             except voz.VozIndisponivel as e:
                 from motor import telegram

@@ -3,7 +3,7 @@
 name: ciclo
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "4,24,44 * * * *"
   workflow_dispatch:
 permissions:
   contents: write

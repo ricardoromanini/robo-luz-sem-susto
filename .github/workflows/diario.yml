@@ -3,8 +3,8 @@
 name: diario
 on:
   schedule:
-    - cron: "0 2 * * *"     # 23:00 BRT (02:00 UTC)
-    - cron: "30 2 * * 6"    # 23:30 BRT de sexta (vídeo longo de sábado)
+    - cron: "7 1 * * *"     # 22:07 BRT (01:07 UTC): minuto "quebrado" e mais cedo, porque o GitHub atrasa horas cheias
+    - cron: "37 1 * * 6"    # 22:37 BRT de sexta (vídeo longo de sábado)
   workflow_dispatch:
     inputs:
       formato:
@@ -18,5 +18,5 @@ jobs:
     uses: ./.github/workflows/_preparar.yml
     with:
       comando: >-
-        gerar --formato ${{ github.event.inputs.formato || (github.event.schedule == '30 2 * * 6' && 'longo') || 'short' }}
+        gerar --formato ${{ github.event.inputs.formato || (github.event.schedule == '37 1 * * 6' && 'longo') || 'short' }}
     secrets: inherit

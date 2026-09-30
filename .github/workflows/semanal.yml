@@ -2,7 +2,7 @@
 name: semanal
 on:
   schedule:
-    - cron: "0 11 * * 1"
+    - cron: "13 11 * * 1"
   workflow_dispatch:
 permissions:
   contents: write
