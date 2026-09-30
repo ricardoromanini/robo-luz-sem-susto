@@ -1,8 +1,7 @@
 # Toda segunda às 08:00 (Brasília): coleta métricas, ajusta temas/horários e gera o relatório semanal.
 name: semanal
 on:
-  schedule:
-    - cron: "13 11 * * 1"
+  # Os horários ficam no despertador da Cloudflare (despertador-cloudflare/): o agendador do GitHub atrasava horas.
   workflow_dispatch:
 permissions:
   contents: write

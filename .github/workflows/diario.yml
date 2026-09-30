@@ -2,9 +2,7 @@
 # Sexta às 23:30: gera também o vídeo longo de sábado.
 name: diario
 on:
-  schedule:
-    - cron: "7 1 * * *"     # 22:07 BRT (01:07 UTC): minuto "quebrado" e mais cedo, porque o GitHub atrasa horas cheias
-    - cron: "37 1 * * 6"    # 22:37 BRT de sexta (vídeo longo de sábado)
+  # Os horários ficam no despertador da Cloudflare (despertador-cloudflare/): o agendador do GitHub atrasava horas.
   workflow_dispatch:
     inputs:
       formato:

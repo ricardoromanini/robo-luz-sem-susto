@@ -2,8 +2,7 @@
 # (O agendador do GitHub pode atrasar alguns minutos em horários de pico — é normal.)
 name: ciclo
 on:
-  schedule:
-    - cron: "4,24,44 * * * *"
+  # Os horários ficam no despertador da Cloudflare (despertador-cloudflare/): o agendador do GitHub atrasava horas.
   workflow_dispatch:
 permissions:
   contents: write
