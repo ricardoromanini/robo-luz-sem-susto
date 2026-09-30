@@ -127,8 +127,20 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "XEHMPjpwqRw",
+        "url": "https://youtu.be/XEHMPjpwqRw",
+        "privado": false
+      },
+      "facebook": {
+        "id": "1282243061649546",
+        "url": "https://www.facebook.com/reel/1282243061649546"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 1,
+    "publicado_em": null
   },
   {
     "id": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em",
