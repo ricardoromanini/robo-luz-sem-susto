@@ -81,6 +81,24 @@ def _google(texto: str, voz: str, velocidade: float, destino: Path) -> None:
     destino.write_bytes(base64.b64decode(r.json()["audioContent"]))
 
 
+def _azure(texto: str, voz: str, velocidade: float, destino: Path) -> None:
+    """Microsoft Azure Speech (vozes neurais pt-BR; plano grátis F0 = 500 mil caracteres/mês)."""
+    chave, regiao = env("AZURE_SPEECH_KEY"), env("AZURE_SPEECH_REGION") or "brazilsouth"
+    if not chave:
+        raise RuntimeError("AZURE_SPEECH_KEY ausente")
+    from xml.sax.saxutils import escape
+
+    corpo = re.sub(r"\[pause[^\]]*\]", '<break time="300ms"/>', escape(texto))
+    ssml = (f'<speak version="1.0" xml:lang="pt-BR" xmlns="http://www.w3.org/2001/10/synthesis">'
+            f'<voice name="{voz}"><prosody rate="{(velocidade - 1) * 100:+.0f}%">{corpo}</prosody></voice></speak>')
+    r = requests.post(f"https://{regiao}.tts.speech.microsoft.com/cognitiveservices/v1", timeout=120,
+                      headers={"Ocp-Apim-Subscription-Key": chave, "Content-Type": "application/ssml+xml",
+                               "X-Microsoft-OutputFormat": "riff-24khz-16bit-mono-pcm", "User-Agent": "robo-luz-sem-susto"},
+                      data=ssml.encode("utf-8"))
+    r.raise_for_status()
+    destino.write_bytes(r.content)
+
+
 def adicionar_pausas(t: str) -> str:
     """Pausas naturais (ritmo de apresentador): depois de pergunta, nas reticências e antes do número principal."""
     t = re.sub(r"\s*(\.\.\.|…)\s*", " [pause short] ", t)
@@ -104,8 +122,9 @@ def escolher_voz(pagina: Pagina, indice_post: int) -> dict:
     """Combinação de voz do post (rodízio). {"atuada": {voz, estilo} | None, "google": nome Chirp3}."""
     atuadas = pagina.cfg.get("vozes_atuadas") or []
     google = pagina.cfg.get("vozes_google") or ["pt-BR-Chirp3-HD-Charon"]
+    azure = pagina.cfg.get("vozes_azure") or ["pt-BR-AntonioNeural"]
     return {"atuada": atuadas[indice_post % len(atuadas)] if atuadas else None,
-            "google": google[indice_post % len(google)]}
+            "google": google[indice_post % len(google)], "azure": azure[indice_post % len(azure)]}
 
 
 def _preparar(pagina: Pagina, fala: str, com_pausas: bool = True) -> str:
@@ -234,11 +253,13 @@ def sintetizar_cenas(pagina: Pagina, falas: list[str], pasta: Path, combo: dict)
                     txt = _preparar(pagina, fala)
                     if prov == "google":
                         _google(txt, combo["google"], velocidade, dest)
+                    elif prov == "azure":
+                        _azure(txt, combo["azure"], velocidade, dest)
                     else:
                         _piper(txt, velocidade, dest, cfg_voz.get("piper_modelo", ""))
                     arquivos.append(dest)
                     duracoes.append(_duracao_wav(dest))
-                desc = combo["google"] if prov == "google" else "piper"
+                desc = combo.get(prov) or "piper"
             log.info("voz: %s (%d cenas, %.1fs)", desc, len(falas), sum(duracoes))
             return arquivos, duracoes, desc
         except Exception as e:  # noqa: BLE001

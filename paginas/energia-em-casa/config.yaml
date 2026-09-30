@@ -31,7 +31,7 @@ visual:
 midia:
   chance_ilustracao: 1.0     # 100% das cenas com ILUSTRAÇÃO PRÓPRIA gerada por IA (sem texto, estilo da página)
   exigir_ilustracoes: true      # sem cota de ilustrações no dia = adia o vídeo (em vez de publicar só com cartões)
-  vozes_aceitas: [gemini, google]   # Piper (voz robótica) só para testes no PC: sem voz boa, o vídeo é adiado
+  vozes_aceitas: [gemini, azure, google]   # Piper (voz robótica) só para testes no PC: sem voz boa, o vídeo é adiado
   usar_banco_de_imagens: false  # Pexels/Pixabay DESLIGADOS: traziam texto em inglês e cenas fora do assunto
   chance_video: 0.5
   # Cenas de reserva sem nenhum texto (usadas se a ilustração da cena for reprovada pelo fiscal)

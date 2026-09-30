@@ -37,7 +37,7 @@ llm:
 # ---------------------------------------------------------------------------
 voz:
   # gemini = voz "atuada" (Gemini-TTS, com estilo/emoção) · google = Chirp 3 HD · piper = local, grátis
-  provedores: [gemini, google, piper]
+  provedores: [gemini, azure, google, piper]   # azure = Microsoft (vozes neurais pt-BR, grátis até 500 mil caracteres/mês)
   modelo_atuada: "gemini-2.5-flash-preview-tts"
   piper_modelo: "modelos/piper/pt_BR-faber-medium.onnx"
 
