@@ -10,18 +10,22 @@ fuso_horario: "America/Sao_Paulo"
 # propósito: assim um modelo não "confirma" o erro do outro.
 # ---------------------------------------------------------------------------
 llm:
+  # Cloudflare Workers AI primeiro (plano pago de US$ 5 que já usamos para as ilustrações; não depende do Google)
   redator:
+    - {provedor: cloudflare, modelo: "@cf/openai/gpt-oss-120b"}
     - {provedor: gemini, modelo: "gemini-3.5-flash"}
-    - {provedor: gemini, modelo: "gemini-3.8-flash"}
     - {provedor: gemini, modelo: "gemini-flash-latest"}
     - {provedor: groq, modelo: "openai/gpt-oss-120b"}
-    - {provedor: openrouter, modelo: "nvidia/nemotron-3-ultra-550b-a55b:free"}   # NVIDIA: 3ª família, grátis
+    - {provedor: cloudflare, modelo: "@cf/meta/llama-3.3-70b-instruct-fp8-fast"}
+    - {provedor: openrouter, modelo: "nvidia/nemotron-3-ultra-550b-a55b:free"}   # NVIDIA: grátis
     - {provedor: openrouter, modelo: "nvidia/nemotron-3-super-120b-a12b:free"}
     - {provedor: ollama, modelo: "qwen3:14b"}
-  verificador:
+  verificador:   # família diferente da do redator (o verificador nunca é o modelo que escreveu)
+    - {provedor: cloudflare, modelo: "@cf/meta/llama-3.3-70b-instruct-fp8-fast"}
+    - {provedor: cloudflare, modelo: "@cf/mistralai/mistral-small-3.1-24b-instruct"}
     - {provedor: groq, modelo: "openai/gpt-oss-120b"}
-    - {provedor: gemini, modelo: "gemma-4-26b-a4b-it"}   # outra família, cota separada do Gemini
-    - {provedor: openrouter, modelo: "nvidia/nemotron-3-ultra-550b-a55b:free"}   # NVIDIA: 3ª família, grátis
+    - {provedor: gemini, modelo: "gemma-4-26b-a4b-it"}
+    - {provedor: openrouter, modelo: "nvidia/nemotron-3-ultra-550b-a55b:free"}
     - {provedor: openrouter, modelo: "nvidia/nemotron-3-super-120b-a12b:free"}
     - {provedor: gemini, modelo: "gemini-3.5-flash"}
     - {provedor: ollama, modelo: "gemma3:12b"}
@@ -38,7 +42,7 @@ voz:
   piper_modelo: "modelos/piper/pt_BR-faber-medium.onnx"
 
 # Modelos de visão do "fiscal de imagem" (em ordem de tentativa)
-fiscal_imagem: ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-flash-lite-latest", "gemini-3.5-flash"]  # "lite" = cota separada da do roteirista
+fiscal_imagem: ["@cf/meta/llama-4-scout-17b-16e-instruct", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]  # @cf/ = Cloudflare (enxerga imagens)
 
 # ---------------------------------------------------------------------------
 # Legendas: Groq Whisper na nuvem; faster-whisper local de reserva.

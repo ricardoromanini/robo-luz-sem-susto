@@ -1,6 +1,6 @@
 """Acesso às IAs de texto com troca automática de provedor.
 
-Provedores: gemini (Google AI Studio), groq, openrouter, ollama (local).
+Provedores: cloudflare (Workers AI), gemini (Google AI Studio), groq, openrouter, ollama (local).
 Se um provedor falhar (sem chave, cota estourada, erro), tenta o próximo da lista
 definida em config/global.yaml (llm.redator / llm.verificador).
 """
@@ -102,6 +102,12 @@ def _ollama(modelo, sistema, usuario, temperatura, json_saida):
 
 
 def _chamar(provedor, modelo, sistema, usuario, temperatura, json_saida):
+    if provedor == "cloudflare":
+        conta = env("CLOUDFLARE_ACCOUNT_ID")
+        if not conta:
+            raise SemProvedor("CLOUDFLARE_ACCOUNT_ID ausente")
+        return _openai_compat(f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/v1", "CLOUDFLARE_API_TOKEN",
+                              modelo, sistema, usuario, temperatura, json_saida)
     if provedor == "gemini":
         return _gemini(modelo, sistema, usuario, temperatura, json_saida)
     if provedor == "groq":
@@ -150,6 +156,9 @@ def perguntar(papel: str, sistema: str, usuario: str, json_saida: bool = True, t
             except requests.HTTPError as e:
                 cod = e.response.status_code if e.response is not None else 0
                 erros.append(f"{op['provedor']}/{op['modelo']}: HTTP {cod}")
+                if cod in (401, 403):
+                    # chave recusada ou projeto bloqueado (ex.: faturamento do Google vencido): não insiste nesta execução
+                    ESGOTADOS.add(f"{op['provedor']}/{op['modelo']}")
                 if cod == 429 and tentativa == 1:
                     # cota esgotada (2º 429 seguido): pula este modelo pelo resto da execução
                     ESGOTADOS.add(f"{op['provedor']}/{op['modelo']}")

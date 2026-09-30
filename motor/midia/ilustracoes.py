@@ -102,11 +102,36 @@ def fiscal_de_imagem(img: Image.Image) -> tuple[bool, str]:
              "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
     from ..config import carregar_global
 
-    for modelo in (carregar_global().get("fiscal_imagem", ["gemini-3.5-flash"]) if chave else []):
+    dados_img = base64.b64encode(buf.getvalue()).decode()
+    for modelo in carregar_global().get("fiscal_imagem", ["gemini-3.5-flash"]):
+        if modelo.startswith("@cf/"):  # Cloudflare Workers AI (modelo com visão)
+            conta, token = env("CLOUDFLARE_ACCOUNT_ID"), env("CLOUDFLARE_API_TOKEN")
+            if not (conta and token):
+                continue
+            try:
+                r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/v1/chat/completions",
+                                  headers={"Authorization": f"Bearer {token}"}, timeout=90,
+                                  json={"model": modelo, "temperature": 0, "response_format": {"type": "json_object"},
+                                        "messages": [{"role": "user", "content": [
+                                            {"type": "text", "text": pergunta},
+                                            {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{dados_img}"}}]}]})
+                r.raise_for_status()
+                txt = r.json()["choices"][0]["message"]["content"]
+                res = json.loads(txt[txt.find("{"): txt.rfind("}") + 1])
+                return bool(res.get("aprovada")), str(res.get("motivo", ""))
+            except Exception as e:  # noqa: BLE001
+                log.warning("fiscal de imagem (%s) indisponível: %s", modelo, e)
+            continue
+        if not chave:
+            continue
         for tentativa in range(3):
             try:
                 r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent",
                                   headers={"x-goog-api-key": chave}, json=corpo, timeout=90)
+                if r.status_code in (401, 403):
+                    log.warning("fiscal de imagem (%s): acesso negado pelo Google; pulando o Gemini", modelo)
+                    chave = ""
+                    break
                 if r.status_code in (429, 500, 503) and tentativa < 2:
                     time.sleep(15 * (tentativa + 1))
                     continue
