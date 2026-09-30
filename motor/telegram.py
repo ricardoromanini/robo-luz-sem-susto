@@ -70,7 +70,11 @@ def responder_botao(callback_id: str, texto: str) -> None:
     try:
         _chamar("answerCallbackQuery", {"callback_query_id": callback_id, "text": texto[:190]})
     except requests.RequestException:
-        pass  # botão antigo (> 48 h) não aceita resposta; não é erro
+        # botão tocado há mais tempo (ex.: enquanto a geração rodava) não aceita resposta rápida: avisa por mensagem
+        try:
+            enviar_texto(texto)
+        except requests.RequestException:
+            pass
 
 
 def do_dono(update: dict) -> bool:
