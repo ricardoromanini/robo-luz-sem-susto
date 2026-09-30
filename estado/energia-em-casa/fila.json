@@ -87,7 +87,7 @@
   },
   {
     "id": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T07:39:34.755594-03:00",
     "formato": "short",
     "horario_publicacao": "2026-09-30T08:19:14.798697-03:00",
@@ -136,11 +136,15 @@
       "facebook": {
         "id": "1282243061649546",
         "url": "https://www.facebook.com/reel/1282243061649546"
+      },
+      "instagram": {
+        "id": "18083344571695548",
+        "url": "https://www.instagram.com/reel/Dd6PrmDjhK-/"
       }
     },
     "aprovado_por": "dono",
     "tentativas": 2,
-    "publicado_em": null
+    "publicado_em": "2026-09-30T08:38:47.832924-03:00"
   },
   {
     "id": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em",

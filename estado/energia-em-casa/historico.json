@@ -1,0 +1,27 @@
+[
+  {
+    "id": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na",
+    "chave": "taxamin:ELETROPAULO",
+    "categoria": "entenda_conta",
+    "titulo": "Entenda a taxa mínima da conta de luz na Enel São Paulo",
+    "texto_falado": "Sabia que, mesmo consumindo quase nada, sua conta de luz tem um valor mínimo obrigatório? A chamada taxa mínima, ou custo de disponibilidade, garante um consumo mínimo de 30, 50 ou 100 kWh. Esse valor funciona como piso: se seu consumo supera o mínimo, paga‑se só o que realmente usou. A regra é nacional da ANEEL, aplicável a todas as distribuidoras; o preço varia conforme a tarifa local. Na Enel São Paulo, o piso monofásico de 30 kWh custa cerca de R$ 23,68; bifásico R$ 39,47; trifásico R$ 78,94, antes de impostos. Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "08:19",
+    "publicado_em": "2026-09-30T08:38:47.834530-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "XEHMPjpwqRw",
+        "url": "https://youtu.be/XEHMPjpwqRw",
+        "privado": false
+      },
+      "facebook": {
+        "id": "1282243061649546",
+        "url": "https://www.facebook.com/reel/1282243061649546"
+      },
+      "instagram": {
+        "id": "18083344571695548",
+        "url": "https://www.instagram.com/reel/Dd6PrmDjhK-/"
+      }
+    }
+  }
+]
