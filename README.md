@@ -11,7 +11,7 @@ Página 1: **Luz Sem Susto**, sobre conta de luz, energia solar e segurança el�
 ## Como funciona (resumo)
 
 ```
-23:00  ideia (dado oficial ANEEL ou pauta com fonte) ─► roteiro (IA) ─► EQUIPE DE VERIFICAÇÃO (4 membros)
+22:10  ideia (dado oficial ANEEL ou pauta com fonte) ─► roteiro (IA) ─► EQUIPE DE VERIFICAÇÃO (4 membros)
        ─► voz (Google) ─► imagens + gráfico ─► legendas ─► vídeo 9:16 ─► QC técnico ─► prévia no seu Telegram
        [✅ Aprovar] [🔁 Refazer] [🗑 Descartar]
 horário escolhido  ─► publica no YouTube, Instagram e Facebook (APIs oficiais, com rótulo de IA)
@@ -22,7 +22,7 @@ segunda 08:00      ─► métricas ─► ajusta temas e horários sozinho ─�
 Detalhes da verificação: [EQUIPE_DE_VERIFICACAO.md](EQUIPE_DE_VERIFICACAO.md)
 
 ## O seu dia a dia
-- **Toda noite (~23h)** chegam no Telegram as prévias dos vídeos do dia seguinte, com o parecer da equipe. Toque em **Aprovar**. Leva uns 10 segundos.
+- **Toda noite (~22h)** chegam no Telegram as prévias dos vídeos do dia seguinte, com o parecer da equipe. Toque em **Aprovar**. Leva uns 10 segundos.
 - Se não gostar, toque em **Refazer** e, se quiser, escreva o que mudar ("gancho mais forte", "outra distribuidora").
 - **Comandos do bot**: `/status`, `/pausar`, `/retomar`, `/piloto_on`, `/piloto_off`.
 - Depois de 15 aprovações seguidas sem ajuste, o bot sugere ligar o **piloto automático**. Com ele ligado,
@@ -62,7 +62,7 @@ python main.py exemplos --quantidade 3
 ## Na nuvem (GitHub Actions)
 | Agendamento | Horário (Brasília) | O que faz |
 |---|---|---|
-| `diario` | todo dia 23:00 · sexta 23:30 (vídeo longo) | gera os 4 posts do dia seguinte e manda as prévias |
+| `diario` | todo dia ~22:10 · sexta ~22:40 (vídeo longo) | gera os 4 posts do dia seguinte e manda as prévias |
 | `ciclo` | a cada 20 min | lê o Telegram e publica o que está aprovado e chegou a hora |
 | `semanal` | segunda 08:00 | métricas, ajustes e relatório |
 
