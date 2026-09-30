@@ -76,6 +76,8 @@ estilos_voz:
     Narre como um criador de conteúdo brasileiro animado revelando um fato surpreendente: energia alta,
     entonação bem variada, curiosidade na pergunta, empolgação ao revelar o valor.
 # Reserva (se a voz atuada falhar ou a cota acabar): Chirp 3 HD
+# Voz Microsoft Azure escolhida em 30/09/2026 ("voz|estilo"): Caio, animado
+vozes_azure: ["pt-BR-Caio:MAI-Voice-2-Flash|excited"]
 vozes_google: ["pt-BR-Chirp3-HD-Algenib", "pt-BR-Chirp3-HD-Fenrir"]   # escolhidas pelo Ricardo em 29/09/2026
 velocidade_voz: 1.05
 
