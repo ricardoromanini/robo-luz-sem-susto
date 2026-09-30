@@ -37,3 +37,19 @@ def sem_referencia(pagina: Pagina, texto: str) -> bool:
 
 def regra_geral(pagina: Pagina) -> str:
     return (_ler(pagina.id).get("regra_geral") or "").strip()
+
+
+def registrar_pendencias(pagina: Pagina, objetos: list[str]) -> None:
+    """Anota os objetos que o pesquisador pediu para mostrar e que ainda não têm foto de referência no acervo
+    (estado/<pagina>/acervo_pendente.json). O agente rs-pesquisador-visual usa essa lista para completar o acervo."""
+    import json
+
+    faltam = [o for o in objetos or [] if isinstance(o, str) and o.strip() and not casar(pagina, o)]
+    if not faltam:
+        return
+    arq = pagina.pasta_estado / "acervo_pendente.json"
+    atual = json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else {}
+    for o in faltam:
+        chave = o.strip().lower()
+        atual[chave] = atual.get(chave, 0) + 1
+    arq.write_text(json.dumps(atual, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")

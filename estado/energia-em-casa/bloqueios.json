@@ -33,5 +33,12 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🔎 Checador de fatos] “-”: verificador indisponível (Nenhuma IA respondeu: gemini/gemma-4-26b-a4b-it: HTTP 403 | openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: cota esgotada nesta execução | openrouter/nvidia/nemotron-3-super-120b-a12b:free: cota esgotada nesta execução | gemini/gemini-3.5-flash: HTTP 403 | ollama/gemma3:12b: Ollama não está rodando). Correção: tentar de novo mais tarde\n- [⚖️ Revisor jurídico e de políticas] “-”: verificador indisponível (Nenhuma IA respondeu: gemini/gemma-4-26b-a4b-it: HTTP 403 | openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: cota esgotada nesta execução | openrouter/nvidia/nemotron-3-super-120b-a12b:free: cota esgotada nesta execução | gemini/gemini-3.5-flash: HTTP 403 | ollama/gemma3:12b: Ollama não está rodando). Correção: tentar de novo mais tarde\n- [✍️ Revisor de qualidade] “-”: verificador indisponível (Nenhuma IA respondeu: gemini/gemma-4-26b-a4b-it: HTTP 403 | openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: cota esgotada nesta execução | openrouter/nvidia/nemotron-3-super-120b-a12b:free: cota esgotada nesta execução | gemini/gemini-3.5-flash: HTTP 403 | ollama/gemma3:12b: Ollama não está rodando). Correção: tentar de novo mais tarde",
     "em": "2026-09-30T04:47:38.612087"
+  },
+  {
+    "tema": "Vai colocar energia solar? 5 perguntas para fazer antes de assinar",
+    "chave": "pauta:solar-cuidados-contratar",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 6.496/1977”: A Lei 6.496/1977 não foi encontrada nas evidências como uma norma relevante para o contrato de energia solar (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e relevância da Lei 6.496/1977 para o contrato de energia solar",
+    "em": "2026-09-30T07:09:46.833587"
   }
 ]

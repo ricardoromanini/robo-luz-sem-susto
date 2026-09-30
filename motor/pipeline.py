@@ -105,6 +105,9 @@ def escrever_e_verificar(pagina: Pagina, formato: str, excluir: set[str] | None 
             if parecer.get("sugestao_gancho"):
                 obs += f"\n- Sugestão de gancho do revisor: {parecer['sugestao_gancho']}"
         if parecer["decisao"] == "APROVADO":
+            from .midia import acervo
+
+            acervo.registrar_pendencias(pagina, parecer.get("objetos_visuais"))  # o que falta no acervo brasileiro
             return pauta, rot, parecer
         bloqueio = {"tema": pauta["tema"], "chave": pauta["chave"], "decisao": parecer["decisao"],
                     "correcoes": parecer["correcoes"][:1500], "em": datetime.now().isoformat()}

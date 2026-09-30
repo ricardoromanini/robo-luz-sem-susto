@@ -4,7 +4,9 @@ Membros:
   1. Checador de fatos ........ regras fixas (números/ressalvas) + IA verificadora (afirmação por afirmação)
   2. Revisor jurídico/políticas  regras fixas (termos proibidos) + IA verificadora (checklist de leis e das redes)
   3. Revisor de qualidade ..... regras fixas (originalidade) + IA verificadora (gancho, clareza, utilidade)
-  4. Editor-chefe ............. consolida: APROVADO / AJUSTAR (reescreve, até 2 vezes) / BLOQUEADO (veto)
+  4. Pesquisador .............. busca na internet (fontes oficiais + Wikipédia) e confere afirmações, normas e
+                                o PADRÃO BRASILEIRO; aponta contradições com a fonte citada (não veta sozinho)
+  5. Editor-chefe ............. consolida: APROVADO / AJUSTAR (reescreve, até 2 vezes) / BLOQUEADO (veto)
 
 A IA verificadora é de outra família de modelos que a redatora (config/global.yaml),
 para um modelo não "confirmar" o erro do outro. Os checklists ficam em motor/equipe/regras/*.md
@@ -16,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 from .. import llm
+from ..fontes import pesquisa as web
 from ..registro import obter
 from . import regras_fixas as rf
 
@@ -26,6 +29,7 @@ MEMBROS = {
     "fatos": "🔎 Checador de fatos",
     "juridico": "⚖️ Revisor jurídico e de políticas",
     "qualidade": "✍️ Revisor de qualidade",
+    "pesquisa": "🌐 Pesquisador (internet e padrão brasileiro)",
 }
 
 
@@ -76,8 +80,45 @@ def avaliar(pauta: dict, rot: dict, historico: list[dict], texto_publico: str, t
         "fatos": {"ia": ia_fatos, "fixos": fixos_fatos},
         "juridico": {"ia": ia_jur, "fixos": fixos_jur},
         "qualidade": {"ia": ia_qual, "fixos": fixos_qual},
+        "pesquisa": {"ia": pesquisador(pauta, texto_publico), "fixos": []},
     }
     return editor_chefe(membros, ultima_rodada)
+
+
+def pesquisador(pauta: dict, texto_publico: str) -> dict:
+    """4º membro: pesquisa o tema na internet e confere o texto com o que encontrou. É um reforço: se a internet
+    ou a IA falharem, ele só registra que não conferiu (quem barra por falta de verificação são os outros)."""
+    try:
+        normas = web.normas_citadas(texto_publico + " " + " ".join(f["texto"] + " " + f["fonte"] for f in pauta["fatos"]))
+        consultas = list(pauta.get("pesquisa") or [])  # termos de busca definidos na pauta (opcional)
+        if not consultas:
+            r = llm.perguntar("verificador", "Responda SOMENTE JSON {\"consultas\": [\"...\"]} com 3 termos de busca CURTOS "
+                              "(2 a 4 palavras, em português, como títulos de enciclopédia) para conferir o texto.",
+                              f"TEMA: {pauta['tema']}\n\nTEXTO:\n{texto_publico[:1500]}")
+            consultas = [str(c) for c in (r.get("consultas") or [])][:3] if isinstance(r, dict) else []
+        evidencias = web.pesquisar(consultas + normas[:2])
+        if not evidencias:
+            return {"veredito": "APROVAR", "problemas": [], "nota": "-", "sem_evidencia": True, "referencias": []}
+        bloco = "\n\n".join(f"[{i}] {e['titulo']} — {e['url']}\n{e['trecho']}" for i, e in enumerate(evidencias))
+        ia = _ia("pesquisa", "pesquisador", f"EVIDÊNCIAS:\n{bloco}\n\nNORMAS CITADAS: {', '.join(normas) or 'nenhuma'}"
+                                             f"\n\nTEXTO DO POST:\n{texto_publico}")
+        if ia.get("indisponivel"):
+            return {"veredito": "APROVAR", "problemas": [], "nota": "-", "sem_evidencia": True, "referencias": []}
+        # só vale o apontamento que cita a evidência (ou que é de norma/padrão brasileiro)
+        validos = []
+        for p in ia["problemas"]:
+            classe = str(p.get("classificacao", "")).lower()
+            if classe == "contradiz_fonte" and not str(p.get("fonte_url", "")).startswith("http"):
+                continue
+            if classe in ("contradiz_fonte", "norma_errada", "fora_do_padrao_brasileiro"):
+                validos.append(p)
+        ia["problemas"] = validos
+        ia["veredito"] = "AJUSTAR" if validos else "APROVAR"
+        ia["referencias"] = [{"titulo": e["titulo"], "url": e["url"]} for e in evidencias]
+        return ia
+    except Exception as e:  # noqa: BLE001
+        log.warning("pesquisador indisponível: %s", e)
+        return {"veredito": "APROVAR", "problemas": [], "nota": "-", "sem_evidencia": True, "referencias": []}
 
 
 def _nota(ia: dict) -> float:
@@ -94,7 +135,7 @@ def _relevantes(chave: str, ia: dict) -> list[dict]:
         return [p for p in probs if str(p.get("classificacao", "sem_fonte")).lower() in ("sem_fonte", "distorcida", "falsa")]
     if chave == "juridico":
         return [p for p in probs if str(p.get("gravidade", "media")).lower() in ("alta", "media", "média")]
-    return probs
+    return probs  # pesquisa: já vem filtrada (só contradição com fonte citada, norma errada ou fora do padrão brasileiro)
 
 
 def editor_chefe(membros: dict, ultima_rodada: bool = False) -> dict:
@@ -131,13 +172,17 @@ def editor_chefe(membros: dict, ultima_rodada: bool = False) -> dict:
         obrigatorios = fixos + (relevantes if chave != "qualidade" else (ia.get("problemas", []) if v == "AJUSTAR" else []))
         for p in obrigatorios:
             motivo = p.get("motivo") or p.get("regra") or p.get("classificacao") or ""
-            correcoes.append(f"- [{MEMBROS[chave]}] “{p.get('trecho', '')}”: {motivo}. Correção: {p.get('correcao', '')}")
+            fonte = f" (fonte: {p['fonte_url']})" if p.get("fonte_url") else ""
+            correcoes.append(f"- [{MEMBROS[chave]}] “{p.get('trecho', '')}”: {motivo}{fonte}. Correção: {p.get('correcao', '')}")
         for p in ia.get("problemas", []):
             if p not in obrigatorios:
                 observacoes.append(f"- [{MEMBROS[chave]}] {p.get('motivo') or p.get('regra') or ''}")
         icone = {"APROVAR": "✅", "AJUSTAR": "✏️", "BLOQUEAR": "⛔"}[v]
         linhas.append(f"{icone} {MEMBROS[chave]}: {v} (nota {ia.get('nota', '-')}, {len(obrigatorios)} obrigatório(s), "
                       f"{len(ia.get('problemas', [])) + len(fixos) - len(obrigatorios)} observação(ões))")
+        if chave == "pesquisa":
+            refs = ia.get("referencias") or []
+            linhas[-1] += (f" · {len(refs)} fonte(s) consultada(s)" if refs else " · sem fontes na internet desta vez")
     return {
         "decisao": decisao,
         "resumo": "\n".join(linhas) + f"\n👔 Editor-chefe: {decisao}",
@@ -146,5 +191,7 @@ def editor_chefe(membros: dict, ultima_rodada: bool = False) -> dict:
         "rotulo_ia": bool(membros["juridico"]["ia"].get("precisa_rotulo_ia", True)),
         "alertas_dossie": membros["fatos"]["ia"].get("alertas_dossie", []) or [],
         "sugestao_gancho": membros["qualidade"]["ia"].get("sugestao_gancho", ""),
+        "referencias": membros.get("pesquisa", {}).get("ia", {}).get("referencias", []),
+        "objetos_visuais": membros.get("pesquisa", {}).get("ia", {}).get("objetos_visuais", []),
         "membros": membros,
     }

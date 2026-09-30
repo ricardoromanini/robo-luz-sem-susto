@@ -62,3 +62,24 @@ Abra o Claude Code na pasta `C:\projetos\redes-sociais` e peça, por exemplo:
 | Regras fixas (termos proibidos, ressalvas, tamanho, originalidade) | `motor/equipe/regras_fixas.py` |
 | Critério do editor-chefe | `motor/equipe/__init__.py` → `editor_chefe` |
 | Base de fatos das pautas | `paginas/<pagina>/pautas.yaml` |
+
+## Pesquisador (internet) e padrão brasileiro — desde 30/09/2026
+
+**Pesquisador** (4º membro da equipe automática, `motor/equipe/regras/pesquisador.md`):
+antes de aprovar um roteiro, ele busca o tema e as normas citadas na internet (Wikipédia em português e,
+se houver chave `TAVILY_API_KEY`, sites oficiais como gov.br, ANEEL, Inmetro, Procel, ABNT) e compara com o texto.
+Ele manda reescrever quando:
+- uma fonte encontrada diz **claramente outra coisa** (ele cita a fonte e o endereço);
+- a **norma ou lei citada está errada** (ex.: NBR 5410 no lugar da NBR 14136);
+- o exemplo, a unidade ou o objeto **não é do Brasil** (tomada americana, "110 V padrão dos EUA", dólar).
+
+Ele também lista os objetos que o vídeo precisa mostrar no padrão brasileiro.
+
+**Acervo visual brasileiro** (`paginas/<pagina>/acervo/`): fotos reais, de licença livre e com crédito, dos
+objetos que a IA de imagem desenha no padrão errado (tomada NBR 14136, plugue de 3 pinos, chuveiro elétrico…).
+Quando a cena fala de um desses objetos, a IA recebe a foto e desenha a cena no estilo da página com o objeto
+igual ao real. O **fiscal de imagem** confere o padrão (ex.: reprova tomada de fendas retas).
+Objeto sem referência ainda (quadro de disjuntores, poste…) vira uma cena segura: melhor não mostrar do que
+mostrar errado. O que falta fica anotado em `estado/<pagina>/acervo_pendente.json`.
+
+Para ampliar o acervo: peça ao Claude *"rodar o rs-pesquisador-visual"*.
