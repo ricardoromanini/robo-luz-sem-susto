@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import json
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -79,17 +80,24 @@ def _comando(texto: str, tg: dict) -> None:
         telegram.enviar_texto("📝 Anotado. Vou refazer com essa orientação.")
 
 
-def _botao(cb: dict, tg: dict) -> None:
+def _botao(cb: dict, tg: dict, pendente: bool = False) -> bool:
+    """Trata um botão. Devolve False se o post ainda não foi salvo (a geração da noite ainda está rodando)."""
+    responder = (lambda _id, txt: telegram.enviar_texto(txt)) if pendente else telegram.responder_botao
     try:
         acao, pid, post = cb["data"].split("|", 2)
         p = carregar_pagina(pid)
     except (ValueError, FileNotFoundError):
-        telegram.responder_botao(cb["id"], "Botão inválido.")
-        return
+        responder(cb["id"], "Botão inválido.")
+        return True
     item = next((i for i in estado.fila(p) if i["id"].startswith(post)), None)
-    if not item or item["status"] not in ("aguardando_aprovacao",):
-        telegram.responder_botao(cb["id"], f"Este post já está: {item['status'] if item else 'não encontrado'}.")
-        return
+    if not item:
+        if not pendente:
+            telegram.responder_botao(cb["id"], "⏳ Recebido! O robô ainda está terminando os outros posts; "
+                                               "registro este botão assim que ele salvar tudo.")
+        return False
+    if item["status"] not in ("aguardando_aprovacao",):
+        responder(cb["id"], f"Este post já está: {item['status']}.")
+        return True
     ctl = pipeline.controle(p)
     if acao == "ap":
         novo_horario = item["horario_publicacao"]
@@ -97,7 +105,7 @@ def _botao(cb: dict, tg: dict) -> None:
             novo_horario = pipeline.proximo_horario(p, item["formato"])
         estado.atualizar_item(p, item["id"], status="aprovado", horario_publicacao=novo_horario, aprovado_por="dono")
         ctl["aprovacoes_seguidas"] += 1
-        telegram.responder_botao(cb["id"], f"✅ Aprovado! Sai em {novo_horario[8:10]}/{novo_horario[5:7]} às {novo_horario[11:16]}.")
+        responder(cb["id"], f"✅ Aprovado! Sai em {novo_horario[8:10]}/{novo_horario[5:7]} às {novo_horario[11:16]}.")
         lim = int(p.cfg.get("aprovacao", {}).get("sugerir_piloto_apos", 15))
         if not ctl["piloto"] and ctl["aprovacoes_seguidas"] == lim:
             telegram.enviar_texto(f"🎉 {lim} aprovações seguidas sem ajuste. Se quiser, mande /piloto_on para o robô publicar "
@@ -106,26 +114,39 @@ def _botao(cb: dict, tg: dict) -> None:
         estado.atualizar_item(p, item["id"], status="refazer", refazer_desde=p.agora().isoformat())
         ctl["aprovacoes_seguidas"] = 0
         tg["aguardando_obs"] = [p.id, item["id"]]
-        telegram.responder_botao(cb["id"], "🔁 Vou refazer.")
+        responder(cb["id"], "🔁 Vou refazer.")
         telegram.enviar_texto("🔁 Vou refazer este post. Se quiser, responda com o que mudar (ex.: \"gancho mais forte\", "
                               "\"fale de outra distribuidora\"). Sem resposta em 20 min, refaço com outro ângulo.")
     elif acao == "dc":
         estado.atualizar_item(p, item["id"], status="descartado")
         armazenamento.apagar(item["video"])
         ctl["aprovacoes_seguidas"] = 0
-        telegram.responder_botao(cb["id"], "🗑 Descartado.")
+        responder(cb["id"], "🗑 Descartado.")
     estado.gravar(p, "controle", ctl)
+    return True
 
 
 def processar_telegram() -> None:
     tg = _tg_estado()
+    # botões tocados enquanto a geração ainda rodava: tenta de novo (desiste depois de 24 h)
+    ainda = []
+    for cb in tg.pop("pendentes", []):
+        try:
+            if not _botao(cb, tg, pendente=True) and time.time() - cb["em"] < 86400:
+                ainda.append(cb)
+        except Exception as e:  # noqa: BLE001
+            alertar_erro("processando botão pendente do Telegram", e)
+    if ainda:
+        tg["pendentes"] = ainda
     for up in telegram.ler_atualizacoes(tg.get("offset", 0)):
         tg["offset"] = up["update_id"] + 1
         if not telegram.do_dono(up):
             continue
         try:
             if "callback_query" in up:
-                _botao(up["callback_query"], tg)
+                cb = up["callback_query"]
+                if not _botao(cb, tg):
+                    tg.setdefault("pendentes", []).append({"data": cb["data"], "id": cb["id"], "em": time.time()})
             elif up.get("message", {}).get("text"):
                 _comando(up["message"]["text"], tg)
         except Exception as e:  # noqa: BLE001
