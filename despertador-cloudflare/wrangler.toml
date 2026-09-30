@@ -1,0 +1,12 @@
+name = "despertador-luz-sem-susto"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+account_id = "e5a474f214e0f1df6ff8f981149ce43f"
+workers_dev = true
+
+[triggers]
+# horários em UTC (Brasília = UTC-3). Devem ser os mesmos da AGENDA em src/index.js
+crons = ["4,24,44 * * * *", "7 1 * * *", "37 1 * * SAT", "13 11 * * MON"]
+
+[observability]
+enabled = true
