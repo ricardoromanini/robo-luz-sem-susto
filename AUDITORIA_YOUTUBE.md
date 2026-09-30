@@ -1,5 +1,9 @@
 # Pedido de auditoria da API do YouTube (para os vídeos saírem públicos)
 
+> **30/09/2026 — NÃO FOI NECESSÁRIO.** O primeiro vídeo enviado pelo robô (youtu.be/XEHMPjpwqRw) saiu **público**
+> sem auditoria. Este documento fica guardado só para o caso de o YouTube passar a travar os vídeos como
+> privados (o robô avisa no Telegram se isso acontecer).
+
 Enquanto o Google não aprovar, os vídeos enviados pelo robô ficam **privados**. O robô avisa no
 Telegram, e você muda para "Público" no YouTube Studio com 1 toque.
 
