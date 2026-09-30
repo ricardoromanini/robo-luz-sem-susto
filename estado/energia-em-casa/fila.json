@@ -406,5 +406,135 @@
     },
     "publicacoes": {},
     "aprovado_por": "dono"
+  },
+  {
+    "id": "20260930-112241-5-sinais-de-sobrecarga-na-instalacao-ele",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-09-30T11:22:41.328315-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-09-30T18:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:sinais-sobrecarga",
+    "partes": [],
+    "titulo": "5 sinais de sobrecarga na instalação elétrica da sua casa",
+    "texto_falado": "Sua conta de luz está alta e os disjuntores desarmam? Pode ser sobrecarga elétrica. Disjuntor que desarma frequentemente, tomadas esquentando, cheiro de queimado, lâmpadas piscam, fios escurecidos são alertas, segundo NBR 5410. Esses sinais surgem quando muitos aparelhos de alta potência dividem a mesma tomada ou usam adaptador em T. Um benjamim ou régua com chuveiro, micro‑ondas e ar‑condicionado pode exceder a capacidade do circuito. Desligue o disjuntor imediatamente ao notar qualquer sinal e peça ajuda a eletricista habilitado. Evite conectar vários aparelhos potentes na mesma tomada; distribua a carga em circuitos diferentes. Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "⚡️ Disjuntor desarma, tomada quente, cheiro de queimado, lâmpadas piscando ou fios escurecidos indicam sobrecarga.\n⚙️ Evite usar adaptadores em T ou réguas com vários aparelhos de alta potência na mesma tomada.\n🔧 Ao notar qualquer sinal, desligue o circuito e chame um eletricista habilitado imediatamente.\n📚 Fonte: boas práticas de segurança elétrica (NBR 5410 / Abracopel).\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #sobrecarga #dicasdeenergia #contadeluz #energia #energiasolar #economia",
+      "youtube": "⚡️ Disjuntor desarma, tomada quente, cheiro de queimado, lâmpadas piscando ou fios escurecidos indicam sobrecarga.\n⚙️ Evite usar adaptadores em T ou réguas com vários aparelhos de alta potência na mesma tomada.\n🔧 Ao notar qualquer sinal, desligue o circuito e chame um eletricista habilitado imediatamente.\n📚 Fonte: boas práticas de segurança elétrica (NBR 5410 / Abracopel).\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #sobrecarga #dicasdeenergia #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 601115943,
+      "nome": "20260930-112241-5-sinais-de-sobrecarga-na-instalacao-ele.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 55.5,
+        "lufs": -15.76,
+        "fala_confere": 0.99
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20260930-112911-taxa-minima-da-neoenergia-pernambuco-o-q",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-09-30T11:29:11.874518-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-02T12:00:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:Neoenergia PE",
+    "partes": [],
+    "titulo": "Taxa mínima da Neoenergia Pernambuco: o que você paga mesmo consumindo pouco",
+    "texto_falado": "Você sabia que paga uma taxa mínima na conta de luz, mesmo sem consumir? Na Neoenergia Pernambuco, o piso de 30 kWh custa R$ 23,97 por mês, segundo a ANEEL. Esse valor é um piso, não uma taxa extra; consome acima, paga só o que usar, confirma ANEEL. Para ligação bifásica, o piso é 50 kWh custando R$ 39,95; trifásica, 100 kWh por R$ 79,89, conforme ANEEL. Valores são tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; sua tarifa pode variar. Verifique na conta se o consumo está abaixo do piso; se estiver, avalie tarifa social ou reduzir carga. Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, a conta de luz tem um piso de consumo que gera um valor mínimo. Na Neoenergia Pernambuco, 30 kWh custam cerca de R$ 23,97; 50 kWh, R$ 39,95; 100 kWh, R$ 79,89. Esses valores são tarifa residencial convencional, sem impostos e sem bandeira, podendo variar conforme sua tarifa. Verifique seu consumo e avalie opções como tarifa social. Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#taxaminima #contadeluz #energia #neoenergia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, a conta de luz tem um piso de consumo que gera um valor mínimo. Na Neoenergia Pernambuco, 30 kWh custam cerca de R$ 23,97; 50 kWh, R$ 39,95; 100 kWh, R$ 79,89. Esses valores são tarifa residencial convencional, sem impostos e sem bandeira, podendo variar conforme sua tarifa. Verifique seu consumo e avalie opções como tarifa social. Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#taxaminima #contadeluz #energia #neoenergia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 601128893,
+      "nome": "20260930-112911-taxa-minima-da-neoenergia-pernambuco-o-q.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": false,
+      "problemas": [
+        "duração 59s fora do limite (25–58s)"
+      ],
+      "info": {
+        "duracao_s": 59.4,
+        "lufs": -16.08,
+        "fala_confere": 0.87
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20260930-113539-taxa-minima-da-conta-de-luz-na-edp-sao-p",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-09-30T11:35:39.294129-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-02T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EDP SP",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz na EDP São Paulo: quanto paga sem consumo",
+    "texto_falado": "Você sabia que pode pagar R$ 23,60 por mês, mesmo sem usar energia? Na EDP São Paulo, a taxa mínima cobre 30 kWh para clientes monofásicos. Fonte ANEEL. Esse consumo mínimo representa cerca de R$ 23,60 de tarifa, já sem impostos nem bandeira. Para ligações bifásicas o piso é 50 kWh, equivalendo a R$ 39,34; trifásico, 100 kWh, R$ 78,67. Valores são para tarifa residencial convencional, sem ICMS, PIS/Cofins e sem bandeira; sua tarifa pode variar. Verifique sua fatura; se o consumo ficar abaixo do piso, a conta não ficará zero. Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "A taxa mínima garante um consumo mínimo cobrado nas contas de luz.\nNa EDP São Paulo, o valor para monofásico é cerca de R$ 23,60.\nEsses valores são para tarifa residencial convencional, sem impostos nem bandeira.\nFonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contaluz #edpsp #energia #casa #contadeluz #energiasolar #economia",
+      "youtube": "A taxa mínima garante um consumo mínimo cobrado nas contas de luz.\nNa EDP São Paulo, o valor para monofásico é cerca de R$ 23,60.\nEsses valores são para tarifa residencial convencional, sem impostos nem bandeira.\nFonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contaluz #edpsp #energia #casa #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 601137684,
+      "nome": "20260930-113539-taxa-minima-da-conta-de-luz-na-edp-sao-p.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": false,
+      "problemas": [
+        "duração 61s fora do limite (25–58s)"
+      ],
+      "info": {
+        "duracao_s": 60.6,
+        "lufs": -16.26,
+        "fala_confere": 0.87
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
