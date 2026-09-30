@@ -29,6 +29,7 @@ from motor.config import RAIZ, carregar_env, carregar_pagina, env, listar_pagina
 carregar_env()
 
 from motor import ciclo, estado, pipeline, relatorio  # noqa: E402
+from motor.midia import voz  # noqa: E402
 from motor.registro import alertar_erro, obter  # noqa: E402
 
 log = obter("main")
@@ -52,6 +53,11 @@ def cmd_gerar(args) -> None:
             except pipeline.CotaImagensEsgotada as e:
                 from motor import telegram
                 telegram.enviar_texto(f"🖼️ {p.nome}: {e}. Tento de novo na próxima rodada.")
+                break
+            except voz.VozIndisponivel as e:
+                from motor import telegram
+                telegram.enviar_texto(f"🎙️ {p.nome}: vídeo adiado — {e}. Não publico com voz robótica; "
+                                      "tento de novo na próxima rodada.")
                 break
             except Exception as e:  # noqa: BLE001
                 alertar_erro(f"gerando post ({args.formato}) de {p.nome}", e)

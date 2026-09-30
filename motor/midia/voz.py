@@ -208,12 +208,19 @@ def _atuada(pagina: Pagina, falas: list[str], pasta: Path, combo: dict) -> tuple
     return arquivos, duracoes
 
 
+class VozIndisponivel(RuntimeError):
+    """Nenhuma voz de qualidade aceitável respondeu: o vídeo é adiado em vez de sair com voz robótica."""
+
+
 def sintetizar_cenas(pagina: Pagina, falas: list[str], pasta: Path, combo: dict) -> tuple[list[Path], list[float], str]:
     """Gera um .wav por cena. Retorna (arquivos, durações, descrição da voz usada)."""
     cfg_voz = pagina.glob.get("voz", {})
     velocidade = float(pagina.cfg.get("velocidade_voz", 1.0))
     ultimo_erro = None
+    aceitas = pagina.cfg.get("midia", {}).get("vozes_aceitas")  # ex.: [gemini, google] = nunca publicar com Piper
     for prov in cfg_voz.get("provedores", ["gemini", "google", "piper"]):
+        if aceitas and prov not in aceitas:
+            continue
         try:
             if prov == "gemini":
                 if not combo.get("atuada"):
@@ -237,4 +244,4 @@ def sintetizar_cenas(pagina: Pagina, falas: list[str], pasta: Path, combo: dict)
         except Exception as e:  # noqa: BLE001
             ultimo_erro = e
             log.warning("voz %s falhou: %s", prov, e)
-    raise RuntimeError(f"nenhum provedor de voz funcionou: {ultimo_erro}")
+    raise VozIndisponivel(f"nenhuma voz aceita respondeu ({ultimo_erro})")
