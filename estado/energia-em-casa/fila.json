@@ -165,7 +165,7 @@
   },
   {
     "id": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T07:42:44.640401-03:00",
     "formato": "short",
     "horario_publicacao": "2026-09-30T20:30:00-03:00",
@@ -203,8 +203,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "8wc4QORkXwg",
+        "url": "https://youtu.be/8wc4QORkXwg",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18177808969435051",
+        "url": "https://www.instagram.com/reel/Dd7i5dHjS-w/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691478225960241173",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "4549350005339622",
+        "url": "https://www.facebook.com/reel/4549350005339622"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-09-30T20:46:41.630346-03:00"
   },
   {
     "id": "20260930-074602-tarifas-residenciais-as-mais-caras-e-as-",

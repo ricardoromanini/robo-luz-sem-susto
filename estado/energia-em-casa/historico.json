@@ -48,5 +48,35 @@
         "url": "https://www.instagram.com/reel/Dd6rMHJjLXQ/"
       }
     }
+  },
+  {
+    "id": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em",
+    "chave": "pauta:dr-areas-molhadas",
+    "categoria": "seguranca",
+    "titulo": "DR: proteção contra choque obrigatória em banheiro e cozinha",
+    "texto_falado": "Você sabia que o disjuntor só protege os fios, não você? O DR cuida da sua segurança. O DR (dispositivo diferencial-residual) desliga o circuito ao detectar fuga de corrente, como em choque elétrico. A norma NBR 5410 exige DR de alta sensibilidade, até 30 mA, em banheiros, cozinhas e áreas externas. O disjuntor comum protege fios contra sobrecarga e curto, mas não impede choques; essa função é do DR. Todo DR tem botão de teste; pressione e ele deve desligar, confirmando que está operando corretamente. Instalações ou substituições de DR devem ser feitas por eletricista habilitado, garantindo segurança e conformidade. Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-09-30T20:46:41.632020-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "8wc4QORkXwg",
+        "url": "https://youtu.be/8wc4QORkXwg",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18177808969435051",
+        "url": "https://www.instagram.com/reel/Dd7i5dHjS-w/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691478225960241173",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "4549350005339622",
+        "url": "https://www.facebook.com/reel/4549350005339622"
+      }
+    }
   }
 ]
