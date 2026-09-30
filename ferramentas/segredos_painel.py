@@ -26,6 +26,11 @@ def ler_env() -> dict:
 
 def main() -> None:
     env = ler_env()
+    for gerada in ("TG_WEBHOOK_SECRET",):
+        if not env.get(gerada):
+            env[gerada] = secrets.token_urlsafe(32)
+            ENV.write_text(ENV.read_text(encoding="utf-8-sig").rstrip("\n") + f"\n{gerada}={env[gerada]}\n", encoding="utf-8")
+            print(f"Criada a {gerada} no .env")
     if not env.get("TIKTOK_LINK_SECRET"):
         env["TIKTOK_LINK_SECRET"] = secrets.token_urlsafe(32)
         texto = ENV.read_text(encoding="utf-8-sig")
@@ -35,7 +40,8 @@ def main() -> None:
         print("Criada a TIKTOK_LINK_SECRET no .env")
     npx = shutil.which("npx") or shutil.which("npx.cmd") or "npx"
     for nome_worker, nome_env in (("TIKTOK_CLIENT_KEY", "TIKTOK_CLIENT_KEY"), ("TIKTOK_CLIENT_SECRET", "TIKTOK_CLIENT_SECRET"),
-                                  ("LINK_SECRET", "TIKTOK_LINK_SECRET")):
+                                  ("LINK_SECRET", "TIKTOK_LINK_SECRET"), ("TELEGRAM_BOT_TOKEN", "TELEGRAM_BOT_TOKEN"),
+                                  ("TELEGRAM_CHAT_ID", "TELEGRAM_CHAT_ID"), ("TG_WEBHOOK_SECRET", "TG_WEBHOOK_SECRET")):
         valor = env.get(nome_env, "")
         if not valor:
             print(f"❌ {nome_env} vazio no .env")

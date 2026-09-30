@@ -59,11 +59,32 @@ def botoes_aprovacao(pagina_id: str, post_id: str) -> list[list[dict]]:
     ]]
 
 
+def _painel_url(rota: str) -> str:
+    from .publicar import tiktok
+
+    return tiktok.link_painel("telegram", dias=1, rota=rota)
+
+
+def via_painel() -> bool:
+    """Com o webhook ligado, o Telegram entrega cada clique na hora ao painel (Cloudflare), que guarda até o robô ler."""
+    return bool(env("TELEGRAM_VIA_PAINEL") and env("TIKTOK_LINK_SECRET"))
+
+
 def ler_atualizacoes(offset: int) -> list[dict]:
     if not _ativo():
         return []
+    if via_painel():
+        r = requests.get(_painel_url("api/telegram"), timeout=60)
+        r.raise_for_status()
+        return r.json().get("updates", [])
     r = _chamar("getUpdates", {"offset": offset, "timeout": 0, "allowed_updates": json.dumps(["message", "callback_query"])})
     return r.get("result", [])
+
+
+def confirmar_lidas(ids: list[int]) -> None:
+    """No modo painel, apaga do painel os cliques já processados."""
+    if via_painel() and ids:
+        requests.post(_painel_url("api/telegram"), json={"processados": ids}, timeout=60).raise_for_status()
 
 
 def responder_botao(callback_id: str, texto: str) -> None:

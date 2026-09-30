@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-SO_LOCAIS = {"OLLAMA_URL", "WHISPER_MODELO", "LLM_FORCAR", "META_APP_ID", "META_APP_SECRET"}  # não vão para a nuvem
+SO_LOCAIS = {"OLLAMA_URL", "WHISPER_MODELO", "LLM_FORCAR", "META_APP_ID", "META_APP_SECRET", "TG_WEBHOOK_SECRET"}  # não vão para a nuvem
 
 
 def main() -> None:

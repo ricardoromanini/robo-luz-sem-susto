@@ -158,6 +158,32 @@ export default {
         return paginaSimples("Luz Sem Susto — painel de publicação",
           `Ferramenta interna do dono da página <a href="${env.SITE}">Luz Sem Susto</a> para publicar no TikTok os vídeos já aprovados. <p class="sub">Internal publishing tool for the Luz Sem Susto page owner.</p>`);
       }
+      // Telegram → cada clique/mensagem chega aqui NA HORA (webhook); guardamos para o robô processar no ciclo
+      if (url.pathname === "/telegram/webhook" && req.method === "POST") {
+        if (req.headers.get("X-Telegram-Bot-Api-Secret-Token") !== env.TG_WEBHOOK_SECRET) return new Response("", { status: 403 });
+        const up = await req.json();
+        const chat = String(up.callback_query?.message?.chat?.id ?? up.message?.chat?.id ?? "");
+        if (chat !== String(env.TELEGRAM_CHAT_ID)) return new Response("ok");  // só o dono
+        await env.KV.put(`tg:upd:${String(up.update_id).padStart(12, "0")}`, JSON.stringify(up), { expirationTtl: 7 * 86400 });
+        if (up.callback_query) {
+          await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/answerCallbackQuery`, {
+            method: "POST", headers: { "content-type": "application/json" },
+            body: JSON.stringify({ callback_query_id: up.callback_query.id, text: "✅ Recebido! O robô registra em até 20 minutos." }) });
+        }
+        return new Response("ok");
+      }
+      // o robô busca os cliques guardados (link assinado com post="telegram") e confirma os que processou
+      if (url.pathname === "/api/telegram") {
+        if (!(await linkValido(env, "telegram", q.exp, q.sig))) return json({ erro: "link inválido" }, 403);
+        if (req.method === "POST") {
+          const b = await req.json().catch(() => ({}));
+          await Promise.all((b.processados || []).map((id) => env.KV.delete(`tg:upd:${String(id).padStart(12, "0")}`)));
+          return json({ ok: true });
+        }
+        const lista = await env.KV.list({ prefix: "tg:upd:" });
+        const ups = await Promise.all(lista.keys.map((k) => env.KV.get(k.name, "json")));
+        return json({ updates: ups.filter(Boolean).sort((a, b) => a.update_id - b.update_id) });
+      }
       if (url.pathname.startsWith("/tiktok") && url.pathname.endsWith(".txt")) {
         const txt = await env.KV.get("verificacao:" + url.pathname.slice(1));
         return txt ? new Response(txt, { headers: { "content-type": "text/plain" } }) : new Response("não encontrado", { status: 404 });

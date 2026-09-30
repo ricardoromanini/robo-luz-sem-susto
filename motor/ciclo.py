@@ -138,8 +138,18 @@ def processar_telegram() -> None:
             alertar_erro("processando botão pendente do Telegram", e)
     if ainda:
         tg["pendentes"] = ainda
+    # modo painel: só apaga do painel o que já foi processado E salvo no estado (execução anterior)
+    try:
+        telegram.confirmar_lidas(tg.pop("confirmar", []))
+    except Exception as e:  # noqa: BLE001 — tenta de novo no próximo ciclo
+        log.warning("não consegui confirmar os cliques no painel: %s", e)
     for up in telegram.ler_atualizacoes(tg.get("offset", 0)):
+        if up["update_id"] < tg.get("offset", 0):
+            tg.setdefault("confirmar", []).append(up["update_id"])  # já processado antes: só falta apagar do painel
+            continue
         tg["offset"] = up["update_id"] + 1
+        if telegram.via_painel():
+            tg.setdefault("confirmar", []).append(up["update_id"])
         if not telegram.do_dono(up):
             continue
         try:
