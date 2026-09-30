@@ -40,10 +40,11 @@ def publicar_instagram(pagina: Pagina, video: Path, legenda: str) -> dict:
                                                "share_to_feed": "true", "access_token": tok}, timeout=60)
     _erro(r)
     cont = r.json()["id"]
-    tam = video.stat().st_size
-    with open(video, "rb") as f:
-        up = requests.post(f"https://rupload.facebook.com/ig-api-upload/{_v()}/{cont}",
-                           headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(tam)}, data=f, timeout=1800)
+    # usa o endereço de envio que a própria Meta devolve (a versão dele pode ser mais nova que a configurada)
+    destino = r.json().get("uri") or f"https://rupload.facebook.com/ig-api-upload/{_v()}/{cont}"
+    dados = video.read_bytes()
+    up = requests.post(destino, headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(len(dados))},
+                       data=dados, timeout=1800)
     # A Meta às vezes responde 400 "ProcessingFailedError" aqui e MESMO ASSIM processa o vídeo (visto em 30/09/2026).
     # Por isso quem decide é o status do contêiner, consultado logo abaixo — não a resposta do envio.
     erro_envio = f"Meta API {up.status_code}: {up.text[:300]}" if up.status_code >= 400 else ""
