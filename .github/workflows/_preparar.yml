@@ -11,6 +11,9 @@ on:
       GROQ_API_KEY: {required: false}
       OPENROUTER_API_KEY: {required: false}
       TAVILY_API_KEY: {required: false}
+      TIKTOK_CLIENT_KEY: {required: false}
+      TIKTOK_CLIENT_SECRET: {required: false}
+      TIKTOK_REFRESH_TOKEN_ENERGIA_EM_CASA: {required: false}
       GOOGLE_TTS_API_KEY: {required: false}
       AZURE_SPEECH_KEY: {required: false}
       AZURE_SPEECH_REGION: {required: false}
@@ -42,6 +45,9 @@ jobs:
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+      TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+      TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+      TIKTOK_REFRESH_TOKEN_ENERGIA_EM_CASA: ${{ secrets.TIKTOK_REFRESH_TOKEN_ENERGIA_EM_CASA }}
       GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
       AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
       AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}

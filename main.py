@@ -262,6 +262,24 @@ def cmd_telegram_id(args) -> None:
     _gravar_env("TELEGRAM_CHAT_ID", cid)
 
 
+def cmd_token_tiktok(args) -> None:
+    """Autoriza o robô a publicar na conta TikTok da página (abre o navegador; você cola o código de volta aqui)."""
+    import secrets
+
+    from motor.publicar import tiktok
+
+    url = tiktok.url_autorizacao(secrets.token_urlsafe(12))
+    print("Abrindo o navegador para autorizar o TikTok...\n" + url, flush=True)
+    webbrowser.open(url)
+    print("\nDepois de autorizar, a página mostra um CÓDIGO. Copie e cole aqui embaixo e aperte Enter.")
+    codigo = input("Código: ").strip()
+    dados = tiktok.trocar_codigo(codigo)
+    _gravar_env(f"TIKTOK_REFRESH_TOKEN_{args.pagina.upper().replace('-', '_')}", dados["refresh_token"])
+    carregar_env()
+    print("✅ TikTok autorizado. Escopos:", dados.get("scope"))
+    print("Conta:", tiktok.perfil(carregar_pagina(args.pagina)).get("display_name", "?"))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Robô de páginas em redes sociais")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -279,13 +297,14 @@ def main() -> None:
     e.add_argument("--com-longo", action="store_true")
     t = sub.add_parser("testar")
     t.add_argument("--pagina")
-    for nome in ("token-youtube", "token-meta"):
+    for nome in ("token-youtube", "token-meta", "token-tiktok"):
         x = sub.add_parser(nome)
         x.add_argument("--pagina", required=True)
     sub.add_parser("telegram-id")
     args = ap.parse_args()
     {"gerar": cmd_gerar, "ciclo": cmd_ciclo, "semanal": cmd_semanal, "exemplos": cmd_exemplos, "testar": cmd_testar,
-     "token-youtube": cmd_token_youtube, "token-meta": cmd_token_meta, "telegram-id": cmd_telegram_id}[args.cmd](args)
+     "token-youtube": cmd_token_youtube, "token-meta": cmd_token_meta, "token-tiktok": cmd_token_tiktok,
+     "telegram-id": cmd_telegram_id}[args.cmd](args)
 
 
 if __name__ == "__main__":
