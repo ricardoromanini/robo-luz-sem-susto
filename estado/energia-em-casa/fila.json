@@ -83,8 +83,20 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono (confirmado na conversa com o Claude)"
+    "publicacoes": {
+      "youtube": {
+        "id": "nj21ZcLWG8g",
+        "url": "https://youtu.be/nj21ZcLWG8g",
+        "privado": false
+      },
+      "facebook": {
+        "id": "1020633924323588",
+        "url": "https://www.facebook.com/reel/1020633924323588"
+      }
+    },
+    "aprovado_por": "dono (confirmado na conversa com o Claude)",
+    "tentativas": 1,
+    "publicado_em": null
   },
   {
     "id": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na",
