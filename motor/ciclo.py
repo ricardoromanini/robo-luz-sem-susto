@@ -233,7 +233,11 @@ def _publicar_item(p: Pagina, item: dict) -> None:
     if msg:
         telegram.enviar_texto(msg)
         if concluido and item["formato"] == "short":
-            telegram.enviar_texto(item["legenda"]["social"])
+            legenda_tt = item["legenda"]["social"]
+            arroba_tt = p.cfg.get("plataformas", {}).get("tiktok", {}).get("arroba")
+            if arroba_tt and p.cfg.get("arroba"):  # no TikTok o @ da página pode ser outro
+                legenda_tt = legenda_tt.replace(p.cfg["arroba"], arroba_tt)
+            telegram.enviar_texto(legenda_tt)
     if erros:
         alertar_erro(f"publicando \"{item['titulo']}\" (tentativa {tentativas}/{MAX_TENTATIVAS})\n" + "\n".join(erros))
     if concluido:

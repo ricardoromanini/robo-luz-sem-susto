@@ -104,7 +104,7 @@ plataformas:
   youtube:   {ativa: true, categoria_id: "27", rotulo_ia: true}     # 27 = Educação
   instagram: {ativa: true}
   facebook:  {ativa: true}
-  tiktok:    {ativa: true, modo: manual}   # TikTok: o Telegram te manda o vídeo pronto para postar
+  tiktok:    {ativa: true, modo: manual, arroba: "@luz.sem.susto"}   # TikTok (conta criada em 30/09/2026): o Telegram manda a legenda pronta para postar à mão
 
 hashtags_base: ["#contadeluz", "#energia", "#energiasolar", "#economia"]
 
