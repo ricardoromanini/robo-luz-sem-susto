@@ -43,7 +43,7 @@
   },
   {
     "id": "20260930-073350-quanto-custa-usar-um-chuveiro-de-5-5-kw-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T07:33:50.159927-03:00",
     "formato": "short",
     "horario_publicacao": "2026-09-30T12:00:00-03:00",
@@ -92,11 +92,15 @@
       "facebook": {
         "id": "1020633924323588",
         "url": "https://www.facebook.com/reel/1020633924323588"
+      },
+      "instagram": {
+        "id": "18137772190626494",
+        "url": "https://www.instagram.com/reel/Dd6rMHJjLXQ/"
       }
     },
     "aprovado_por": "dono (confirmado na conversa com o Claude)",
     "tentativas": 1,
-    "publicado_em": null
+    "publicado_em": "2026-09-30T12:39:16.083134-03:00"
   },
   {
     "id": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na",

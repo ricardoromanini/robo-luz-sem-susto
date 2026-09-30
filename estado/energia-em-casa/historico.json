@@ -23,5 +23,30 @@
         "url": "https://www.instagram.com/reel/Dd6PrmDjhK-/"
       }
     }
+  },
+  {
+    "id": "20260930-073350-quanto-custa-usar-um-chuveiro-de-5-5-kw-",
+    "chave": "calc:chuveiro:COPEL-DIS",
+    "categoria": "calculadora",
+    "titulo": "Quanto custa usar um chuveiro de 5,5 kW na tarifa da Copel",
+    "texto_falado": "Um chuveiro de 5,5 kW pode aumentar sua conta de luz em cerca de R$ 31,68 por mês? A Copel cobra R$ 0,768 por kWh na tarifa residencial convencional, sem impostos e bandeira. Um chuveiro de 5.500 W usado 15 minutos por dia consome cerca de 41,2 kWh por mês. Isso gera um custo estimado de aproximadamente R$ 31,68 mensais, apenas a tarifa, sem impostos. Lembre‑se: tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; sua pode variar, potência é exemplo, varia por modelo. Fonte: ANEEL. Com impostos e bandeira, o valor pode subir, mas o cálculo base ajuda a planejar o consumo. Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "12:00",
+    "publicado_em": "2026-09-30T12:39:16.084877-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "nj21ZcLWG8g",
+        "url": "https://youtu.be/nj21ZcLWG8g",
+        "privado": false
+      },
+      "facebook": {
+        "id": "1020633924323588",
+        "url": "https://www.facebook.com/reel/1020633924323588"
+      },
+      "instagram": {
+        "id": "18137772190626494",
+        "url": "https://www.instagram.com/reel/Dd6rMHJjLXQ/"
+      }
+    }
   }
 ]
