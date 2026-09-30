@@ -189,6 +189,7 @@ def _publicar_item(p: Pagina, item: dict) -> None:
     video = armazenamento.recuperar(item["video"], pasta)
     pubs = dict(item.get("publicacoes") or {})
     erros = []
+    pendente_ig: dict = {}
     leg = item["legenda"]
     tags = [w for w in leg["social"].split() if w.startswith("#")]
     alvos = []
@@ -196,7 +197,11 @@ def _publicar_item(p: Pagina, item: dict) -> None:
         alvos.append(("youtube", lambda: youtube.publicar(p, video, item["titulo"], leg["youtube"], tags, item["rotulo_ia"], item.get("capa"))))
     if item["formato"] == "short":
         if p.plataforma_ativa("instagram") and meta.ig_configurado(p):
-            alvos.append(("instagram", lambda: meta.publicar_instagram(p, video, leg["social"], armazenamento.url_publica(item["video"], p.id))))
+            if item.get("ig_conteiner"):  # ficou processando no ciclo anterior: só termina
+                alvos.append(("instagram", lambda: meta.concluir_instagram(p, item["ig_conteiner"])))
+            else:
+                alvos.append(("instagram", lambda: meta.publicar_instagram(p, video, leg["social"],
+                                                                           armazenamento.url_publica(item["video"], p.id))))
         if p.plataforma_ativa("facebook") and meta.fb_configurado(p):
             alvos.append(("facebook", lambda: meta.publicar_facebook(p, video, leg["social"])))
     if not alvos:
@@ -207,10 +212,24 @@ def _publicar_item(p: Pagina, item: dict) -> None:
         try:
             pubs[nome] = fn()
             log.info("%s publicado: %s", nome, pubs[nome].get("url"))
+        except meta.InstagramProcessando as e:
+            # não é erro: o Instagram demora para processar; o próximo ciclo termina a publicação
+            esperas = item.get("ig_esperas", 0) + 1
+            if esperas <= 6:
+                pendente_ig = {"ig_conteiner": e.conteiner, "ig_esperas": esperas}
+                log.info("instagram ainda processando (espera %d); termino no próximo ciclo", esperas)
+            else:
+                pendente_ig = {"ig_conteiner": None, "ig_esperas": 0}
+                erros.append("instagram: o vídeo ficou mais de 2 horas processando; vou enviar de novo")
         except Exception as e:  # noqa: BLE001
+            if nome == "instagram":
+                pendente_ig = {"ig_conteiner": None, "ig_esperas": 0}
             erros.append(f"{nome}: {e}")
+    if pendente_ig:
+        estado.atualizar_item(p, item["id"], **pendente_ig)
+    aguardando_ig = bool(pendente_ig.get("ig_conteiner"))
     tentativas = item.get("tentativas", 0) + (1 if erros else 0)
-    concluido = not erros
+    concluido = not erros and not aguardando_ig
     status = "publicado" if concluido else ("erro" if tentativas >= MAX_TENTATIVAS else "aprovado")
     estado.atualizar_item(p, item["id"], publicacoes=pubs, tentativas=tentativas, status=status,
                           publicado_em=p.agora().isoformat() if concluido else None)
@@ -230,7 +249,7 @@ def _publicar_item(p: Pagina, item: dict) -> None:
     if concluido and item["formato"] == "short" and p.cfg.get("plataformas", {}).get("tiktok", {}).get("ativa"):
         msg += ("\n\n📲 TikTok (manual): poste o vídeo da prévia com a legenda abaixo e ATIVE a opção "
                 "\"Conteúdo gerado por IA\" nas configurações do post.")
-    if msg:
+    if msg and not aguardando_ig:  # com o Instagram ainda processando, o aviso sai completo no próximo ciclo
         telegram.enviar_texto(msg)
         if concluido and item["formato"] == "short":
             legenda_tt = item["legenda"]["social"]

@@ -46,36 +46,61 @@ def _ig_esperar(g: str, cont: str, tok: str, limite_s: int) -> str:
     return "não terminou de processar o vídeo a tempo"
 
 
-def publicar_instagram(pagina: Pagina, video: Path, legenda: str, url_publica: str = "") -> dict:
-    """Publica um Reel. 1º tenta o envio direto do arquivo ("resumable"); se a Meta não processar, tenta pelo
-    endereço público do vídeo (url_publica), que é o método clássico da API."""
+class InstagramProcessando(RuntimeError):
+    """O Instagram ainda está processando o vídeo (pode levar mais de 10 min). Não é erro: o robô guarda o
+    contêiner e termina a publicação no próximo ciclo."""
+
+    def __init__(self, conteiner: str):
+        super().__init__("Instagram ainda processando o vídeo")
+        self.conteiner = conteiner
+
+
+def _ig_publicar_conteiner(pagina: Pagina, cont: str) -> dict:
     tok, ig = _tok(pagina), env("IG_USER_ID", pagina.id, obrigatorio=True)
     g = f"https://graph.facebook.com/{_v()}"
-    base = {"media_type": "REELS", "caption": legenda, "share_to_feed": "true", "access_token": tok}
-    r = requests.post(f"{g}/{ig}/media", data={**base, "upload_type": "resumable"}, timeout=60)
-    _erro(r)
-    cont = r.json()["id"]
-    # usa o endereço de envio que a própria Meta devolve (a versão dele pode ser mais nova que a configurada)
-    destino = r.json().get("uri") or f"https://rupload.facebook.com/ig-api-upload/{_v()}/{cont}"
-    dados = video.read_bytes()
-    up = requests.post(destino, headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(len(dados))},
-                       data=dados, timeout=1800)
-    # A resposta do envio não é confiável (a Meta às vezes responde 400 e processa mesmo assim; às vezes responde e
-    # não processa). Quem decide é o status do contêiner. Com erro no envio, espera pouco e parte para o plano B.
-    erro_envio = f"Meta API {up.status_code}: {up.text[:200]}" if up.status_code >= 400 else ""
-    motivo = _ig_esperar(g, cont, tok, 120 if (erro_envio and url_publica) else 480 if url_publica else 600)
-    if motivo and url_publica:
-        r = requests.post(f"{g}/{ig}/media", data={**base, "video_url": url_publica}, timeout=60)
-        _erro(r)
-        cont = r.json()["id"]
-        motivo = _ig_esperar(g, cont, tok, 600)
-    if motivo:
-        raise RuntimeError(f"Instagram {motivo} {erro_envio}".strip())
     pub = requests.post(f"{g}/{ig}/media_publish", data={"creation_id": cont, "access_token": tok}, timeout=60)
     _erro(pub)
     mid = pub.json()["id"]
     link = requests.get(f"{g}/{mid}", params={"fields": "permalink", "access_token": tok}, timeout=30).json().get("permalink", "")
     return {"id": mid, "url": link}
+
+
+def concluir_instagram(pagina: Pagina, cont: str, espera_s: int = 60) -> dict:
+    """Termina uma publicação que ficou processando no ciclo anterior. Levanta InstagramProcessando se ainda não deu."""
+    g = f"https://graph.facebook.com/{_v()}"
+    motivo = _ig_esperar(g, cont, _tok(pagina), espera_s)
+    if not motivo:
+        return _ig_publicar_conteiner(pagina, cont)
+    if "recusou" in motivo:
+        raise RuntimeError(f"Instagram {motivo}")
+    raise InstagramProcessando(cont)
+
+
+def publicar_instagram(pagina: Pagina, video: Path, legenda: str, url_publica: str = "") -> dict:
+    """Publica um Reel. Com endereço público do vídeo, usa o método clássico (o Instagram busca o arquivo);
+    sem ele, envia o arquivo direto ("resumable"). Se o processamento demorar, levanta InstagramProcessando."""
+    tok, ig = _tok(pagina), env("IG_USER_ID", pagina.id, obrigatorio=True)
+    g = f"https://graph.facebook.com/{_v()}"
+    base = {"media_type": "REELS", "caption": legenda, "share_to_feed": "true", "access_token": tok}
+    if url_publica:
+        r = requests.post(f"{g}/{ig}/media", data={**base, "video_url": url_publica}, timeout=60)
+        _erro(r)
+        cont = r.json()["id"]
+    else:
+        r = requests.post(f"{g}/{ig}/media", data={**base, "upload_type": "resumable"}, timeout=60)
+        _erro(r)
+        cont = r.json()["id"]
+        # usa o endereço de envio que a própria Meta devolve (a versão dele pode ser mais nova que a configurada)
+        destino = r.json().get("uri") or f"https://rupload.facebook.com/ig-api-upload/{_v()}/{cont}"
+        dados = video.read_bytes()
+        requests.post(destino, headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(len(dados))},
+                      data=dados, timeout=1800)  # a resposta não é confiável; quem decide é o status do contêiner
+    motivo = _ig_esperar(g, cont, tok, 240)
+    if not motivo:
+        return _ig_publicar_conteiner(pagina, cont)
+    if "recusou" in motivo:
+        raise RuntimeError(f"Instagram {motivo}")
+    raise InstagramProcessando(cont)
 
 
 def publicar_facebook(pagina: Pagina, video: Path, legenda: str) -> dict:
