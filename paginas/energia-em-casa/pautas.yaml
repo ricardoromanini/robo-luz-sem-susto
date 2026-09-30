@@ -129,3 +129,80 @@
     - {texto: "A etiqueta também informa o consumo de energia estimado do aparelho, que ajuda a comparar modelos.", fonte: "Inmetro"}
     - {texto: "O Selo Procel indica os produtos mais eficientes da categoria.", fonte: "Procel / Eletrobras"}
   aviso_seguranca: false
+
+# ---------------------------------------------------------------------------------------------
+# Pautas acrescentadas em 30/09/2026 (fatos conferidos em fonte primária; números "clássicos" da
+# internet que NÃO têm fonte ficaram de fora: "stand-by = 12% da conta", "posição verão economiza 30%",
+# "geladeira velha gasta o dobro", "air fryer gasta X% menos que o forno").
+# ---------------------------------------------------------------------------------------------
+
+- id: chuveiro-verao-inverno
+  busca: "electric shower"
+  categoria: entenda_conta
+  tema: "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz"
+  pesquisa: ["chuveiro elétrico", "eficiência energética"]
+  fatos:
+    - {texto: "A EPE, empresa de pesquisa energética do governo federal, orienta usar o chuveiro elétrico na posição verão quando o tempo estiver quente e evitar banhos demorados.", fonte: "EPE — ABCDEnergia, Eficiência Energética", url: "https://www.epe.gov.br/pt/abcdenergia/eficiencia-energetica"}
+    - {texto: "O chuveiro elétrico respondeu por 13% do consumo residencial de eletricidade no Brasil em 2023.", fonte: "EPE — Atlas da Eficiência Energética Brasil 2024, p. 38", url: "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-857/Atlas%20da%20Efici%C3%AAncia%20Energ%C3%A9tica%20Brasil%202024.pdf"}
+    - {texto: "Na posição de temperatura mais baixa o chuveiro trabalha com potência menor; fabricante informa que, em dias quentes, isso permite economia de energia e de água.", fonte: "manual de fabricante de chuveiro elétrico (Lorenzetti, Maxi Ducha Ultra, item 5)", url: "https://www.lorenzetti.com.br/dicas/duvidas-frequentes/duchas-e-chuveiros-eletricos"}
+    - {texto: "A etiqueta do Inmetro classifica os chuveiros elétricos por faixa de potência: a potência de cada modelo está na etiqueta e na embalagem.", fonte: "Inmetro — Programa Brasileiro de Etiquetagem, tabela de chuveiros elétricos"}
+    - {texto: "Mudar a chave de temperatura é com o chuveiro desligado; qualquer conserto ou troca de resistência é com o disjuntor desligado e, de preferência, por eletricista habilitado.", fonte: "manuais de fabricantes"}
+  ressalvas: ["a economia depende do modelo do chuveiro e do tempo de banho", "Fonte: EPE"]
+  aviso_seguranca: true
+
+- id: stand-by
+  busca: "television living room night"
+  categoria: entenda_conta
+  tema: "Aparelho em stand-by gasta energia? O que a regra do Inmetro diz sobre a TV"
+  pesquisa: ["stand-by modo de espera", "televisor"]
+  fatos:
+    - {texto: "Stand-by, ou modo de espera, é o aparelho ligado na tomada, sem som nem imagem, esperando um comando para voltar a funcionar.", fonte: "Inmetro — Portaria nº 377/2021 (televisores), item 2.5", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002833.pdf"}
+    - {texto: "Pela regra do Inmetro, televisor que gasta mais de 1 watt em modo de espera é considerado não conforme.", fonte: "Inmetro — Portaria nº 377/2021", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002833.pdf"}
+    - {texto: "O consumo mensal que aparece na etiqueta da TV é calculado supondo 4 horas ligada e 20 horas em modo de espera por dia.", fonte: "Inmetro — Portaria nº 377/2021, anexo da etiqueta", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002833.pdf"}
+    - {texto: "O fabricante é obrigado a declarar a potência do televisor em modo de espera.", fonte: "Inmetro — Portaria nº 377/2021, item 3.1", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002833.pdf"}
+    - {texto: "A EPE recomenda desligar o computador e a televisão quando terminar de usar.", fonte: "EPE — ABCDEnergia, Eficiência Energética", url: "https://www.epe.gov.br/pt/abcdenergia/eficiencia-energetica"}
+  ressalvas: ["o limite de 1 watt vale para televisores; outros aparelhos podem gastar mais em espera", "Fonte: Inmetro"]
+  aviso_seguranca: false
+
+- id: ar-inverter
+  busca: "air conditioner bedroom"
+  categoria: entenda_conta
+  tema: "Ar-condicionado inverter: o que mudou na etiqueta do Inmetro e a temperatura recomendada"
+  pesquisa: ["ar-condicionado inverter", "condicionador de ar"]
+  fatos:
+    - {texto: "Desde 2020 a etiqueta do Inmetro para ar-condicionado usa um índice de desempenho ao longo do ano, que passou a mostrar a vantagem dos aparelhos de velocidade variável, os inverter.", fonte: "Inmetro — Portaria nº 234/2020", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002644.pdf"}
+    - {texto: "Segundo o Inmetro, estudos apresentados pelos fabricantes indicam que um ar-condicionado inverter pode gerar 47% de economia de energia em relação ao convencional.", fonte: "Inmetro — notícia de 30/06/2020 sobre a atualização do Programa Brasileiro de Etiquetagem"}
+    - {texto: "O Inmetro recomenda ajustar o termostato do ar-condicionado em 23 graus.", fonte: "Inmetro — orientação de 05/02/2025"}
+    - {texto: "Colocar o aparelho em temperatura muito baixa não gela o ambiente mais rápido; só faz gastar mais energia.", fonte: "Inmetro — orientação de 05/02/2025"}
+    - {texto: "O ar-condicionado respondeu por cerca de 16% do consumo residencial de eletricidade no Brasil em 2023.", fonte: "EPE — Atlas da Eficiência Energética Brasil 2024, p. 38"}
+  ressalvas: ["a economia de 47% é de estudos dos fabricantes citados pelo Inmetro e varia conforme o uso", "Fonte: Inmetro"]
+  aviso_seguranca: false
+
+- id: airfryer-forno
+  busca: "air fryer kitchen"
+  categoria: entenda_conta
+  tema: "Air fryer ou forno elétrico: como comparar o gasto de cada um"
+  pesquisa: ["fritadeira sem óleo", "forno elétrico"]
+  fatos:
+    - {texto: "Air fryer e forno elétrico doméstico não têm etiqueta de eficiência energética do Inmetro; o que o consumidor encontra é a potência, em watts, informada pelo fabricante.", fonte: "Inmetro — lista de tabelas de eficiência energética do Programa Brasileiro de Etiquetagem", url: "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica"}
+    - {texto: "Exemplo de potência informada por fabricantes: uma air fryer de 4 litros com 1.500 watts e um forno elétrico de bancada de 44 litros com 1.775 watts.", fonte: "fichas técnicas de fabricantes (exemplos; a potência varia por modelo)"}
+    - {texto: "O gasto de cada uso é a potência multiplicada pelo tempo ligado: por isso o tempo de preparo pesa tanto quanto a potência.", fonte: "cálculo (potência × tempo)"}
+    - {texto: "Cozinhar pesa pouco na conta: entre 1,3% e 4,8% do consumo de eletricidade das residências, conforme a faixa de renda.", fonte: "EPE — Consumo Residencial de Energia Elétrica por Classes de Renda, 2023 (ano-base 2019)", url: "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-729/FactSheetConsumoPorClassesDeRenda_Final09032023.pdf"}
+    - {texto: "A air fryer tem certificação obrigatória do Inmetro, como os demais eletrodomésticos.", fonte: "Inmetro — Portaria nº 148/2022"}
+  ressalvas: ["potências são exemplos e variam por modelo; não existe dado oficial de qual gasta menos por receita", "Fonte: Inmetro e EPE"]
+  aviso_seguranca: false
+
+- id: geladeira-etiqueta
+  busca: "refrigerator kitchen"
+  categoria: entenda_conta
+  tema: "Geladeira nova: a etiqueta do Inmetro mudou e o que olhar antes de comprar"
+  pesquisa: ["refrigerador", "Programa Brasileiro de Etiquetagem"]
+  fatos:
+    - {texto: "Conservar alimentos, com geladeira e freezer, é o uso que mais gasta eletricidade na casa brasileira: em média 25% do consumo residencial.", fonte: "EPE — Atlas da Eficiência Energética Brasil 2024, p. 38"}
+    - {texto: "A etiqueta do Inmetro mostra o consumo da geladeira em kWh por mês; multiplicando pela tarifa, dá para estimar o gasto.", fonte: "Inmetro — Portaria nº 332/2021", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002813.pdf"}
+    - {texto: "Desde 31 de dezembro de 2025 os fabricantes só podem produzir geladeiras com a etiqueta nova, com classes de A a F.", fonte: "Inmetro — Portaria nº 332/2021, art. 14", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002813.pdf"}
+    - {texto: "A partir de 31 de dezembro de 2026 as lojas só poderão vender geladeiras com a etiqueta nova.", fonte: "Inmetro — Portaria nº 332/2021, art. 15", url: "http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002813.pdf"}
+    - {texto: "A letra da etiqueta antiga não equivale à da nova, que é mais exigente: para comparar duas geladeiras, olhe o consumo em kWh por mês.", fonte: "Inmetro — Portaria nº 332/2021 (critérios das classes)"}
+    - {texto: "O consumo médio por geladeira no Brasil caiu 12,4% entre 2005 e 2023.", fonte: "EPE — Atlas da Eficiência Energética Brasil 2024, p. 38"}
+  ressalvas: ["o consumo real depende do modelo e do uso", "Fonte: Inmetro e EPE"]
+  aviso_seguranca: false

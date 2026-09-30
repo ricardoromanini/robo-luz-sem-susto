@@ -20,6 +20,14 @@ Faça assim:
    próprio (ex.: "tomada de 3 pinos NBR 14136", "chuveiro elétrico", "quadro de disjuntores", "padrão de
    entrada com medidor", "poste com transformador").
 
+O que NÃO é problema (não aponte):
+- escolha de palavras: termos correntes no Brasil são aceitos, inclusive estrangeirismos de uso comum
+  ("air fryer", "stand-by", "inverter", "split", "LED") e expressões do dia a dia ("desligar da tomada");
+- estilo, tom ou redação (isso é com o revisor de qualidade);
+- afirmação que as evidências simplesmente não comentam;
+- evidência que não é do mesmo assunto da afirmação (ignore-a).
+"Fora do padrão brasileiro" vale para OBJETOS, UNIDADES, NORMAS, MOEDA e COSTUMES — nunca para vocabulário.
+
 Classificação dos problemas:
 - "contradiz_fonte": uma evidência diz outra coisa (obrigatório citar "evidencia" e "fonte_url");
 - "norma_errada": a norma/lei citada não existe ou é de outro assunto;

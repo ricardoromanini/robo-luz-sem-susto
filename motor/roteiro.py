@@ -35,6 +35,8 @@ REGRAS INEGOCIÁVEIS
 5. Proibido "isca de engajamento" (ex.: "comente SIM", "marque 3 amigos", "curta se..."). O CTA deve ser natural,
    como uma pergunta real ("Qual é a sua distribuidora?") ou "Siga para entender sua conta todo mês".
 6. Gancho fortíssimo nos 2 primeiros segundos: começa com o dado mais surpreendente ou uma pergunta direta. Nada de "Olá, pessoal".
+   O gancho tem de ser VERDADEIRO e ser respondido pelo vídeo: não invente um problema que o dossiê não explica
+   (ex.: não pergunte "por que a conta sobe com geladeira nova?" se o dossiê não diz que sobe).
 7. Português do Brasil, frases curtas (até 15 palavras), fala natural para narração.
 8. Na fala, escreva valores em reais do jeito que se lê em voz alta (ex.: "R$ 5,11" está ok; evite 3 casas decimais na fala — use a forma "cerca de X centavos" quando o dossiê trouxer).
 9. Cite pelo menos uma vez a fonte que aparece no DOSSIÊ (campo "fonte"). Nunca cite uma fonte que não esteja lá (ex.: não diga "ANEEL" se o dossiê só cita o Inmetro).
@@ -48,7 +50,8 @@ REGRAS INEGOCIÁVEIS
     (a) GANCHO: pergunta ou dor direta do bolso ou da segurança de quem assiste;
     (b) DADO OFICIAL: o fato ou número principal do dossiê, dizendo de onde vem (fonte do dossiê);
     (c) EXPLICAÇÃO: como se chega nisso, em linguagem de casa (quando houver cálculo: potência, tempo de uso, kWh e o valor em reais);
-    (d) DICA SEGURA: o que a pessoa pode fazer ou conferir sem risco; serviço elétrico é sempre com eletricista habilitado.
+    (d) DICA PRÁTICA E SEGURA: o que a pessoa pode fazer ou conferir sem risco. Só fale em eletricista quando o assunto
+        envolver instalação, conserto ou fiação (aí, sempre eletricista habilitado); em tema de compra ou de hábito, não force.
     Depois vem a cena final de chamada para seguir a página, com a frase exata que for indicada.
 
 DATA DE HOJE: {hoje}. Datas do dossiê são fatos já ocorridos ou vigentes.

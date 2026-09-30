@@ -66,7 +66,8 @@ def candidatas(pagina: Pagina) -> list[dict]:
         ress = [pagina.cfg.get("ressalvas", {}).get("seguranca")] if p.get("aviso_seguranca") else []
         add({"tema": p["tema"], "categoria": p["categoria"], "chave": f"pauta:{p['id']}", "fatos": fatos,
              "busca_base": p.get("busca", ""),
-             "ressalvas": [r for r in ress if r], "grafico": None})
+             "ressalvas": [r for r in ress if r] + list(p.get("ressalvas") or []), "grafico": None,
+             "pesquisa": list(p.get("pesquisa") or [])})  # termos de busca do pesquisador (opcional)
     return lista
 
 
