@@ -26,6 +26,7 @@ visual:
   cor_texto: "#FFFFFF"
   cor_secundaria: "#4FC3F7"
   fonte: "arialbd.ttf"           # no Linux (GitHub) o motor troca por DejaVu Sans Bold
+  fonte_titulo: "Anton-Regular.ttf"   # fonte de manchete dos títulos (recursos/fontes/, licença livre OFL)
 
 # Fotos e vídeos de fundo
 midia:
