@@ -138,5 +138,35 @@
         "url": "https://www.facebook.com/reel/1593983135543437"
       }
     }
+  },
+  {
+    "id": "20260930-072223-microgeracao-ou-minigeracao-descubra-ond",
+    "chave": "pauta:micro-mini-geracao",
+    "categoria": "solar",
+    "titulo": "Microgeração ou minigeração: descubra onde sua casa se encaixa",
+    "texto_falado": "Sua casa pode gerar energia sem ultrapassar setenta e cinco kilowatts em média? Microgeração distribuída é a geração central com potência instalada de até setenta e cinco kW, segundo a lei. Acima de setenta e cinco kW, a classificação muda para minigeração distribuída, também prevista na lei. A maioria dos sistemas residenciais se enquadra na microgeração, pois suas instalações são menores que setenta e cinco kW. Se sua casa tem menos de setenta e cinco kW de painéis, está na microgeração. Qual a potência dos seus painéis? Avalie se está na micro ou minigeração e otimize. Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "18:30",
+    "publicado_em": "2026-10-01T18:57:43.384885-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "RWK7erqp8_U",
+        "url": "https://youtu.be/RWK7erqp8_U",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17875311141634831",
+        "url": "https://www.instagram.com/reel/Dd97PpWD9sM/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691821489352149012",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1626552339516208",
+        "url": "https://www.facebook.com/reel/1626552339516208"
+      }
+    }
   }
 ]
