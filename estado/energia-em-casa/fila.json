@@ -421,7 +421,7 @@
   },
   {
     "id": "20260930-072540-quando-a-tarifa-branca-pode-reduzir-sua-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T07:25:40.638186-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-01T20:30:00-03:00",
@@ -459,8 +459,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "8we9DHf1_Wc",
+        "url": "https://youtu.be/8we9DHf1_Wc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18085681805322711",
+        "url": "https://www.instagram.com/reel/Dd-HvsaEfcW/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691849649984292885",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "2679445522505931",
+        "url": "https://www.facebook.com/reel/2679445522505931"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-01T20:47:00.518175-03:00"
   },
   {
     "id": "20260930-072802-custo-estimado-do-ferro-na-tarifa-da-ene",

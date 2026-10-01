@@ -168,5 +168,35 @@
         "url": "https://www.facebook.com/reel/1626552339516208"
       }
     }
+  },
+  {
+    "id": "20260930-072540-quando-a-tarifa-branca-pode-reduzir-sua-",
+    "chave": "pauta:tarifa-branca",
+    "categoria": "entenda_conta",
+    "titulo": "Quando a Tarifa Branca pode reduzir sua conta de luz",
+    "texto_falado": "Você sabia que mudar de tarifa pode reduzir sua conta, mas só em determinados horários? A Tarifa Branca é para residências e ajusta o preço do kWh conforme o horário do dia. São três períodos: ponta, mais caro ao anoitecer; intermediário, uma hora antes e depois; fora de ponta, resto do dia. Compensa quem consegue concentrar o consumo fora da ponta; quem usa muito à noite pode pagar mais. Para aderir, basta solicitar à sua distribuidora; se precisar, pode voltar à tarifa convencional a qualquer momento. Analise seu padrão de uso: se a maior parte ocorre fora da ponta, a Tarifa Branca pode baixar a conta. Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-10-01T20:47:00.520352-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "8we9DHf1_Wc",
+        "url": "https://youtu.be/8we9DHf1_Wc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18085681805322711",
+        "url": "https://www.instagram.com/reel/Dd-HvsaEfcW/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691849649984292885",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "2679445522505931",
+        "url": "https://www.facebook.com/reel/2679445522505931"
+      }
+    }
   }
 ]
