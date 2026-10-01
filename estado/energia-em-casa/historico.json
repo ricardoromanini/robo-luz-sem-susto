@@ -78,5 +78,35 @@
         "url": "https://www.facebook.com/reel/4549350005339622"
       }
     }
+  },
+  {
+    "id": "20260930-074602-tarifas-residenciais-as-mais-caras-e-as-",
+    "chave": "ranking:2026-09",
+    "categoria": "ranking",
+    "titulo": "Tarifas residenciais: as mais caras e as mais baratas no Brasil",
+    "texto_falado": "Sabia que a tarifa de energia pode chegar a mais de um real por quilowatt‑hora? A Enel Rio lidera a lista, cobrando cerca de R$ 1,06 por kWh consumido. Em seguida, Energisa Tocantins e Energisa Mato Grosso do Sul cobram quase R$ 0,99 por kWh. Do outro lado, Enel Ceará paga apenas cerca de R$ 0,70 por kWh, a tarifa mais baixa. Logo depois, Energisa Paraíba e CPFL Paulista ficam entre 71 e 74 centavos por kWh. A tarifa mais cara é 51% maior que a mais barata, valores sem impostos e sem bandeira (fonte: ANEEL). Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-01T07:47:10.262116-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "6F_kZVbray0",
+        "url": "https://youtu.be/6F_kZVbray0",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18121306027899329",
+        "url": "https://www.instagram.com/reel/Dd8udO4DRV4/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691648632348756020",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1514169754062228",
+        "url": "https://www.facebook.com/reel/1514169754062228"
+      }
+    }
   }
 ]

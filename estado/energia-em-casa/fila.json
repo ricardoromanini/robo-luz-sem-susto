@@ -229,7 +229,7 @@
   },
   {
     "id": "20260930-074602-tarifas-residenciais-as-mais-caras-e-as-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T07:46:02.766046-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-01T07:30:00-03:00",
@@ -267,8 +267,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "6F_kZVbray0",
+        "url": "https://youtu.be/6F_kZVbray0",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18121306027899329",
+        "url": "https://www.instagram.com/reel/Dd8udO4DRV4/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691648632348756020",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1514169754062228",
+        "url": "https://www.facebook.com/reel/1514169754062228"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-01T07:47:10.259961-03:00"
   },
   {
     "id": "20260930-071513-quanto-custa-usar-a-air-fryer-na-tarifa-",
