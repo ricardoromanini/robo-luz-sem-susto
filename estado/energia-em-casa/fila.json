@@ -293,7 +293,7 @@
   },
   {
     "id": "20260930-071513-quanto-custa-usar-a-air-fryer-na-tarifa-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T07:15:13.864567-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-01T12:00:00-03:00",
@@ -331,8 +331,29 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono (confirmado na conversa com o Claude)"
+    "publicacoes": {
+      "youtube": {
+        "id": "NKFXfD6EDVk",
+        "url": "https://youtu.be/NKFXfD6EDVk",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17924026677204295",
+        "url": "https://www.instagram.com/reel/Dd9MSdaDpz5/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7691715972549396501",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1593983135543437",
+        "url": "https://www.facebook.com/reel/1593983135543437"
+      }
+    },
+    "aprovado_por": "dono (confirmado na conversa com o Claude)",
+    "tentativas": 0,
+    "publicado_em": "2026-10-01T12:07:37.314469-03:00"
   },
   {
     "id": "20260930-072223-microgeracao-ou-minigeracao-descubra-ond",
