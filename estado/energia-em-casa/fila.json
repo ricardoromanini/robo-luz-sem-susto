@@ -660,7 +660,7 @@
   },
   {
     "id": "20260930-113539-taxa-minima-da-conta-de-luz-na-edp-sao-p",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T11:35:39.294129-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-02T18:30:00-03:00",
@@ -700,8 +700,29 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono (confirmado na conversa com o Claude)"
+    "publicacoes": {
+      "youtube": {
+        "id": "baBW_-QA6yE",
+        "url": "https://youtu.be/baBW_-QA6yE",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17968129539177902",
+        "url": "https://www.instagram.com/reel/DeAexJGjq1J/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692189360418031624",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1095135499547298",
+        "url": "https://www.facebook.com/reel/1095135499547298"
+      }
+    },
+    "aprovado_por": "dono (confirmado na conversa com o Claude)",
+    "tentativas": 0,
+    "publicado_em": "2026-10-02T18:46:46.975451-03:00"
   },
   {
     "id": "20261001-220817-por-que-a-tomada-tem-tres-pinos-e-o-risc",

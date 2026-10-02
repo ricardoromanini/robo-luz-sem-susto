@@ -258,5 +258,35 @@
         "url": "https://www.facebook.com/reel/4528369830781905"
       }
     }
+  },
+  {
+    "id": "20260930-113539-taxa-minima-da-conta-de-luz-na-edp-sao-p",
+    "chave": "taxamin:EDP SP",
+    "categoria": "entenda_conta",
+    "titulo": "Taxa mínima da conta de luz na EDP São Paulo: quanto paga sem consumo",
+    "texto_falado": "Você sabia que pode pagar R$ 23,60 por mês, mesmo sem usar energia? Na EDP São Paulo, a taxa mínima cobre 30 kWh para clientes monofásicos. Fonte ANEEL. Esse consumo mínimo representa cerca de R$ 23,60 de tarifa, já sem impostos nem bandeira. Para ligações bifásicas o piso é 50 kWh, equivalendo a R$ 39,34; trifásico, 100 kWh, R$ 78,67. Valores são para tarifa residencial convencional, sem ICMS, PIS/Cofins e sem bandeira; sua tarifa pode variar. Verifique sua fatura; se o consumo ficar abaixo do piso, a conta não ficará zero. Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "formato": "short",
+    "horario": "18:30",
+    "publicado_em": "2026-10-02T18:46:46.977839-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "baBW_-QA6yE",
+        "url": "https://youtu.be/baBW_-QA6yE",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17968129539177902",
+        "url": "https://www.instagram.com/reel/DeAexJGjq1J/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692189360418031624",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1095135499547298",
+        "url": "https://www.facebook.com/reel/1095135499547298"
+      }
+    }
   }
 ]
