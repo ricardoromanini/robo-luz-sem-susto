@@ -79,6 +79,12 @@ def cmd_semanal(args) -> None:
             relatorio.semanal(p)
         except Exception as e:  # noqa: BLE001
             alertar_erro(f"relatório semanal de {p.nome}", e)
+    try:  # melhoria contínua: o que está viralizando no nicho (YouTube Brasil) vai para relatorios/virais_<data>.md
+        import importlib
+
+        importlib.import_module("ferramentas.pesquisar_virais").main()
+    except Exception as e:  # noqa: BLE001
+        log.warning("pesquisa semanal de virais falhou: %s", e)
 
 
 def cmd_exemplos(args) -> None:
