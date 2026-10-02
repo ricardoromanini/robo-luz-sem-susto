@@ -130,13 +130,25 @@ aprovacao:
 # Mistura de pautas (pesos iniciais — o módulo de métricas ajusta sozinho)
 # -----------------------------------------------------------------------------
 categorias:
-  reajuste_tarifa:   {peso: 3, descricao: "Reajuste recente homologado pela ANEEL para uma distribuidora"}
+  reajuste_tarifa:   {peso: 2, descricao: "Reajuste recente homologado pela ANEEL para uma distribuidora"}
   bandeira:          {peso: 2, descricao: "Bandeira tarifária do mês e quanto ela pesa na conta"}
-  calculadora:       {peso: 3, descricao: "Quanto custa X (banho, ar-condicionado, taxa mínima) na tarifa de uma distribuidora"}
+  calculadora:       {peso: 2, descricao: "Quanto custa X (banho, ar-condicionado, taxa mínima) na tarifa de uma distribuidora"}
   ranking:           {peso: 1, descricao: "Comparação de tarifas entre distribuidoras do Brasil"}
-  seguranca:         {peso: 3, descricao: "Segurança elétrica em casa (sem ensinar serviço perigoso)"}
-  solar:             {peso: 2, descricao: "Energia solar e geração distribuída (Lei 14.300)"}
-  entenda_conta:     {peso: 2, descricao: "Entenda sua conta de luz e seus direitos"}
+  seguranca:         {peso: 5, descricao: "Segurança elétrica em casa (sem ensinar serviço perigoso)"}
+  solar:             {peso: 1, descricao: "Energia solar e geração distribuída (Lei 14.300)"}
+  entenda_conta:     {peso: 3, descricao: "Entenda sua conta de luz e seus direitos"}
+
+# Séries (formato fixo por categoria): o nome aparece na 1ª cena e dá motivo para seguir a página.
+# Pesos acima ajustados em 02/10/2026: segurança rendeu 6x mais que tarifa nos primeiros vídeos.
+series:
+  seguranca: "ERRO QUE DÁ CHOQUE"
+  calculadora: "QUANTO GASTA?"
+  entenda_conta: "MITO OU VERDADE?"
+  bandeira: "SUA CONTA DE LUZ EXPLICADA"
+  reajuste_tarifa: "SUA CONTA DE LUZ EXPLICADA"
+  ranking: "SUA CONTA DE LUZ EXPLICADA"
+  solar: "ENERGIA SOLAR SEM ENROLAÇÃO"
+  padrao: "SUA CONTA DE LUZ EXPLICADA"
 
 # Ressalvas que o texto SEMPRE precisa trazer quando o assunto aparece
 ressalvas:

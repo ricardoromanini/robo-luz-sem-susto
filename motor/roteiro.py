@@ -13,8 +13,8 @@ from .config import Pagina
 
 FORMATO_SHORT = {
     "nome": "short",
-    "cenas": "6 a 8 cenas; CADA fala com 12 a 20 palavras (nem mais, nem menos)",
-    "palavras": "100 a 130 palavras faladas no total (cerca de 40 segundos) — conte as palavras; menos de 90 será devolvido",
+    "cenas": "5 a 6 cenas; CADA fala com 10 a 16 palavras (nem mais, nem menos)",
+    "palavras": "75 a 100 palavras faladas no total (cerca de 30 a 40 segundos) — conte as palavras; mais de 110 será devolvido",
 }
 FORMATO_LONGO = {
     "nome": "longo",
@@ -46,6 +46,11 @@ REGRAS INEGOCIÁVEIS
     frases curtas e variadas (algumas bem curtas, de impacto), reticências (…) logo antes do número principal para criar
     expectativa, e uma frase final firme. Nada de tom de leitura escolar.
 11. Título sem clickbait: nada de "Veja como!", "Descubra!", "Você não vai acreditar". Descreva o que o vídeo mostra.
+15. TÍTULO E GANCHO PARA O BRASIL TODO: não comece o título nem a primeira fala pelo nome de uma distribuidora ou
+    estado (isso afasta quem é de outro lugar). Fale com qualquer brasileiro ("sua conta de luz", "na sua casa") e cite a
+    distribuidora só no meio do vídeo, como exemplo (ex.: título "Quanto gasta a air fryer por mês? Fizemos a conta").
+16. SÉRIE: este vídeo faz parte da série indicada em SÉRIE. Use o nome da série como "tela" da PRIMEIRA cena (em
+    maiúsculas, curto) e siga o estilo dela.
 14. ESTRUTURA do vídeo curto, nesta ordem (uma ou duas cenas para cada parte):
     (a) GANCHO: pergunta ou dor direta do bolso ou da segurança de quem assiste;
     (b) DADO OFICIAL: o fato ou número principal do dossiê, dizendo de onde vem (fonte do dossiê);
@@ -59,6 +64,7 @@ DATA DE HOJE: {hoje}. Datas do dossiê são fatos já ocorridos ou vigentes.
 Responda SOMENTE com JSON válido."""
 
 USUARIO = """FORMATO: {fmt_nome} — {fmt_cenas}; {fmt_palavras}.
+SÉRIE: {serie}
 
 TEMA: {tema}
 CATEGORIA: {categoria}
@@ -84,11 +90,40 @@ Devolva JSON com esta estrutura:
 }}
 Use "visual": "grafico" em no máximo 1 cena (só se houver gráfico disponível: {tem_grafico}).
 A primeira cena é o GANCHO e a última é o CTA.
-A fala da ÚLTIMA cena deve ser EXATAMENTE esta frase: "{cta}"."""
+A fala da ÚLTIMA cena tem DUAS partes: primeiro uma pergunta curta e real sobre o tema, para o público responder nos
+comentários (ex.: "Na sua casa tem DR?", "Você deixa o carregador na tomada?"), e depois EXATAMENTE esta frase: "{cta}"."""
 
 
 def _texto_fatos(pauta: dict) -> str:
     return "\n".join(f"[{f['id']}] {f['texto']} (fonte: {f['fonte']})" for f in pauta["fatos"])
+
+
+APARELHOS_TITULO = {"chuveiro": "o chuveiro elétrico", "ar": "o ar-condicionado", "ferro": "o ferro de passar",
+                    "airfryer": "a air fryer"}
+
+
+def titulo_nacional(titulo: str, pauta: dict) -> str:
+    """Título para o Brasil todo: nos vídeos de cálculo o título é fixo; nos demais, tira nome de distribuidora."""
+    import re
+
+    chave = pauta.get("chave", "")
+    if chave.startswith("calc:"):
+        ap = APARELHOS_TITULO.get(chave.split(":")[1], "")
+        if ap:
+            return f"Quanto gasta {ap} por mês na conta de luz? Fizemos a conta"
+    from .fontes.aneel import distribuidoras
+
+    nomes = sorted({d["nome"] for d in distribuidoras().values()}, key=len, reverse=True)
+    for n in nomes:
+        titulo = re.sub(r"\s*(?:,|-|–|:)?\s*(?:na|da|pela|para a)?\s*(?:tarifa|conta)?\s*(?:da|de|na)?\s*" + re.escape(n), "",
+                        titulo, flags=re.I)
+    return re.sub(r"\s{2,}", " ", titulo).strip(" ,:-–")
+
+
+def serie_da_pauta(pagina: Pagina, pauta: dict) -> str:
+    """Série (formato fixo) do vídeo, conforme a categoria — séries dão motivo para seguir a página."""
+    series = pagina.cfg.get("series", {})
+    return series.get(pauta.get("categoria", ""), series.get("padrao", "Sua conta de luz explicada"))
 
 
 def escolher_cta(pagina: Pagina, indice: int) -> str:
@@ -111,8 +146,12 @@ def escrever(pagina: Pagina, pauta: dict, formato: str = "short", observacoes: s
         categoria=pauta["categoria"], fatos=_texto_fatos(pauta), ressalvas="; ".join(pauta.get("ressalvas") or ["nenhuma"]),
         historico=hist, observacoes=obs, tem_grafico="sim" if pauta.get("grafico") else "não",
         cta=cta or escolher_cta(pagina, len(titulos_recentes or [])),
+        serie=serie_da_pauta(pagina, pauta),
     )
     rot = normalizar(llm.perguntar("redator", sistema, usuario), pagina)
+    if formato == "short" and rot["cenas"]:
+        rot["cenas"][0]["tela"] = serie_da_pauta(pagina, pauta)  # marca da série sempre na 1ª cena
+        rot["titulo"] = titulo_nacional(rot["titulo"], pauta)
     return aplicar_ressalvas(rot, pauta)
 
 

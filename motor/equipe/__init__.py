@@ -71,6 +71,8 @@ def avaliar(pauta: dict, rot: dict, historico: list[dict], texto_publico: str, t
     ia_jur = _ia("juridico", "revisor_juridico", f"TEXTO DO POST:\n{texto_publico}")
     # ---------- 3. Qualidade / originalidade
     fixos_qual = rf.checar_originalidade(texto_falado, rot["titulo"], historico) + rf.checar_tamanho(texto_falado, formato)
+    if formato == "short":
+        fixos_qual += rf.checar_titulo_nacional(rot["titulo"], (rot["cenas"] or [{}])[0].get("fala", ""), pauta)
     ia_qual = _ia("qualidade", "revisor_qualidade",
                   f"FORMATO: {'vídeo longo horizontal (~6 min)' if formato == 'longo' else 'vídeo curto vertical (~40 s)'}\n\nTÍTULOS RECENTES DA PÁGINA:\n{titulos}\n\nTEXTO DO POST:\n{texto_publico}")
     if ia_qual.get("veredito") == "BLOQUEAR":

@@ -126,7 +126,7 @@ def checar_originalidade(texto_falado: str, titulo: str, historico: list[dict], 
 
 def checar_tamanho(texto_falado: str, formato: str = "short") -> list[dict]:
     n = len(re.findall(r"\w+", texto_falado))
-    minimo, maximo = (650, 1200) if formato == "longo" else (55, 150)
+    minimo, maximo = (650, 1200) if formato == "longo" else (50, 115)
     if n < minimo:
         return [{"trecho": f"{n} palavras", "motivo": f"texto curto demais para o formato ({n} palavras; mínimo {minimo})",
                  "correcao": "desenvolva mais: explique o dado, dê contexto e uma dica prática usando o dossiê"}]
@@ -134,3 +134,22 @@ def checar_tamanho(texto_falado: str, formato: str = "short") -> list[dict]:
         return [{"trecho": f"{n} palavras", "motivo": f"texto longo demais para o formato ({n} palavras; máximo {maximo})",
                  "correcao": "corte frases redundantes"}]
     return []
+
+
+def checar_titulo_nacional(titulo: str, primeira_fala: str, pauta: dict) -> list[dict]:
+    """Título e gancho falam com o Brasil todo: o nome da distribuidora/estado só aparece no meio do vídeo."""
+    nome = ""
+    for f in pauta.get("fatos", []):
+        m = re.search(r"Distribuidora:\s*([^(.]+)", f.get("texto", ""))
+        if m:
+            nome = m.group(1).strip()
+            break
+    if not nome:
+        return []
+    problemas = []
+    for onde, texto in (("título", titulo),):  # a 1ª fala fica a cargo do roteirista (regra 15); o título é corrigido no código
+        if _sem_acento(nome).lower() in _sem_acento(texto).lower():
+            problemas.append({"trecho": texto[:80], "motivo": f"o {onde} cita '{nome}' e afasta quem é de outro estado",
+                              "correcao": f"tire '{nome}' do {onde}; fale com qualquer brasileiro (ex.: 'Quanto gasta ... por mês?') "
+                                          "e cite a distribuidora só no meio do vídeo, como exemplo"})
+    return problemas
