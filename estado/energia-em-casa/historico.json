@@ -198,5 +198,35 @@
         "url": "https://www.facebook.com/reel/2679445522505931"
       }
     }
+  },
+  {
+    "id": "20260930-072802-custo-estimado-do-ferro-na-tarifa-da-ene",
+    "chave": "calc:ferro:ENEL CE",
+    "categoria": "calculadora",
+    "titulo": "Custo estimado do ferro na tarifa da Enel Ceará: cerca de R$ 3,61 por mês",
+    "texto_falado": "Você sabia que usar o ferro de passar pode subir sua conta em cerca de R$ 3,61 por mês? A tarifa residencial convencional da Enel Ceará custa R$ 0,702 por kilowatt-hora, sem impostos nem bandeira. Um ferro de 1.200 watts usado uma hora por semana consome cerca de 5,1 kilowatt-hora por mês. Com a tarifa de R$ 0,702, esse consumo gera um custo estimado de R$ 3,61 mensais. Lembre‑se, o valor final inclui ICMS, PIS/Cofins e bandeira, podendo ser maior na sua conta. Sua tarifa pode mudar se usar a Tarifa Branca ou se estiver na Tarifa Social, verifique. Lembre‑se, a potência do ferro pode mudar conforme modelo; verifique a etiqueta antes de calcular. Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-02T07:47:42.981469-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "kcwHSQ4EhxQ",
+        "url": "https://youtu.be/kcwHSQ4EhxQ",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18077538743394789",
+        "url": "https://www.instagram.com/reel/Dd_TT8_CTjb/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692019876139714566",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1419888926250937",
+        "url": "https://www.facebook.com/reel/1419888926250937"
+      }
+    }
   }
 ]

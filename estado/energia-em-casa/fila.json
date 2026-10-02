@@ -485,7 +485,7 @@
   },
   {
     "id": "20260930-072802-custo-estimado-do-ferro-na-tarifa-da-ene",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T07:28:02.633777-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-02T07:30:00-03:00",
@@ -525,8 +525,29 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "kcwHSQ4EhxQ",
+        "url": "https://youtu.be/kcwHSQ4EhxQ",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18077538743394789",
+        "url": "https://www.instagram.com/reel/Dd_TT8_CTjb/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692019876139714566",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1419888926250937",
+        "url": "https://www.facebook.com/reel/1419888926250937"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-02T07:47:42.979096-03:00"
   },
   {
     "id": "20260930-112241-5-sinais-de-sobrecarga-na-instalacao-ele",
