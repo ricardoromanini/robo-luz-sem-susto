@@ -288,5 +288,35 @@
         "url": "https://www.facebook.com/reel/1095135499547298"
       }
     }
+  },
+  {
+    "id": "20260930-112241-5-sinais-de-sobrecarga-na-instalacao-ele",
+    "chave": "pauta:sinais-sobrecarga",
+    "categoria": "seguranca",
+    "titulo": "5 sinais de sobrecarga na instalação elétrica da sua casa",
+    "texto_falado": "Sua conta de luz está alta e os disjuntores desarmam? Pode ser sobrecarga elétrica. Disjuntor que desarma frequentemente, tomadas esquentando, cheiro de queimado, lâmpadas piscam, fios escurecidos são alertas, segundo NBR 5410. Esses sinais surgem quando muitos aparelhos de alta potência dividem a mesma tomada ou usam adaptador em T. Um benjamim ou régua com chuveiro, micro‑ondas e ar‑condicionado pode exceder a capacidade do circuito. Desligue o disjuntor imediatamente ao notar qualquer sinal e peça ajuda a eletricista habilitado. Evite conectar vários aparelhos potentes na mesma tomada; distribua a carga em circuitos diferentes. Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-10-02T20:46:33.493356-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "XGUSoJAf4wE",
+        "url": "https://youtu.be/XGUSoJAf4wE",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18008756594988024",
+        "url": "https://www.instagram.com/reel/DeAsfigieRa/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692220515567339572",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1633402774812409",
+        "url": "https://www.facebook.com/reel/1633402774812409"
+      }
+    }
   }
 ]

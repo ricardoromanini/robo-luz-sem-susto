@@ -551,7 +551,7 @@
   },
   {
     "id": "20260930-112241-5-sinais-de-sobrecarga-na-instalacao-ele",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T11:22:41.328315-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-02T20:30:00-03:00",
@@ -589,8 +589,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono (confirmado na conversa com o Claude)"
+    "publicacoes": {
+      "youtube": {
+        "id": "XGUSoJAf4wE",
+        "url": "https://youtu.be/XGUSoJAf4wE",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18008756594988024",
+        "url": "https://www.instagram.com/reel/DeAsfigieRa/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692220515567339572",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1633402774812409",
+        "url": "https://www.facebook.com/reel/1633402774812409"
+      }
+    },
+    "aprovado_por": "dono (confirmado na conversa com o Claude)",
+    "tentativas": 0,
+    "publicado_em": "2026-10-02T20:46:33.491218-03:00"
   },
   {
     "id": "20260930-112911-taxa-minima-da-neoenergia-pernambuco-o-q",
