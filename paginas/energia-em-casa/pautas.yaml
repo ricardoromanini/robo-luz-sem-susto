@@ -206,3 +206,121 @@
     - {texto: "O consumo médio por geladeira no Brasil caiu 12,4% entre 2005 e 2023.", fonte: "EPE — Atlas da Eficiência Energética Brasil 2024, p. 38"}
   ressalvas: ["o consumo real depende do modelo e do uso", "Fonte: Inmetro e EPE"]
   aviso_seguranca: false
+
+# ---------------------------------------------------------------------------------------------
+# Pautas de SEGURANÇA acrescentadas em 02/10/2026 (temas que mais viralizam no nicho; fatos conferidos nas
+# páginas citadas). NÃO usar: estatísticas da Abracopel 2026 (PDF não conferido), "30 mA" sem fonte institucional,
+# "selo do Inmetro" para carregador de celular (quem homologa é a Anatel), telefone único de distribuidora.
+# ---------------------------------------------------------------------------------------------
+
+- id: disjuntor-desarmando-toda-hora
+  busca: "circuit breaker panel"
+  categoria: seguranca
+  tema: "Disjuntor que desarma toda hora: o aviso que você não pode calar"
+  fatos:
+    - {texto: "Disjuntor desarmando sozinho costuma ser sobrecarga, a causa mais comum, principalmente em instalações antigas que não foram feitas para os aparelhos de hoje.", fonte: "Enel X Brasil, 2020", url: "https://www.enelx.com/br/pt/conteudos/o-que-fazer-quando-disjuntores-desarmam-e-a-energia-cai"}
+    - {texto: "Usar disjuntor de amperagem diferente da que os cabos pedem é um erro: ele pode não desarmar quando o fio superaquece, e aí pode começar um incêndio.", fonte: "Enel X Brasil, 2020", url: "https://www.enelx.com/br/pt/conteudos/o-que-fazer-quando-disjuntores-desarmam-e-a-energia-cai"}
+    - {texto: "Quando o disjuntor dispara, ele está fazendo o trabalho dele: proteger a instalação elétrica e quem mora na casa.", fonte: "Abracopel, 2020", url: "https://abracopel.org/blog/sobrecarga-de-energia-pode-causar-incendio/"}
+    - {texto: "Só um eletricista de confiança pode dizer o que precisa ser corrigido na instalação.", fonte: "Enel X Brasil, 2020", url: "https://www.enelx.com/br/pt/conteudos/o-que-fazer-quando-disjuntores-desarmam-e-a-energia-cai"}
+  aviso_seguranca: true
+
+- id: dr-desarmando-fuga-de-corrente
+  busca: "residual current device"
+  categoria: seguranca
+  tema: "O DR desarmou? Ele está te protegendo de um choque"
+  fatos:
+    - {texto: "O DR é um dispositivo que desliga o circuito assim que detecta uma corrente de fuga acima do valor para o qual foi feito.", fonte: "Abracopel, 2018", url: "https://abracopel.org/blog/abracopel/o-que-e-e-para-que-serve-o-dr/"}
+    - {texto: "Segundo a Abracopel, o DR é exigido pela norma ABNT NBR 5410.", fonte: "Abracopel, 2018", url: "https://abracopel.org/blog/abracopel/o-que-e-e-para-que-serve-o-dr/"}
+    - {texto: "Por ser muito sensível, o DR desarma mais vezes que um disjuntor comum. Quando isso acontece, o eletricista precisa encontrar onde está a fuga e resolvê-la.", fonte: "Abracopel, 2018", url: "https://abracopel.org/blog/abracopel/o-que-e-e-para-que-serve-o-dr/"}
+    - {texto: "A distribuidora orienta garantir que o DR funcione nos ambientes molhados da casa.", fonte: "Neoenergia Coelba, 2024", url: "https://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa"}
+  aviso_seguranca: true
+
+- id: tomada-esquentando-cheiro-queimado
+  busca: "burnt power outlet"
+  categoria: seguranca
+  tema: "Tomada quente, fio com cheiro de queimado: sinais de incêndio a caminho"
+  fatos:
+    - {texto: "Sobrecarga é quando muitos aparelhos estão ligados na mesma rede ao mesmo tempo.", fonte: "Abracopel, 2020", url: "https://abracopel.org/blog/sobrecarga-de-energia-pode-causar-incendio/"}
+    - {texto: "Sinais de alerta: a luz enfraquece quando você liga o micro-ondas, ou os fios estão com cheiro de queimado, ressecados ou rachados.", fonte: "Abracopel, 2020", url: "https://abracopel.org/blog/sobrecarga-de-energia-pode-causar-incendio/"}
+    - {texto: "Tomada ou interruptor com parte derretida ou queimada precisa ser substituído por um eletricista; não faça conserto se você não entende do assunto.", fonte: "Copel, Energia elétrica sem riscos", url: "https://www.copel.com/site/educacao/energia-eletrica-sem-riscos/"}
+    - {texto: "Fio fino, comprado para economizar, não aguenta a carga e começa a derreter dentro da parede.", fonte: "Abracopel, 2016", url: "https://abracopel.org/blog/o-perigo-se-esconde-nas-paredes-da-sua-casa-2/"}
+  aviso_seguranca: true
+
+- id: extensao-benjamim-sobrecarga
+  busca: "overloaded power strip"
+  categoria: seguranca
+  tema: "Benjamim e extensão: o 'T' que pode pegar fogo"
+  fatos:
+    - {texto: "Usar benjamim é perigoso: sobrecarregar uma tomada com vários aparelhos pode provocar superaquecimento.", fonte: "CPFL Energia, Dicas de Segurança", url: "https://www.cpfl.com.br/dicas-de-seguranca"}
+    - {texto: "A maioria dos benjamins aguenta 13 ampères, mas alguns são de apenas 10 ampères ou menos.", fonte: "Neoenergia Pernambuco, 2023", url: "https://www.neoenergia.com/web/pernambuco/w/saiba-como-evitar-acidentes-rede-eletrica-dentro-casa"}
+    - {texto: "Não ligue uma extensão em outra e não fabrique extensão por conta própria.", fonte: "Neoenergia Pernambuco, 2024", url: "https://www.neoenergia.com/web/pernambuco/w/atencao-confira-principais-dicas-evitar-choques-eletricos"}
+    - {texto: "Benjamim em aparelho que fica ligado o tempo todo pode causar superaquecimento e curto-circuito.", fonte: "Neoenergia Coelba, 2024", url: "https://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa"}
+  aviso_seguranca: true
+
+- id: chuveiro-choque-desarma
+  busca: "electric shower head"
+  categoria: seguranca
+  tema: "Chuveiro dando choque ou derrubando o disjuntor: pare e chame o eletricista"
+  fatos:
+    - {texto: "Não mude a chave verão/inverno com o chuveiro ligado: dá choque e pode ser fatal.", fonte: "CPFL Energia, Dicas de Segurança", url: "https://www.cpfl.com.br/dicas-de-seguranca"}
+    - {texto: "Fios derretidos, pequenos choques e cheiro de queimado mostram que há problema, e ele precisa ser corrigido.", fonte: "Neoenergia Coelba, 2024", url: "https://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa"}
+    - {texto: "Nunca reaproveite resistência queimada, e o chuveiro precisa ter fio-terra instalado como manda o fabricante.", fonte: "Neoenergia Coelba, 2024", url: "https://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa"}
+    - {texto: "Chuveiro potente demais para a instalação está entre as causas de disjuntor desarmando.", fonte: "Enel X Brasil, 2020", url: "https://www.enelx.com/br/pt/conteudos/o-que-fazer-quando-disjuntores-desarmam-e-a-energia-cai"}
+  aviso_seguranca: true
+
+- id: criancas-tomadas-fios
+  busca: "child safety outlet cover"
+  categoria: seguranca
+  tema: "Criança e tomada: protetor, fio preso e aparelho fora do alcance"
+  fatos:
+    - {texto: "A Sociedade Brasileira de Pediatria orienta: no quarto das crianças, as tomadas devem ter protetores.", fonte: "Sociedade Brasileira de Pediatria, Acidentes domésticos", url: "https://www.sbp.com.br/acidentes-domesticos/"}
+    - {texto: "Aparelhos eletrônicos fora do alcance das crianças, com fios curtos e presos, para evitar choque e queimadura.", fonte: "Sociedade Brasileira de Pediatria, Acidentes domésticos", url: "https://www.sbp.com.br/acidentes-domesticos/"}
+    - {texto: "Coloque protetores nas tomadas que ficam ao alcance das crianças.", fonte: "Copel, Energia elétrica sem riscos", url: "https://www.copel.com/site/educacao/energia-eletrica-sem-riscos/"}
+    - {texto: "Não deixe a fiação ao alcance das crianças.", fonte: "CPFL Energia, Dicas de Segurança", url: "https://www.cpfl.com.br/dicas-de-seguranca"}
+  ressalvas: ["o protetor de tomada não substitui a atenção de um adulto"]
+  aviso_seguranca: true
+
+- id: fio-desencapado-gambiarra
+  busca: "frayed electrical wire"
+  categoria: seguranca
+  tema: "Fio desencapado e gambiarra: choque hoje, incêndio amanhã"
+  fatos:
+    - {texto: "Nunca deixe fio desencapado: além do risco de choque, ele pode provocar incêndio.", fonte: "CPFL Energia, Dicas de Segurança", url: "https://www.cpfl.com.br/dicas-de-seguranca"}
+    - {texto: "Nada de improviso, como desencapar fios e enfiar direto na tomada. Fio de aparelho desencapado ou com isolamento ruim? Chame um técnico.", fonte: "Neoenergia Coelba, 2024", url: "https://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa"}
+    - {texto: "Fio ressecado, rachado ou com cheiro de queimado é sinal de alerta.", fonte: "Abracopel, 2020", url: "https://abracopel.org/blog/sobrecarga-de-energia-pode-causar-incendio/"}
+    - {texto: "Evite extensões improvisadas e não faça conserto na instalação se você não entende do assunto.", fonte: "Copel, Energia elétrica sem riscos", url: "https://www.copel.com/site/educacao/energia-eletrica-sem-riscos/"}
+  aviso_seguranca: true
+
+- id: celular-carregando-na-cama
+  busca: "phone charging on bed"
+  categoria: seguranca
+  tema: "Celular carregando na cama e carregador sem homologação"
+  fatos:
+    - {texto: "O Corpo de Bombeiros de Santa Catarina alerta: não deixe o celular carregando em cima de cama, sofá ou almofada, que pegam fogo com facilidade.", fonte: "CBMSC, 2025", url: "https://www.cbm.sc.gov.br/index.php/blog-de-noticias/cuidados-com-celular-corpo-de-bombeiros-militar-de-sc-alerta-para-acidentes-com-baterias"}
+    - {texto: "Carregar esquenta o aparelho, e em lugar fechado, como bolsa ou gaveta, esse calor não tem por onde sair.", fonte: "Anatel", url: "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/orientacoes-para-uso-seguro-de-telefones-celulares-e-seus-acessorios"}
+    - {texto: "Use sempre carregador e bateria homologados pela Anatel. Os não homologados podem ter circuito de segurança mal feito, ou nenhum.", fonte: "Anatel", url: "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/orientacoes-para-uso-seguro-de-telefones-celulares-e-seus-acessorios"}
+    - {texto: "O superaquecimento da bateria pode causar fogo ou explosão.", fonte: "Anatel", url: "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/orientacoes-para-uso-seguro-de-telefones-celulares-e-seus-acessorios"}
+    - {texto: "Se o celular esquentar demais durante o uso ou a carga, desligue o aparelho.", fonte: "CBMSC, 2025", url: "https://www.cbm.sc.gov.br/index.php/blog-de-noticias/cuidados-com-celular-corpo-de-bombeiros-militar-de-sc-alerta-para-acidentes-com-baterias"}
+  aviso_seguranca: false
+
+- id: socorro-choque-eletrico
+  busca: "electric shock emergency"
+  categoria: seguranca
+  tema: "Alguém levou choque: como ajudar sem virar a segunda vítima"
+  fatos:
+    - {texto: "Antes de chegar perto da vítima, confira se o local está seguro. Em casa, desligue o disjuntor.", fonte: "Corpo de Bombeiros MS, 2024", url: "https://www.bombeiros.ms.gov.br/cbmms-orienta-acoes-cruciais-em-caso-de-choque-eletrico/"}
+    - {texto: "Não toque direto na pessoa: enquanto houver energia, ela conduz a eletricidade.", fonte: "Corpo de Bombeiros MS, 2024", url: "https://www.bombeiros.ms.gov.br/cbmms-orienta-acoes-cruciais-em-caso-de-choque-eletrico/"}
+    - {texto: "Com a energia desligada, você pode tocar na vítima normalmente.", fonte: "Corpo de Bombeiros MS, 2024", url: "https://www.bombeiros.ms.gov.br/cbmms-orienta-acoes-cruciais-em-caso-de-choque-eletrico/"}
+    - {texto: "Ligue na hora para o 192 (Samu) ou o 193 (Bombeiros).", fonte: "Samu / Secretaria de Saúde de Alagoas, 2026", url: "https://www.saude.al.gov.br/samu-atende-65-casos-de-choque-eletricos-em-2025-e-da-dicas-de-prevencao/"}
+  aviso_seguranca: true
+
+- id: pipa-rede-fio-caido
+  busca: "kite power lines"
+  categoria: seguranca
+  tema: "Pipa presa no fio ou fio caído na rua: não toque, chame a distribuidora"
+  fatos:
+    - {texto: "A linha da pipa pode conduzir eletricidade, e a brincadeira pode ser fatal. É melhor perder a pipa do que a vida.", fonte: "CPFL Energia, Dicas de Segurança", url: "https://www.cpfl.com.br/dicas-de-seguranca"}
+    - {texto: "Nunca tente tirar pipa presa na rede com barra ou haste, nem subindo em escada, poste ou telhado.", fonte: "Copel, 2026", url: "https://www.copel.com/site/noticias/pipa-na-rede-eletrica-desliga-821-clientes-em-cambe-copel-alerta-sobre-os-riscos/"}
+    - {texto: "Fio caído: não chegue perto nem toque. A eletricidade pode se espalhar pelo chão.", fonte: "Enel São Paulo, 2026", url: "https://www.enel.com.br/pt-saopaulo/midia/news/d2026-2/fios-caidos-apos-tempestades-como-agir-com-seguranca.html"}
+    - {texto: "Nada de tocar, pisar ou pular o fio, nem de calçado ou com objeto improvisado. Afaste pessoas e animais e chame a distribuidora da sua cidade (o telefone está na conta de luz).", fonte: "Enel São Paulo, 2026", url: "https://www.enel.com.br/pt-saopaulo/midia/news/d2026-2/fios-caidos-apos-tempestades-como-agir-com-seguranca.html"}
+  aviso_seguranca: false

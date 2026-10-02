@@ -126,8 +126,10 @@ def serie_da_pauta(pagina: Pagina, pauta: dict) -> str:
     return series.get(pauta.get("categoria", ""), series.get("padrao", "Sua conta de luz explicada"))
 
 
-def escolher_cta(pagina: Pagina, indice: int) -> str:
-    opcoes = pagina.cfg.get("cta_opcoes") or ["Siga a página para mais dados oficiais."]
+def escolher_cta(pagina: Pagina, indice: int, categoria: str = "") -> str:
+    """Frase final (fixa, sem isca). Temas de segurança têm frases próprias (cta_por_categoria)."""
+    opcoes = (pagina.cfg.get("cta_por_categoria", {}).get(categoria) or pagina.cfg.get("cta_opcoes")
+              or ["Siga a página para mais dados oficiais."])
     return opcoes[indice % len(opcoes)]
 
 
@@ -145,7 +147,7 @@ def escrever(pagina: Pagina, pauta: dict, formato: str = "short", observacoes: s
         fmt_nome=fmt["nome"], fmt_cenas=fmt["cenas"], fmt_palavras=fmt["palavras"], tema=pauta["tema"],
         categoria=pauta["categoria"], fatos=_texto_fatos(pauta), ressalvas="; ".join(pauta.get("ressalvas") or ["nenhuma"]),
         historico=hist, observacoes=obs, tem_grafico="sim" if pauta.get("grafico") else "não",
-        cta=cta or escolher_cta(pagina, len(titulos_recentes or [])),
+        cta=cta or escolher_cta(pagina, len(titulos_recentes or []), pauta.get("categoria", "")),
         serie=serie_da_pauta(pagina, pauta),
     )
     rot = normalizar(llm.perguntar("redator", sistema, usuario), pagina)

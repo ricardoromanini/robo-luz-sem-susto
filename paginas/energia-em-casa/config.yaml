@@ -138,6 +138,13 @@ categorias:
   solar:             {peso: 1, descricao: "Energia solar e geração distribuída (Lei 14.300)"}
   entenda_conta:     {peso: 3, descricao: "Entenda sua conta de luz e seus direitos"}
 
+# Frase final própria por tipo de tema (sem isca de engajamento)
+cta_por_categoria:
+  seguranca:
+    - "Siga a página para deixar sua casa mais segura."
+    - "Siga para mais dicas que evitam choque e incêndio em casa."
+    - "Salve este vídeo e siga a página para proteger sua família."
+
 # Séries (formato fixo por categoria): o nome aparece na 1ª cena e dá motivo para seguir a página.
 # Pesos acima ajustados em 02/10/2026: segurança rendeu 6x mais que tarifa nos primeiros vídeos.
 series:
