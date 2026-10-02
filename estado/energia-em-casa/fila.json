@@ -660,5 +660,175 @@
     },
     "publicacoes": {},
     "aprovado_por": "dono (confirmado na conversa com o Claude)"
+  },
+  {
+    "id": "20261001-220817-por-que-a-tomada-tem-tres-pinos-e-o-risc",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-01T22:08:17.170121-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-03T07:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:tomada-tres-pinos",
+    "partes": [],
+    "titulo": "Por que a tomada tem três pinos e o risco de quebrar o pino do meio",
+    "texto_falado": "Você já tentou forçar o plugue removendo o pino do meio? Isso pode ser perigoso. O padrão brasileiro de plugues tem três pinos, conforme a norma ABNT NBR 14136. O pino central é o aterramento, oferecendo caminho seguro se houver falha elétrica no aparelho. Quebrar o terceiro pino ou usar adaptador sem terra elimina essa proteção e aumenta risco de choque. Sempre mantenha o pino, e confirme a conexão do terra com eletricista habilitado. Apenas eletricista habilitado pode confirmar se o condutor de proteção está conectado corretamente. Remover ou adaptar o pino viola normas e pode causar acidentes graves, evite. Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "A tomada brasileira tem três pinos por exigência da ABNT NBR 14136. O pino central garante aterramento, protegendo contra falhas. Quebrá‑lo elimina a segurança e pode causar choque. Só eletricista habilitado verifica se o condutor de proteção está realmente conectado. Preserve o pino e evite adaptações inseguras. Fonte: ABNT NBR 14136, boas práticas de segurança elétrica, ABNT NBR 5410.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #tomada3pinos #aaterramento #eletricista #contadeluz #energia #energiasolar #economia",
+      "youtube": "A tomada brasileira tem três pinos por exigência da ABNT NBR 14136. O pino central garante aterramento, protegendo contra falhas. Quebrá‑lo elimina a segurança e pode causar choque. Só eletricista habilitado verifica se o condutor de proteção está realmente conectado. Preserve o pino e evite adaptações inseguras. Fonte: ABNT NBR 14136, boas práticas de segurança elétrica, ABNT NBR 5410.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #tomada3pinos #aaterramento #eletricista #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 604494319,
+      "nome": "20261001-220817-por-que-a-tomada-tem-tres-pinos-e-o-risc.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 57.3,
+        "lufs": -15.94,
+        "fala_confere": 0.97
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261001-221435-prazo-de-validade-dos-creditos-de-energi",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-01T22:14:35.875306-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-03T12:00:00-03:00",
+    "categoria": "solar",
+    "chave": "pauta:creditos-60-meses",
+    "partes": [],
+    "titulo": "Prazo de validade dos créditos de energia solar: 60 meses",
+    "texto_falado": "Você sabia que os créditos que sua energia solar gera podem expirar? A lei que regula a geração distribuída define prazo de validade de sessenta meses para esses créditos, fonte Lei 14.300/2022. Quando o painel produz mais energia que o consumo, o excedente vira crédito em kWh na sua conta. Esses créditos podem ser usados nos meses seguintes, mas se não forem consumidos dentro de cinco anos, eles desaparecem. Calcule seu consumo médio e dimensione o sistema próximo a ele, evitando crédito que vença sem uso. Se possui outro imóvel sob mesma distribuidora, pode transferir créditos para lá, usando autoconsumo remoto. Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Os créditos gerados pelo seu sistema solar têm validade de sessenta meses.\nUse-os dentro desse período ou podem expirar.\nDimensione o sistema próximo ao seu consumo para evitar sobras.\nSe tem outro imóvel com a mesma distribuidora, transfira os créditos.\nFonte: Lei 14.300/2022.\n\n#energiaSolar #créditosSolares #geraçãoDistribuída #autoconsumoRemoto #economiaDeEnergia #contadeluz #energia #energiasolar #economia",
+      "youtube": "Os créditos gerados pelo seu sistema solar têm validade de sessenta meses.\nUse-os dentro desse período ou podem expirar.\nDimensione o sistema próximo ao seu consumo para evitar sobras.\nSe tem outro imóvel com a mesma distribuidora, transfira os créditos.\nFonte: Lei 14.300/2022.\n\n#energiaSolar #créditosSolares #geraçãoDistribuída #autoconsumoRemoto #economiaDeEnergia #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 604505910,
+      "nome": "20261001-221435-prazo-de-validade-dos-creditos-de-energi.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 53.8,
+        "lufs": -16.21,
+        "fala_confere": 0.97
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261001-221959-dps-no-quadro-o-que-e-e-por-que-sua-casa",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-01T22:19:59.958366-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-03T18:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:dps-surtos",
+    "partes": [],
+    "titulo": "DPS no quadro: o que é e por que sua casa precisa",
+    "texto_falado": "Sua TV queimou depois de uma tempestade? Descubra o que protege seus aparelhos no quadro. O DPS, Dispositivo de Proteção contra Surtos, desvia picos de tensão, segundo a ABNT NBR 5410. Ele fica no quadro de distribuição e funciona em conjunto com o aterramento da casa, garantindo segurança. Uma régua de filtro de linha não substitui o DPS; ela só protege contra sobrecarga, não surtos. Lembre‑se: serviço elétrico é com eletricista habilitado; contrate um profissional para instalar o DPS. Com o DPS, picos de tensão da rede são desviados antes de chegar aos seus aparelhos. Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Entenda como o Dispositivo de Proteção contra Surtos (DPS) protege seus equipamentos.\nEle deve ficar no quadro de distribuição, trabalhando com o aterramento, e não pode ser substituído por uma régua de filtro de linha.\nPara instalar, procure sempre um eletricista habilitado.\nFonte: ABNT NBR 5410.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #DPS #energia #instalaçãosegura #contadeluz #energiasolar #economia",
+      "youtube": "Entenda como o Dispositivo de Proteção contra Surtos (DPS) protege seus equipamentos.\nEle deve ficar no quadro de distribuição, trabalhando com o aterramento, e não pode ser substituído por uma régua de filtro de linha.\nPara instalar, procure sempre um eletricista habilitado.\nFonte: ABNT NBR 5410.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #DPS #energia #instalaçãosegura #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 604511841,
+      "nome": "20261001-221959-dps-no-quadro-o-que-e-e-por-que-sua-casa.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 56.8,
+        "lufs": -16.04,
+        "fala_confere": 0.92
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261001-222345-taxa-minima-da-conta-de-luz-na-neoenergi",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-01T22:23:45.741695-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-03T20:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:COSERN",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz na Neoenergia Cosern: o que você paga",
+    "texto_falado": "Mesmo consumindo pouquíssimo, você paga um valor fixo todo mês na conta de luz? Segundo a ANEEL, a taxa mínima cobre 30 kWh monofásico, 50 kWh bifásico ou 100 kWh trifásico. Esse valor é um piso: se o consumo ultrapassar, paga‑se só o que realmente usou. Na Neoenergia Cosern, o mínimo monofásico equivale a cerca de R$ 23,27 por mês, antes de impostos. tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Fonte: ANEEL Na Neoenergia Cosern, o mínimo bifásico corresponde a aproximadamente R$ 38,79 mensais por mês. Mínimo trifásico custa R$ 77,58; compare tarifas e avalie mudar para social ou branca. Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Mesmo usando pouca energia, a conta tem um valor mínimo.\nNa Neoenergia Cosern, esse piso varia: R$ 23,27 (monofásico), R$ 38,79 (bifásico) e R$ 77,58 (trifásico).\nLembre que o valor é tarifa residencial convencional, sem impostos e sem bandeira; pode mudar conforme sua categoria.\nConfira sua tarifa e compare opções para reduzir o gasto.\n\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #taxaminima #energiasolar #economia",
+      "youtube": "Mesmo usando pouca energia, a conta tem um valor mínimo.\nNa Neoenergia Cosern, esse piso varia: R$ 23,27 (monofásico), R$ 38,79 (bifásico) e R$ 77,58 (trifásico).\nLembre que o valor é tarifa residencial convencional, sem impostos e sem bandeira; pode mudar conforme sua categoria.\nConfira sua tarifa e compare opções para reduzir o gasto.\n\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#energia #contadeluz #taxaminima #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 604519164,
+      "nome": "20261001-222345-taxa-minima-da-conta-de-luz-na-neoenergi.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": false,
+      "problemas": [
+        "duração 69s fora do limite (25–58s)"
+      ],
+      "info": {
+        "duracao_s": 69.5,
+        "lufs": -16.05,
+        "fala_confere": 0.88
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
