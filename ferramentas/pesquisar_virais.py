@@ -70,7 +70,7 @@ def main() -> None:
         durs = sorted(v["dur"] for v in top)
         linhas += ["", "## Números", f"- Duração mediana dos 40 mais vistos: {durs[len(durs) // 2]} s",
                    f"- Títulos com pergunta (?): {sum('?' in v['titulo'] for v in top)} de {len(top)}",
-                   f"- Títulos com número: {sum(bool(re.search(r'\\d', v['titulo'])) for v in top)} de {len(top)}"]
+                   f"- Títulos com número: {sum(1 for v in top if any(ch.isdigit() for ch in v['titulo']))} de {len(top)}"]
     saida = RAIZ / "relatorios" / f"virais_{date.today():%Y-%m-%d}.md"
     saida.parent.mkdir(exist_ok=True)
     saida.write_text("\n".join(linhas), encoding="utf-8")
