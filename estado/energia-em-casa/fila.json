@@ -663,7 +663,7 @@
   },
   {
     "id": "20261001-220817-por-que-a-tomada-tem-tres-pinos-e-o-risc",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-01T22:08:17.170121-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-03T07:30:00-03:00",
@@ -701,11 +701,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261001-221435-prazo-de-validade-dos-creditos-de-energi",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-01T22:14:35.875306-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-03T12:00:00-03:00",
@@ -743,11 +744,12 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261001-221959-dps-no-quadro-o-que-e-e-por-que-sua-casa",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-01T22:19:59.958366-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-03T18:30:00-03:00",
@@ -785,11 +787,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261001-222345-taxa-minima-da-conta-de-luz-na-neoenergi",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-01T22:23:45.741695-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-03T20:30:00-03:00",
@@ -829,6 +832,7 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   }
 ]
