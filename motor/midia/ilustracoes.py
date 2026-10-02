@@ -25,7 +25,7 @@ log = obter("ilustracoes")
 MODELO = "@cf/black-forest-labs/flux-1-schnell"
 COTA_ESGOTADA = False  # vira True quando a Cloudflare avisa que a cota grátis do dia acabou
 NEGATIVO = ("no text, no letters, no words, no numbers, no captions, no watermark, no logos, no brand names, "
-            "no signs with writing")
+            "no signs with writing, appliance displays and control panels blank (no digits), no labels or stickers")
 
 
 def configurado() -> bool:
@@ -89,6 +89,46 @@ def _chamar(prompt: str) -> Image.Image | None:
 
 
 def fiscal_de_imagem(img: Image.Image, regras_extra: str = "") -> tuple[bool, str]:
+    """Dois fiscais de modelos diferentes: o 1º confere tudo; o 2º procura só texto/números pequenos (visor, etiqueta)."""
+    ok, motivo = _fiscal_principal(img, regras_extra)
+    if not ok:
+        return ok, motivo
+    from ..config import carregar_global
+
+    segundo = carregar_global().get("fiscal_imagem_segundo")
+    if not segundo:
+        return ok, motivo
+    ok2, motivo2 = _fiscal_texto(img, segundo)
+    return (ok2, motivo2 if not ok2 else motivo)
+
+
+def _fiscal_texto(img: Image.Image, modelo: str) -> tuple[bool, str]:
+    """Segundo fiscal: procura QUALQUER escrita, número, visor digital, etiqueta, adesivo ou logotipo, mesmo pequeno."""
+    conta, token = env("CLOUDFLARE_ACCOUNT_ID"), env("CLOUDFLARE_API_TOKEN")
+    buf = io.BytesIO()
+    img.resize((1024, 1024)).save(buf, format="JPEG", quality=92)
+    pergunta = ("This image will be shown on a phone screen. Is there any READABLE word, brand name, logo with letters, "
+                "or readable number (for example on a display, label, sticker or package) that a viewer would notice? "
+                "Ignore tiny or blurry marks, abstract icons, symbols without letters and decorative shapes. "
+                'Answer ONLY JSON {"tem_escrita": true|false, "onde": "..."}.')
+    try:
+        r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/v1/chat/completions", timeout=90,
+                          headers={"Authorization": f"Bearer {token}"},
+                          json={"model": modelo, "temperature": 0, "messages": [{"role": "user", "content": [
+                              {"type": "text", "text": pergunta},
+                              {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()}}]}]})
+        r.raise_for_status()
+        txt = r.json()["choices"][0]["message"]["content"]
+        res = json.loads(txt[txt.find("{"): txt.rfind("}") + 1])
+        if res.get("tem_escrita"):
+            return False, f"2º fiscal: escrita/números em {res.get('onde', '?')}"
+        return True, ""
+    except Exception as e:  # noqa: BLE001
+        log.warning("2º fiscal de imagem (%s) indisponível: %s", modelo, e)
+        return False, "2º fiscal indisponível"
+
+
+def _fiscal_principal(img: Image.Image, regras_extra: str = "") -> tuple[bool, str]:
     """Olha a imagem pronta (Gemini, visão) e reprova se tiver texto, número, logotipo, marca, dinheiro ou
     defeito grave. Retorna (aprovada, motivo). Fiscal fora do ar = reprova (na dúvida, nada de texto na tela)."""
     chave = env("GEMINI_API_KEY")
@@ -309,3 +349,72 @@ def gerar_opcoes_mascote(pagina: Pagina, quantidade: int = 4) -> list[Image.Imag
         if img is not None:
             opcoes.append(img)
     return opcoes
+
+
+# ------------------------------------------------------------------ foto real como referência (automático)
+_UA = {"User-Agent": "robo-luz-sem-susto/1.0 (https://github.com/ricardoromanini/robo-luz-sem-susto)"}
+_LIVRES = re.compile(r"^(cc0|public domain|pd|cc by( |-)\d|cc by-sa|cc-by)", re.I)
+
+
+def foto_referencia(busca: str) -> bytes | None:
+    """Foto REAL de licença livre (Wikimedia Commons) do objeto da cena, usada só como referência para a IA desenhar
+    o objeto do jeito que ele é de verdade. A foto não aparece no vídeo. Guarda em cache por busca."""
+    busca = re.sub(r"[^\w\s-]", " ", busca or "").strip()
+    if not busca:
+        return None
+    PASTA_CACHE.mkdir(exist_ok=True)
+    arq = PASTA_CACHE / ("ref_" + hashlib.md5(busca.lower().encode()).hexdigest() + ".jpg")
+    if arq.exists():
+        return arq.read_bytes() or None
+    try:
+        r = requests.get("https://commons.wikimedia.org/w/api.php", headers=_UA, timeout=30, params={
+            "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
+            "gsrsearch": f"{busca} filetype:bitmap", "gsrlimit": 10, "prop": "imageinfo",
+            "iiprop": "url|extmetadata|size|mime", "iiurlwidth": 768})
+        paginas = sorted(((r.json().get("query") or {}).get("pages") or {}).values(), key=lambda p: p.get("index", 99))
+        for p in paginas:
+            ii = (p.get("imageinfo") or [{}])[0]
+            lic = ii.get("extmetadata", {}).get("LicenseShortName", {}).get("value", "")
+            if ii.get("mime") == "image/jpeg" and _LIVRES.match(lic) and ii.get("width", 0) >= 600:
+                dados = requests.get(ii["thumburl"], headers=_UA, timeout=60).content
+                arq.write_bytes(dados)
+                return dados
+    except (requests.RequestException, ValueError, KeyError) as e:
+        log.warning("busca de foto de referência ('%s') falhou: %s", busca, e)
+    arq.write_bytes(b"")  # nada encontrado: não busca de novo
+    return None
+
+
+def gerar_com_foto_real(pagina: Pagina, busca: str, descricao: str, semente: int | str | None = None,
+                        termos_proibidos: list[str] | None = None) -> Image.Image | None:
+    """Pesquisa uma foto real do objeto e redesenha a cena no estilo da página, mantendo o objeto fiel à foto."""
+    if not configurado() or COTA_ESGOTADA:
+        return None
+    ref = foto_referencia(busca)
+    if not ref:
+        return None
+    cena = limpar_descricao(descricao or busca, termos_proibidos or [])
+    prompt = prompt_final(pagina, f"{cena}. Draw the main object exactly like the real object in the reference photo "
+                                  "(same shape, parts and proportions), as a clean illustration in a Brazilian home. "
+                                  "Do not copy any text, label, brand or logo from the photo")
+    arq = PASTA_CACHE / ("ia_foto_" + hashlib.md5(f"{prompt}|{semente}".encode()).hexdigest() + ".jpg")
+    if arq.exists():
+        return Image.open(arq).convert("RGB")
+    url = f"https://api.cloudflare.com/client/v4/accounts/{env('CLOUDFLARE_ACCOUNT_ID')}/ai/run/{MODELO_REFERENCIA}"
+    for _ in range(2):
+        try:
+            r = requests.post(url, headers={"Authorization": f"Bearer {env('CLOUDFLARE_API_TOKEN')}"}, timeout=300,
+                              files={"prompt": (None, prompt), "width": (None, "1024"), "height": (None, "1024"),
+                                     "input_image_0": ("foto.jpg", ref, "image/jpeg")})
+            r.raise_for_status()
+            img = Image.open(io.BytesIO(base64.b64decode(r.json()["result"]["image"]))).convert("RGB")
+        except (requests.RequestException, KeyError, OSError) as e:
+            log.warning("ilustração a partir de foto real falhou: %s", e)
+            continue
+        ok, motivo = fiscal_de_imagem(img, acervo.regra_geral(pagina))
+        if ok:
+            img.save(arq, quality=94)
+            log.info("ilustração a partir de foto real: %s", busca)
+            return img
+        log.info("fiscal reprovou ilustração a partir de foto real (%s): %s", busca, motivo)
+    return None

@@ -88,8 +88,8 @@ velocidade_voz: 1.05
 # Frequência e horários (horário de Brasília)
 # -----------------------------------------------------------------------------
 frequencia:
-  shorts_por_dia: 4          # primeiras semanas: 4 por dia (decisão do Ricardo, 29/09/2026); depois ajustar pelas métricas
-  horarios_candidatos: ["07:30", "12:00", "18:30", "20:30"]   # o módulo de métricas escolhe o melhor
+  shorts_por_dia: 5          # 5 por dia desde 02/10/2026 (pedido do Ricardo). Teto: a cota grátis da API do YouTube (~6 envios/dia)
+  horarios_candidatos: ["07:30", "11:30", "15:30", "18:30", "20:30"]   # o módulo de métricas escolhe o melhor
   horario_inicial: "12:00"
   video_longo:
     ativo: true

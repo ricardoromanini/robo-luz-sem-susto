@@ -42,6 +42,7 @@ voz:
   piper_modelo: "modelos/piper/pt_BR-faber-medium.onnx"
 
 # Modelos de visão do "fiscal de imagem" (em ordem de tentativa)
+fiscal_imagem_segundo: "@cf/mistralai/mistral-small-3.1-24b-instruct"   # 2º fiscal: só procura escrita/números pequenos
 fiscal_imagem: ["@cf/meta/llama-4-scout-17b-16e-instruct", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]  # @cf/ = Cloudflare (enxerga imagens)
 
 # ---------------------------------------------------------------------------

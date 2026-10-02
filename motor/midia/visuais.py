@@ -237,6 +237,12 @@ def buscar_midia(pagina: Pagina, consultas: list[str], formato: str, usadas: set
             ilustracao, consultas = "", []  # não conseguiu no padrão brasileiro: melhor uma cena segura do que o padrão errado
         elif acervo.sem_referencia(pagina, f"{fala} {ilustracao}"):
             ilustracao, consultas = "", []  # objeto sem referência ainda: cena segura
+        elif cfg.get("referencia_automatica", True) and consultas and consultas[0]:
+            # objeto comum: pesquisa uma FOTO REAL dele e redesenha no estilo da página (fiel ao objeto de verdade)
+            img = ilustracoes.gerar_com_foto_real(pagina, consultas[0], ilustracao, semente=len(usadas), termos_proibidos=nomes)
+            if img is not None:
+                usadas.add(f"foto:{consultas[0]}:{len(usadas)}")
+                return {"tipo": "ilustracao", "imagem": img, "credito": ""}
         if not ilustracao:
             ilustracao = seguras[len(usadas) % len(seguras)]
         # 1ª tentativa: a cena pedida · 2ª: o assunto da pauta, simples · 3ª: cena segura da página
