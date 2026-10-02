@@ -594,7 +594,7 @@
   },
   {
     "id": "20260930-112911-taxa-minima-da-neoenergia-pernambuco-o-q",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-09-30T11:29:11.874518-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-02T12:00:00-03:00",
@@ -634,8 +634,29 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono (confirmado na conversa com o Claude)"
+    "publicacoes": {
+      "youtube": {
+        "id": "SvUrURFO3yc",
+        "url": "https://youtu.be/SvUrURFO3yc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18096667277113128",
+        "url": "https://www.instagram.com/reel/Dd_xA8YnM-6/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692086870117009429",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "4528369830781905",
+        "url": "https://www.facebook.com/reel/4528369830781905"
+      }
+    },
+    "aprovado_por": "dono (confirmado na conversa com o Claude)",
+    "tentativas": 0,
+    "publicado_em": "2026-10-02T12:07:28.291716-03:00"
   },
   {
     "id": "20260930-113539-taxa-minima-da-conta-de-luz-na-edp-sao-p",

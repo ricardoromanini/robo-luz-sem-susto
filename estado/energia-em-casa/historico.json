@@ -228,5 +228,35 @@
         "url": "https://www.facebook.com/reel/1419888926250937"
       }
     }
+  },
+  {
+    "id": "20260930-112911-taxa-minima-da-neoenergia-pernambuco-o-q",
+    "chave": "taxamin:Neoenergia PE",
+    "categoria": "entenda_conta",
+    "titulo": "Taxa mínima da Neoenergia Pernambuco: o que você paga mesmo consumindo pouco",
+    "texto_falado": "Você sabia que paga uma taxa mínima na conta de luz, mesmo sem consumir? Na Neoenergia Pernambuco, o piso de 30 kWh custa R$ 23,97 por mês, segundo a ANEEL. Esse valor é um piso, não uma taxa extra; consome acima, paga só o que usar, confirma ANEEL. Para ligação bifásica, o piso é 50 kWh custando R$ 39,95; trifásica, 100 kWh por R$ 79,89, conforme ANEEL. Valores são tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; sua tarifa pode variar. Verifique na conta se o consumo está abaixo do piso; se estiver, avalie tarifa social ou reduzir carga. Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "formato": "short",
+    "horario": "12:00",
+    "publicado_em": "2026-10-02T12:07:28.294232-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "SvUrURFO3yc",
+        "url": "https://youtu.be/SvUrURFO3yc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18096667277113128",
+        "url": "https://www.instagram.com/reel/Dd_xA8YnM-6/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692086870117009429",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "4528369830781905",
+        "url": "https://www.facebook.com/reel/4528369830781905"
+      }
+    }
   }
 ]
