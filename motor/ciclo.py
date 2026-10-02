@@ -13,7 +13,7 @@ from pathlib import Path
 
 from . import armazenamento, estado, pipeline, telegram
 from .config import PASTA_ESTADO, Pagina, carregar_pagina, listar_paginas
-from .publicar import meta, tiktok, youtube
+from .publicar import meta, tiktok, uploadpost, youtube
 from .registro import alertar_erro, obter
 
 log = obter("ciclo")
@@ -218,7 +218,9 @@ def _publicar_item(p: Pagina, item: dict) -> None:
             else:
                 alvos.append(("instagram", lambda: meta.publicar_instagram(p, video, leg["social"],
                                                                            armazenamento.url_publica(item["video"], p.id))))
-        if p.plataforma_ativa("tiktok") and tiktok.configurado(p) and _modo_tiktok(p) != "painel":
+        if p.plataforma_ativa("tiktok") and uploadpost.configurado(p):  # automático (Upload-Post, integração aprovada)
+            alvos.append(("tiktok", lambda: uploadpost.publicar_tiktok(p, video, legenda_tiktok(p, leg["social"]))))
+        elif p.plataforma_ativa("tiktok") and tiktok.configurado(p) and _modo_tiktok(p) != "painel":
             alvos.append(("tiktok", lambda: tiktok.publicar(p, video, legenda_tiktok(p, leg["social"]))))
         if p.plataforma_ativa("facebook") and meta.fb_configurado(p):
             alvos.append(("facebook", lambda: meta.publicar_facebook(p, video, leg["social"])))
@@ -264,7 +266,8 @@ def _publicar_item(p: Pagina, item: dict) -> None:
     if pubs.get("youtube", {}).get("privado"):
         msg += ("\n\n⚠️ YouTube: o vídeo ficou PRIVADO porque o app ainda não passou na auditoria do Google. "
                 "Abra o app YouTube Studio > Conteúdo > este vídeo > Visibilidade > Público.")
-    painel = _modo_tiktok(p) == "painel" and item["formato"] == "short" and p.plataforma_ativa("tiktok")
+    painel = (_modo_tiktok(p) == "painel" and item["formato"] == "short" and p.plataforma_ativa("tiktok")
+              and not uploadpost.configurado(p))
     if concluido and painel and tiktok.link_painel(item["id"]):
         msg += "\n\n📲 TikTok: toque para publicar (a legenda já vai junto):\n" + tiktok.link_painel(item["id"])
     elif (concluido and item["formato"] == "short" and p.plataforma_ativa("tiktok") and "tiktok" in pubs
@@ -276,7 +279,7 @@ def _publicar_item(p: Pagina, item: dict) -> None:
                 "\"Conteúdo gerado por IA\" nas configurações do post.")
     if msg and not aguardando_ig:  # com o Instagram ainda processando, o aviso sai completo no próximo ciclo
         telegram.enviar_texto(msg)
-        if concluido and item["formato"] == "short" and not painel:
+        if concluido and item["formato"] == "short" and not painel and not uploadpost.configurado(p):
             telegram.enviar_texto(legenda_tiktok(p, item["legenda"]["social"]))
     if erros:
         alertar_erro(f"publicando \"{item['titulo']}\" (tentativa {tentativas}/{MAX_TENTATIVAS})\n" + "\n".join(erros))

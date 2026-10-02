@@ -12,6 +12,7 @@ on:
       OPENROUTER_API_KEY: {required: false}
       TAVILY_API_KEY: {required: false}
       TIKTOK_CLIENT_KEY: {required: false}
+      UPLOAD_POST_API_KEY: {required: false}
       TIKTOK_LINK_SECRET: {required: false}
       TELEGRAM_VIA_PAINEL: {required: false}
       TIKTOK_CLIENT_SECRET: {required: false}
@@ -48,6 +49,7 @@ jobs:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+      UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
       TIKTOK_LINK_SECRET: ${{ secrets.TIKTOK_LINK_SECRET }}
       TELEGRAM_VIA_PAINEL: ${{ secrets.TELEGRAM_VIA_PAINEL }}
       TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
