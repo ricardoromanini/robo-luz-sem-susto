@@ -408,5 +408,35 @@
         "url": "https://www.facebook.com/reel/1338727285994659"
       }
     }
+  },
+  {
+    "id": "20261001-222345-taxa-minima-da-conta-de-luz-na-neoenergi",
+    "chave": "taxamin:COSERN",
+    "categoria": "entenda_conta",
+    "titulo": "Taxa mínima da conta de luz na Neoenergia Cosern: o que você paga",
+    "texto_falado": "Mesmo consumindo pouquíssimo, você paga um valor fixo todo mês na conta de luz? Segundo a ANEEL, a taxa mínima cobre 30 kWh monofásico, 50 kWh bifásico ou 100 kWh trifásico. Esse valor é um piso: se o consumo ultrapassar, paga‑se só o que realmente usou. Na Neoenergia Cosern, o mínimo monofásico equivale a cerca de R$ 23,27 por mês, antes de impostos. tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Fonte: ANEEL Na Neoenergia Cosern, o mínimo bifásico corresponde a aproximadamente R$ 38,79 mensais por mês. Mínimo trifásico custa R$ 77,58; compare tarifas e avalie mudar para social ou branca. Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-10-03T20:47:35.934294-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "i3yaLWqq5ho",
+        "url": "https://youtu.be/i3yaLWqq5ho",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17982119814087810",
+        "url": "https://www.instagram.com/reel/DeDRXZwEr1j/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692591860463749138",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1108852621602943",
+        "url": "https://www.facebook.com/reel/1108852621602943"
+      }
+    }
   }
 ]

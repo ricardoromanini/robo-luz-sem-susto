@@ -939,7 +939,7 @@
   },
   {
     "id": "20261001-222345-taxa-minima-da-conta-de-luz-na-neoenergi",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-01T22:23:45.741695-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-03T20:30:00-03:00",
@@ -979,8 +979,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "i3yaLWqq5ho",
+        "url": "https://youtu.be/i3yaLWqq5ho",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17982119814087810",
+        "url": "https://www.instagram.com/reel/DeDRXZwEr1j/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692591860463749138",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1108852621602943",
+        "url": "https://www.facebook.com/reel/1108852621602943"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-03T20:47:35.931112-03:00"
   },
   {
     "id": "20261002-220819-taxa-minima-da-conta-de-luz-quanto-paga-",
