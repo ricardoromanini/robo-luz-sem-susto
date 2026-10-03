@@ -378,5 +378,35 @@
         "url": "https://www.facebook.com/reel/1376450480914343"
       }
     }
+  },
+  {
+    "id": "20261001-221959-dps-no-quadro-o-que-e-e-por-que-sua-casa",
+    "chave": "pauta:dps-surtos",
+    "categoria": "seguranca",
+    "titulo": "DPS no quadro: o que é e por que sua casa precisa",
+    "texto_falado": "Sua TV queimou depois de uma tempestade? Descubra o que protege seus aparelhos no quadro. O DPS, Dispositivo de Proteção contra Surtos, desvia picos de tensão, segundo a ABNT NBR 5410. Ele fica no quadro de distribuição e funciona em conjunto com o aterramento da casa, garantindo segurança. Uma régua de filtro de linha não substitui o DPS; ela só protege contra sobrecarga, não surtos. Lembre‑se: serviço elétrico é com eletricista habilitado; contrate um profissional para instalar o DPS. Com o DPS, picos de tensão da rede são desviados antes de chegar aos seus aparelhos. Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "18:30",
+    "publicado_em": "2026-10-03T18:46:54.467322-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "7fA3OvXtRyg",
+        "url": "https://youtu.be/7fA3OvXtRyg",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18103799567249242",
+        "url": "https://www.instagram.com/reel/DeDDkszDLIJ/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692560098560034837",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1338727285994659",
+        "url": "https://www.facebook.com/reel/1338727285994659"
+      }
+    }
   }
 ]
