@@ -747,7 +747,7 @@
   },
   {
     "id": "20261001-220817-por-que-a-tomada-tem-tres-pinos-e-o-risc",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-01T22:08:17.170121-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-03T07:30:00-03:00",
@@ -785,8 +785,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "Jx_ZpOCy8Kg",
+        "url": "https://youtu.be/Jx_ZpOCy8Kg",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17872527018638206",
+        "url": "https://www.instagram.com/reel/DeB4D2ODijA/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692390551143958535",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1427786615365441",
+        "url": "https://www.facebook.com/reel/1427786615365441"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-03T07:46:58.067206-03:00"
   },
   {
     "id": "20261001-221435-prazo-de-validade-dos-creditos-de-energi",
