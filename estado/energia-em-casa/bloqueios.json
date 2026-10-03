@@ -68,5 +68,26 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Elektro”: A empresa mencionada no texto é a Neoenergia Coelba, conforme a evidência [0] (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
     "em": "2026-10-02T22:31:33.638945"
+  },
+  {
+    "tema": "O que você precisa saber sobre a sua conta de luz esta semana: Celular carregando na cama e carregador sem homologação; A taxa mínima da conta de luz na CEEE Equatorial; Ranking das tarifas residenciais mais caras e mais baratas",
+    "chave": "longo:pauta:celular-carregando-na-cama+taxamin:CEEE-D+ranking:2026-10",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “466 palavras”: texto curto demais para o formato (466 palavras; mínimo 650). Correção: desenvolva mais: explique o dado, dê contexto e uma dica prática usando o dossiê",
+    "em": "2026-10-02T22:45:37.050084"
+  },
+  {
+    "tema": "O que você precisa saber sobre a sua conta de luz esta semana: Tomada quente, fio com cheiro de queimado: sinais de incêndio a caminho; Quanto custa o airfryer na tarifa da Equatorial Goiás; A etiqueta amarela do Inmetro: como ler antes de comprar um eletrodoméstico",
+    "chave": "longo:pauta:tomada-esquentando-cheiro-queimado+calc:airfryer:EQUATORIAL GO+pauta:selo-procel",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “395 palavras”: texto curto demais para o formato (395 palavras; mínimo 650). Correção: desenvolva mais: explique o dado, dê contexto e uma dica prática usando o dossiê",
+    "em": "2026-10-02T22:53:26.781400"
+  },
+  {
+    "tema": "O que você precisa saber sobre a sua conta de luz esta semana: Chuveiro dando choque ou derrubando o disjuntor: pare e chame o eletricista; A taxa mínima da conta de luz na Equatorial Pará; Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
+    "chave": "longo:pauta:chuveiro-choque-desarma+taxamin:EQUATORIAL PA+pauta:lei-14300-fio-b",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “370 palavras”: texto curto demais para o formato (370 palavras; mínimo 650). Correção: desenvolva mais: explique o dado, dê contexto e uma dica prática usando o dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências, mas a Lei de Incentivo ao Esporte (LIE) foi mencionada na evidência [3] (fonte: https://pt.wikipedia.org/wiki/Lei_de_Incentivo_ao_Esporte). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022",
+    "em": "2026-10-02T22:59:31.752465"
   }
 ]
