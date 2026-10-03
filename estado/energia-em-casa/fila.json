@@ -811,7 +811,7 @@
   },
   {
     "id": "20261001-221435-prazo-de-validade-dos-creditos-de-energi",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-01T22:14:35.875306-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-03T12:00:00-03:00",
@@ -849,8 +849,29 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "0YPl54905Is",
+        "url": "https://youtu.be/0YPl54905Is",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17972407392160510",
+        "url": "https://www.instagram.com/reel/DeCVyuFglmr/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692457982256334849",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1376450480914343",
+        "url": "https://www.facebook.com/reel/1376450480914343"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-03T12:07:03.192970-03:00"
   },
   {
     "id": "20261001-221959-dps-no-quadro-o-que-e-e-por-que-sua-casa",

@@ -348,5 +348,35 @@
         "url": "https://www.facebook.com/reel/1427786615365441"
       }
     }
+  },
+  {
+    "id": "20261001-221435-prazo-de-validade-dos-creditos-de-energi",
+    "chave": "pauta:creditos-60-meses",
+    "categoria": "solar",
+    "titulo": "Prazo de validade dos créditos de energia solar: 60 meses",
+    "texto_falado": "Você sabia que os créditos que sua energia solar gera podem expirar? A lei que regula a geração distribuída define prazo de validade de sessenta meses para esses créditos, fonte Lei 14.300/2022. Quando o painel produz mais energia que o consumo, o excedente vira crédito em kWh na sua conta. Esses créditos podem ser usados nos meses seguintes, mas se não forem consumidos dentro de cinco anos, eles desaparecem. Calcule seu consumo médio e dimensione o sistema próximo a ele, evitando crédito que vença sem uso. Se possui outro imóvel sob mesma distribuidora, pode transferir créditos para lá, usando autoconsumo remoto. Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "12:00",
+    "publicado_em": "2026-10-03T12:07:03.195984-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "0YPl54905Is",
+        "url": "https://youtu.be/0YPl54905Is",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17972407392160510",
+        "url": "https://www.instagram.com/reel/DeCVyuFglmr/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692457982256334849",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1376450480914343",
+        "url": "https://www.facebook.com/reel/1376450480914343"
+      }
+    }
   }
 ]
