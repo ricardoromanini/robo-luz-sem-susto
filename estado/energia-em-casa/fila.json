@@ -918,5 +918,215 @@
     },
     "publicacoes": {},
     "aprovado_por": "dono"
+  },
+  {
+    "id": "20261002-220819-taxa-minima-da-conta-de-luz-quanto-paga-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-02T22:08:19.561793-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-03T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EMS",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz: quanto paga na Energisa MS",
+    "texto_falado": "Você já percebeu que paga mesmo usando pouquíssima energia na conta de luz? A ANEEL fixa consumo mínimo de 30 kWh monofásico, 50 kWh bifásico, 100 kWh trifásico, válido nacionalmente para residências. Na Energisa MS, 30 kWh = R$ 29,60; 50 kWh = R$ 49,33; 100 kWh = R$ 98,66, tarifa residencial sem impostos. Acima do piso paga o excedente; o mínimo não se soma, tarifa residencial na sua conta. Você paga taxa mínima? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, sua conta tem um piso de cobrança.\nNa Energisa MS, 30 kWh custam cerca de R$ 29,60, 50 kWh R$ 49,33 e 100 kWh R$ 98,66 – tarifa residencial convencional, sem impostos, podendo variar.\nSe usar acima do piso, paga só o excedente.\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #EnergisaMS #taxaminima #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, sua conta tem um piso de cobrança.\nNa Energisa MS, 30 kWh custam cerca de R$ 29,60, 50 kWh R$ 49,33 e 100 kWh R$ 98,66 – tarifa residencial convencional, sem impostos, podendo variar.\nSe usar acima do piso, paga só o excedente.\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#energia #contadeluz #EnergisaMS #taxaminima #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 606848408,
+      "nome": "20261002-220819-taxa-minima-da-conta-de-luz-quanto-paga-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 51.7,
+        "lufs": -15.82,
+        "fala_confere": 0.8
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261002-221115-por-que-proteger-as-tomadas-de-criancas-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-02T22:11:15.490471-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-03T15:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:criancas-tomadas-fios",
+    "partes": [],
+    "titulo": "Por que proteger as tomadas de crianças evita choques e queimaduras",
+    "texto_falado": "Sua criança pode tocar nas tomadas sem proteção? O risco é real. A Sociedade Brasileira de Pediatria recomenda protetores nas tomadas dos quartos infantis (fonte). Mantenha fios curtos e presos fora do alcance; assim evita choque e queimadura. Qualquer conserto precisa seguir regra: serviço elétrico é com eletricista habilitado Lembre‑se: o protetor de tomada não substitui a atenção de um adulto Tem protetor nas tomadas dos pequenos? Salve vídeo e siga a página para proteger sua família.",
+    "legenda": {
+      "social": "Tomadas expostas são risco real para os pequenos. Use protetores, mantenha fios curtos e fora do alcance. Lembre que toda instalação deve ser feita por eletricista habilitado e o protetor não substitui a vigilância de um adulto.\n\nFonte: Sociedade Brasileira de Pediatria; Copel; CPFL Energia\n\n⚠️ Serviço elétrico é com eletricista habilitado; O protetor de tomada não substitui a atenção de um adulto.\n\n#segurança #casa #tomada #crianças #eletricidade #contadeluz #energia #energiasolar #economia",
+      "youtube": "Tomadas expostas são risco real para os pequenos. Use protetores, mantenha fios curtos e fora do alcance. Lembre que toda instalação deve ser feita por eletricista habilitado e o protetor não substitui a vigilância de um adulto.\n\nFonte: Sociedade Brasileira de Pediatria; Copel; CPFL Energia\n\n⚠️ Serviço elétrico é com eletricista habilitado; O protetor de tomada não substitui a atenção de um adulto.\n\nFontes:\nhttps://www.copel.com/site/educacao/energia-eletrica-sem-riscos/\nhttps://www.cpfl.com.br/dicas-de-seguranca\nhttps://www.sbp.com.br/acidentes-domesticos/\n\n#segurança #casa #tomada #crianças #eletricidade #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 606853852,
+      "nome": "20261002-221115-por-que-proteger-as-tomadas-de-criancas-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 40.7,
+        "lufs": -16.16,
+        "fala_confere": 1.0
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261002-221424-quanto-gasta-o-ferro-de-passar-por-mes-n",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-02T22:14:24.515455-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-04T07:30:00-03:00",
+    "categoria": "calculadora",
+    "chave": "calc:ferro:CPFL-PIRATINING",
+    "partes": [],
+    "titulo": "Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quanto você paga para passar roupa uma vez por semana? A tarifa residencial convencional da CPFL Piratininga é R$ 0,74 por kWh, segundo a ANEEL. Um ferro 1.200 W, potência exemplo, usado 1 hora por semana consome cerca de 5,1 kWh por mês. Com tarifa residencial convencional, custo estimado R$ 3,80 por mês, sem impostos nem bandeira, fonte ANEEL. Confira a potência na etiqueta; ela pode variar por modelo, use ferro só quando necessário. Quantas vezes usa ferro? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "A tarifa residencial convencional da CPFL Piratininga custa R$ 0,74/kWh (sem impostos e bandeira). Um ferro de 1.200 W usado 1 h/semana consome ~5,1 kWh/mês, gerando cerca de R$ 3,80 mensais. Verifique a potência na etiqueta, pois pode variar por modelo. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#energia #contadeluz #CPFL #energiasolar #economia",
+      "youtube": "A tarifa residencial convencional da CPFL Piratininga custa R$ 0,74/kWh (sem impostos e bandeira). Um ferro de 1.200 W usado 1 h/semana consome ~5,1 kWh/mês, gerando cerca de R$ 3,80 mensais. Verifique a potência na etiqueta, pois pode variar por modelo. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #CPFL #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 606878585,
+      "nome": "20261002-221424-quanto-gasta-o-ferro-de-passar-por-mes-n.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 45.6,
+        "lufs": -16.0,
+        "fala_confere": 0.9
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261002-222635-quanto-gasta-o-chuveiro-eletrico-por-mes",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-02T22:26:35.554890-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-04T11:30:00-03:00",
+    "categoria": "calculadora",
+    "chave": "calc:chuveiro:COELBA",
+    "partes": [],
+    "titulo": "Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quer saber quanto seu chuveiro elétrico custa na conta de luz todos os dias em casa? A Neoenergia Coelba cobra R$ 0,878 por kWh na tarifa residencial convencional, sem impostos, sem bandeira. Um chuveiro de 5,5 kW, 15 min diários, consome 41,2 kWh, custando R$ 36,21 por mês. Cheque a etiqueta: potência é exemplo, pode variar; impostos e bandeira elevam o valor. Seu chuveiro pesa na conta? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Um chuveiro de 5,5 kW, usado 15 min por dia, consome cerca de 41,2 kWh por mês.\nNa tarifa residencial convencional da Neoenergia Coelba, isso gera aproximadamente R$ 36,21, sem impostos nem bandeira.\nLembre‑se que sua conta pode incluir ICMS, PIS/Cofins e a bandeira, elevando o valor final.\nFonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#energia #contadeluz #chuveiro #tarifas #NeoenergiaCoelba #energiasolar #economia",
+      "youtube": "Um chuveiro de 5,5 kW, usado 15 min por dia, consome cerca de 41,2 kWh por mês.\nNa tarifa residencial convencional da Neoenergia Coelba, isso gera aproximadamente R$ 36,21, sem impostos nem bandeira.\nLembre‑se que sua conta pode incluir ICMS, PIS/Cofins e a bandeira, elevando o valor final.\nFonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #chuveiro #tarifas #NeoenergiaCoelba #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 606893089,
+      "nome": "20261002-222635-quanto-gasta-o-chuveiro-eletrico-por-mes.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 44.2,
+        "lufs": -15.52,
+        "fala_confere": 0.91
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261002-223506-pipa-presa-ou-fio-caido-como-agir-para-e",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-02T22:35:06.957797-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-04T15:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:pipa-rede-fio-caido",
+    "partes": [],
+    "titulo": "Pipa presa ou fio caído: como agir para evitar choque",
+    "texto_falado": "Sua pipa ficou presa no fio de energia? Isso pode ser fatal. A linha da pipa conduz eletricidade, pode ser fatal – melhor perder a pipa. (CPFL Energia) Fio caído ainda energiza o solo; tocar pode gerar choque grave. (Enel São Paulo) Não use barra, haste, escada ou poste para tirar a pipa. (Copel) Afaste crianças, não toque, e ligue a distribuidora – telefone está na conta (Enel). Já viu pipa no fio? Salve este vídeo e siga a página para proteger sua família.",
+    "legenda": {
+      "social": "⚡️ Pipa presa no fio ou cabo caído pode levar choque grave.\n🔌 Nunca tente retirar com ferramentas ou escada.\n📞 Afaste pessoas e ligue a distribuidora – o número está na sua conta de luz.\n⛑️ Segurança em primeiro lugar! Fonte: CPFL Energia, Copel, Enel São Paulo.\n\n#segurança #choqueeletrico #pipa #energia #casa #evitechoque #contadeluz #energiasolar #economia",
+      "youtube": "⚡️ Pipa presa no fio ou cabo caído pode levar choque grave.\n🔌 Nunca tente retirar com ferramentas ou escada.\n📞 Afaste pessoas e ligue a distribuidora – o número está na sua conta de luz.\n⛑️ Segurança em primeiro lugar! Fonte: CPFL Energia, Copel, Enel São Paulo.\n\nFontes:\nhttps://www.copel.com/site/noticias/pipa-na-rede-eletrica-desliga-821-clientes-em-cambe-copel-alerta-sobre-os-riscos/\nhttps://www.cpfl.com.br/dicas-de-seguranca\nhttps://www.enel.com.br/pt-saopaulo/midia/news/d2026-2/fios-caidos-apos-tempestades-como-agir-com-seguranca.html\n\n#segurança #choqueeletrico #pipa #energia #casa #evitechoque #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 606897703,
+      "nome": "20261002-223506-pipa-presa-ou-fio-caido-como-agir-para-e.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 43.8,
+        "lufs": -16.15,
+        "fala_confere": 1.0
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

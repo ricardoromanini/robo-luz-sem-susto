@@ -47,5 +47,26 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [⚖️ Revisor jurídico e de políticas] “a tarifa de energia solar chegou a 60%”: 1. Código de Defesa do Consumidor (arts. 31 e 37). Correção: a parcela do Fio B na tarifa de energia chegou a 60%",
     "em": "2026-09-30T07:17:42.276494"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Neoenergia Brasília",
+    "chave": "calc:chuveiro:Neoenergia Brasília",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Um banho de 15 minutos pode custar mais de R$ 34,10 na sua conta?”: O texto diz que o custo é de R$ 34,10 por mês, sem impostos e bandeira, mas o trecho inicial sugere que o custo de um banho de 15 minutos pode ser maior que esse valor, o que não é claro.. Correção: Reescrever para refletir que o custo de R$ 34,10 se refere ao mês todo, não a um banho de 15 minutos.\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Brasília”: A empresa mencionada é a Neoenergia Coelba, que atua na Bahia, e não a Neoenergia Brasília (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-02T22:17:46.752085"
+  },
+  {
+    "tema": "Fio desencapado e gambiarra: choque hoje, incêndio amanhã",
+    "chave": "pauta:fio-desencapado-gambiarra",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Fio desencapado pode causar choque e ainda provocar incêndio na sua casa agora?”: O dossiê não menciona que o incêndio ocorre 'agora' ou 'imediatamente'. Correção: Fio desencapado pode causar choque e provocar incêndio na sua casa",
+    "em": "2026-10-02T22:21:33.991021"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Neoenergia Elektro",
+    "chave": "calc:chuveiro:ELEKTRO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Elektro”: A empresa mencionada no texto é a Neoenergia Coelba, conforme a evidência [0] (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-02T22:31:33.638945"
   }
 ]
