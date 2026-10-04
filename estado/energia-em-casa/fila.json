@@ -1090,7 +1090,7 @@
   },
   {
     "id": "20261002-221424-quanto-gasta-o-ferro-de-passar-por-mes-n",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-02T22:14:24.515455-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-04T11:30:00-03:00",
@@ -1128,8 +1128,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "bCb5lYW76p8",
+        "url": "https://youtu.be/bCb5lYW76p8",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18137218108623982",
+        "url": "https://www.instagram.com/reel/DeE4SrKDPDh/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692823842296694791",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1648666703308651",
+        "url": "https://www.facebook.com/reel/1648666703308651"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-04T11:46:52.841371-03:00"
   },
   {
     "id": "20261002-222635-quanto-gasta-o-chuveiro-eletrico-por-mes",

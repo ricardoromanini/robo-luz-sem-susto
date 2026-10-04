@@ -438,5 +438,35 @@
         "url": "https://www.facebook.com/reel/1108852621602943"
       }
     }
+  },
+  {
+    "id": "20261002-221424-quanto-gasta-o-ferro-de-passar-por-mes-n",
+    "chave": "calc:ferro:CPFL-PIRATINING",
+    "categoria": "calculadora",
+    "titulo": "Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quanto você paga para passar roupa uma vez por semana? A tarifa residencial convencional da CPFL Piratininga é R$ 0,74 por kWh, segundo a ANEEL. Um ferro 1.200 W, potência exemplo, usado 1 hora por semana consome cerca de 5,1 kWh por mês. Com tarifa residencial convencional, custo estimado R$ 3,80 por mês, sem impostos nem bandeira, fonte ANEEL. Confira a potência na etiqueta; ela pode variar por modelo, use ferro só quando necessário. Quantas vezes usa ferro? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "11:30",
+    "publicado_em": "2026-10-04T11:46:52.844037-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "bCb5lYW76p8",
+        "url": "https://youtu.be/bCb5lYW76p8",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18137218108623982",
+        "url": "https://www.instagram.com/reel/DeE4SrKDPDh/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692823842296694791",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1648666703308651",
+        "url": "https://www.facebook.com/reel/1648666703308651"
+      }
+    }
   }
 ]
