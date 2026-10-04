@@ -1,3 +1,16 @@
 {
-  "offset": 743936662
+  "offset": 743936669,
+  "confirmar": [
+    743936662,
+    743936663,
+    743936664,
+    743936665,
+    743936666,
+    743936667,
+    743936668
+  ],
+  "aguardando_obs": [
+    "energia-em-casa",
+    "20261002-222635-quanto-gasta-o-chuveiro-eletrico-por-mes"
+  ]
 }
