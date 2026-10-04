@@ -100,7 +100,8 @@
     },
     "aprovado_por": "dono (confirmado na conversa com o Claude)",
     "tentativas": 1,
-    "publicado_em": "2026-09-30T12:39:16.083134-03:00"
+    "publicado_em": "2026-09-30T12:39:16.083134-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-073934-entenda-a-taxa-minima-da-conta-de-luz-na",
