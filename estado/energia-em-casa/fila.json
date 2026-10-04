@@ -1212,5 +1212,215 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261003-220813-ranking-das-tarifas-de-energia-as-mais-c",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-03T22:08:13.546568-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-04T18:30:00-03:00",
+    "categoria": "ranking",
+    "chave": "ranking:2026-10",
+    "partes": [],
+    "titulo": "Ranking das tarifas de energia: as mais caras e as mais baratas no Brasil",
+    "texto_falado": "Sabia que o preço do kWh pode variar até 51% entre estados? A tarifa mais cara é da Enel Rio, R$ 1,061 por kWh (fonte: ANEEL). A mais barata está na Enel Ceará, R$ 0,702 por kWh (fonte: ANEEL). Lembre: preço é tarifa residencial convencional, sem ICMS, PIS/Cofins nem bandeira; sua conta pode variar. Confira na sua conta se a tarifa está correta e procure a tarifa branca para economizar. Qual a sua tarifa residencial? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Descubra como o custo do kWh varia entre as distribuidoras brasileiras. A Enel Rio tem a tarifa mais cara (R$ 1,06/kWh) e a Enel Ceará a mais barata (R$ 0,70/kWh). A diferença chega a 51 % segundo a ANEEL. Compare sua conta e veja se vale mudar de tarifa. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #tarifas #contadeluz #energiasolar #economia",
+      "youtube": "Descubra como o custo do kWh varia entre as distribuidoras brasileiras. A Enel Rio tem a tarifa mais cara (R$ 1,06/kWh) e a Enel Ceará a mais barata (R$ 0,70/kWh). A diferença chega a 51 % segundo a ANEEL. Compare sua conta e veja se vale mudar de tarifa. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #tarifas #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 608881562,
+      "nome": "20261003-220813-ranking-das-tarifas-de-energia-as-mais-c.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 46.0,
+        "lufs": -16.23,
+        "fala_confere": 0.89
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261003-221830-choque-no-chuveiro-ou-disjuntor-desarman",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-03T22:18:30.897795-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-04T20:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:chuveiro-choque-desarma",
+    "partes": [],
+    "titulo": "Choque no chuveiro ou disjuntor desarmando? Saiba o que fazer",
+    "texto_falado": "Na sua casa, seu chuveiro está dando choques ou desarma o disjuntor agora? Nunca troque a chave verão/inverno com o chuveiro ligado, pode causar choque fatal, alerta CPFL Energia. Um chuveiro frequentemente supera a capacidade do circuito, fazendo o disjuntor desarmar, segundo Enel X Brasil. Desligue o chuveiro, verifique fios, e lembre‑se: serviço elétrico é com eletricista habilitado antes imediatamente agora. Já passou por esse problema? Siga a página para deixar sua casa mais segura.",
+    "legenda": {
+      "social": "Se o chuveiro dá choque ou desarma o disjuntor, pare imediatamente. Não troque a chave com o aparelho ligado (CPFL Energia). Um chuveiro potente pode exceder a capacidade do circuito (Enel X Brasil). Desligue, verifique fios e lembre‑se: serviço elétrico é com eletricista habilitado. #segurança #eletricidade #chuveiro\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurança #eletricidade #chuveiro #contadeluz #energia #energiasolar #economia",
+      "youtube": "Se o chuveiro dá choque ou desarma o disjuntor, pare imediatamente. Não troque a chave com o aparelho ligado (CPFL Energia). Um chuveiro potente pode exceder a capacidade do circuito (Enel X Brasil). Desligue, verifique fios e lembre‑se: serviço elétrico é com eletricista habilitado. #segurança #eletricidade #chuveiro\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\nFontes:\nhttps://www.cpfl.com.br/dicas-de-seguranca\nhttps://www.enelx.com/br/pt/conteudos/o-que-fazer-quando-disjuntores-desarmam-e-a-energia-cai\nhttps://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa\n\n#segurança #eletricidade #chuveiro #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 608892145,
+      "nome": "20261003-221830-choque-no-chuveiro-ou-disjuntor-desarman.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 37.7,
+        "lufs": -16.0,
+        "fala_confere": 0.99
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261003-222542-etiqueta-nova-da-geladeira-o-que-observa",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-03T22:25:42.451027-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-05T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "pauta:geladeira-etiqueta",
+    "partes": [],
+    "titulo": "Etiqueta nova da geladeira: o que observar antes de comprar",
+    "texto_falado": "Etiqueta nova da geladeira: como economizar na conta de luz? Geladeira e freezer respondem por cerca de 25% da conta; Fonte: EPE. A etiqueta indica kWh mensais; multiplicando a tarifa você estima o gasto. (Inmetro) Desde 31/12/2025, só geladeiras com etiqueta nova são fabricadas; vendas só a partir de 31/12/2026. (Inmetro) Consumo real depende do modelo e do uso. Fonte: Inmetro e EPE. Sua geladeira tem etiqueta kWh? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Entenda como a nova etiqueta Inmetro ajuda a estimar o gasto da geladeira. Ela mostra kWh por mês, permitindo calcular o custo com a tarifa da sua conta. Lembre‑se: consumo real varia conforme modelo e uso. Fonte: Inmetro e EPE.\n\n⚠️ O consumo real depende do modelo e do uso. Fonte: Inmetro e EPE.\n\n#energia #geladeira #etiquetanova #contadeenergia #dicasdeeconomia #contadeluz #energiasolar #economia",
+      "youtube": "Entenda como a nova etiqueta Inmetro ajuda a estimar o gasto da geladeira. Ela mostra kWh por mês, permitindo calcular o custo com a tarifa da sua conta. Lembre‑se: consumo real varia conforme modelo e uso. Fonte: Inmetro e EPE.\n\n⚠️ O consumo real depende do modelo e do uso. Fonte: Inmetro e EPE.\n\nFontes:\nhttp://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002813.pdf\n\n#energia #geladeira #etiquetanova #contadeenergia #dicasdeeconomia #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 608907373,
+      "nome": "20261003-222542-etiqueta-nova-da-geladeira-o-que-observa.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 48.0,
+        "lufs": -15.76,
+        "fala_confere": 0.86
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261003-223802-tv-em-standby-consome-energia-entenda-o-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-03T22:38:02.053362-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-05T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "pauta:stand-by",
+    "partes": [],
+    "titulo": "TV em standby consome energia? Entenda o limite de 1 watt do Inmetro",
+    "texto_falado": "Sua TV consome energia mesmo quando parece desligada? Vamos entender o standby. Segundo o Inmetro, fabricantes devem declarar standby; TV acima de 1 watt é não conforme. Na etiqueta, assume‑se 4 h ligada e 20 h em standby por dia. Desligue a TV da tomada depois de usar; o limite de 1 watt vale só para televisores. Deixa a TV em standby? Siga para mais dados oficiais sobre a sua energia, sem enrolação. A EPE recomenda desligar a TV e o computador quando terminar de usar.",
+    "legenda": {
+      "social": "📺 Mesmo apagada, sua TV pode estar usando energia no modo espera.\n⚡ O Inmetro estabelece que TVs acima de 1 watt em standby são não conformes.\n🧮 Na etiqueta, calcula‑se 4 h ligada + 20 h em espera por dia.\n💡 Desligue a TV da tomada após usar; o limite vale só para televisores.\n🔎 Fonte: Inmetro – Portaria 377/2021; EPE – ABCDEnergia.\n\n⚠️ O limite de 1 watt vale para televisores; outros aparelhos podem gastar mais em espera. Fonte: Inmetro.\n\n#energia #contadeluz #standby #inmetro #economia #energiasolar",
+      "youtube": "📺 Mesmo apagada, sua TV pode estar usando energia no modo espera.\n⚡ O Inmetro estabelece que TVs acima de 1 watt em standby são não conformes.\n🧮 Na etiqueta, calcula‑se 4 h ligada + 20 h em espera por dia.\n💡 Desligue a TV da tomada após usar; o limite vale só para televisores.\n🔎 Fonte: Inmetro – Portaria 377/2021; EPE – ABCDEnergia.\n\n⚠️ O limite de 1 watt vale para televisores; outros aparelhos podem gastar mais em espera. Fonte: Inmetro.\n\nFontes:\nhttp://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002833.pdf\nhttps://www.epe.gov.br/pt/abcdenergia/eficiencia-energetica\n\n#energia #contadeluz #standby #inmetro #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 608915592,
+      "nome": "20261003-223802-tv-em-standby-consome-energia-entenda-o-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 41.4,
+        "lufs": -16.26,
+        "fala_confere": 0.93
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261003-224338-disjuntor-desarma-o-tempo-todo-entenda-o",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-03T22:43:38.569323-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-05T15:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:disjuntor-desarmando-toda-hora",
+    "partes": [],
+    "titulo": "Disjuntor desarma o tempo todo? Entenda o risco e a solução",
+    "texto_falado": "Seu disjuntor desarma a todo momento? Isso pode ser perigoso. Sobrecarga, causa comum, acontece em casas antigas que não aguentam aparelhos modernos, informa Enel X Brasil. Quando o disjuntor dispara, ele corta a energia e protege a fiação e os moradores. Usar disjuntor com amperagem diferente da dos cabos pode não disparar e iniciar incêndio. Chame um eletricista habilitado para revisar a carga e ajustar o disjuntor à amperagem correta. Seu disjuntor já travou? Siga a página para deixar sua casa mais segura.",
+    "legenda": {
+      "social": "Disjuntor que desarma constantemente costuma ser sobrecarga em instalações antigas. Usar amperagem errada aumenta risco de incêndio. Só eletricista habilitado pode corrigir e garantir sua segurança. #segurançaelétrica #eletricista #casaSegura (fonte: Enel X Brasil, Abracopel)\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #eletricista #casaSegura #contadeluz #energia #energiasolar #economia",
+      "youtube": "Disjuntor que desarma constantemente costuma ser sobrecarga em instalações antigas. Usar amperagem errada aumenta risco de incêndio. Só eletricista habilitado pode corrigir e garantir sua segurança. #segurançaelétrica #eletricista #casaSegura (fonte: Enel X Brasil, Abracopel)\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\nFontes:\nhttps://abracopel.org/blog/sobrecarga-de-energia-pode-causar-incendio/\nhttps://www.enelx.com/br/pt/conteudos/o-que-fazer-quando-disjuntores-desarmam-e-a-energia-cai\n\n#segurançaelétrica #eletricista #casaSegura #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 608923883,
+      "nome": "20261003-224338-disjuntor-desarma-o-tempo-todo-entenda-o.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 42.4,
+        "lufs": -16.07,
+        "fala_confere": 1.0
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

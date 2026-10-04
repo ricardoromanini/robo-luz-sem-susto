@@ -89,5 +89,26 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “370 palavras”: texto curto demais para o formato (370 palavras; mínimo 650). Correção: desenvolva mais: explique o dado, dê contexto e uma dica prática usando o dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências, mas a Lei de Incentivo ao Esporte (LIE) foi mencionada na evidência [3] (fonte: https://pt.wikipedia.org/wiki/Lei_de_Incentivo_ao_Esporte). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022",
     "em": "2026-10-02T22:59:31.752465"
+  },
+  {
+    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
+    "chave": "pauta:chuveiro-verao-inverno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Sua conta de luz pode subir 13% só por mudar a chave do chuveiro?”: A afirmação é enganosa, pois o texto do dossiê não diz que mudar a chave do chuveiro aumenta a conta de luz em 13%, mas sim que o chuveiro responde por 13% do consumo residencial de eletricidade no Brasil em 2023.. Correção: Reescrever para refletir a informação correta, como 'O chuveiro responde por 13% do consumo residencial de eletricidade no Brasil em 2023, segundo a EPE.'\n- [🔎 Checador de fatos] “A posição da chave do chuveiro pode mudar até 13% da sua conta, segundo a EPE.”: A afirmação é enganosa, pois o texto do dossiê não diz que a posição da chave do chuveiro pode mudar até 13% da conta de luz.. Correção: Remover a afirmação ou reescrever para refletir a informação correta, como 'A EPE orienta usar a posição verão e reduzir o tempo do banho em dias quentes para economizar energia.'\n- [🌐 Pesquisador (internet e padrão brasileiro)] “13% do consumo residencial no Brasil em 2023, segundo a EPE”: Não há evidência que comprove essa informação (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: Verificar a fonte da EPE para confirmar a informação",
+    "em": "2026-10-03T22:11:20.605865"
+  },
+  {
+    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
+    "chave": "pauta:chuveiro-verao-inverno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “No verão, a potência do chuveiro diminui, gastando menos energia e água (fonte EPE).”: A afirmação não especifica se a redução de potência é uma característica do chuveiro em si ou se é uma configuração específica, mas o termo 'verão' pode sugerir uma mudança sazonal que não é comum em todos os chuveiros brasileiros. (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: Especificar que a redução de potência se refere à configuração 'verão' em chuveiros que possuem essa opção.",
+    "em": "2026-10-03T22:21:48.579478"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Enel Rio",
+    "chave": "calc:ar:ENEL RJ",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Enel Rio”: A empresa mencionada no texto é a Enel Distribuição Ceará, não Enel Rio. (fonte: https://pt.wikipedia.org/wiki/Enel_Distribui%C3%A7%C3%A3o_Cear%C3%A1). Correção: Substituir Enel Rio por Enel Distribuição Ceará",
+    "em": "2026-10-03T22:29:10.808173"
   }
 ]
