@@ -468,5 +468,35 @@
         "url": "https://www.facebook.com/reel/1648666703308651"
       }
     }
+  },
+  {
+    "id": "20261003-221830-choque-no-chuveiro-ou-disjuntor-desarman",
+    "chave": "pauta:chuveiro-choque-desarma",
+    "categoria": "seguranca",
+    "titulo": "Choque no chuveiro ou disjuntor desarmando? Saiba o que fazer",
+    "texto_falado": "Na sua casa, seu chuveiro está dando choques ou desarma o disjuntor agora? Nunca troque a chave verão/inverno com o chuveiro ligado, pode causar choque fatal, alerta CPFL Energia. Um chuveiro frequentemente supera a capacidade do circuito, fazendo o disjuntor desarmar, segundo Enel X Brasil. Desligue o chuveiro, verifique fios, e lembre‑se: serviço elétrico é com eletricista habilitado antes imediatamente agora. Já passou por esse problema? Siga a página para deixar sua casa mais segura.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-10-04T20:46:22.296834-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "Xb8SczpkX6A",
+        "url": "https://youtu.be/Xb8SczpkX6A",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18113717330097481",
+        "url": "https://www.instagram.com/reel/DeF2ELnjv8l/"
+      },
+      "tiktok": {
+        "id": "v_inbox_file~v2.7692962280007206918",
+        "modo": "rascunho",
+        "url": "rascunho no app TikTok"
+      },
+      "facebook": {
+        "id": "1125254953777713",
+        "url": "https://www.facebook.com/reel/1125254953777713"
+      }
+    }
   }
 ]
