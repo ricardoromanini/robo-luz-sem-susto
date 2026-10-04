@@ -161,7 +161,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 2,
-    "publicado_em": "2026-09-30T08:38:47.832924-03:00"
+    "publicado_em": "2026-09-30T08:38:47.832924-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-074244-dr-protecao-contra-choque-obrigatoria-em",
@@ -1132,7 +1133,7 @@
   },
   {
     "id": "20261002-222635-quanto-gasta-o-chuveiro-eletrico-por-mes",
-    "status": "refazer",
+    "status": "substituido",
     "criado_em": "2026-10-02T22:26:35.554890-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-04T11:30:00-03:00",
@@ -1175,7 +1176,7 @@
   },
   {
     "id": "20261002-223506-pipa-presa-ou-fio-caido-como-agir-para-e",
-    "status": "refazer",
+    "status": "substituido",
     "criado_em": "2026-10-02T22:35:06.957797-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-04T15:30:00-03:00",
@@ -1429,5 +1430,89 @@
     },
     "publicacoes": {},
     "aprovado_por": "dono"
+  },
+  {
+    "id": "20261004-084522-cuidados-essenciais-com-chuveiro-eletric",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-04T08:45:22.455870-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-04T15:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:chuveiro-cuidados",
+    "partes": [],
+    "titulo": "Cuidados essenciais com chuveiro elétrico: evite choque e fios derretidos",
+    "texto_falado": "Seu chuveiro pode estar derretendo o fio e causar choque elétrico agora? Um chuveiro costuma ter potência entre cinco mil e sete mil e quinhentos watts, conforme etiquetas. Fio fino não aguenta cinco mil watts; esquenta, derrete, por isso eletricista calcula a bitola correta. Desligue o disjuntor antes de mexer; DR e aterramento essenciais. Serviço elétrico é com eletricista habilitado. Sua casa tem DR no banheiro? Siga a página para deixar sua casa mais segura.",
+    "legenda": {
+      "social": "Entenda por que o chuveiro elétrico exige fios adequados, DR e aterramento. Desligue o disjuntor antes de qualquer ajuste e sempre contrate eletricista habilitado. Segurança em primeiro lugar! Fonte: etiquetas de fabricantes / Inmetro; ABNT NBR 5410\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #chuveiroelétrico #casaSegura #contadeluz #energia #energiasolar #economia",
+      "youtube": "Entenda por que o chuveiro elétrico exige fios adequados, DR e aterramento. Desligue o disjuntor antes de qualquer ajuste e sempre contrate eletricista habilitado. Segurança em primeiro lugar! Fonte: etiquetas de fabricantes / Inmetro; ABNT NBR 5410\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #chuveiroelétrico #casaSegura #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 609746778,
+      "nome": "20261004-084522-cuidados-essenciais-com-chuveiro-eletric.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 35.5,
+        "lufs": -16.17,
+        "fala_confere": 0.86
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261004-084821-quanto-gasta-o-ar-condicionado-por-mes-n",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-04T08:48:21.185547-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-05T18:30:00-03:00",
+    "categoria": "calculadora",
+    "chave": "calc:ar:EDP ES",
+    "partes": [],
+    "titulo": "Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quer saber quanto seu ar-condicionado custa na conta de luz? A tarifa residencial convencional da EDP Espírito Santo é R$ 0,844 por kWh, segundo a ANEEL. Um ar de 12.000 BTU, 1,1 kW, funciona 8 horas, 30 dias, gera 264 kWh. O consumo de 264 kWh custa cerca de R$ 222,74 por mês, sem impostos ou bandeira. Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins), sem bandeira; potência varia por modelo. Fonte: ANEEL Quanto seu ar consome? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Descubra quanto seu ar‑condicionado pode estar impactando a conta de luz usando a tarifa da EDP Espírito Santo. São cerca de 264 kWh por mês, o que gera R$ 222,74 apenas pela energia, sem impostos nem bandeira. Lembre‑se que a tarifa pode variar e a potência depende do modelo. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#energia #contadeluz #arcondicionado #energiasolar #economia",
+      "youtube": "Descubra quanto seu ar‑condicionado pode estar impactando a conta de luz usando a tarifa da EDP Espírito Santo. São cerca de 264 kWh por mês, o que gera R$ 222,74 apenas pela energia, sem impostos nem bandeira. Lembre‑se que a tarifa pode variar e a potência depende do modelo. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #arcondicionado #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 609752110,
+      "nome": "20261004-084821-quanto-gasta-o-ar-condicionado-por-mes-n.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 56.9,
+        "lufs": -15.72,
+        "fala_confere": 0.87
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
