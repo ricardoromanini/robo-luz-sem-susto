@@ -130,5 +130,5 @@ sem_referencia:
 # Regra geral do fiscal para TODAS as imagens da página
 regra_geral: >-
   A cena se passa no BRASIL. Reprove se aparecer: tomada ou plugue fora do padrão brasileiro (fendas retas,
-  pinos chatos), placas ou objetos com escrita em outra língua, dinheiro estrangeiro (dólar, euro),
+  pinos chatos, tomada de parede com só 2 furos — a tomada brasileira tem sempre 3 furos redondos), placas ou objetos com escrita em outra língua, dinheiro estrangeiro (dólar, euro),
   bandeira de outro país, neve, ou casa/rua tipicamente norte-americana.
