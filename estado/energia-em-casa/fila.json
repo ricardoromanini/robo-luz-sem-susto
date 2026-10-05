@@ -1416,7 +1416,7 @@
   },
   {
     "id": "20261003-223802-tv-em-standby-consome-energia-entenda-o-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-03T22:38:02.053362-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-05T11:30:00-03:00",
@@ -1454,8 +1454,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "OxESywih9WA",
+        "url": "https://youtu.be/OxESywih9WA",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18407954008089790",
+        "url": "https://www.instagram.com/reel/DeHdFCpgFJF/"
+      },
+      "tiktok": {
+        "id": "7a0f98ce7c014fefa8d4b1b3c76895a4",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/@luz.sem.susto"
+      },
+      "facebook": {
+        "id": "1116549287380824",
+        "url": "https://www.facebook.com/reel/1116549287380824"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-05T11:47:53.539473-03:00"
   },
   {
     "id": "20261003-224338-disjuntor-desarma-o-tempo-todo-entenda-o",

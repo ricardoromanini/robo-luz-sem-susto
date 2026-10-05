@@ -690,5 +690,35 @@
       "views_total": 0,
       "coletado_em": "2026-10-05T08:14:31.905426"
     }
+  },
+  {
+    "id": "20261003-223802-tv-em-standby-consome-energia-entenda-o-",
+    "chave": "pauta:stand-by",
+    "categoria": "entenda_conta",
+    "titulo": "TV em standby consome energia? Entenda o limite de 1 watt do Inmetro",
+    "texto_falado": "Sua TV consome energia mesmo quando parece desligada? Vamos entender o standby. Segundo o Inmetro, fabricantes devem declarar standby; TV acima de 1 watt é não conforme. Na etiqueta, assume‑se 4 h ligada e 20 h em standby por dia. Desligue a TV da tomada depois de usar; o limite de 1 watt vale só para televisores. Deixa a TV em standby? Siga para mais dados oficiais sobre a sua energia, sem enrolação. A EPE recomenda desligar a TV e o computador quando terminar de usar.",
+    "formato": "short",
+    "horario": "11:30",
+    "publicado_em": "2026-10-05T11:47:53.543348-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "OxESywih9WA",
+        "url": "https://youtu.be/OxESywih9WA",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18407954008089790",
+        "url": "https://www.instagram.com/reel/DeHdFCpgFJF/"
+      },
+      "tiktok": {
+        "id": "7a0f98ce7c014fefa8d4b1b3c76895a4",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/@luz.sem.susto"
+      },
+      "facebook": {
+        "id": "1116549287380824",
+        "url": "https://www.facebook.com/reel/1116549287380824"
+      }
+    }
   }
 ]
