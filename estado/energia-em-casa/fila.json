@@ -227,7 +227,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-09-30T20:46:41.630346-03:00"
+    "publicado_em": "2026-09-30T20:46:41.630346-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-074602-tarifas-residenciais-as-mais-caras-e-as-",
