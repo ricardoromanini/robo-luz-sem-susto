@@ -1481,7 +1481,7 @@
   },
   {
     "id": "20261003-224338-disjuntor-desarma-o-tempo-todo-entenda-o",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-03T22:43:38.569323-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-05T15:30:00-03:00",
@@ -1519,8 +1519,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "49VZCDwW0lY",
+        "url": "https://youtu.be/49VZCDwW0lY",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18112944335149413",
+        "url": "https://www.instagram.com/reel/DeH4ixvDfj5/"
+      },
+      "tiktok": {
+        "id": "7693256928759155976",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693256928759155976"
+      },
+      "facebook": {
+        "id": "1392596963031591",
+        "url": "https://www.facebook.com/reel/1392596963031591"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-05T15:47:35.539834-03:00"
   },
   {
     "id": "20261004-084522-cuidados-essenciais-com-chuveiro-eletric",

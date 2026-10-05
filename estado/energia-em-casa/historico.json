@@ -720,5 +720,35 @@
         "url": "https://www.facebook.com/reel/1116549287380824"
       }
     }
+  },
+  {
+    "id": "20261003-224338-disjuntor-desarma-o-tempo-todo-entenda-o",
+    "chave": "pauta:disjuntor-desarmando-toda-hora",
+    "categoria": "seguranca",
+    "titulo": "Disjuntor desarma o tempo todo? Entenda o risco e a solução",
+    "texto_falado": "Seu disjuntor desarma a todo momento? Isso pode ser perigoso. Sobrecarga, causa comum, acontece em casas antigas que não aguentam aparelhos modernos, informa Enel X Brasil. Quando o disjuntor dispara, ele corta a energia e protege a fiação e os moradores. Usar disjuntor com amperagem diferente da dos cabos pode não disparar e iniciar incêndio. Chame um eletricista habilitado para revisar a carga e ajustar o disjuntor à amperagem correta. Seu disjuntor já travou? Siga a página para deixar sua casa mais segura.",
+    "formato": "short",
+    "horario": "15:30",
+    "publicado_em": "2026-10-05T15:47:35.542342-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "49VZCDwW0lY",
+        "url": "https://youtu.be/49VZCDwW0lY",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18112944335149413",
+        "url": "https://www.instagram.com/reel/DeH4ixvDfj5/"
+      },
+      "tiktok": {
+        "id": "7693256928759155976",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693256928759155976"
+      },
+      "facebook": {
+        "id": "1392596963031591",
+        "url": "https://www.facebook.com/reel/1392596963031591"
+      }
+    }
   }
 ]
