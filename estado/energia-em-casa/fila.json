@@ -1008,10 +1008,10 @@
   },
   {
     "id": "20261002-220819-taxa-minima-da-conta-de-luz-quanto-paga-",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-02T22:08:19.561793-03:00",
     "formato": "short",
-    "horario_publicacao": "2026-10-03T11:30:00-03:00",
+    "horario_publicacao": "2026-10-05T20:30:00-03:00",
     "categoria": "entenda_conta",
     "chave": "taxamin:EMS",
     "partes": [],
@@ -1046,14 +1046,15 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261002-221115-por-que-proteger-as-tomadas-de-criancas-",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-02T22:11:15.490471-03:00",
     "formato": "short",
-    "horario_publicacao": "2026-10-03T15:30:00-03:00",
+    "horario_publicacao": "2026-10-06T07:30:00-03:00",
     "categoria": "seguranca",
     "chave": "pauta:criancas-tomadas-fios",
     "partes": [],
@@ -1088,7 +1089,8 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261002-221424-quanto-gasta-o-ferro-de-passar-por-mes-n",
@@ -1242,10 +1244,10 @@
   },
   {
     "id": "20261003-220813-ranking-das-tarifas-de-energia-as-mais-c",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-03T22:08:13.546568-03:00",
     "formato": "short",
-    "horario_publicacao": "2026-10-04T18:30:00-03:00",
+    "horario_publicacao": "2026-10-06T15:30:00-03:00",
     "categoria": "ranking",
     "chave": "ranking:2026-10",
     "partes": [],
@@ -1280,7 +1282,8 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261003-221830-choque-no-chuveiro-ou-disjuntor-desarman",
@@ -1477,10 +1480,10 @@
   },
   {
     "id": "20261004-084522-cuidados-essenciais-com-chuveiro-eletric",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-04T08:45:22.455870-03:00",
     "formato": "short",
-    "horario_publicacao": "2026-10-04T15:30:00-03:00",
+    "horario_publicacao": "2026-10-06T11:30:00-03:00",
     "categoria": "seguranca",
     "chave": "pauta:chuveiro-cuidados",
     "partes": [],
@@ -1515,11 +1518,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261004-084821-quanto-gasta-o-ar-condicionado-por-mes-n",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-04T08:48:21.185547-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-05T18:30:00-03:00",
@@ -1557,6 +1561,7 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   }
 ]
