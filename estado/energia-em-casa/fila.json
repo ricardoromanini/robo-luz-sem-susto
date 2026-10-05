@@ -1588,7 +1588,7 @@
   },
   {
     "id": "20261004-084821-quanto-gasta-o-ar-condicionado-por-mes-n",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-04T08:48:21.185547-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-05T18:30:00-03:00",
@@ -1626,7 +1626,28 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "NkrxHz6xaEo",
+        "url": "https://youtu.be/NkrxHz6xaEo",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18115505552064914",
+        "url": "https://www.instagram.com/reel/DeILe2CAd4E/"
+      },
+      "tiktok": {
+        "id": "7693299266428718337",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693299266428718337"
+      },
+      "facebook": {
+        "id": "2043177773002823",
+        "url": "https://www.facebook.com/reel/2043177773002823"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-05T18:32:59.158547-03:00"
   }
 ]

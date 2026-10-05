@@ -750,5 +750,35 @@
         "url": "https://www.facebook.com/reel/1392596963031591"
       }
     }
+  },
+  {
+    "id": "20261004-084821-quanto-gasta-o-ar-condicionado-por-mes-n",
+    "chave": "calc:ar:EDP ES",
+    "categoria": "calculadora",
+    "titulo": "Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quer saber quanto seu ar-condicionado custa na conta de luz? A tarifa residencial convencional da EDP Espírito Santo é R$ 0,844 por kWh, segundo a ANEEL. Um ar de 12.000 BTU, 1,1 kW, funciona 8 horas, 30 dias, gera 264 kWh. O consumo de 264 kWh custa cerca de R$ 222,74 por mês, sem impostos ou bandeira. Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins), sem bandeira; potência varia por modelo. Fonte: ANEEL Quanto seu ar consome? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "18:30",
+    "publicado_em": "2026-10-05T18:32:59.162374-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "NkrxHz6xaEo",
+        "url": "https://youtu.be/NkrxHz6xaEo",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18115505552064914",
+        "url": "https://www.instagram.com/reel/DeILe2CAd4E/"
+      },
+      "tiktok": {
+        "id": "7693299266428718337",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693299266428718337"
+      },
+      "facebook": {
+        "id": "2043177773002823",
+        "url": "https://www.facebook.com/reel/2043177773002823"
+      }
+    }
   }
 ]
