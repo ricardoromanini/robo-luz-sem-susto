@@ -10,7 +10,7 @@
   tema: "O dispositivo DR: a proteção contra choque que a norma exige em banheiro e cozinha"
   fatos:
     - {texto: "O DR (dispositivo diferencial-residual) desliga o circuito quando detecta fuga de corrente, como num choque elétrico.", fonte: "ABNT NBR 5410"}
-    - {texto: "A NBR 5410 exige DR de alta sensibilidade (até 30 mA) nos circuitos que atendem banheiros, cozinhas, copas, lavanderias, áreas de serviço, garagens e áreas externas.", fonte: "ABNT NBR 5410:2004, item 5.1.3.2.2"}
+    - {texto: "A NBR 5410 exige DR nos circuitos que atendem banheiros, cozinhas, copas, lavanderias, áreas de serviço, garagens e áreas externas.", fonte: "ABNT NBR 5410:2004, item 5.1.3.2.2"}
     - {texto: "O disjuntor comum protege os fios contra sobrecarga e curto-circuito; ele não foi feito para proteger pessoas contra choque. Quem faz isso é o DR.", fonte: "ABNT NBR 5410"}
     - {texto: "O DR tem um botão de teste; apertá-lo deve desligar o dispositivo, o que indica que ele está funcionando.", fonte: "manuais de fabricantes de DR"}
   aviso_seguranca: true
