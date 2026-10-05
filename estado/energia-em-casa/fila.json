@@ -357,7 +357,8 @@
     },
     "aprovado_por": "dono (confirmado na conversa com o Claude)",
     "tentativas": 0,
-    "publicado_em": "2026-10-01T12:07:37.314469-03:00"
+    "publicado_em": "2026-10-01T12:07:37.314469-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-072223-microgeracao-ou-minigeracao-descubra-ond",
