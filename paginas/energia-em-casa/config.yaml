@@ -106,7 +106,7 @@ plataformas:
   youtube:   {ativa: true, categoria_id: "27", rotulo_ia: true}     # 27 = Educação
   instagram: {ativa: true}
   facebook:  {ativa: true}
-  tiktok:    {ativa: true, modo_api: rascunho, arroba: "@luz.sem.susto", perfil_uploadpost: luz-sem-susto, via: api_oficial}   # TikTok: via uploadpost = publica sozinho pelo Upload-Post (ligar depois de conectar a conta, em 06/10); rascunho = o robô põe o vídeo na caixa de entrada do app e você publica; direto = só depois da auditoria do TikTok
+  tiktok:    {ativa: true, modo_api: rascunho, arroba: "@luz.sem.susto", perfil_uploadpost: luz-sem-susto, via: uploadpost}   # TikTok: via uploadpost = publica sozinho pelo Upload-Post (conta conectada em 05/10/2026); rascunho = o robô põe o vídeo na caixa de entrada do app e você publica; direto = só depois da auditoria do TikTok
 
 hashtags_base: ["#contadeluz", "#energia", "#energiasolar", "#economia"]
 
