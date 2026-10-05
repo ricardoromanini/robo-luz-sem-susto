@@ -780,5 +780,35 @@
         "url": "https://www.facebook.com/reel/2043177773002823"
       }
     }
+  },
+  {
+    "id": "20261002-220819-taxa-minima-da-conta-de-luz-quanto-paga-",
+    "chave": "taxamin:EMS",
+    "categoria": "entenda_conta",
+    "titulo": "Taxa mínima da conta de luz: quanto paga na Energisa MS",
+    "texto_falado": "Você já percebeu que paga mesmo usando pouquíssima energia na conta de luz? A ANEEL fixa consumo mínimo de 30 kWh monofásico, 50 kWh bifásico, 100 kWh trifásico, válido nacionalmente para residências. Na Energisa MS, 30 kWh = R$ 29,60; 50 kWh = R$ 49,33; 100 kWh = R$ 98,66, tarifa residencial sem impostos. Acima do piso paga o excedente; o mínimo não se soma, tarifa residencial na sua conta. Você paga taxa mínima? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-10-05T20:47:38.589337-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "HNBwQsckl2M",
+        "url": "https://youtu.be/HNBwQsckl2M",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18029607791906181",
+        "url": "https://www.instagram.com/reel/DeIa4jujCWt/"
+      },
+      "tiktok": {
+        "id": "7693333825249709318",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693333825249709318"
+      },
+      "facebook": {
+        "id": "2309091889943479",
+        "url": "https://www.facebook.com/reel/2309091889943479"
+      }
+    }
   }
 ]
