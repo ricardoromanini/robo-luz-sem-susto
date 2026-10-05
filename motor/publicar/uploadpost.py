@@ -49,10 +49,15 @@ def publicar_tiktok(pagina: Pagina, video: Path, legenda: str) -> dict:
             res = (st.get("results") or {}).get("tiktok") if isinstance(st.get("results"), dict) else None
             if res is None and isinstance(st.get("results"), list):
                 res = next((x for x in st["results"] if x.get("platform") == "tiktok"), None)
-            if res and (res.get("success") is not None or res.get("url")):
+            if res and (res.get("success") is True or res.get("url")):
                 break
-            if str(st.get("status", "")).lower() in ("failed", "error"):
+            if str((res or {}).get("status", "")).lower() in ("failed", "error") or str(st.get("status", "")).lower() in ("failed", "error"):
                 raise RuntimeError(f"Upload-Post: falhou ({str(st)[:300]})")
+        else:
+            # ainda "processing" depois de 10 min: o Upload-Post continua sozinho. NÃO reenviar (reenviar duplica o vídeo).
+            arroba = cfg.get("arroba", "")
+            return {"id": corpo["request_id"], "modo": "uploadpost", "pendente": True,
+                    "url": f"https://www.tiktok.com/{arroba}" if arroba else ""}
     if not res or res.get("success") is False:
         raise RuntimeError(f"Upload-Post não confirmou a publicação no TikTok: {str(res or corpo)[:300]}")
     arroba = cfg.get("arroba", "")

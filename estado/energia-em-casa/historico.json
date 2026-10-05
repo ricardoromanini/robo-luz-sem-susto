@@ -498,5 +498,35 @@
         "url": "https://www.facebook.com/reel/1125254953777713"
       }
     }
+  },
+  {
+    "id": "20261003-222542-etiqueta-nova-da-geladeira-o-que-observa",
+    "chave": "pauta:geladeira-etiqueta",
+    "categoria": "entenda_conta",
+    "titulo": "Etiqueta nova da geladeira: o que observar antes de comprar",
+    "texto_falado": "Etiqueta nova da geladeira: como economizar na conta de luz? Geladeira e freezer respondem por cerca de 25% da conta; Fonte: EPE. A etiqueta indica kWh mensais; multiplicando a tarifa você estima o gasto. (Inmetro) Desde 31/12/2025, só geladeiras com etiqueta nova são fabricadas; vendas só a partir de 31/12/2026. (Inmetro) Consumo real depende do modelo e do uso. Fonte: Inmetro e EPE. Sua geladeira tem etiqueta kWh? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-05T08:07:16.643036-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "NwMUJexlsmc",
+        "url": "https://youtu.be/NwMUJexlsmc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18105811097259836",
+        "url": "https://www.instagram.com/reel/DeHBrxyFV2X/"
+      },
+      "facebook": {
+        "id": "1121348543560428",
+        "url": "https://www.facebook.com/reel/1121348543560428"
+      },
+      "tiktok": {
+        "id": "7693133398201715988",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/@luz.sem.susto/video/7693133398201715988"
+      }
+    }
   }
 ]

@@ -1352,7 +1352,7 @@
   },
   {
     "id": "20261003-222542-etiqueta-nova-da-geladeira-o-que-observa",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-03T22:25:42.451027-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-05T07:30:00-03:00",
@@ -1403,11 +1403,16 @@
       "facebook": {
         "id": "1121348543560428",
         "url": "https://www.facebook.com/reel/1121348543560428"
+      },
+      "tiktok": {
+        "id": "7693133398201715988",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/@luz.sem.susto/video/7693133398201715988"
       }
     },
     "aprovado_por": "dono",
     "tentativas": 2,
-    "publicado_em": null
+    "publicado_em": "2026-10-05T08:07:16.640035-03:00"
   },
   {
     "id": "20261003-223802-tv-em-standby-consome-energia-entenda-o-",
