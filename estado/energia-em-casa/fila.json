@@ -292,7 +292,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-01T07:47:10.259961-03:00"
+    "publicado_em": "2026-10-01T07:47:10.259961-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-071513-quanto-custa-usar-a-air-fryer-na-tarifa-",
@@ -1405,7 +1406,7 @@
       }
     },
     "aprovado_por": "dono",
-    "tentativas": 1,
+    "tentativas": 2,
     "publicado_em": null
   },
   {
