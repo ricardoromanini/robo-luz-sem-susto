@@ -1389,8 +1389,24 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "NwMUJexlsmc",
+        "url": "https://youtu.be/NwMUJexlsmc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18105811097259836",
+        "url": "https://www.instagram.com/reel/DeHBrxyFV2X/"
+      },
+      "facebook": {
+        "id": "1121348543560428",
+        "url": "https://www.facebook.com/reel/1121348543560428"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 1,
+    "publicado_em": null
   },
   {
     "id": "20261003-223802-tv-em-standby-consome-energia-entenda-o-",
