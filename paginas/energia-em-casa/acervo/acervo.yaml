@@ -67,11 +67,63 @@ objetos:
     credito: "Mike Peel, www.mikepeel.net (Wikimedia Commons)"
     licenca: "CC BY-SA 4.0"
 
+  - id: quadro_disjuntores
+    referencia: quadro_disjuntores.jpg
+    norma: "ABNT NBR 5410 (instalações elétricas de baixa tensão: quadro de distribuição com um disjuntor por circuito e DR) e ABNT NBR NM 60898 (minidisjuntores modulares, montados em trilho DIN)"
+    gatilhos:
+      - 'quadros? de (luz|disjuntor\w*|distribui\w+|for[çc]a)|disjuntor\w*|minidisjuntor\w*'
+      - '\b(breaker|fuse) ?(box|panel)s?\b|circuit breakers?|electrical panels?|consumer units?|distribution boards?'
+    cenas:
+      - "The exact same white residential circuit breaker panel from the reference image (white plastic enclosure on the wall, one horizontal row of narrow modular DIN-rail circuit breakers with small toggle levers, white front cover around them), on a hallway wall of a cozy Brazilian home, close-up. Plain breakers with no labels, no stickers and no writing"
+      - "Keep the circuit breaker panel from the reference image exactly as it is (white box, single row of narrow DIN-rail breakers with toggle levers), door open, on a light painted wall in a Brazilian laundry area, soft daylight, no hands. Plain breakers with no labels and no writing"
+      - "The same white breaker panel from the reference image seen slightly from the side, the row of narrow DIN-rail circuit breakers with their small levers clearly visible, warm evening light in a Brazilian home, no people. Plain white surfaces with no labels and no writing"
+    cenas_mascote:
+      - "standing next to a wall and pointing at the white circuit breaker panel from the second reference image (white box with one row of narrow DIN-rail breakers with toggle levers), in a Brazilian home hallway. Keep the panel faithful to the second reference, plain breakers with no labels and no writing"
+      - "opening the door of the white circuit breaker panel from the second reference image (one row of narrow DIN-rail breakers with toggle levers) on a wall of a Brazilian home, looking at the viewer with a friendly smile. Keep the panel faithful to the second reference, plain breakers with no labels and no writing"
+    conferir: "Deve aparecer um quadro de distribuição residencial: caixa na parede (geralmente branca) com disjuntores MODULARES tipo DIN (peças retangulares estreitas, lado a lado em fileira, cada uma com uma alavanca). Reprove se tiver fusíveis de rosca ou cartucho, chave faca, painel norte-americano (disjuntores pretos de encaixe em duas colunas atrás de porta de metal cinza), ou etiquetas/textos legíveis."
+    fonte: "https://commons.wikimedia.org/wiki/File:Fuse_box_fixing_is_ready.JPG"
+    credito: "Dmitry G (Wikimedia Commons) — recorte"
+    licenca: "Domínio público"
+
+  - id: medidor_energia
+    referencia: medidor_energia.jpg
+    norma: "Medidor de energia da distribuidora (relógio de luz), com modelo aprovado pelo Inmetro; medição regulada pela ANEEL (REN 1.000/2021); instalado na caixa de medição do padrão de entrada, conforme a norma técnica da distribuidora local"
+    gatilhos:
+      - 'medidor(es)? (de |da )?(energia|luz|consumo|kwh)|rel[óo]gios? (de|da) (luz|energia|for[çc]a)|leitura do (rel[óo]gio|medidor)|padr[ãa]o de entrada|caixa de medi[çc][ãa]o'
+      - '\b(electricity|electric|power|energy|kwh|utility) meters?\b|\bmeter box(es)?\b|\bmeter reading\b'
+    cenas:
+      - "The exact same household electricity meter from the reference image: black rectangular body with a black lower terminal cover, gray faceplate behind glass with a dark strip holding a row of six small EMPTY light-gray counter windows, and below a thin horizontal window showing the edge of a rotating metal disc with an arrow. It hangs on the inner wall of a gray metal meter box with an open door, at the front wall of a Brazilian house. The six counter windows are empty, with no digits. No labels, no stickers, no writing"
+      - "Close-up of the same household electricity meter from the reference image (black body, gray faceplate, dark strip with a row of six small EMPTY counter windows, thin window with a rotating metal disc), mounted on a painted wall at the entrance of a Brazilian home, afternoon sun. The counter windows are blank with no digits, the faceplate has no text, no labels"
+      - "The same household electricity meter from the reference image (black body, gray faceplate, row of six small EMPTY counter windows on a dark strip, thin rotating disc window) inside a small gray meter cabinet with a clear glass door, on a garden wall in front of a Brazilian house, tropical plants nearby. Blank counter windows with no numbers, no writing, no logos, no stickers"
+    cenas_mascote:
+      - "standing beside a garden wall and pointing at the household electricity meter from the second reference image (black body, gray faceplate, row of six small EMPTY counter windows with no digits, thin rotating disc window) inside a gray meter box with an open door, in front of a Brazilian house. Keep the meter faithful to the second reference, no numbers, no writing"
+      - "standing in front of a Brazilian house and looking with curiosity at the household electricity meter from the second reference image (black body, gray faceplate, row of six small EMPTY counter windows with no digits) inside a gray meter box on the wall. Keep the meter faithful to the second reference, no numbers, no writing"
+    conferir: "Deve aparecer um medidor de energia residencial (relógio de luz) reconhecível: caixa retangular com mostrador e contador na parede ou dentro de uma caixa de medição com visor. O contador/visor deve estar em branco ou sem dígitos legíveis. Reprove se aparecer QUALQUER número ou texto legível no visor, em etiquetas ou adesivos, se for medidor redondo norte-americano (cúpula de vidro sobre base redonda) ou se for medidor de água/gás."
+    fonte: "https://commons.wikimedia.org/wiki/File:Siemens_household_electricity_meter_electromechanical_induction_type.jpg"
+    credito: "RobbieIanMorrison (Wikimedia Commons) — recorte, com textos e números apagados"
+    licenca: "CC BY 4.0"
+
+  - id: poste
+    referencia: poste_transformador.jpg
+    norma: "ABNT NBR 8451 (postes de concreto armado e protendido para redes de distribuição); rede aérea urbana com transformador no poste, no padrão da distribuidora local"
+    gatilhos:
+      - '\bpostes?\b|\btransformador(es)?\b|rede (el[ée]trica )?a[ée]rea|fios? (da rua|do poste)'
+      - '\b(utility|power|electric|telephone) poles?\b|\btransformers?\b|\bpower lines?\b'
+    cenas:
+      - "The exact same gray concrete utility pole from the reference image with the gray pole-mounted distribution transformer and many horizontal power lines, on a sunny residential street in a Brazilian city, low angle, blue sky with white clouds. No signs, no writing"
+      - "Keep the concrete pole and transformer from the reference image exactly as they are (gray concrete pole, gray transformer with cooling fins and insulators on top, wires around it), on a Brazilian neighborhood sidewalk at golden hour, small houses with colorful walls, no people. No signs, no writing"
+      - "The same gray concrete utility pole from the reference image with its transformer and power lines, seen from the street of a quiet Brazilian town, tropical trees, soft afternoon light, no people, no cars. No signs, no writing"
+    cenas_mascote:
+      - "standing on a Brazilian sidewalk at a safe distance and pointing up at the gray concrete utility pole with the transformer from the second reference image, power lines above. Keep the pole and transformer faithful to the second reference"
+      - "standing on a quiet Brazilian street, looking at the viewer and showing with an open hand the gray concrete utility pole with transformer from the second reference image behind. Keep the pole faithful to the second reference"
+    conferir: "O poste deve ser do padrão urbano brasileiro: poste de CONCRETO cinza (seção duplo T ou redonda) com fios e, se houver, transformador cinza preso ao poste. Reprove se o poste for de madeira escura com cruzetas em forma de cruz (padrão norte-americano), se houver placas ou textos legíveis, ou se alguém estiver subindo no poste."
+    fonte: "https://commons.wikimedia.org/wiki/File:Transformador_de_distribui%C3%A7%C3%A3o.JPG"
+    credito: "Richard Melo da Silva (Wikimedia Commons)"
+    licenca: "CC BY-SA 3.0"
+
 # Objetos que a IA costuma desenhar no padrão ERRADO e que ainda NÃO têm foto de referência:
 # a cena é trocada por uma cena segura (até o rs-pesquisador-visual trazer a referência).
 sem_referencia:
-  - 'quadro de (luz|disjuntor\w*|distribui\w+)|disjuntor\w*|\b(breaker|fuse) ?(box|panel)s?\b|circuit breakers?|electrical panels?'
-  - 'poste\w*|transformador\w*|\b(utility|power|electric) poles?\b|transformers?'
   - 'benjamim|adaptador\w*|filtro de linha|extens[ãa]o|r[ée]gua|power strips?|extension cords?|adapters?'
   - 'dinheiro|c[ée]dulas?|notas? de|moedas?|\b(coins?|banknotes?|cash|money|wallet)\b'
 
