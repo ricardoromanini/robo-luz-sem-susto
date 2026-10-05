@@ -38,9 +38,14 @@ def montar(pasta: Path, cenas: list[dict], audios: list[Path], duracoes: list[fl
     tmp = pasta / "tmp"
     tmp.mkdir(exist_ok=True)
     clipes = []
-    for i, (c, dur) in enumerate(zip(cenas, duracoes)):
-        d = dur + PAUSA
-        frames = max(int(round(d * FPS)), 1)
+    trechos = []  # (cena, fundo, frames, nº do movimento): cena com "extras" (cortes rápidos) vira 2+ imagens
+    for c, dur in zip(cenas, duracoes):
+        total = max(int(round((dur + PAUSA) * FPS)), 1)
+        fundos = [c["fundo"], *c.get("extras", [])] if c["fundo_tipo"] != "video" else [c["fundo"]]
+        for k, f in enumerate(fundos):
+            fr = total // len(fundos) + (total % len(fundos) if k == len(fundos) - 1 else 0)
+            trechos.append(({**c, "fundo": f}, fr, len(trechos)))
+    for i, (c, frames, mov_i) in enumerate(trechos):
         saida = tmp / f"cena_{i:02d}.mp4"
         if c["fundo_tipo"] == "video":
             # vídeo de banco: preenche a tela, repete se for curto, sem áudio; camada de texto por cima
@@ -52,7 +57,7 @@ def montar(pasta: Path, cenas: list[dict], audios: list[Path], duracoes: list[fl
         else:
             # foto/cartão: zoom lento alternando entrada/saída (movimento sem distrair); camada parada por cima
             if c.get("zoom", True):
-                z = f"1+0.08*on/{frames}" if i % 2 == 0 else f"1.08-0.08*on/{frames}"
+                z = f"1+0.08*on/{frames}" if mov_i % 2 == 0 else f"1.08-0.08*on/{frames}"
                 mov = (f"scale={int(w * 1.25) // 2 * 2}:{int(h * 1.25) // 2 * 2},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={w}x{h}:fps={FPS}")
             else:
                 mov = f"scale={w}:{h},fps={FPS}"

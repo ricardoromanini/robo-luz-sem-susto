@@ -31,6 +31,8 @@ visual:
 # Fotos e vídeos de fundo
 midia:
   chance_ilustracao: 1.0     # 100% das cenas com ILUSTRAÇÃO PRÓPRIA gerada por IA (sem texto, estilo da página)
+  gancho_candidatas: 3        # 1ª cena (gancho): gera 3 opções e o juiz de gancho escolhe a que mais prende nos 1os segundos
+  cortes_rapidos: {ativo: true, fracao: 0.5, troca_s: 4}   # TESTE A/B: metade dos shorts troca de imagem a cada ~4 s
   exigir_ilustracoes: true      # sem cota de ilustrações no dia = adia o vídeo (em vez de publicar só com cartões)
   vozes_aceitas: [gemini, azure, google]   # Piper (voz robótica) só para testes no PC: sem voz boa, o vídeo é adiado
   usar_banco_de_imagens: false  # Pexels/Pixabay DESLIGADOS: traziam texto em inglês e cenas fora do assunto

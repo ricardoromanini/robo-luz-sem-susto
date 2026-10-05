@@ -1,6 +1,7 @@
 """Orquestra a criação de um post: pauta → roteiro → equipe de verificação → mídia → QC → fila."""
 from __future__ import annotations
 
+import hashlib
 import json
 import random
 import re
@@ -132,6 +133,11 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
     if pauta.get("grafico") and not any(c["visual"] == "grafico" for c in rot["cenas"]) and len(rot["cenas"]) >= 3:
         alvo = min(2, len(rot["cenas"]) - 2)
         rot["cenas"][alvo]["visual"] = "grafico"
+    cfg_cr = pagina.cfg.get("midia", {}).get("cortes_rapidos", {})
+    troca_s = float(cfg_cr.get("troca_s", 4))
+    # metade dos vídeos (sorteio fixo pelo nome da pasta) = grupo de teste; o resto fica como controle
+    rapido = (formato != "longo" and bool(cfg_cr.get("ativo"))
+              and int(hashlib.md5(str(pasta).encode()).hexdigest(), 16) % 100 < float(cfg_cr.get("fracao", 0.5)) * 100)
     t_cenas = time.time()
     for i, c in enumerate(rot["cenas"]):
         cm = visuais.cena(pagina, c, pauta, fmt_video, usadas, rodape=rot.get("rodape", ""), indice=i, total=len(rot["cenas"]))
@@ -146,6 +152,15 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
             cm["fundo"]["imagem"].save(fundo, quality=92)
         visuais.previa(cm, w, h).save(pasta / f"cena_{i:02d}.jpg", quality=85)  # quadro para conferência
         cenas.append({"fundo_tipo": cm["fundo"]["tipo"], "fundo": fundo, "camada": camada, "zoom": cm["zoom"]})
+        # CORTES RÁPIDOS (teste A/B): fala longa ganha uma 2ª imagem, para nenhuma ficar mais de ~4 s na tela
+        if (rapido and cm["fundo"]["tipo"] == "imagem" and c["visual"] != "grafico" and i < len(rot["cenas"]) - 1
+                and duracoes[i] > troca_s + 0.8):
+            cm2 = visuais.cena(pagina, c, pauta, fmt_video, usadas, rodape=rot.get("rodape", ""), indice=i,
+                               total=len(rot["cenas"]), variacao=True)
+            if cm2["fundo"]["tipo"] == "imagem" and cm2["camada"] is not None:
+                extra_b = pasta / f"cena_{i:02d}_fundo_b.jpg"
+                cm2["fundo"]["imagem"].save(extra_b, quality=92)
+                cenas[-1]["extras"] = [extra_b]
         if cm["credito"] and cm["credito"] not in creditos:
             creditos.append(cm["credito"])
     log.info("ilustrações/cenas prontas em %.0fs", time.time() - t_cenas)
@@ -163,6 +178,7 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
     if formato == "longo":
         extra["capa"] = str(visuais.capa(pagina, rot["titulo"], pasta / "capa.jpg"))
     qc = qc_tecnico.verificar(pagina, video, pasta / "voz_completa.wav", roteiro.texto_falado(rot), formato, (w, h))
+    qc["info"]["cortes_rapidos"] = rapido  # para comparar retenção/visualizações entre os dois grupos
     return {"video": video, "creditos": creditos, "voz": voz_usada, "qc": qc, **extra}
 
 

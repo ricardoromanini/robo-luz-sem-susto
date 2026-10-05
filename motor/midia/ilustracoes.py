@@ -210,6 +210,41 @@ def _fiscal_principal(img: Image.Image, regras_extra: str = "") -> tuple[bool, s
     return False, "fiscal indisponível"
 
 
+def nota_gancho(img: Image.Image, fala: str) -> float:
+    """Nota de 0 a 10 para a 1ª imagem do vídeo (o GANCHO): o espectador decide em ~1 s se continua.
+    Vale: um sujeito único, grande e reconhecível na tela do celular, contraste e cor fortes, algo que desperte
+    curiosidade E ligação direta com a 1ª frase (gancho sem relação com a frase é isca enganosa). -1 = juiz fora do ar."""
+    conta, token = env("CLOUDFLARE_ACCOUNT_ID"), env("CLOUDFLARE_API_TOKEN")
+    from ..config import carregar_global
+
+    modelo = next((m for m in carregar_global().get("fiscal_imagem", []) if m.startswith("@cf/")), "")
+    if not (conta and token and modelo):
+        return -1.0
+    buf = io.BytesIO()
+    img.resize((768, 768)).save(buf, format="JPEG", quality=88)
+    pergunta = ("Esta é a PRIMEIRA imagem de um vídeo curto vertical (Shorts/Reels/TikTok). Na tela do celular, o "
+                "espectador decide em 1 segundo se continua assistindo. A narração dessa cena diz: \"" + fala[:300] + "\". "
+                "Dê uma nota de 0 a 10 somando: (a) UM sujeito principal, grande e reconhecível em menos de 1 segundo; "
+                "(b) contraste e cores fortes, nada escuro, lavado ou poluído; (c) desperta curiosidade, alerta ou "
+                "surpresa; (d) ligação DIRETA e evidente com a frase narrada (sem ligação = nota no máximo 3). "
+                'Responda SOMENTE JSON {"nota": 0-10, "motivo": "..."}.')
+    try:
+        r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/v1/chat/completions",
+                          headers={"Authorization": f"Bearer {token}"}, timeout=90,
+                          json={"model": modelo, "temperature": 0, "response_format": {"type": "json_object"},
+                                "messages": [{"role": "user", "content": [
+                                    {"type": "text", "text": pergunta},
+                                    {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()}}]}]})
+        r.raise_for_status()
+        txt = r.json()["choices"][0]["message"]["content"]
+        res = json.loads(txt[txt.find("{"): txt.rfind("}") + 1])
+        log.info("gancho: nota %s — %s", res.get("nota"), str(res.get("motivo", ""))[:120])
+        return float(res.get("nota", 0))
+    except Exception as e:  # noqa: BLE001
+        log.warning("juiz do gancho indisponível: %s", e)
+        return -1.0
+
+
 def gerar(pagina: Pagina, descricao: str, semente: int | str | None = None, termos_proibidos: list[str] | None = None,
           fiscalizar: bool = True) -> Image.Image | None:
     """Gera (ou reaproveita do cache) uma ilustração 1024x1024 aprovada pelo fiscal. None = usar outro fundo."""

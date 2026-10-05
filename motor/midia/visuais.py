@@ -498,10 +498,34 @@ def _comum(pagina: Pagina, img: Image.Image, w: int, h: int, indice: int, total:
     return img
 
 
+def _melhor_gancho(pagina: Pagina, consultas: list[str], formato: str, usadas: set[str], ilustr: str, fala: str,
+                   n: int) -> dict | None:
+    """GANCHO: gera N candidatas para a 1ª cena (todas já aprovadas pelos fiscais) e fica com a de maior nota do
+    juiz de gancho (sujeito claro, contraste, curiosidade, ligada à 1ª frase)."""
+    from . import ilustracoes
+
+    base = ilustr or (f"{consultas[0]}, in a cozy Brazilian home" if consultas and consultas[0] else "")
+    forte = f"{base}, bold close-up of one clear main subject, vivid saturated colors, strong contrast" if base else ""
+    melhor = None
+    for k in range(n):
+        copia = set(usadas) | {f"gancho:{j}" for j in range(k)}  # semente/variante diferente em cada candidata
+        m = buscar_midia(pagina, consultas, formato, copia, forte, fala=fala)
+        if m is not None:
+            nota = ilustracoes.nota_gancho(m["imagem"], fala) if m.get("tipo") == "ilustracao" else -1.0
+            if melhor is None or nota > melhor[0]:
+                melhor = (nota, m, copia)
+        if ilustracoes.COTA_ESGOTADA:
+            break
+    if melhor is None:
+        return None
+    usadas |= {u for u in melhor[2] if not u.startswith("gancho:")}
+    return melhor[1]
+
+
 def cena(pagina: Pagina, c: dict, pauta: dict, formato: str, usadas: set[str], rodape: str = "",
-         indice: int = 0, total: int = 1) -> dict:
+         indice: int = 0, total: int = 1, variacao: bool = False) -> dict:
     """Monta uma cena. Retorna {"fundo": {"tipo": "video", "caminho"} | {"tipo": "imagem", "imagem"},
-    "camada": PNG RGBA, "credito": str, "zoom": bool}."""
+    "camada": PNG RGBA, "credito": str, "zoom": bool}. variacao=True: 2ª imagem da mesma fala (cortes rápidos)."""
     w, h = FORMATOS[formato]
     e_grafico = c["visual"] == "grafico" and bool(pauta.get("grafico"))
     credito = ""
@@ -519,8 +543,18 @@ def cena(pagina: Pagina, c: dict, pauta: dict, formato: str, usadas: set[str], r
         cfg_m = pagina.cfg.get("mascote", {})
         # mascote como apresentador: aparece em cenas alternadas (nunca na 1ª, que é o gancho com o objeto em destaque)
         com_mascote = bool(cfg_m.get("nas_cenas")) and mascote is not None and indice % int(cfg_m.get("a_cada", 2)) == 1
-        midia = buscar_midia(pagina, consultas, formato, usadas, c.get("ilustracao", ""), fala=c.get("fala", ""),
-                             com_mascote=com_mascote)
+        ilustr = c.get("ilustracao", "")
+        if variacao:
+            # 2ª imagem da mesma fala (cortes rápidos): troca mascote ↔ objeto e muda o enquadramento
+            com_mascote = not com_mascote and bool(cfg_m.get("nas_cenas")) and mascote is not None
+            ilustr = f"{ilustr}, close-up detail from a different angle" if ilustr else ""
+            usadas.add(f"variacao:{indice}")
+        n_gancho = int(pagina.cfg.get("midia", {}).get("gancho_candidatas", 1))
+        if indice == 0 and not variacao and n_gancho > 1:
+            midia = _melhor_gancho(pagina, consultas, formato, usadas, ilustr, c.get("fala", ""), n_gancho)
+        else:
+            midia = buscar_midia(pagina, consultas, formato, usadas, ilustr, fala=c.get("fala", ""),
+                                 com_mascote=com_mascote)
         layout = "cartao"
         if midia:
             credito = midia.get("credito", "")
