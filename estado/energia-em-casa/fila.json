@@ -685,7 +685,8 @@
     },
     "aprovado_por": "dono (confirmado na conversa com o Claude)",
     "tentativas": 0,
-    "publicado_em": "2026-10-02T12:07:28.291716-03:00"
+    "publicado_em": "2026-10-02T12:07:28.291716-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-113539-taxa-minima-da-conta-de-luz-na-edp-sao-p",
@@ -1936,7 +1937,7 @@
   },
   {
     "id": "20261006-060530-tomada-quente-e-cheiro-de-queimado-sinai",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-06T06:05:30.406107-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-07T07:30:00-03:00",
@@ -1975,11 +1976,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261006-061300-quanto-gasta-o-chuveiro-eletrico-por-mes",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-06T06:13:00.873872-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-07T15:30:00-03:00",
@@ -2018,6 +2020,7 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   }
 ]
