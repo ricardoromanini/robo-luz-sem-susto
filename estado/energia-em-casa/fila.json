@@ -752,7 +752,8 @@
     },
     "aprovado_por": "dono (confirmado na conversa com o Claude)",
     "tentativas": 0,
-    "publicado_em": "2026-10-02T18:46:46.975451-03:00"
+    "publicado_em": "2026-10-02T18:46:46.975451-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261001-220817-por-que-a-tomada-tem-tres-pinos-e-o-risc",
@@ -1740,7 +1741,7 @@
   },
   {
     "id": "20261005-220813-bandeira-verde-em-outubro-de-2026-o-que-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-05T22:08:13.560788-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-06T18:30:00-03:00",
@@ -1779,8 +1780,29 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "7v9x-NhIeVk",
+        "url": "https://youtu.be/7v9x-NhIeVk",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17889928995460555",
+        "url": "https://www.instagram.com/reel/DeKzHMzlKuY/"
+      },
+      "tiktok": {
+        "id": "7693677136896511253",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693677136896511253"
+      },
+      "facebook": {
+        "id": "1103395325520883",
+        "url": "https://www.facebook.com/reel/1103395325520883"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-06T18:58:07.923991-03:00"
   },
   {
     "id": "20261005-221932-taxa-minima-da-conta-de-luz-o-que-voce-p",
