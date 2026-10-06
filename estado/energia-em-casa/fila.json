@@ -1292,7 +1292,7 @@
   },
   {
     "id": "20261003-220813-ranking-das-tarifas-de-energia-as-mais-c",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-03T22:08:13.546568-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-06T15:30:00-03:00",
@@ -1330,8 +1330,29 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "-Xiq0FRgdCg",
+        "url": "https://youtu.be/-Xiq0FRgdCg",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17973648915149797",
+        "url": "https://www.instagram.com/reel/DeKdWqBingL/"
+      },
+      "tiktok": {
+        "id": "7693628010414492949",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693628010414492949"
+      },
+      "facebook": {
+        "id": "28938923615739176",
+        "url": "https://www.facebook.com/reel/28938923615739176"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-06T15:47:32.958699-03:00"
   },
   {
     "id": "20261003-221830-choque-no-chuveiro-ou-disjuntor-desarman",

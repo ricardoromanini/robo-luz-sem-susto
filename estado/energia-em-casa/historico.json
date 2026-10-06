@@ -870,5 +870,35 @@
         "url": "https://www.facebook.com/reel/844710072033572"
       }
     }
+  },
+  {
+    "id": "20261003-220813-ranking-das-tarifas-de-energia-as-mais-c",
+    "chave": "ranking:2026-10",
+    "categoria": "ranking",
+    "titulo": "Ranking das tarifas de energia: as mais caras e as mais baratas no Brasil",
+    "texto_falado": "Sabia que o preço do kWh pode variar até 51% entre estados? A tarifa mais cara é da Enel Rio, R$ 1,061 por kWh (fonte: ANEEL). A mais barata está na Enel Ceará, R$ 0,702 por kWh (fonte: ANEEL). Lembre: preço é tarifa residencial convencional, sem ICMS, PIS/Cofins nem bandeira; sua conta pode variar. Confira na sua conta se a tarifa está correta e procure a tarifa branca para economizar. Qual a sua tarifa residencial? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "formato": "short",
+    "horario": "15:30",
+    "publicado_em": "2026-10-06T15:47:32.965975-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "-Xiq0FRgdCg",
+        "url": "https://youtu.be/-Xiq0FRgdCg",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17973648915149797",
+        "url": "https://www.instagram.com/reel/DeKdWqBingL/"
+      },
+      "tiktok": {
+        "id": "7693628010414492949",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693628010414492949"
+      },
+      "facebook": {
+        "id": "28938923615739176",
+        "url": "https://www.facebook.com/reel/28938923615739176"
+      }
+    }
   }
 ]
