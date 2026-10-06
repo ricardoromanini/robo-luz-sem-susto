@@ -840,5 +840,35 @@
         "url": "https://www.facebook.com/reel/2083667845846487"
       }
     }
+  },
+  {
+    "id": "20261004-084522-cuidados-essenciais-com-chuveiro-eletric",
+    "chave": "pauta:chuveiro-cuidados",
+    "categoria": "seguranca",
+    "titulo": "Cuidados essenciais com chuveiro elétrico: evite choque e fios derretidos",
+    "texto_falado": "Seu chuveiro pode estar derretendo o fio e causar choque elétrico agora? Um chuveiro costuma ter potência entre cinco mil e sete mil e quinhentos watts, conforme etiquetas. Fio fino não aguenta cinco mil watts; esquenta, derrete, por isso eletricista calcula a bitola correta. Desligue o disjuntor antes de mexer; DR e aterramento essenciais. Serviço elétrico é com eletricista habilitado. Sua casa tem DR no banheiro? Siga a página para deixar sua casa mais segura.",
+    "formato": "short",
+    "horario": "11:30",
+    "publicado_em": "2026-10-06T11:48:29.732660-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "qpDA1JEmCi4",
+        "url": "https://youtu.be/qpDA1JEmCi4",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18179321989441603",
+        "url": "https://www.instagram.com/reel/DeKB9xkEg6G/"
+      },
+      "tiktok": {
+        "id": "7693566432449154311",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693566432449154311"
+      },
+      "facebook": {
+        "id": "844710072033572",
+        "url": "https://www.facebook.com/reel/844710072033572"
+      }
+    }
   }
 ]

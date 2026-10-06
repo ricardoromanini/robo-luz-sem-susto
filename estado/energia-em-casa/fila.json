@@ -1590,7 +1590,7 @@
   },
   {
     "id": "20261004-084522-cuidados-essenciais-com-chuveiro-eletric",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-04T08:45:22.455870-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-06T11:30:00-03:00",
@@ -1628,8 +1628,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "qpDA1JEmCi4",
+        "url": "https://youtu.be/qpDA1JEmCi4",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18179321989441603",
+        "url": "https://www.instagram.com/reel/DeKB9xkEg6G/"
+      },
+      "tiktok": {
+        "id": "7693566432449154311",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693566432449154311"
+      },
+      "facebook": {
+        "id": "844710072033572",
+        "url": "https://www.facebook.com/reel/844710072033572"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-06T11:48:29.728133-03:00"
   },
   {
     "id": "20261004-084821-quanto-gasta-o-ar-condicionado-por-mes-n",
