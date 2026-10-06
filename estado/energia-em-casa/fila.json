@@ -554,7 +554,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-02T07:47:42.979096-03:00"
+    "publicado_em": "2026-10-02T07:47:42.979096-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-112241-5-sinais-de-sobrecarga-na-instalacao-ele",
