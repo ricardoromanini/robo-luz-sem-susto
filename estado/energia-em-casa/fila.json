@@ -1762,7 +1762,7 @@
   },
   {
     "id": "20261005-222522-risco-de-incendio-ao-carregar-celular-na",
-    "status": "refazer",
+    "status": "substituido",
     "criado_em": "2026-10-05T22:25:22.903343-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-07T07:30:00-03:00",
@@ -1849,7 +1849,7 @@
   },
   {
     "id": "20261005-224046-como-ajudar-alguem-que-levou-choque-elet",
-    "status": "refazer",
+    "status": "substituido",
     "criado_em": "2026-10-05T22:40:46.858815-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-07T15:30:00-03:00",
@@ -1890,5 +1890,91 @@
     },
     "publicacoes": {},
     "refazer_desde": "2026-10-06T05:25:18.932709-03:00"
+  },
+  {
+    "id": "20261006-060530-tomada-quente-e-cheiro-de-queimado-sinai",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-06T06:05:30.406107-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-07T07:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:tomada-esquentando-cheiro-queimado",
+    "partes": [],
+    "titulo": "Tomada quente e cheiro de queimado: sinais de incêndio e o que fazer",
+    "texto_falado": "Sua tomada está quente e cheira a queimado? Isso pode indicar incêndio iminente. Segundo Abracopel 2020, fios com cheiro de queimado são sinais claros de sobrecarga. Quando vários aparelhos ligam juntos, a corrente excede a capacidade do fio fino. Desligue a tomada; serviço elétrico é com eletricista habilitado, nunca tente consertar sozinho. Copel alerta: tomada derretida deve ser trocada por eletricista; não tente consertar. Já tem tomada quente? Siga para mais dicas que evitam choque e incêndio em casa.",
+    "legenda": {
+      "social": "Tomada quente, cheiro de queimado ou partes derretidas sinalizam risco de incêndio. Desligue a energia, nunca tente consertar e chame um eletricista habilitado. Copel e Abracopel alertam que sobrecarga pode causar esses sinais. Previna acidentes: use tomadas em bom estado e evite sobrecarregar circuitos. Fonte: Abracopel 2020; Copel, Energia elétrica sem riscos.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurança #eletricidade #choque #incêndio #casa #contadeluz #energia #energiasolar #economia",
+      "youtube": "Tomada quente, cheiro de queimado ou partes derretidas sinalizam risco de incêndio. Desligue a energia, nunca tente consertar e chame um eletricista habilitado. Copel e Abracopel alertam que sobrecarga pode causar esses sinais. Previna acidentes: use tomadas em bom estado e evite sobrecarregar circuitos. Fonte: Abracopel 2020; Copel, Energia elétrica sem riscos.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\nFontes:\nhttps://abracopel.org/blog/o-perigo-se-esconde-nas-paredes-da-sua-casa-2/\nhttps://abracopel.org/blog/sobrecarga-de-energia-pode-causar-incendio/\nhttps://www.copel.com/site/educacao/energia-eletrica-sem-riscos/\n\n#segurança #eletricidade #choque #incêndio #casa #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 615036365,
+      "nome": "20261006-060530-tomada-quente-e-cheiro-de-queimado-sinai.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 42.7,
+        "lufs": -16.45,
+        "fala_confere": 0.98,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261006-061300-quanto-gasta-o-chuveiro-eletrico-por-mes",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-06T06:13:00.873872-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-07T15:30:00-03:00",
+    "categoria": "calculadora",
+    "chave": "calc:chuveiro:EQUATORIAL AL",
+    "partes": [],
+    "titulo": "Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quer saber quanto realmente custa seu banho diário na conta de luz em casa? Equatorial Alagoas, tarifa residencial convencional R$ 0,851 por kWh, ANEEL, sem impostos (ICMS, PIS/Cofins) e bandeira. Um chuveiro de 5.500 W usado 15 minutos por dia consome cerca de 41,2 kWh total ao mês. Verifique a potência na etiqueta; sua tarifa pode variar (social ou branca) e reduza o banho. Na sua casa, quanto paga pelo chuveiro? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Um chuveiro de 5,5 kW usado 15 minutos por dia consome cerca de 41,2 kWh por mês. Na tarifa da Equatorial Alagoas, isso gera aproximadamente R$ 35,12 mensais, sem impostos e bandeira. Verifique a potência na etiqueta e ajuste o tempo de banho para reduzir o gasto. Lembre‑se que sua tarifa pode ser diferente (social, branca). Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#contadeluz #chuveiro #energia #energiasolar #economia",
+      "youtube": "Um chuveiro de 5,5 kW usado 15 minutos por dia consome cerca de 41,2 kWh por mês. Na tarifa da Equatorial Alagoas, isso gera aproximadamente R$ 35,12 mensais, sem impostos e bandeira. Verifique a potência na etiqueta e ajuste o tempo de banho para reduzir o gasto. Lembre‑se que sua tarifa pode ser diferente (social, branca). Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#contadeluz #chuveiro #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 615048971,
+      "nome": "20261006-061300-quanto-gasta-o-chuveiro-eletrico-por-mes.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 43.1,
+        "lufs": -16.17,
+        "fala_confere": 0.94,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
