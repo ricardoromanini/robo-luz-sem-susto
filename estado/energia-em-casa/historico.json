@@ -810,5 +810,35 @@
         "url": "https://www.facebook.com/reel/2309091889943479"
       }
     }
+  },
+  {
+    "id": "20261002-221115-por-que-proteger-as-tomadas-de-criancas-",
+    "chave": "pauta:criancas-tomadas-fios",
+    "categoria": "seguranca",
+    "titulo": "Por que proteger as tomadas de crianças evita choques e queimaduras",
+    "texto_falado": "Sua criança pode tocar nas tomadas sem proteção? O risco é real. A Sociedade Brasileira de Pediatria recomenda protetores nas tomadas dos quartos infantis (fonte). Mantenha fios curtos e presos fora do alcance; assim evita choque e queimadura. Qualquer conserto precisa seguir regra: serviço elétrico é com eletricista habilitado Lembre‑se: o protetor de tomada não substitui a atenção de um adulto Tem protetor nas tomadas dos pequenos? Salve vídeo e siga a página para proteger sua família.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-06T07:47:34.835329-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "_pxrNvpYh58",
+        "url": "https://youtu.be/_pxrNvpYh58",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18104170670577241",
+        "url": "https://www.instagram.com/reel/DeJmZK2jh4T/"
+      },
+      "tiktok": {
+        "id": "7693504327759023380",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693504327759023380"
+      },
+      "facebook": {
+        "id": "2083667845846487",
+        "url": "https://www.facebook.com/reel/2083667845846487"
+      }
+    }
   }
 ]

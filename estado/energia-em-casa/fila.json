@@ -1076,7 +1076,7 @@
   },
   {
     "id": "20261002-221115-por-que-proteger-as-tomadas-de-criancas-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-02T22:11:15.490471-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-06T07:30:00-03:00",
@@ -1114,8 +1114,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "_pxrNvpYh58",
+        "url": "https://youtu.be/_pxrNvpYh58",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18104170670577241",
+        "url": "https://www.instagram.com/reel/DeJmZK2jh4T/"
+      },
+      "tiktok": {
+        "id": "7693504327759023380",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693504327759023380"
+      },
+      "facebook": {
+        "id": "2083667845846487",
+        "url": "https://www.facebook.com/reel/2083667845846487"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-06T07:47:34.830603-03:00"
   },
   {
     "id": "20261002-221424-quanto-gasta-o-ferro-de-passar-por-mes-n",
