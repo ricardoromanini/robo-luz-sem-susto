@@ -4,7 +4,8 @@
  "benjamim ou régua": 1,
  "botão de teste do dr": 1,
  "cabos": 1,
- "conta de luz": 5,
+ "carregador homologado pela anatel": 1,
+ "conta de luz": 7,
  "conta de luz da neoenergia pernambuco": 1,
  "conto de luz": 1,
  "disjuntor": 4,
@@ -13,7 +14,9 @@
  "dr (dispositivo de proteção)": 1,
  "escada": 1,
  "etiqueta de potência do ferro": 1,
+ "extensão elétrica": 1,
  "fatura de energia": 1,
+ "fatura de energia elétrica": 1,
  "ferro de passar roupa": 1,
  "fiação": 1,
  "fio": 1,
@@ -34,5 +37,6 @@
  "tarifa de energia": 1,
  "tarifa residencial": 1,
  "tarifa residencial convencional": 1,
+ "telefone para ligar 192 ou 193": 1,
  "televisor": 1
 }

@@ -1672,5 +1672,220 @@
     "aprovado_por": "dono",
     "tentativas": 0,
     "publicado_em": "2026-10-05T18:32:59.158547-03:00"
+  },
+  {
+    "id": "20261005-220813-bandeira-verde-em-outubro-de-2026-o-que-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-05T22:08:13.560788-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-06T18:30:00-03:00",
+    "categoria": "bandeira",
+    "chave": "bandeira:2026-10",
+    "partes": [],
+    "titulo": "Bandeira verde em outubro de 2026: o que isso significa na sua conta",
+    "texto_falado": "Outubro de 2026: bandeira verde, sua conta de luz vai subir? A bandeira tarifária de outubro de 2026 é verde, segundo a ANEEL. Bandeira verde não gera acréscimo antes de impostos; Fonte: ANEEL, sua conta fica igual. Confira a bandeira na sua conta todo mês no site da ANEEL, sem risco. Nos últimos 12 meses, a bandeira verde apareceu em cinco meses, segundo ANEEL. Sua conta subiu este mês? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "A bandeira tarifária de outubro de 2026 está verde, o que significa que não há acréscimo antes de impostos na sua conta. Verifique sempre a bandeira na sua fatura no site da ANEEL. Nos últimos 12 meses, a verde apareceu em cinco meses. Fonte: ANEEL.\n\n⚠️ Acréscimo antes de impostos. Fonte: ANEEL.\n\n#bandeiraverde #contadeluz #energia #energiasolar #economia",
+      "youtube": "A bandeira tarifária de outubro de 2026 está verde, o que significa que não há acréscimo antes de impostos na sua conta. Verifique sempre a bandeira na sua fatura no site da ANEEL. Nos últimos 12 meses, a verde apareceu em cinco meses. Fonte: ANEEL.\n\n⚠️ Acréscimo antes de impostos. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias\n\n#bandeiraverde #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 614092583,
+      "nome": "20261005-220813-bandeira-verde-em-outubro-de-2026-o-que-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 35.5,
+        "lufs": -15.81,
+        "fala_confere": 0.98,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261005-221932-taxa-minima-da-conta-de-luz-o-que-voce-p",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-05T22:19:32.437183-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-06T20:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EPB",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz: o que você paga mesmo consumindo pouco",
+    "texto_falado": "Mesmo usando pouquíssima energia, você ainda paga um valor fixo na conta. A ANEEL fixa um piso de 30 kWh monofásico, 50 kWh bifásico e 100 kWh trifásico. Na Energisa Paraíba, o piso monofásico custa R$ 21,29, bifásico R$ 35,48, trifásico R$ 70,97, antes de impostos. Tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; a sua pode variar. É um piso, não taxa extra; se usar mais, paga apenas o consumo extra. Sua conta tem tarifa mínima? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, sua conta tem um valor mínimo definido pela ANEEL. Na Energisa Paraíba, o piso custa entre R$ 21,29 e R$ 70,97 por mês, sem impostos e bandeira. Lembre‑se: a tarifa pode variar conforme sua modalidade. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #EnergisaParaiba #energia #dicas #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, sua conta tem um valor mínimo definido pela ANEEL. Na Energisa Paraíba, o piso custa entre R$ 21,29 e R$ 70,97 por mês, sem impostos e bandeira. Lembre‑se: a tarifa pode variar conforme sua modalidade. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #EnergisaParaiba #energia #dicas #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 614104180,
+      "nome": "20261005-221932-taxa-minima-da-conta-de-luz-o-que-voce-p.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 51.6,
+        "lufs": -16.09,
+        "fala_confere": 0.88,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261005-222522-risco-de-incendio-ao-carregar-celular-na",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-05T22:25:22.903343-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-07T07:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:celular-carregando-na-cama",
+    "partes": [],
+    "titulo": "Risco de incêndio ao carregar celular na cama e uso de carregadores não homologados",
+    "texto_falado": "Você sabia que carregar o celular na cama pode causar incêndio em casa? Bombeiros de Santa Catarina avisam: não carregue celular na cama, sofá ou almofada, pois pegam fogo. Carregar aquece a bateria; em bolsa ou gaveta o calor fica, podendo causar fogo ou explosão. Use sempre carregador homologado pela Anatel; se o celular esquentar, desligue imediatamente, sem demora. Carrega o celular na cama? Siga para mais dicas que evitam choque e incêndio em casa.",
+    "legenda": {
+      "social": "⚠️ Carregar o celular na cama ou em locais macios aumenta risco de incêndio.\n🔌 Use apenas carregadores homologados pela Anatel.\n🔥 Se o aparelho esquentar, desligue de imediato.\nFonte: CBMSC 2025; Anatel.\n\n#segurançaelétrica #incêndio #carregadorcertificado #casaSegura #contadeluz #energia #energiasolar #economia",
+      "youtube": "⚠️ Carregar o celular na cama ou em locais macios aumenta risco de incêndio.\n🔌 Use apenas carregadores homologados pela Anatel.\n🔥 Se o aparelho esquentar, desligue de imediato.\nFonte: CBMSC 2025; Anatel.\n\nFontes:\nhttps://www.cbm.sc.gov.br/index.php/blog-de-noticias/cuidados-com-celular-corpo-de-bombeiros-militar-de-sc-alerta-para-acidentes-com-baterias\nhttps://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/orientacoes-para-uso-seguro-de-telefones-celulares-e-seus-acessorios\n\n#segurançaelétrica #incêndio #carregadorcertificado #casaSegura #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 614113556,
+      "nome": "20261005-222522-risco-de-incendio-ao-carregar-celular-na.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 35.3,
+        "lufs": -16.19,
+        "fala_confere": 1.0,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261005-223025-benjamim-e-extensao-risco-de-superaqueci",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-05T22:30:25.094264-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-07T11:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:extensao-benjamim-sobrecarga",
+    "partes": [],
+    "titulo": "Benjamim e extensão: risco de superaquecimento e incêndio",
+    "texto_falado": "Já viu um benjamim pegando fogo por estar sobrecarregado na sua casa durante um dia? Usar benjamim é perigoso: sobrecarga pode provocar superaquecimento na tomada, alerta CPFL Energia. A maioria suporta 13 ampères; ligar muitos aparelhos ou deixá‑los ligados sempre superaquecem e podem curtar. Não conecte extensão a outra nem faça sua própria; chame eletricista habilitado profissional para ajustes. Você já percebeu superaquecimento no benjamim? Siga para dicas que evitam choque e incêndio em casa.",
+    "legenda": {
+      "social": "Usar benjamim sem atenção pode causar superaquecimento e até incêndio. A maioria aguenta 13 A, mas muitos aparelhos ligados ao mesmo tempo elevam o risco. Não junte extensões nem improvise. Sempre chame eletricista habilitado. Fonte: CPFL Energia; Neoenergia Pernambuco 2023/2024; Neoenergia Coelba 2024.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #benjamim #extensão #choque #incêndio #contadeluz #energia #energiasolar #economia",
+      "youtube": "Usar benjamim sem atenção pode causar superaquecimento e até incêndio. A maioria aguenta 13 A, mas muitos aparelhos ligados ao mesmo tempo elevam o risco. Não junte extensões nem improvise. Sempre chame eletricista habilitado. Fonte: CPFL Energia; Neoenergia Pernambuco 2023/2024; Neoenergia Coelba 2024.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\nFontes:\nhttps://www.cpfl.com.br/dicas-de-seguranca\nhttps://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa\nhttps://www.neoenergia.com/web/pernambuco/w/atencao-confira-principais-dicas-evitar-choques-eletricos\nhttps://www.neoenergia.com/web/pernambuco/w/saiba-como-evitar-acidentes-rede-eletrica-dentro-casa\n\n#segurançaelétrica #benjamim #extensão #choque #incêndio #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 614132151,
+      "nome": "20261005-223025-benjamim-e-extensao-risco-de-superaqueci.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 39.2,
+        "lufs": -16.51,
+        "fala_confere": 0.99,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 6, 0 obrigatório(s), 1 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261005-224046-como-ajudar-alguem-que-levou-choque-elet",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-05T22:40:46.858815-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-07T15:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:socorro-choque-eletrico",
+    "partes": [],
+    "titulo": "Como ajudar alguém que levou choque elétrico sem se colocar em risco",
+    "texto_falado": "Um familiar levou choque elétrico? Saiba os 3 passos para ajudar sem se arriscar em casa Confira se o local está seguro e, casa, desligue o disjuntor. (Corpo de Bombeiros MS, 2024) Não toque na pessoa enquanto houver energia; ela ainda conduz eletricidade. Ligue 192 ou 193 imediatamente Com a energia desligada, toque na vítima. Só eletricista habilitado, até a chegada da ajuda Você sabia como agir? Siga para mais dicas que evitam choque e incêndio em casa.",
+    "legenda": {
+      "social": "Um choque elétrico pode acontecer a qualquer momento. Primeiro, garanta segurança desligando o disjuntor. Não toque na vítima enquanto houver energia e chame o 192 ou 193 imediatamente. Só depois de cortar a energia, toque na pessoa e aguarde o socorro. Lembre‑se: serviços elétricos devem ser feitos por eletricista habilitado. Fonte: Corpo de Bombeiros MS, 2024.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #choque #primeirosocorros #contadeluz #energia #energiasolar #economia",
+      "youtube": "Um choque elétrico pode acontecer a qualquer momento. Primeiro, garanta segurança desligando o disjuntor. Não toque na vítima enquanto houver energia e chame o 192 ou 193 imediatamente. Só depois de cortar a energia, toque na pessoa e aguarde o socorro. Lembre‑se: serviços elétricos devem ser feitos por eletricista habilitado. Fonte: Corpo de Bombeiros MS, 2024.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\nFontes:\nhttps://www.bombeiros.ms.gov.br/cbmms-orienta-acoes-cruciais-em-caso-de-choque-eletrico/\nhttps://www.saude.al.gov.br/samu-atende-65-casos-de-choque-eletricos-em-2025-e-da-dicas-de-prevencao/\n\n#segurançaelétrica #choque #primeirosocorros #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 614141128,
+      "nome": "20261005-224046-como-ajudar-alguem-que-levou-choque-elet.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 40.6,
+        "lufs": -16.28,
+        "fala_confere": 0.99,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
