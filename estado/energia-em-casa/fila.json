@@ -1675,7 +1675,7 @@
   },
   {
     "id": "20261005-220813-bandeira-verde-em-outubro-de-2026-o-que-",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-05T22:08:13.560788-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-06T18:30:00-03:00",
@@ -1714,7 +1714,8 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261005-221932-taxa-minima-da-conta-de-luz-o-que-voce-p",
@@ -1761,7 +1762,7 @@
   },
   {
     "id": "20261005-222522-risco-de-incendio-ao-carregar-celular-na",
-    "status": "aguardando_aprovacao",
+    "status": "refazer",
     "criado_em": "2026-10-05T22:25:22.903343-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-07T07:30:00-03:00",
@@ -1800,7 +1801,8 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "refazer_desde": "2026-10-06T05:25:17.307148-03:00"
   },
   {
     "id": "20261005-223025-benjamim-e-extensao-risco-de-superaqueci",
@@ -1847,7 +1849,7 @@
   },
   {
     "id": "20261005-224046-como-ajudar-alguem-que-levou-choque-elet",
-    "status": "aguardando_aprovacao",
+    "status": "refazer",
     "criado_em": "2026-10-05T22:40:46.858815-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-07T15:30:00-03:00",
@@ -1886,6 +1888,7 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "refazer_desde": "2026-10-06T05:25:18.932709-03:00"
   }
 ]
