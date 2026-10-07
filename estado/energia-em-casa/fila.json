@@ -1982,7 +1982,7 @@
   },
   {
     "id": "20261006-060530-tomada-quente-e-cheiro-de-queimado-sinai",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-06T06:05:30.406107-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-07T07:30:00-03:00",
@@ -2034,11 +2034,16 @@
       "facebook": {
         "id": "1101775388914213",
         "url": "https://www.facebook.com/reel/1101775388914213"
+      },
+      "youtube": {
+        "id": "wOh7tFs_84s",
+        "url": "https://youtu.be/wOh7tFs_84s",
+        "privado": false
       }
     },
     "aprovado_por": "dono",
     "tentativas": 1,
-    "publicado_em": null
+    "publicado_em": "2026-10-07T08:05:25.812159-03:00"
   },
   {
     "id": "20261006-061300-quanto-gasta-o-chuveiro-eletrico-por-mes",

@@ -930,5 +930,35 @@
         "url": "https://www.facebook.com/reel/1103395325520883"
       }
     }
+  },
+  {
+    "id": "20261006-060530-tomada-quente-e-cheiro-de-queimado-sinai",
+    "chave": "pauta:tomada-esquentando-cheiro-queimado",
+    "categoria": "seguranca",
+    "titulo": "Tomada quente e cheiro de queimado: sinais de incêndio e o que fazer",
+    "texto_falado": "Sua tomada está quente e cheira a queimado? Isso pode indicar incêndio iminente. Segundo Abracopel 2020, fios com cheiro de queimado são sinais claros de sobrecarga. Quando vários aparelhos ligam juntos, a corrente excede a capacidade do fio fino. Desligue a tomada; serviço elétrico é com eletricista habilitado, nunca tente consertar sozinho. Copel alerta: tomada derretida deve ser trocada por eletricista; não tente consertar. Já tem tomada quente? Siga para mais dicas que evitam choque e incêndio em casa.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-07T08:05:25.817114-03:00",
+    "publicacoes": {
+      "instagram": {
+        "id": "18632215744041928",
+        "url": "https://www.instagram.com/reel/DeMLNU2CBON/"
+      },
+      "tiktok": {
+        "id": "7693875327952604422",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693875327952604422"
+      },
+      "facebook": {
+        "id": "1101775388914213",
+        "url": "https://www.facebook.com/reel/1101775388914213"
+      },
+      "youtube": {
+        "id": "wOh7tFs_84s",
+        "url": "https://youtu.be/wOh7tFs_84s",
+        "privado": false
+      }
+    }
   }
 ]
