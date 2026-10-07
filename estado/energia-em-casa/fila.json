@@ -883,7 +883,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-03T12:07:03.192970-03:00"
+    "publicado_em": "2026-10-03T12:07:03.192970-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261001-221959-dps-no-quadro-o-que-e-e-por-que-sua-casa",
