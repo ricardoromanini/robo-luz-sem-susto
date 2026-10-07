@@ -818,7 +818,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-03T07:46:58.067206-03:00"
+    "publicado_em": "2026-10-03T07:46:58.067206-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261001-221435-prazo-de-validade-dos-creditos-de-energi",
@@ -2020,8 +2021,24 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "instagram": {
+        "id": "18632215744041928",
+        "url": "https://www.instagram.com/reel/DeMLNU2CBON/"
+      },
+      "tiktok": {
+        "id": "7693875327952604422",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693875327952604422"
+      },
+      "facebook": {
+        "id": "1101775388914213",
+        "url": "https://www.facebook.com/reel/1101775388914213"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 1,
+    "publicado_em": null
   },
   {
     "id": "20261006-061300-quanto-gasta-o-chuveiro-eletrico-por-mes",
