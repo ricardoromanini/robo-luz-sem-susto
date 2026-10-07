@@ -960,5 +960,35 @@
         "privado": false
       }
     }
+  },
+  {
+    "id": "20261006-061300-quanto-gasta-o-chuveiro-eletrico-por-mes",
+    "chave": "calc:chuveiro:EQUATORIAL AL",
+    "categoria": "calculadora",
+    "titulo": "Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quer saber quanto realmente custa seu banho diário na conta de luz em casa? Equatorial Alagoas, tarifa residencial convencional R$ 0,851 por kWh, ANEEL, sem impostos (ICMS, PIS/Cofins) e bandeira. Um chuveiro de 5.500 W usado 15 minutos por dia consome cerca de 41,2 kWh total ao mês. Verifique a potência na etiqueta; sua tarifa pode variar (social ou branca) e reduza o banho. Na sua casa, quanto paga pelo chuveiro? Salve este vídeo para consultar quando a conta chegar.",
+    "formato": "short",
+    "horario": "15:30",
+    "publicado_em": "2026-10-07T15:48:10.760200-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "9zf0Jlcx9Q4",
+        "url": "https://youtu.be/9zf0Jlcx9Q4",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18109409195239152",
+        "url": "https://www.instagram.com/reel/DeNCKC1j1vT/"
+      },
+      "tiktok": {
+        "id": "7693999252762070293",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7693999252762070293"
+      },
+      "facebook": {
+        "id": "1090552713577001",
+        "url": "https://www.facebook.com/reel/1090552713577001"
+      }
+    }
   }
 ]
