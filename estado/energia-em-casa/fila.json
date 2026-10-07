@@ -948,7 +948,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-03T18:46:54.464274-03:00"
+    "publicado_em": "2026-10-03T18:46:54.464274-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261001-222345-taxa-minima-da-conta-de-luz-na-neoenergi",
