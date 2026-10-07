@@ -2066,5 +2066,177 @@
     },
     "publicacoes": {},
     "aprovado_por": "dono"
+  },
+  {
+    "id": "20261006-221924-por-que-sua-conta-tem-valor-fixo-mesmo-c",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-06T22:19:24.320955-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-07T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:RGE",
+    "partes": [],
+    "titulo": "Por que sua conta tem valor fixo mesmo consumindo pouco?",
+    "texto_falado": "Você sabia que paga um valor fixo na conta mesmo consumindo quase nada? Na RGE, o piso de 30 kWh custa cerca de R$ 28,34 por mês. Fonte ANEEL. É piso, não taxa extra; regra da ANEEL. Se usar mais, paga só consumo. Fonte ANEEL. O valor citado é tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira. Fonte ANEEL. Confira seu tipo de ligação na conta; se for monofásico, o piso será 30 kWh. Já chegou ao piso da RGE? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Entenda por que sua conta tem um valor mínimo mesmo consumindo pouco.\nNa RGE o piso de 30 kWh custa cerca de R$ 28,34 por mês.\nLembre‑se que esse valor é a tarifa residencial convencional, sem impostos ou bandeira.\nVerifique seu tipo de ligação para saber o piso que se aplica.\nFonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #RGE #energia #economia #energiasolar",
+      "youtube": "Entenda por que sua conta tem um valor mínimo mesmo consumindo pouco.\nNa RGE o piso de 30 kWh custa cerca de R$ 28,34 por mês.\nLembre‑se que esse valor é a tarifa residencial convencional, sem impostos ou bandeira.\nVerifique seu tipo de ligação para saber o piso que se aplica.\nFonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #RGE #energia #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 617227934,
+      "nome": "20261006-221924-por-que-sua-conta-tem-valor-fixo-mesmo-c.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 45.5,
+        "lufs": -16.53,
+        "fala_confere": 0.89,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261006-224340-por-que-seu-dr-desarmou-ele-esta-evitand",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-06T22:43:40.291549-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-07T20:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:dr-desarmando-fuga-de-corrente",
+    "partes": [],
+    "titulo": "Por que seu DR desarmou? Ele está evitando um choque",
+    "texto_falado": "Seu DR desarmou de repente? Pode ser proteção contra choque na sua casa. O DR corta o circuito ao detectar corrente de fuga acima do limite, segundo Abracopel 2018. Sensível, ele desarma mais que um disjuntor comum; o eletricista localiza a fuga, diz Abracopel 2018. Garanta que o DR funcione em ambientes molhados; se desarmarem, chame eletricista habilitado, orienta Neoenergia Coelba 2024. Seu DR já protegeu? Salve este vídeo e siga a página para proteger sua família.",
+    "legenda": {
+      "social": "Quando o DR desarma, ele está cortando a corrente por fuga.\nEssa sensibilidade protege você de choques, principalmente em locais úmidos.\nSe acontecer frequentemente, procure um eletricista habilitado para localizar a falha.\nFonte: Abracopel 2018; Neoenergia Coelba 2024.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #DR #choque #contadeluz #energia #energiasolar #economia",
+      "youtube": "Quando o DR desarma, ele está cortando a corrente por fuga.\nEssa sensibilidade protege você de choques, principalmente em locais úmidos.\nSe acontecer frequentemente, procure um eletricista habilitado para localizar a falha.\nFonte: Abracopel 2018; Neoenergia Coelba 2024.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\nFontes:\nhttps://abracopel.org/blog/abracopel/o-que-e-e-para-que-serve-o-dr/\nhttps://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa\n\n#segurançaelétrica #DR #choque #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 617262874,
+      "nome": "20261006-224340-por-que-seu-dr-desarmou-ele-esta-evitand.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 39.6,
+        "lufs": -16.15,
+        "fala_confere": 0.86,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261006-225805-taxa-minima-da-conta-de-luz-quanto-realm",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-06T22:58:05.157238-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-08T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:CEMIG-D",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz: quanto realmente paga",
+    "texto_falado": "Você sabia que, mesmo consumindo quase nada, paga um mínimo na conta na sua casa? Na Cemig, o piso é 30 kWh para monofásico, custando R$ 27,10 por mês antes de impostos. É um piso, não taxa extra; se usar acima, paga só o consumo no seu boleto. Lembre: tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar também. Qual foi sua taxa mínima? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Entenda por que sua conta tem um valor mínimo mesmo consumindo pouco. \nNa Cemig, o piso corresponde a 30 kWh (monofásico) ou 50 kWh (bifásico) e tem custo pré‑definido. \nÉ um piso, não uma taxa extra; acima dele, paga‑se apenas o consumo real. \nLembre‑se da tarifa residencial convencional, sem impostos e sem bandeira; a sua pode variar. \nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#ContaDeLuz #Cemig #TaxaMínima #Energia #EconomiaDoméstica #contadeluz #energia #energiasolar #economia",
+      "youtube": "Entenda por que sua conta tem um valor mínimo mesmo consumindo pouco. \nNa Cemig, o piso corresponde a 30 kWh (monofásico) ou 50 kWh (bifásico) e tem custo pré‑definido. \nÉ um piso, não uma taxa extra; acima dele, paga‑se apenas o consumo real. \nLembre‑se da tarifa residencial convencional, sem impostos e sem bandeira; a sua pode variar. \nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#ContaDeLuz #Cemig #TaxaMínima #Energia #EconomiaDoméstica #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "pt-BR-Caio:MAI-Voice-2-Flash|excited",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 617289190,
+      "nome": "20261006-225805-taxa-minima-da-conta-de-luz-quanto-realm.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 38.4,
+        "lufs": -16.36,
+        "fala_confere": 0.93,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261006-230854-5-perguntas-que-voce-deve-fazer-antes-de",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-06T23:08:54.387265-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-08T11:30:00-03:00",
+    "categoria": "solar",
+    "chave": "pauta:solar-cuidados-contratar",
+    "partes": [],
+    "titulo": "5 perguntas que você deve fazer antes de instalar energia solar",
+    "texto_falado": "Você sabe quais são as 5 perguntas essenciais antes de assinar energia solar? Boas práticas do setor apontam 5 perguntas: engenheiro, garantia, homologação, geração estimada e peso do telhado. O engenheiro deve ter ART no CREA; garante projeto correto, segurança, eficiência e responsabilidade legal. A distribuidora precisa aprovar o acesso; verifique se o telhado suporta o peso total dos painéis. Qual dessas perguntas você já verificou? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Antes de fechar contrato de energia solar, faça estas 5 perguntas: quem é o engenheiro com ART, qual a garantia dos módulos e inversor, quem cuida da homologação, como foi calculada a geração esperada e se o telhado aguenta o peso. Verifique cada item e evite surpresas.\nFonte: boas práticas do setor\n\n#energiaSolar #sustentabilidade #contaDeLuz #instalaçãoSegura #contadeluz #energia #energiasolar #economia",
+      "youtube": "Antes de fechar contrato de energia solar, faça estas 5 perguntas: quem é o engenheiro com ART, qual a garantia dos módulos e inversor, quem cuida da homologação, como foi calculada a geração esperada e se o telhado aguenta o peso. Verifique cada item e evite surpresas.\nFonte: boas práticas do setor\n\n#energiaSolar #sustentabilidade #contaDeLuz #instalaçãoSegura #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 617314221,
+      "nome": "20261006-230854-5-perguntas-que-voce-deve-fazer-antes-de.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 33.0,
+        "lufs": -14.22,
+        "fala_confere": 0.96,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 6, 0 obrigatório(s), 1 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

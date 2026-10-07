@@ -110,5 +110,33 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Enel Rio”: A empresa mencionada no texto é a Enel Distribuição Ceará, não Enel Rio. (fonte: https://pt.wikipedia.org/wiki/Enel_Distribui%C3%A7%C3%A3o_Cear%C3%A1). Correção: Substituir Enel Rio por Enel Distribuição Ceará",
     "em": "2026-10-03T22:29:10.808173"
+  },
+  {
+    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
+    "chave": "pauta:chuveiro-verao-inverno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “13% do consumo residencial vem de chuveiros elétricos”: não há evidência que comprove essa porcentagem (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: incluir fonte confiável para comprovar a porcentagem",
+    "em": "2026-10-06T22:12:00.258719"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Celesc",
+    "chave": "calc:ar:CELESC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-06T22:17:10.729602"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Light",
+    "chave": "calc:ar:LIGHT SESA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “9,70”: o número 9,70 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-06T22:19:23.744406"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na Energisa Acre",
+    "chave": "taxamin:EAC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Na Energisa Mato Grosso, o piso de 30 kWh custa cerca de R$ 24,89 de tarifa, sem impostos.”: O dossiê menciona Energisa Acre, não Mato Grosso.. Correção: Substituir por 'Na Energisa Acre, o piso de 30 kWh custa cerca de R$ 24,89 de tarifa, sem impostos.'",
+    "em": "2026-10-06T23:01:02.188902"
   }
 ]
