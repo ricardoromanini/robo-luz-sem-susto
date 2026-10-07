@@ -619,7 +619,8 @@
     },
     "aprovado_por": "dono (confirmado na conversa com o Claude)",
     "tentativas": 0,
-    "publicado_em": "2026-10-02T20:46:33.491218-03:00"
+    "publicado_em": "2026-10-02T20:46:33.491218-03:00",
+    "video_apagado": true
   },
   {
     "id": "20260930-112911-taxa-minima-da-neoenergia-pernambuco-o-q",
