@@ -1208,7 +1208,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-04T11:46:52.841371-03:00"
+    "publicado_em": "2026-10-04T11:46:52.841371-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261002-222635-quanto-gasta-o-chuveiro-eletrico-por-mes",
