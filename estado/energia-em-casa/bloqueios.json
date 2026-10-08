@@ -138,5 +138,47 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🔎 Checador de fatos] “Na Energisa Mato Grosso, o piso de 30 kWh custa cerca de R$ 24,89 de tarifa, sem impostos.”: O dossiê menciona Energisa Acre, não Mato Grosso.. Correção: Substituir por 'Na Energisa Acre, o piso de 30 kWh custa cerca de R$ 24,89 de tarifa, sem impostos.'",
     "em": "2026-10-06T23:01:02.188902"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na Enel Rio",
+    "chave": "taxamin:ENEL RJ",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “R$ 31,83”: O texto não especifica a região ou a empresa de energia elétrica que cobra essa tarifa mínima, mas menciona a Enel Rio, que não é a empresa de energia elétrica que atende Goiânia, cidade mencionada na evidência 0. (fonte: https://pt.wikipedia.org/wiki/Goi%C3%A2nia). Correção: Especificar a região ou a empresa de energia elétrica que cobra essa tarifa mínima.",
+    "em": "2026-10-07T22:10:40.430831"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na Neoenergia Brasília",
+    "chave": "taxamin:Neoenergia Brasília",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “A ANEEL fixa um piso de 30 kWh monofásico, cobrando R$ 24,80 mensais.”: A fonte não menciona o valor exato de R$ 24,80, apenas que a tarifa residencial convencional pode variar. (fonte: https://pt.wikipedia.org/wiki/Caderneta_de_poupan%C3%A7a). Correção: Verificar o valor exato da tarifa na fonte oficial da ANEEL.",
+    "em": "2026-10-07T22:20:43.577241"
+  },
+  {
+    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
+    "chave": "pauta:lei-14300-fio-b",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências como uma norma relacionada ao Fio B ou à energia solar (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022",
+    "em": "2026-10-07T22:23:38.756090"
+  },
+  {
+    "tema": "Ar-condicionado inverter: o que mudou na etiqueta do Inmetro e a temperatura recomendada",
+    "chave": "pauta:ar-inverter",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Sabia que ajustar o ar‑condicionado pode cortar sua conta em até 47%?”: A afirmação é apresentada de forma geral, sem especificar que a economia de 47% é de estudos dos fabricantes e varia conforme o uso.. Correção: Sabia que ajustar o ar‑condicionado pode cortar sua conta em até 47%, de acordo com estudos dos fabricantes citados pelo Inmetro, e varia conforme o uso?\n- [⚖️ Revisor jurídico e de políticas] “Sabia que ajustar o ar‑condicionado pode cortar sua conta em até 47%?”: 1. Código de Defesa do Consumidor (arts. 31 e 37). Correção: Ajustar o ar-condicionado pode resultar em economia de energia, com estudos indicando uma possível redução de até 47% na conta de luz, de acordo com estudos dos fabricantes citados pelo Inmetro e variando conforme o uso.\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Segundo a Portaria 234/2020, a etiqueta Inmetro, desde 2020, destaca o índice dos inversores.”: Não foi possível encontrar informações sobre a Portaria 234/2020 no texto fornecido. (fonte: https://pt.wikipedia.org/wiki/Aquecimento_urbano_associado_ao_uso_de_sistemas_de_climatiza%C3%A7%C3%A3o). Correção: Verificar a existência e o conteúdo da Portaria 234/2020.",
+    "em": "2026-10-07T22:30:32.093585"
+  },
+  {
+    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
+    "chave": "pauta:airfryer-forno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “air fryer”: o termo 'air fryer' é amplamente utilizado no Brasil, mas poderia ser substituído por 'fritadeira de ar quente' para melhor se adequar ao padrão brasileiro (fonte: https://pt.wikipedia.org/wiki/Fritadeira). Correção: fritadeira de ar quente",
+    "em": "2026-10-07T22:33:42.573567"
+  },
+  {
+    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
+    "chave": "pauta:chuveiro-verao-inverno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Chuveiros consomem cerca de 13% da energia residencial”: não há evidência que comprove essa porcentagem (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: inserir fonte confiável para comprovar a porcentagem de consumo de energia dos chuveiros",
+    "em": "2026-10-07T22:50:02.252068"
   }
 ]

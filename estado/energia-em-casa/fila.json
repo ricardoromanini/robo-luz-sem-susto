@@ -2284,5 +2284,220 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261007-220814-fio-desencapado-risco-de-choque-hoje-e-i",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-07T22:08:14.549087-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-08T15:30:00-03:00",
+    "categoria": "seguranca",
+    "chave": "pauta:fio-desencapado-gambiarra",
+    "partes": [],
+    "titulo": "Fio desencapado: risco de choque hoje e incêndio amanhã",
+    "texto_falado": "Você já viu um fio desencapado próximo a tomada na sua casa? Nunca deixe fio desencapado: risco de choque e incêndio, alerta da CPFL Energia. Quando o cobre fica livre, pode tocar metal, gerar faísca e iniciar incêndio rapidamente. Desencapar ou improvisar fios é perigoso; serviço elétrico é com eletricista habilitado. Fio ressecado, rachado ou com cheiro de queimado indica risco; troque imediatamente. Já encontrou algum desses sinais? Siga para dicas que evitam choque e incêndio em casa.",
+    "legenda": {
+      "social": "Fio desencapado pode causar choque agora e incêndio depois. Não improvise reparos. Se notar fios ressecados, rachados ou com cheiro de queimado, troque imediatamente e sempre contrate eletricista habilitado. Segurança em primeiro lugar. Fonte: CPFL Energia; Neoenergia Coelba; Abracopel; Copel.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\n#segurançaelétrica #choque #incêndio #casa #eletricista #contadeluz #energia #energiasolar #economia",
+      "youtube": "Fio desencapado pode causar choque agora e incêndio depois. Não improvise reparos. Se notar fios ressecados, rachados ou com cheiro de queimado, troque imediatamente e sempre contrate eletricista habilitado. Segurança em primeiro lugar. Fonte: CPFL Energia; Neoenergia Coelba; Abracopel; Copel.\n\n⚠️ Serviço elétrico é com eletricista habilitado.\n\nFontes:\nhttps://abracopel.org/blog/sobrecarga-de-energia-pode-causar-incendio/\nhttps://www.copel.com/site/educacao/energia-eletrica-sem-riscos/\nhttps://www.cpfl.com.br/dicas-de-seguranca\nhttps://www.neoenergia.com/web/bahia/w/seguranca-uso-energia-eletrica-em-casa\n\n#segurançaelétrica #choque #incêndio #casa #eletricista #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 620311427,
+      "nome": "20261007-220814-fio-desencapado-risco-de-choque-hoje-e-i.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 36.7,
+        "lufs": -15.24,
+        "fala_confere": 1.0,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261007-221704-taxa-minima-da-conta-de-luz-o-que-voce-p",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-07T22:17:04.692051-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-08T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:ESE",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz: o que você paga",
+    "texto_falado": "Sua conta pode cobrar mesmo usando quase nada de energia em casa, todo dia? Na Energisa Sergipe, o mínimo monofásico é 30 kWh – R$ 22,64/mês antes de impostos (fonte ANEEL) É um piso, não taxa extra; se usar mais, paga só o consumo excedente Verifique sua tarifa sem ICMS, PIS/Cofins, sem bandeira; compare com o valor mínimo para evitar surpresas Qual sua tarifa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Mesmo consumindo pouquíssimo, a conta tem um piso de 30 kWh na Energisa Sergipe.\nEsse valor corresponde a R$ 22,64 por mês, antes de impostos.\nLembre‑se: a tarifa residencial convencional sem ICMS, PIS/Cofins e bandeira pode variar. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #EnergisaSergipe #economia #energia #energiasolar",
+      "youtube": "Mesmo consumindo pouquíssimo, a conta tem um piso de 30 kWh na Energisa Sergipe.\nEsse valor corresponde a R$ 22,64 por mês, antes de impostos.\nLembre‑se: a tarifa residencial convencional sem ICMS, PIS/Cofins e bandeira pode variar. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #EnergisaSergipe #economia #energia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 620332119,
+      "nome": "20261007-221704-taxa-minima-da-conta-de-luz-o-que-voce-p.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 38.9,
+        "lufs": -14.36,
+        "fala_confere": 0.93,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261007-222708-por-que-sua-conta-tem-taxa-minima-mesmo-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-07T22:27:08.152922-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-08T20:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EQUATORIAL MA",
+    "partes": [],
+    "titulo": "Por que sua conta tem taxa mínima mesmo sem usar energia?",
+    "texto_falado": "Você sabia que paga um valor fixo na conta de luz mesmo sem usar energia? A ANEEL fixa consumo mínimo: 30 kWh monofásico, 50 kWh bifásico, 100 kWh trifásico fonte ANEEL É um piso, não taxa extra; se usar mais, paga só o consumo real. Na Equatorial Maranhão, 30 kWh custam cerca de R$ 26,66 por tarifa, sem impostos. Bifásico (50 kWh) R$ 44,44; trifásico (100 kWh) R$ 88,88 – tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins), sem bandeira. Paga taxa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Mesmo usando pouca energia, sua conta tem um valor mínimo cobrado.\nNa Equatorial Maranhão, 30 kWh valem R$ 26,66; 50 kWh valem R$ 44,44; 100 kWh valem R$ 88,88.\nÉ um piso, não taxa extra – paga‑se só o consumo acima do mínimo.\nTarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar.\nFonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #energiasolar #economia",
+      "youtube": "Mesmo usando pouca energia, sua conta tem um valor mínimo cobrado.\nNa Equatorial Maranhão, 30 kWh valem R$ 26,66; 50 kWh valem R$ 44,44; 100 kWh valem R$ 88,88.\nÉ um piso, não taxa extra – paga‑se só o consumo acima do mínimo.\nTarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar.\nFonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 620365675,
+      "nome": "20261007-222708-por-que-sua-conta-tem-taxa-minima-mesmo-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 53.5,
+        "lufs": -14.66,
+        "fala_confere": 0.85,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261007-224208-tusd-e-te-entenda-as-duas-letrinhas-da-s",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-07T22:42:08.333832-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-09T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "pauta:tusd-te",
+    "partes": [],
+    "titulo": "TUSD e TE: entenda as duas letrinhas da sua conta de luz",
+    "texto_falado": "Você sabia que sua conta de luz tem dois componentes que definem o preço em casa? TUSD paga o uso dos fios e TE paga a energia consumida, segundo a ANEEL oficial. As tarifas são homologadas anualmente pela ANEEL e ainda também recebem ICMS, PIS, Cofins e bandeira. Confira na sua conta a divisão TUSD e TE; ajuste consumo para reduzir ambos. Conta tem TUSD? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Sua conta de luz tem duas partes: TUSD, que cobre o uso do sistema, e TE, que paga a energia consumida. As tarifas são definidas anualmente pela ANEEL e ainda recebem impostos como ICMS, PIS e Cofins. Veja como identificar esses valores e ajuste seu consumo para economizar. #contadeenergia #tarifas #energia\n\n#contadeenergia #tarifas #energia #contadeluz #energiasolar #economia",
+      "youtube": "Sua conta de luz tem duas partes: TUSD, que cobre o uso do sistema, e TE, que paga a energia consumida. As tarifas são definidas anualmente pela ANEEL e ainda recebem impostos como ICMS, PIS e Cofins. Veja como identificar esses valores e ajuste seu consumo para economizar. #contadeenergia #tarifas #energia\n\n#contadeenergia #tarifas #energia #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 620377265,
+      "nome": "20261007-224208-tusd-e-te-entenda-as-duas-letrinhas-da-s.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 32.0,
+        "lufs": -13.94,
+        "fala_confere": 0.89,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 8, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261007-224727-como-ler-a-etiqueta-amarela-do-inmetro-a",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-07T22:47:27.944307-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-09T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "pauta:selo-procel",
+    "partes": [],
+    "titulo": "Como ler a etiqueta amarela do Inmetro antes de comprar um eletrodoméstico",
+    "texto_falado": "Sua geladeira pode estar consumindo mais energia do que o esperado? Segundo o Inmetro, a etiqueta amarela classifica a eficiência em faixas de letra. Ela também mostra o consumo estimado, facilitando a comparação entre modelos diferentes. Procure a letra A a C para aparelhos mais eficientes e verifique o kWh anual. Antes de comprar, confirme o selo Procel; ele indica os produtos mais eficientes da categoria. Já olha a etiqueta? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Entenda a etiqueta amarela do Inmetro: letras que indicam eficiência e consumo estimado.\nConfira a importância do selo Procel para escolher os aparelhos mais econômicos.\nUse essas dicas na próxima compra e reduza sua conta de luz.\nFonte: Inmetro – Programa Brasileiro de Etiquetagem; Procel / Eletrobras.\n\n#energia #etiqueta #consumo #Inmetro #Procel #contadeluz #energiasolar #economia",
+      "youtube": "Entenda a etiqueta amarela do Inmetro: letras que indicam eficiência e consumo estimado.\nConfira a importância do selo Procel para escolher os aparelhos mais econômicos.\nUse essas dicas na próxima compra e reduza sua conta de luz.\nFonte: Inmetro – Programa Brasileiro de Etiquetagem; Procel / Eletrobras.\n\n#energia #etiqueta #consumo #Inmetro #Procel #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 620410407,
+      "nome": "20261007-224727-como-ler-a-etiqueta-amarela-do-inmetro-a.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 37.2,
+        "lufs": -14.76,
+        "fala_confere": 0.96,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
