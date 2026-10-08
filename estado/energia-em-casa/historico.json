@@ -1020,5 +1020,35 @@
         "url": "https://www.facebook.com/reel/2188994254981036"
       }
     }
+  },
+  {
+    "id": "20261007-221704-taxa-minima-da-conta-de-luz-o-que-voce-p",
+    "chave": "taxamin:ESE",
+    "categoria": "entenda_conta",
+    "titulo": "Taxa mínima da conta de luz: o que você paga",
+    "texto_falado": "Sua conta pode cobrar mesmo usando quase nada de energia em casa, todo dia? Na Energisa Sergipe, o mínimo monofásico é 30 kWh – R$ 22,64/mês antes de impostos (fonte ANEEL) É um piso, não taxa extra; se usar mais, paga só o consumo excedente Verifique sua tarifa sem ICMS, PIS/Cofins, sem bandeira; compare com o valor mínimo para evitar surpresas Qual sua tarifa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "18:30",
+    "publicado_em": "2026-10-08T18:47:18.764678-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "uVimlwZC9aI",
+        "url": "https://youtu.be/uVimlwZC9aI",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18051272093805869",
+        "url": "https://www.instagram.com/reel/DeP7gj7iqwW/"
+      },
+      "tiktok": {
+        "id": "7694416479709564178",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694416479709564178"
+      },
+      "facebook": {
+        "id": "1449963143943376",
+        "url": "https://www.facebook.com/reel/1449963143943376"
+      }
+    }
   }
 ]

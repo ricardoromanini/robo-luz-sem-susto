@@ -2353,7 +2353,7 @@
   },
   {
     "id": "20261007-221704-taxa-minima-da-conta-de-luz-o-que-voce-p",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-07T22:17:04.692051-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-08T18:30:00-03:00",
@@ -2392,8 +2392,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "uVimlwZC9aI",
+        "url": "https://youtu.be/uVimlwZC9aI",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18051272093805869",
+        "url": "https://www.instagram.com/reel/DeP7gj7iqwW/"
+      },
+      "tiktok": {
+        "id": "7694416479709564178",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694416479709564178"
+      },
+      "facebook": {
+        "id": "1449963143943376",
+        "url": "https://www.facebook.com/reel/1449963143943376"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-08T18:47:18.758990-03:00"
   },
   {
     "id": "20261007-222708-por-que-sua-conta-tem-taxa-minima-mesmo-",
