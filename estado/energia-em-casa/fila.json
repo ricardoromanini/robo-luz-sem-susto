@@ -2287,7 +2287,7 @@
   },
   {
     "id": "20261007-220814-fio-desencapado-risco-de-choque-hoje-e-i",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-07T22:08:14.549087-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-08T15:30:00-03:00",
@@ -2326,11 +2326,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261007-221704-taxa-minima-da-conta-de-luz-o-que-voce-p",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-07T22:17:04.692051-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-08T18:30:00-03:00",
@@ -2369,11 +2370,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261007-222708-por-que-sua-conta-tem-taxa-minima-mesmo-",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-07T22:27:08.152922-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-08T20:30:00-03:00",
@@ -2412,7 +2414,8 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261007-224208-tusd-e-te-entenda-as-duas-letrinhas-da-s",
@@ -2459,7 +2462,7 @@
   },
   {
     "id": "20261007-224727-como-ler-a-etiqueta-amarela-do-inmetro-a",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-07T22:47:27.944307-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-09T11:30:00-03:00",
@@ -2498,6 +2501,7 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   }
 ]
