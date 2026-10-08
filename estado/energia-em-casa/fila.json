@@ -2288,7 +2288,7 @@
   },
   {
     "id": "20261007-220814-fio-desencapado-risco-de-choque-hoje-e-i",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-07T22:08:14.549087-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-08T15:30:00-03:00",
@@ -2327,8 +2327,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "1U7c6laQYgI",
+        "url": "https://youtu.be/1U7c6laQYgI",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18118380281058303",
+        "url": "https://www.instagram.com/reel/DePm9NtkWh8/"
+      },
+      "tiktok": {
+        "id": "7694370235989626132",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694370235989626132"
+      },
+      "facebook": {
+        "id": "2188994254981036",
+        "url": "https://www.facebook.com/reel/2188994254981036"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-08T15:47:45.046321-03:00"
   },
   {
     "id": "20261007-221704-taxa-minima-da-conta-de-luz-o-que-voce-p",

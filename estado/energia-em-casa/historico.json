@@ -990,5 +990,35 @@
         "url": "https://www.facebook.com/reel/1090552713577001"
       }
     }
+  },
+  {
+    "id": "20261007-220814-fio-desencapado-risco-de-choque-hoje-e-i",
+    "chave": "pauta:fio-desencapado-gambiarra",
+    "categoria": "seguranca",
+    "titulo": "Fio desencapado: risco de choque hoje e incêndio amanhã",
+    "texto_falado": "Você já viu um fio desencapado próximo a tomada na sua casa? Nunca deixe fio desencapado: risco de choque e incêndio, alerta da CPFL Energia. Quando o cobre fica livre, pode tocar metal, gerar faísca e iniciar incêndio rapidamente. Desencapar ou improvisar fios é perigoso; serviço elétrico é com eletricista habilitado. Fio ressecado, rachado ou com cheiro de queimado indica risco; troque imediatamente. Já encontrou algum desses sinais? Siga para dicas que evitam choque e incêndio em casa.",
+    "formato": "short",
+    "horario": "15:30",
+    "publicado_em": "2026-10-08T15:47:45.051818-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "1U7c6laQYgI",
+        "url": "https://youtu.be/1U7c6laQYgI",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18118380281058303",
+        "url": "https://www.instagram.com/reel/DePm9NtkWh8/"
+      },
+      "tiktok": {
+        "id": "7694370235989626132",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694370235989626132"
+      },
+      "facebook": {
+        "id": "2188994254981036",
+        "url": "https://www.facebook.com/reel/2188994254981036"
+      }
+    }
   }
 ]
