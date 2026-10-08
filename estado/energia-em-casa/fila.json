@@ -1423,7 +1423,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-04T20:46:22.294493-03:00"
+    "publicado_em": "2026-10-04T20:46:22.294493-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261003-222542-etiqueta-nova-da-geladeira-o-que-observa",
@@ -2418,7 +2419,7 @@
   },
   {
     "id": "20261007-222708-por-que-sua-conta-tem-taxa-minima-mesmo-",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-07T22:27:08.152922-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-08T20:30:00-03:00",
@@ -2457,8 +2458,29 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "otThdj0lBXA",
+        "url": "https://youtu.be/otThdj0lBXA",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17955930489255105",
+        "url": "https://www.instagram.com/reel/DeQJShKAIrq/"
+      },
+      "tiktok": {
+        "id": "7694447059075714305",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694447059075714305"
+      },
+      "facebook": {
+        "id": "1076757448498326",
+        "url": "https://www.facebook.com/reel/1076757448498326"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-08T20:47:43.303599-03:00"
   },
   {
     "id": "20261007-224208-tusd-e-te-entenda-as-duas-letrinhas-da-s",

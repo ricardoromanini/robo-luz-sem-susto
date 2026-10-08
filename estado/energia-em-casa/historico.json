@@ -1050,5 +1050,35 @@
         "url": "https://www.facebook.com/reel/1449963143943376"
       }
     }
+  },
+  {
+    "id": "20261007-222708-por-que-sua-conta-tem-taxa-minima-mesmo-",
+    "chave": "taxamin:EQUATORIAL MA",
+    "categoria": "entenda_conta",
+    "titulo": "Por que sua conta tem taxa mínima mesmo sem usar energia?",
+    "texto_falado": "Você sabia que paga um valor fixo na conta de luz mesmo sem usar energia? A ANEEL fixa consumo mínimo: 30 kWh monofásico, 50 kWh bifásico, 100 kWh trifásico fonte ANEEL É um piso, não taxa extra; se usar mais, paga só o consumo real. Na Equatorial Maranhão, 30 kWh custam cerca de R$ 26,66 por tarifa, sem impostos. Bifásico (50 kWh) R$ 44,44; trifásico (100 kWh) R$ 88,88 – tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins), sem bandeira. Paga taxa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-10-08T20:47:43.309267-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "otThdj0lBXA",
+        "url": "https://youtu.be/otThdj0lBXA",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17955930489255105",
+        "url": "https://www.instagram.com/reel/DeQJShKAIrq/"
+      },
+      "tiktok": {
+        "id": "7694447059075714305",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694447059075714305"
+      },
+      "facebook": {
+        "id": "1076757448498326",
+        "url": "https://www.facebook.com/reel/1076757448498326"
+      }
+    }
   }
 ]
