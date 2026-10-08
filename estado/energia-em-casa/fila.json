@@ -1015,7 +1015,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-03T20:47:35.931112-03:00"
+    "publicado_em": "2026-10-03T20:47:35.931112-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261002-220819-taxa-minima-da-conta-de-luz-quanto-paga-",
