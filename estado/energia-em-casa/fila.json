@@ -1618,7 +1618,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-05T15:47:35.539834-03:00"
+    "publicado_em": "2026-10-05T15:47:35.539834-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261004-084522-cuidados-essenciais-com-chuveiro-eletric",
