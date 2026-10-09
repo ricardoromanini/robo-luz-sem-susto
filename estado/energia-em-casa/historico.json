@@ -1080,5 +1080,35 @@
         "url": "https://www.facebook.com/reel/1076757448498326"
       }
     }
+  },
+  {
+    "id": "20261007-224727-como-ler-a-etiqueta-amarela-do-inmetro-a",
+    "chave": "pauta:selo-procel",
+    "categoria": "entenda_conta",
+    "titulo": "Como ler a etiqueta amarela do Inmetro antes de comprar um eletrodoméstico",
+    "texto_falado": "Sua geladeira pode estar consumindo mais energia do que o esperado? Segundo o Inmetro, a etiqueta amarela classifica a eficiência em faixas de letra. Ela também mostra o consumo estimado, facilitando a comparação entre modelos diferentes. Procure a letra A a C para aparelhos mais eficientes e verifique o kWh anual. Antes de comprar, confirme o selo Procel; ele indica os produtos mais eficientes da categoria. Já olha a etiqueta? Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "11:30",
+    "publicado_em": "2026-10-09T12:00:46.760123-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "9t44a0WnslA",
+        "url": "https://youtu.be/9t44a0WnslA",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17950645107324161",
+        "url": "https://www.instagram.com/reel/DeRxu1WisSP/"
+      },
+      "tiktok": {
+        "id": "7694682780931771666",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694682780931771666"
+      },
+      "facebook": {
+        "id": "4109574222513202",
+        "url": "https://www.facebook.com/reel/4109574222513202"
+      }
+    }
   }
 ]

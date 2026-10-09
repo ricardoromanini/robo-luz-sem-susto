@@ -1553,7 +1553,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-05T11:47:53.539473-03:00"
+    "publicado_em": "2026-10-05T11:47:53.539473-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261003-224338-disjuntor-desarma-o-tempo-todo-entenda-o",
@@ -2528,7 +2529,7 @@
   },
   {
     "id": "20261007-224727-como-ler-a-etiqueta-amarela-do-inmetro-a",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-07T22:47:27.944307-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-09T11:30:00-03:00",
@@ -2567,7 +2568,28 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "9t44a0WnslA",
+        "url": "https://youtu.be/9t44a0WnslA",
+        "privado": false
+      },
+      "instagram": {
+        "id": "17950645107324161",
+        "url": "https://www.instagram.com/reel/DeRxu1WisSP/"
+      },
+      "tiktok": {
+        "id": "7694682780931771666",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7694682780931771666"
+      },
+      "facebook": {
+        "id": "4109574222513202",
+        "url": "https://www.facebook.com/reel/4109574222513202"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-09T12:00:46.756490-03:00"
   }
 ]
