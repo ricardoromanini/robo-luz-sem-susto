@@ -1488,7 +1488,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 2,
-    "publicado_em": "2026-10-05T08:07:16.640035-03:00"
+    "publicado_em": "2026-10-05T08:07:16.640035-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261003-223802-tv-em-standby-consome-energia-entenda-o-",
