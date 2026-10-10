@@ -2645,7 +2645,7 @@
   },
   {
     "id": "20261009-222833-quanto-gasta-a-air-fryer-por-mes-na-cont",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-09T22:28:33.500783-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-10T20:30:00-03:00",
@@ -2684,8 +2684,29 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "mhKgmelR_Uo",
+        "url": "https://youtu.be/mhKgmelR_Uo",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18097802201644485",
+        "url": "https://www.instagram.com/reel/DeVS3pCgZwN/"
+      },
+      "tiktok": {
+        "id": "7695189675866066196",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7695189675866066196"
+      },
+      "facebook": {
+        "id": "971958208648357",
+        "url": "https://www.facebook.com/reel/971958208648357"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-10T20:47:08.180220-03:00"
   },
   {
     "id": "20261009-224522-o-que-mudou-na-etiqueta-do-ar-condiciona",

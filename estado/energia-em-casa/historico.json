@@ -1170,5 +1170,35 @@
         "url": "https://www.facebook.com/reel/1656253266057473"
       }
     }
+  },
+  {
+    "id": "20261009-222833-quanto-gasta-a-air-fryer-por-mes-na-cont",
+    "chave": "calc:airfryer:EQUATORIAL PA",
+    "categoria": "calculadora",
+    "titulo": "Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quer saber quanto sua air fryer pesa na conta de luz? Tarifa residencial pode variar; é 0,978 real por kWh, sem impostos nem bandeira, segundo a ANEEL. Com 1,5 kW por 30 min/dia, a air fryer consome cerca de 22,5 kWh mensais. Com 22,5 kWh mensais, o custo na tarifa sem impostos é cerca de R$ 22,01. Desligue a tomada ao terminar e verifique a potência, que pode variar, na etiqueta. E a sua? Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "20:30",
+    "publicado_em": "2026-10-10T20:47:08.185342-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "mhKgmelR_Uo",
+        "url": "https://youtu.be/mhKgmelR_Uo",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18097802201644485",
+        "url": "https://www.instagram.com/reel/DeVS3pCgZwN/"
+      },
+      "tiktok": {
+        "id": "7695189675866066196",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7695189675866066196"
+      },
+      "facebook": {
+        "id": "971958208648357",
+        "url": "https://www.facebook.com/reel/971958208648357"
+      }
+    }
   }
 ]
