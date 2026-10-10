@@ -2594,5 +2594,177 @@
     "aprovado_por": "dono",
     "tentativas": 0,
     "publicado_em": "2026-10-09T12:00:46.756490-03:00"
+  },
+  {
+    "id": "20261009-221907-entenda-por-que-sua-conta-tem-um-valor-m",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-09T22:19:07.814320-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-10T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EQUATORIAL GO",
+    "partes": [],
+    "titulo": "Entenda por que sua conta tem um valor mínimo mesmo consumindo pouco",
+    "texto_falado": "Sua conta de luz pode cobrar R$ 26,75 mesmo sem usar quase nada na sua casa? A ANEEL estabelece piso de 30 kWh para monofásico, custando R$ 26,75 por mês na sua residência. É um piso, não taxa extra; se usar mais, paga o consumo adicional na sua conta. Confira o valor mínimo na sua fatura; é tarifa sem impostos, sem bandeira, podendo variar. Sua conta tem piso? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, sua conta tem um valor mínimo. Na Equatorial Goiás, o piso monofásico de 30 kWh custa cerca de R$ 26,75 por mês (tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar – tarifa social ou Branca). Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, sua conta tem um valor mínimo. Na Equatorial Goiás, o piso monofásico de 30 kWh custa cerca de R$ 26,75 por mês (tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar – tarifa social ou Branca). Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 626672516,
+      "nome": "20261009-221907-entenda-por-que-sua-conta-tem-um-valor-m.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 35.7,
+        "lufs": -14.27,
+        "fala_confere": 0.92,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261009-222833-quanto-gasta-a-air-fryer-por-mes-na-cont",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-09T22:28:33.500783-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-10T11:30:00-03:00",
+    "categoria": "calculadora",
+    "chave": "calc:airfryer:EQUATORIAL PA",
+    "partes": [],
+    "titulo": "Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta",
+    "texto_falado": "Quer saber quanto sua air fryer pesa na conta de luz? Tarifa residencial pode variar; é 0,978 real por kWh, sem impostos nem bandeira, segundo a ANEEL. Com 1,5 kW por 30 min/dia, a air fryer consome cerca de 22,5 kWh mensais. Com 22,5 kWh mensais, o custo na tarifa sem impostos é cerca de R$ 22,01. Desligue a tomada ao terminar e verifique a potência, que pode variar, na etiqueta. E a sua? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Descubra quanto sua air fryer pode custar na conta de luz usando a tarifa residencial de 0,978 R$/kWh. Consumo estimado de 22,5 kWh gera um custo aproximado de R$ 22,01 por mês, antes de impostos e bandeira. Lembre‑se de desligar o aparelho e conferir a potência na etiqueta, que pode variar. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#contadeluz #airfryer #economiaenergetica #tarifaenergia #energia #energiasolar #economia",
+      "youtube": "Descubra quanto sua air fryer pode custar na conta de luz usando a tarifa residencial de 0,978 R$/kWh. Consumo estimado de 22,5 kWh gera um custo aproximado de R$ 22,01 por mês, antes de impostos e bandeira. Lembre‑se de desligar o aparelho e conferir a potência na etiqueta, que pode variar. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#contadeluz #airfryer #economiaenergetica #tarifaenergia #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 626702844,
+      "nome": "20261009-222833-quanto-gasta-a-air-fryer-por-mes-na-cont.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 46.0,
+        "lufs": -14.61,
+        "fala_confere": 0.91,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261009-224522-o-que-mudou-na-etiqueta-do-ar-condiciona",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-09T22:45:22.238811-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-10T15:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "pauta:ar-inverter",
+    "partes": [],
+    "titulo": "O que mudou na etiqueta do ar‑condicionado e a temperatura ideal",
+    "texto_falado": "Sua conta de luz pode cair se mudar a temperatura do ar‑condicionado em casa? Desde 2020 a etiqueta do Inmetro destaca o índice de desempenho dos inversores. Estudos dos fabricantes apontam até 47% de economia, segundo Inmetro. A economia de 47% é de estudos dos fabricantes citados pelo Inmetro Inmetro recomenda 23°C; e varia conforme o uso; Fonte: Inmetro Já ajusta 23°C no ar‑condicionado? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "A etiqueta do Inmetro mudou em 2020 para destacar os inversores, que podem economizar até 47% de energia (varia conforme o uso). A recomendação oficial é 23°C para conforto e eficiência. Ajuste seu termostato e veja a diferença na conta. Fonte: Inmetro.\n\n⚠️ A economia de 47% é de estudos dos fabricantes citados pelo Inmetro e varia conforme o uso. Fonte: Inmetro.\n\n#energia #arcondicionado #dicasdeenergia #inmetro #contadeluz #energiasolar #economia",
+      "youtube": "A etiqueta do Inmetro mudou em 2020 para destacar os inversores, que podem economizar até 47% de energia (varia conforme o uso). A recomendação oficial é 23°C para conforto e eficiência. Ajuste seu termostato e veja a diferença na conta. Fonte: Inmetro.\n\n⚠️ A economia de 47% é de estudos dos fabricantes citados pelo Inmetro e varia conforme o uso. Fonte: Inmetro.\n\nFontes:\nhttp://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002644.pdf\n\n#energia #arcondicionado #dicasdeenergia #inmetro #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 626753745,
+      "nome": "20261009-224522-o-que-mudou-na-etiqueta-do-ar-condiciona.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 38.6,
+        "lufs": -13.74,
+        "fala_confere": 0.93,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261009-231059-por-que-sua-conta-tem-taxa-minima",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-09T23:10:59.531575-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-10T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:ERO",
+    "partes": [],
+    "titulo": "Por que sua conta tem taxa mínima?",
+    "texto_falado": "Sua conta de luz tem um valor mínimo mesmo usando quase nada? A ANEEL fixa piso de 30 kWh monofásico, 50 kWh bifásico e 100 kWh trifásico. Na Energisa Rondônia, o piso de 30 kWh custa R$ 22,87 por mês. Se seu consumo ficar acima do piso, pague só o kWh consumido extra. Lembre-se, a tarifa pode mudar conforme contrato ou bandeira aplicada atualmente. Já viu a taxa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "A taxa mínima é um piso nacional de consumo que garante um valor mínimo na conta, mesmo que o uso seja baixo.\nNa Energisa Rondônia, esse piso custa R$ 22,87 para monofásico.\n(Fonte: ANEEL — REN 1.000/2021)\nTarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Fonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contaluz #Energisa #tarifaminima #contadeluz #energia #energiasolar #economia",
+      "youtube": "A taxa mínima é um piso nacional de consumo que garante um valor mínimo na conta, mesmo que o uso seja baixo.\nNa Energisa Rondônia, esse piso custa R$ 22,87 para monofásico.\n(Fonte: ANEEL — REN 1.000/2021)\nTarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Fonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contaluz #Energisa #tarifaminima #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 626762658,
+      "nome": "20261009-231059-por-que-sua-conta-tem-taxa-minima.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 31.2,
+        "lufs": -14.29,
+        "fala_confere": 0.85,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
