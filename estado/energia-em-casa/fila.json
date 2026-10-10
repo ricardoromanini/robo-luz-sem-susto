@@ -2753,7 +2753,7 @@
   },
   {
     "id": "20261009-231059-por-que-sua-conta-tem-taxa-minima",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-09T23:10:59.531575-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-10T18:30:00-03:00",
@@ -2792,7 +2792,28 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "4shE9is4NXc",
+        "url": "https://youtu.be/4shE9is4NXc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18370461823244560",
+        "url": "https://www.instagram.com/reel/DeVFIUWDz7K/"
+      },
+      "tiktok": {
+        "id": "7695158759315868936",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7695158759315868936"
+      },
+      "facebook": {
+        "id": "1656253266057473",
+        "url": "https://www.facebook.com/reel/1656253266057473"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-10T18:47:41.166426-03:00"
   }
 ]

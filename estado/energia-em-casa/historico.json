@@ -1140,5 +1140,35 @@
         "url": "https://www.facebook.com/reel/1593676181651804"
       }
     }
+  },
+  {
+    "id": "20261009-231059-por-que-sua-conta-tem-taxa-minima",
+    "chave": "taxamin:ERO",
+    "categoria": "entenda_conta",
+    "titulo": "Por que sua conta tem taxa mínima?",
+    "texto_falado": "Sua conta de luz tem um valor mínimo mesmo usando quase nada? A ANEEL fixa piso de 30 kWh monofásico, 50 kWh bifásico e 100 kWh trifásico. Na Energisa Rondônia, o piso de 30 kWh custa R$ 22,87 por mês. Se seu consumo ficar acima do piso, pague só o kWh consumido extra. Lembre-se, a tarifa pode mudar conforme contrato ou bandeira aplicada atualmente. Já viu a taxa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "18:30",
+    "publicado_em": "2026-10-10T18:47:41.171337-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "4shE9is4NXc",
+        "url": "https://youtu.be/4shE9is4NXc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18370461823244560",
+        "url": "https://www.instagram.com/reel/DeVFIUWDz7K/"
+      },
+      "tiktok": {
+        "id": "7695158759315868936",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7695158759315868936"
+      },
+      "facebook": {
+        "id": "1656253266057473",
+        "url": "https://www.facebook.com/reel/1656253266057473"
+      }
+    }
   }
 ]
