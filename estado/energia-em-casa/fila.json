@@ -1145,7 +1145,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-06T07:47:34.830603-03:00"
+    "publicado_em": "2026-10-06T07:47:34.830603-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261002-221424-quanto-gasta-o-ferro-de-passar-por-mes-n",
