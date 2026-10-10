@@ -1361,7 +1361,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-06T15:47:32.958699-03:00"
+    "publicado_em": "2026-10-06T15:47:32.958699-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261003-221830-choque-no-chuveiro-ou-disjuntor-desarman",
@@ -2687,7 +2688,7 @@
   },
   {
     "id": "20261009-224522-o-que-mudou-na-etiqueta-do-ar-condiciona",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-09T22:45:22.238811-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-10T15:30:00-03:00",
@@ -2726,8 +2727,29 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "OTHHNR2t9yA",
+        "url": "https://youtu.be/OTHHNR2t9yA",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18107339210617801",
+        "url": "https://www.instagram.com/reel/DeUwlGED97L/"
+      },
+      "tiktok": {
+        "id": "7695112430753484052",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7695112430753484052"
+      },
+      "facebook": {
+        "id": "1593676181651804",
+        "url": "https://www.facebook.com/reel/1593676181651804"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-10T15:47:58.002697-03:00"
   },
   {
     "id": "20261009-231059-por-que-sua-conta-tem-taxa-minima",
