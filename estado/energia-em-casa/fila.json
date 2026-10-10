@@ -2599,10 +2599,10 @@
   },
   {
     "id": "20261009-221907-entenda-por-que-sua-conta-tem-um-valor-m",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-09T22:19:07.814320-03:00",
     "formato": "short",
-    "horario_publicacao": "2026-10-10T07:30:00-03:00",
+    "horario_publicacao": "2026-10-11T07:30:00-03:00",
     "categoria": "entenda_conta",
     "chave": "taxamin:EQUATORIAL GO",
     "partes": [],
@@ -2638,14 +2638,15 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261009-222833-quanto-gasta-a-air-fryer-por-mes-na-cont",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-09T22:28:33.500783-03:00",
     "formato": "short",
-    "horario_publicacao": "2026-10-10T11:30:00-03:00",
+    "horario_publicacao": "2026-10-10T20:30:00-03:00",
     "categoria": "calculadora",
     "chave": "calc:airfryer:EQUATORIAL PA",
     "partes": [],
@@ -2681,11 +2682,12 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261009-224522-o-que-mudou-na-etiqueta-do-ar-condiciona",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-09T22:45:22.238811-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-10T15:30:00-03:00",
@@ -2724,11 +2726,12 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   },
   {
     "id": "20261009-231059-por-que-sua-conta-tem-taxa-minima",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-09T23:10:59.531575-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-10T18:30:00-03:00",
@@ -2767,6 +2770,7 @@
       "rodadas": 1,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   }
 ]
