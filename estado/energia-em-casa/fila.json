@@ -1685,7 +1685,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-06T11:48:29.728133-03:00"
+    "publicado_em": "2026-10-06T11:48:29.728133-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261004-084821-quanto-gasta-o-ar-condicionado-por-mes-n",
