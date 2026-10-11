@@ -2601,7 +2601,7 @@
   },
   {
     "id": "20261009-221907-entenda-por-que-sua-conta-tem-um-valor-m",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-09T22:19:07.814320-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-11T07:30:00-03:00",
@@ -2640,8 +2640,29 @@
       "rodadas": 3,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "KkFdCvVIFQk",
+        "url": "https://youtu.be/KkFdCvVIFQk",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18131713495797702",
+        "url": "https://www.instagram.com/reel/DeWeeLRlB1p/"
+      },
+      "tiktok": {
+        "id": "7695359883918593300",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7695359883918593300"
+      },
+      "facebook": {
+        "id": "1800729011274840",
+        "url": "https://www.facebook.com/reel/1800729011274840"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-11T07:48:08.162018-03:00"
   },
   {
     "id": "20261009-222833-quanto-gasta-a-air-fryer-por-mes-na-cont",

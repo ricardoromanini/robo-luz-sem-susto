@@ -1200,5 +1200,35 @@
         "url": "https://www.facebook.com/reel/971958208648357"
       }
     }
+  },
+  {
+    "id": "20261009-221907-entenda-por-que-sua-conta-tem-um-valor-m",
+    "chave": "taxamin:EQUATORIAL GO",
+    "categoria": "entenda_conta",
+    "titulo": "Entenda por que sua conta tem um valor mínimo mesmo consumindo pouco",
+    "texto_falado": "Sua conta de luz pode cobrar R$ 26,75 mesmo sem usar quase nada na sua casa? A ANEEL estabelece piso de 30 kWh para monofásico, custando R$ 26,75 por mês na sua residência. É um piso, não taxa extra; se usar mais, paga o consumo adicional na sua conta. Confira o valor mínimo na sua fatura; é tarifa sem impostos, sem bandeira, podendo variar. Sua conta tem piso? Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-11T07:48:08.168608-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "KkFdCvVIFQk",
+        "url": "https://youtu.be/KkFdCvVIFQk",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18131713495797702",
+        "url": "https://www.instagram.com/reel/DeWeeLRlB1p/"
+      },
+      "tiktok": {
+        "id": "7695359883918593300",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7695359883918593300"
+      },
+      "facebook": {
+        "id": "1800729011274840",
+        "url": "https://www.facebook.com/reel/1800729011274840"
+      }
+    }
   }
 ]
