@@ -2837,5 +2837,134 @@
     "aprovado_por": "dono",
     "tentativas": 0,
     "publicado_em": "2026-10-10T18:47:41.166426-03:00"
+  },
+  {
+    "id": "20261010-223645-taxa-minima-da-conta-de-luz-explicada",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-10T22:36:45.065460-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-11T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:ETO",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz explicada",
+    "texto_falado": "Por que sua conta de luz tem um valor mínimo, mesmo consumindo pouco? A ANEEL determina um consumo mínimo de 30 kWh monofásico, 50 kWh bifásico ou 100 kWh trifásico. (fonte ANEEL) Na Energisa Tocantins, 30 kWh mínimos custam cerca de R$ 29,78 mensal, tarifa residencial sem impostos. Se consumir acima do mínimo, pagará só o excedente; o piso não se soma ao consumo. Tarifa residencial convencional, sem ICMS, PIS/Cofins e sem bandeira; fonte ANEEL. Sua conta tem taxa mínima? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "A taxa mínima da conta de luz é um piso nacional definido pela ANEEL.\nNa Energisa Tocantins, o valor para o consumo mínimo monofásico (30 kWh) é cerca de R$ 29,78 por mês, considerando tarifa residencial convencional sem impostos.\nSe o consumo ultrapassar esse piso, você paga só o excedente, sem soma dupla.\nFonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #taxaminima #Energisa #economia #energiasolar",
+      "youtube": "A taxa mínima da conta de luz é um piso nacional definido pela ANEEL.\nNa Energisa Tocantins, o valor para o consumo mínimo monofásico (30 kWh) é cerca de R$ 29,78 por mês, considerando tarifa residencial convencional sem impostos.\nSe o consumo ultrapassar esse piso, você paga só o excedente, sem soma dupla.\nFonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#energia #contadeluz #taxaminima #Energisa #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 629497095,
+      "nome": "20261010-223645-taxa-minima-da-conta-de-luz-explicada.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 44.3,
+        "lufs": -14.09,
+        "fala_confere": 0.9,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261010-225007-por-que-a-conta-tem-r-25-54-mesmo-sem-us",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-10T22:50:07.400931-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-11T15:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EQUATORIAL AL",
+    "partes": [],
+    "titulo": "Por que a conta tem R$ 25,54 mesmo sem usar energia?",
+    "texto_falado": "Por que você paga R$ 25,54 por mês, mesmo sem usar energia? A taxa mínima de 30 kWh custa R$ 25,54, tarifa residencial sem impostos sem bandeira. É piso, não soma ao consumo; paga só o que usar, tarifa, sem impostos, sem bandeira. Veja se sua casa é monofásica, bifásica ou trifásica e saiba o mínimo correspondente. Bifásico: 50 kWh, R$ 42,57; trifásico: 100 kWh, R$ 85,14 – ANEEL. Qual sua taxa? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, sua conta tem um piso que garante pagamento mínimo.\nNa Equatorial Alagoas, 30 kWh custam cerca de R$ 25,54, e valores maiores seguem a mesma lógica.\nLembre‑se: a tarifa usada é residencial convencional, sem impostos nem bandeira; pode variar conforme sua categoria.\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, sua conta tem um piso que garante pagamento mínimo.\nNa Equatorial Alagoas, 30 kWh custam cerca de R$ 25,54, e valores maiores seguem a mesma lógica.\nLembre‑se: a tarifa usada é residencial convencional, sem impostos nem bandeira; pode variar conforme sua categoria.\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 629517039,
+      "nome": "20261010-225007-por-que-a-conta-tem-r-25-54-mesmo-sem-us.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 44.9,
+        "lufs": -14.06,
+        "fala_confere": 0.85,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261010-230138-taxa-minima-da-conta-de-luz-na-energisa-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-10T23:01:38.646901-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-11T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EMT",
+    "partes": [],
+    "titulo": "Taxa mínima da conta de luz na Energisa MT: quanto você paga?",
+    "texto_falado": "Você sabia que, mesmo consumindo quase nada, a conta tem um valor mínimo mensal? A taxa mínima, regra nacional da ANEEL, é 30 kWh monofásico, 50 kWh bifásico ou 100 kWh trifásico. Para quem tem monofásico, o mínimo custa R$ 26,98; bifásico, R$ 44,97; trifásico, R$ 89,94, todos antes de impostos. É um piso, não taxa extra; tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; fonte ANEEL. Tem taxa mínima? Siga para mais dados oficiais sobre a sua energia, sem enrolação.",
+    "legenda": {
+      "social": "Entenda a taxa mínima que aparece na sua conta, mesmo com consumo baixo.\nNa Energisa MT, o valor corresponde a R$ 26,98 (monofásico), R$ 44,97 (bifásico) ou R$ 89,94 (trifásico), antes de impostos.\nÉ um piso, não taxa extra, e segue a regra nacional da ANEEL.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energisa #energia #energiasolar #economia",
+      "youtube": "Entenda a taxa mínima que aparece na sua conta, mesmo com consumo baixo.\nNa Energisa MT, o valor corresponde a R$ 26,98 (monofásico), R$ 44,97 (bifásico) ou R$ 89,94 (trifásico), antes de impostos.\nÉ um piso, não taxa extra, e segue a regra nacional da ANEEL.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energisa #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 629536763,
+      "nome": "20261010-230138-taxa-minima-da-conta-de-luz-na-energisa-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 43.7,
+        "lufs": -14.92,
+        "fala_confere": 0.87,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

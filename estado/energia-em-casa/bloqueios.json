@@ -222,5 +222,75 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🔎 Checador de fatos] “Um ar-condicionado pode aumentar sua conta em mais de R$ 200 por mês, usando pouco tempo?”: O texto não especifica que o valor de R$ 200 é apenas da tarifa, sem impostos e bandeira, e que o uso é de 8 horas por noite.. Correção: Um ar-condicionado pode aumentar sua conta em cerca de R$ 231,18 por mês, apenas com a tarifa, sem impostos e bandeira, usando 8 horas por noite.\n- [🔎 Checador de fatos] “Paga mais de R$ 200?”: O texto não especifica que o valor de R$ 200 é apenas da tarifa, sem impostos e bandeira.. Correção: Paga cerca de R$ 231,18 por mês, apenas com a tarifa, sem impostos e bandeira?\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-10-09T22:50:44.004962"
+  },
+  {
+    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
+    "chave": "pauta:airfryer-forno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “30”: o número 30 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Air fryer ou forno elétrico: qual pesa mais na conta de luz?”: O termo 'air fryer' é comum no Brasil, mas poderia ser traduzido para 'fritadeira de ar quente' para melhor se adequar ao padrão brasileiro. (fonte: https://pt.wikipedia.org/wiki/Fritadeira). Correção: Fritadeira de ar quente ou forno elétrico: qual pesa mais na conta de luz?",
+    "em": "2026-10-10T22:14:43.149035"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Acre",
+    "chave": "calc:ar:EAC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-10T22:18:40.045078"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Equatorial Piauí",
+    "chave": "calc:ferro:EQUATORIAL PI",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “10,2”: o número 10,2 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [🔎 Checador de fatos] “Usando um ferro de 1.200 W duas horas semanais, consome cerca de 10,2 kWh por mês.”: O cálculo não é explicitado no dossiê, mas pode ser feito com base nas informações fornecidas.. Correção: O consumo estimado pode ser calculado como 1.200 W * 2 horas/semana * 4 semanas/mês / 1000 (para converter W para kW) = 9,6 kWh/mês, que é próximo ao valor estimado de 10,2 kWh/mês.\n- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 14%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-10T22:23:08.296142"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Rondônia",
+    "chave": "calc:ar:ERO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-10T22:27:11.678933"
+  },
+  {
+    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
+    "chave": "pauta:lei-14300-fio-b",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências como uma norma relacionada ao assunto (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022",
+    "em": "2026-10-10T22:31:42.316756"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na Equatorial Alagoas",
+    "chave": "taxamin:EQUATORIAL AL",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Por que sua conta tem taxa mínima mesmo sem usar energia?”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Segundo a ANEEL, o piso é 30 kWh monofásicos, 50 kWh bifásicos, 100 kWh trifásicos para residçncias”: A ANEEL não define explicitamente esses valores como piso para residçncias nas evidçncias fornecidas (fonte: https://pt.wikipedia.org/wiki/Ag%C3%AAncia_Nacional_de_Energia_El%C3%A9trica). Correção: Verificar a REN 1.000/2021 para confirmar os valores de piso de energia",
+    "em": "2026-10-10T22:36:44.423247"
+  },
+  {
+    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
+    "chave": "pauta:lei-14300-fio-b",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “60% de aumento no Fio B em 2026”: O texto diz que houve um aumento de 60% no Fio B em 2026, mas o dossiê diz que o Fio B é de 60% em 2026, não que aumentou 60% em relação ao ano anterior. Correção: Em 2026, o Fio B é de 60%, conforme a Lei 14.300/2022\n- [⚖️ Revisor jurídico e de políticas] “60% de aumento no Fio B em 2026: como isso afeta sua conta de luz”: 3. Legislação eleitoral (Lei 9.504/1997 e resoluções do TSE). Correção: Remover qualquer menção a ano de eleições (2026) ou reestruturar a frase para manter neutralidade\n- [🌐 Pesquisador (internet e padrão brasileiro)] “60% de aumento no Fio B em 2026”: A Lei 14.300/2022 não é mencionada nas evidências como uma lei que trata do Fio B ou do aumento de 60% em 2026. (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022 e sua relação com o Fio B.",
+    "em": "2026-10-10T22:39:58.024793"
+  },
+  {
+    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
+    "chave": "pauta:lei-14300-fio-b",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Fio B chegou a 60% da tarifa em 2026”: Nenhuma das evidências fornece informações sobre o Fio B ou a Lei 14.300/2022 (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022 e do Fio B",
+    "em": "2026-10-10T22:52:53.170333"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Equatorial Alagoas",
+    "chave": "calc:ar:EQUATORIAL AL",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-10T23:04:50.666038"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Enel São Paulo",
+    "chave": "calc:ar:ELETROPAULO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-10T23:09:30.167875"
   }
 ]
