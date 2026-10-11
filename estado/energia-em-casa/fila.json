@@ -1992,7 +1992,8 @@
       "alertas_dossie": []
     },
     "publicacoes": {},
-    "refazer_desde": "2026-10-06T05:25:18.932709-03:00"
+    "refazer_desde": "2026-10-06T05:25:18.932709-03:00",
+    "observacao_humana": "Gostaria de saber os próximos assuntos é saber se está saindo videos com o mesmo assunto ou parecido"
   },
   {
     "id": "20261006-060530-tomada-quente-e-cheiro-de-queimado-sinai",
@@ -2057,7 +2058,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 1,
-    "publicado_em": "2026-10-07T08:05:25.812159-03:00"
+    "publicado_em": "2026-10-07T08:05:25.812159-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261006-061300-quanto-gasta-o-chuveiro-eletrico-por-mes",
