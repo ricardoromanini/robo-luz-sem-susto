@@ -292,5 +292,54 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-10-10T23:09:30.167875"
+  },
+  {
+    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
+    "chave": "pauta:lei-14300-fio-b",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Sua conta de luz pode subir 60% por causa da energia solar hoje?”: A afirmação é enganosa, pois o Fio B de 60% se refere à parcela da tarifa paga sobre a energia injetada, não ao aumento da conta de luz em si.. Correção: Reescrever para refletir a informação correta sobre o Fio B e seu impacto na conta de luz.\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências como uma lei relacionada à energia solar ou ao Fio B. (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022 e substituí-la pela norma correta, se necessário.",
+    "em": "2026-10-11T22:11:36.967735"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Neoenergia Pernambuco",
+    "chave": "calc:ferro:Neoenergia PE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Pernambuco”: A empresa mencionada na evidência é a Neoenergia Coelba, que atua na Bahia, e não a Neoenergia Pernambuco (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-11T22:15:24.106615"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Celesc",
+    "chave": "calc:ar:CELESC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-11T22:20:13.375071"
+  },
+  {
+    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
+    "chave": "pauta:chuveiro-verao-inverno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “mudar a chave do chuveiro pode reduzir até 10% da conta”: não há informação no dossiê sobre a redução de 10% na conta de luz. Correção: remover a afirmação ou reescrever como 'a economia varia conforme o modelo e o tempo de banho'\n- [🌐 Pesquisador (internet e padrão brasileiro)] “A potência diminui na temperatura baixa, gerando economia de energia e água.”: No Brasil, a temperatura baixa não é comum, e a economia de energia e água depende do modelo do chuveiro e do tempo de banho. (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: A potência diminui na temperatura baixa, gerando economia de energia e água, dependendo do modelo do chuveiro e do tempo de banho.",
+    "em": "2026-10-11T22:24:01.763787"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Cemig",
+    "chave": "calc:airfryer:CEMIG-D",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-11T22:27:14.321935"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Neoenergia Brasília",
+    "chave": "calc:ar:Neoenergia Brasília",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Brasília”: A empresa mencionada é a Neoenergia Coelba, que atua na Bahia, e não a Neoenergia Brasília (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-11T22:36:22.793337"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na EDP Espírito Santo",
+    "chave": "taxamin:EDP ES",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Na EDP Espírito Santo, 30 kWh mínimos custam R$ 25,31 por mês”: exemplo de empresa de energia específica, mas não há problema com a unidade ou objeto (fonte: https://pt.wikipedia.org/wiki/CPFL_Energia). Correção: manter o exemplo, pois é uma empresa brasileira",
+    "em": "2026-10-11T22:45:31.216541"
   }
 ]

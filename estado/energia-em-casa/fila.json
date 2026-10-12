@@ -2990,5 +2990,177 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261011-222013-taxa-minima-por-que-voce-paga-mesmo-cons",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-11T22:20:13.881033-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-12T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:CPFL-PIRATINING",
+    "partes": [],
+    "titulo": "Taxa mínima: por que você paga mesmo consumindo pouco",
+    "texto_falado": "Você sabia que, mesmo consumindo quase nada, ainda paga um valor fixo? Na CPFL Piratininga o mínimo é 30 kWh monofásico, 50 kWh bifásico (fonte: ANEEL) Para trifásico o mínimo é 100 kWh, custando cerca de R$ 73,97 mensais (fonte: ANEEL) Esse valor funciona como piso, não soma ao consumo; paga‑se só o que usar tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira Sua conta tem taxa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Mesmo usando pouquíssima energia, a CPFL Piratininga cobra um valor mínimo.\nPara residências monofásicas o piso é 30 kWh (≈ R$ 22,19), bifásicas 50 kWh (≈ R$ 36,98) e trifásicas 100 kWh (≈ R$ 73,97).\nEsse valor é um piso, não se soma ao consumo real. Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #CPFL #energiasolar #economia",
+      "youtube": "Mesmo usando pouquíssima energia, a CPFL Piratininga cobra um valor mínimo.\nPara residências monofásicas o piso é 30 kWh (≈ R$ 22,19), bifásicas 50 kWh (≈ R$ 36,98) e trifásicas 100 kWh (≈ R$ 73,97).\nEsse valor é um piso, não se soma ao consumo real. Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #CPFL #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 632307526,
+      "nome": "20261011-222013-taxa-minima-por-que-voce-paga-mesmo-cons.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 43.1,
+        "lufs": -14.0,
+        "fala_confere": 0.9,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261011-223220-taxa-minima-quanto-voce-paga-mesmo-consu",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-11T22:32:20.978515-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-12T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:CELESC",
+    "partes": [],
+    "titulo": "Taxa mínima: quanto você paga mesmo consumindo pouco",
+    "texto_falado": "Você sabia que, mesmo consumindo quase nada, paga um valor fixo na conta? A Celesc cobra, no mínimo, 30 kWh para monofásico, custando R$ 22,79 por mês, segundo a ANEEL. É um piso, não taxa extra; se usar mais, paga só consumo extra, regra da ANEEL. Veja sua tarifa residencial; sem impostos e bandeira, pode mudar com tarifa social ou branca. Sua conta tem taxa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, a Celesc tem uma taxa mínima que garante um valor fixo na conta. Para monofásico, o piso é de 30 kWh, o que corresponde a cerca de R$ 22,79 por mês, sem impostos e sem bandeira (tarifa residencial convencional). O valor pode mudar se você estiver na tarifa social ou branca. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #Celesc #taxaminima #energia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, a Celesc tem uma taxa mínima que garante um valor fixo na conta. Para monofásico, o piso é de 30 kWh, o que corresponde a cerca de R$ 22,79 por mês, sem impostos e sem bandeira (tarifa residencial convencional). O valor pode mudar se você estiver na tarifa social ou branca. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #Celesc #taxaminima #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 632326061,
+      "nome": "20261011-223220-taxa-minima-quanto-voce-paga-mesmo-consu.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 32.0,
+        "lufs": -13.9,
+        "fala_confere": 0.93,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 8, 0 obrigatório(s), 1 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261011-224132-por-que-sua-conta-tem-valor-minimo-mesmo",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-11T22:41:32.090198-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-12T15:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EAC",
+    "partes": [],
+    "titulo": "Por que sua conta tem valor mínimo mesmo consumindo pouco?",
+    "texto_falado": "Sua conta de luz bate R$ 25 mesmo consumindo quase nada? A ANEEL define taxa mínima de 30 kWh (monofásico), 50 kWh (bifásico) e 100 kWh (trifásico). É um piso, não taxa extra; a regra vale para todas as distribuidoras nacionais. Na Energisa Acre, o mínimo monofásico custa cerca de R$ 24,89 por mês. Confira se seu consumo supera o mínimo; tarifa convencional, sem ICMS, PIS/Cofins, sem bandeira, pode variar. Você tem taxa mínima? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "Mesmo consumindo pouquíssimo, a conta tem um valor mínimo. Na Energisa Acre, o piso monofásico equivale a R$ 24,89 por mês (tarifa residencial convencional, sem ICMS, PIS/Cofins e sem bandeira). A regra é nacional e o valor não se soma ao consumo real. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #tarifaminima #EnergisaAcre #energia #economia #energiasolar",
+      "youtube": "Mesmo consumindo pouquíssimo, a conta tem um valor mínimo. Na Energisa Acre, o piso monofásico equivale a R$ 24,89 por mês (tarifa residencial convencional, sem ICMS, PIS/Cofins e sem bandeira). A regra é nacional e o valor não se soma ao consumo real. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #tarifaminima #EnergisaAcre #energia #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 632353420,
+      "nome": "20261011-224132-por-que-sua-conta-tem-valor-minimo-mesmo.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 41.0,
+        "lufs": -14.23,
+        "fala_confere": 0.9,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261011-225358-taxa-minima-da-cpfl-por-que-paga-r-22-19",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-11T22:53:58.415225-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-12T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:CPFL-PAULISTA",
+    "partes": [],
+    "titulo": "Taxa mínima da CPFL: por que paga R$ 22,19 sem consumo",
+    "texto_falado": "Você sabia que paga R$ 22,19 mesmo se sua casa ficar um mês sem energia? Segundo a ANEEL, o mínimo é 30 kWh para monofásico. Esse consumo mínimo gera cerca de R$ 22,19 de tarifa, sem impostos nem bandeira. Se seu consumo está abaixo do mínimo, não há cobrança extra; basta pagar o valor fixo. A taxa mínima é um piso, não soma ao consumo extra. Qual o seu mínimo? Siga a página para entender sua conta de luz todo mês.",
+    "legenda": {
+      "social": "A taxa mínima é um piso nacional da ANEEL. Na CPFL Paulista, 30 kWh equivalem a R$ 22,19 de tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contaluz #CPFL #taxaminima #contadeluz #energia #energiasolar #economia",
+      "youtube": "A taxa mínima é um piso nacional da ANEEL. Na CPFL Paulista, 30 kWh equivalem a R$ 22,19 de tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contaluz #CPFL #taxaminima #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 632365279,
+      "nome": "20261011-225358-taxa-minima-da-cpfl-por-que-paga-r-22-19.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 37.3,
+        "lufs": -13.97,
+        "fala_confere": 0.94,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
