@@ -2428,7 +2428,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-08T18:47:18.758990-03:00"
+    "publicado_em": "2026-10-08T18:47:18.758990-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261007-222708-por-que-sua-conta-tem-taxa-minima-mesmo-",
