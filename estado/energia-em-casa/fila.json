@@ -2603,7 +2603,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-09T12:00:46.756490-03:00"
+    "publicado_em": "2026-10-09T12:00:46.756490-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261009-221907-entenda-por-que-sua-conta-tem-um-valor-m",
