@@ -2494,7 +2494,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-08T20:47:43.303599-03:00"
+    "publicado_em": "2026-10-08T20:47:43.303599-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261007-224208-tusd-e-te-entenda-as-duas-letrinhas-da-s",
