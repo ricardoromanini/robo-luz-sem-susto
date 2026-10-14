@@ -2799,7 +2799,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-10T15:47:58.002697-03:00"
+    "publicado_em": "2026-10-10T15:47:58.002697-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261009-231059-por-que-sua-conta-tem-taxa-minima",
