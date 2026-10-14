@@ -3126,7 +3126,7 @@
   },
   {
     "id": "20261011-225358-taxa-minima-da-cpfl-por-que-paga-r-22-19",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-11T22:53:58.415225-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-14T07:30:00-03:00",
@@ -3165,7 +3165,28 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "ByxlYvwFmK0",
+        "url": "https://youtu.be/ByxlYvwFmK0",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18118715687072584",
+        "url": "https://www.instagram.com/reel/DeeM3HfjAhR/"
+      },
+      "tiktok": {
+        "id": "7696473050748816692",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7696473050748816692"
+      },
+      "facebook": {
+        "id": "2516022795476950",
+        "url": "https://www.facebook.com/reel/2516022795476950"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-14T07:48:21.434754-03:00"
   }
 ]

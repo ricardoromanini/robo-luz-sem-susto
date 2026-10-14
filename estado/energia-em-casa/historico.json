@@ -1392,5 +1392,35 @@
       "views_total": 11,
       "coletado_em": "2026-10-12T08:14:30.904705"
     }
+  },
+  {
+    "id": "20261011-225358-taxa-minima-da-cpfl-por-que-paga-r-22-19",
+    "chave": "taxamin:CPFL-PAULISTA",
+    "categoria": "entenda_conta",
+    "titulo": "Taxa mínima da CPFL: por que paga R$ 22,19 sem consumo",
+    "texto_falado": "Você sabia que paga R$ 22,19 mesmo se sua casa ficar um mês sem energia? Segundo a ANEEL, o mínimo é 30 kWh para monofásico. Esse consumo mínimo gera cerca de R$ 22,19 de tarifa, sem impostos nem bandeira. Se seu consumo está abaixo do mínimo, não há cobrança extra; basta pagar o valor fixo. A taxa mínima é um piso, não soma ao consumo extra. Qual o seu mínimo? Siga a página para entender sua conta de luz todo mês.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-14T07:48:21.441587-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "ByxlYvwFmK0",
+        "url": "https://youtu.be/ByxlYvwFmK0",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18118715687072584",
+        "url": "https://www.instagram.com/reel/DeeM3HfjAhR/"
+      },
+      "tiktok": {
+        "id": "7696473050748816692",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/t/7696473050748816692"
+      },
+      "facebook": {
+        "id": "2516022795476950",
+        "url": "https://www.facebook.com/reel/2516022795476950"
+      }
+    }
   }
 ]
