@@ -2865,7 +2865,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-10T18:47:41.166426-03:00"
+    "publicado_em": "2026-10-10T18:47:41.166426-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261010-223645-taxa-minima-da-conta-de-luz-explicada",
