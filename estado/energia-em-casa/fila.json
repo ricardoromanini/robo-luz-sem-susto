@@ -2734,7 +2734,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-10T20:47:08.180220-03:00"
+    "publicado_em": "2026-10-10T20:47:08.180220-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261009-224522-o-que-mudou-na-etiqueta-do-ar-condiciona",
