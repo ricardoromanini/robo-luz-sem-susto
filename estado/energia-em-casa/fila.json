@@ -3191,5 +3191,220 @@
     "aprovado_por": "dono",
     "tentativas": 0,
     "publicado_em": "2026-10-14T07:48:21.434754-03:00"
+  },
+  {
+    "id": "20261014-220921-como-a-temperatura-do-chuveiro-eletrico-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-14T22:09:21.413745-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-15T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "pauta:chuveiro-verao-inverno",
+    "partes": [],
+    "titulo": "Como a temperatura do chuveiro elétrico influencia sua conta de luz",
+    "texto_falado": "A posição da chave do chuveiro pode mudar sua conta de luz? A EPE recomenda usar a posição verão nos dias quentes e reduzir o tempo de banho. Em temperatura baixa o chuveiro usa menos watts, economizando energia e água, segundo o fabricante. Desligue o chuveiro antes de mudar a temperatura e limite banhos longos. Serviço elétrico é com eletricista habilitado; economia depende do modelo e do tempo; Fonte: EPE. Usa inverno? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "A posição da chave do chuveiro influencia o consumo. No verão, use a configuração verão e reduza o tempo de banho, recomenda a EPE. Em temperatura baixa, o aparelho consome menos watts, segundo o fabricante, gerando economia de energia e água. Lembre‑se de desligar o chuveiro antes de mudar a temperatura e de chamar eletricista habilitado para qualquer intervenção. A economia depende do modelo e do tempo de uso. Fonte: EPE.\n\n⚠️ Serviço elétrico é com eletricista habilitado; A economia depende do modelo do chuveiro e do tempo de banho. Fonte: EPE.\n\n#contadeluz #chuveiroelétrico #economiaenergia #energia #energiasolar #economia",
+      "youtube": "A posição da chave do chuveiro influencia o consumo. No verão, use a configuração verão e reduza o tempo de banho, recomenda a EPE. Em temperatura baixa, o aparelho consome menos watts, segundo o fabricante, gerando economia de energia e água. Lembre‑se de desligar o chuveiro antes de mudar a temperatura e de chamar eletricista habilitado para qualquer intervenção. A economia depende do modelo e do tempo de uso. Fonte: EPE.\n\n⚠️ Serviço elétrico é com eletricista habilitado; A economia depende do modelo do chuveiro e do tempo de banho. Fonte: EPE.\n\nFontes:\nhttps://www.epe.gov.br/pt/abcdenergia/eficiencia-energetica\nhttps://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-857/Atlas%20da%20Efici%C3%AAncia%20Energ%C3%A9tica%20Brasil%202024.pdf\nhttps://www.lorenzetti.com.br/dicas/duvidas-frequentes/duchas-e-chuveiros-eletricos\n\n#contadeluz #chuveiroelétrico #economiaenergia #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 642259639,
+      "nome": "20261014-220921-como-a-temperatura-do-chuveiro-eletrico-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 35.7,
+        "lufs": -14.18,
+        "fala_confere": 1.0,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 6, 0 obrigatório(s), 1 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261014-222158-taxa-minima-quanto-paga-mesmo-sem-usar-e",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-14T22:21:58.348442-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-15T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EQUATORIAL PA",
+    "partes": [],
+    "titulo": "Taxa mínima: quanto paga mesmo sem usar energia",
+    "texto_falado": "Você sabia que paga pelo menos R$ 29,35 por mês, mesmo sem usar energia? A taxa mínima fixa cobra ao menos 30 kWh para conexões monofásicas, segundo a ANEEL. Na Equatorial Pará, esse mínimo monofásico custa R$ 29,35 de tarifa, sem impostos. Para conexão bifásica, o mínimo custa R$ 48,91; para trifásica, R$ 97,83. Confira se sua tarifa é residencial convencional, sem ICMS, PIS/Cofins e bandeira; pode mudar para social. Taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, a conta de luz tem um piso de 30 kWh (monofásico) ou mais, conforme a ANEEL. Na Equatorial Pará, isso representa R$ 29,35, R$ 48,91 ou R$ 97,83 de tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira – podendo variar para tarifa social ou branca. Verifique sua tarifa e evite surpresas.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #luzsemsusto #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, a conta de luz tem um piso de 30 kWh (monofásico) ou mais, conforme a ANEEL. Na Equatorial Pará, isso representa R$ 29,35, R$ 48,91 ou R$ 97,83 de tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira – podendo variar para tarifa social ou branca. Verifique sua tarifa e evite surpresas.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #luzsemsusto #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 642280134,
+      "nome": "20261014-222158-taxa-minima-quanto-paga-mesmo-sem-usar-e.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 52.6,
+        "lufs": -14.54,
+        "fala_confere": 0.9,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261014-223107-por-que-a-cobra-taxa-minima-mesmo-com-po",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-14T22:31:07.441174-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-15T15:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:COELBA",
+    "partes": [],
+    "titulo": "Por que a cobra taxa mínima mesmo com pouco consumo",
+    "texto_falado": "Mesmo consumindo quase nada, sua conta pode chegar a quase trinta reais. Por quê, realmente? A taxa mínima cobre 30 kWh em monofásico, custando R$ 26,33 por mês, segundo a ANEEL federal. É um piso nacional, não taxa extra; se usar mais, paga só o consumo adicional. Confira sua tarifa; clientes com Tarifa Social ou baixa demanda podem pagar menos e economizar. Taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Entenda por que a Neoenergia Coelba cobra um valor mínimo mesmo com baixo consumo. A taxa mínima corresponde a 30 kWh (monofásico) e custa cerca de R$ 26,33 por mês, antes de impostos. Lembre‑se: tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #taxaminima #neoenergia #coelba #energiasolar #economia",
+      "youtube": "Entenda por que a Neoenergia Coelba cobra um valor mínimo mesmo com baixo consumo. A taxa mínima corresponde a 30 kWh (monofásico) e custa cerca de R$ 26,33 por mês, antes de impostos. Lembre‑se: tarifa residencial convencional, sem ICMS, PIS/Cofins e bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#energia #contadeluz #taxaminima #neoenergia #coelba #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 642307882,
+      "nome": "20261014-223107-por-que-a-cobra-taxa-minima-mesmo-com-po.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 32.4,
+        "lufs": -13.9,
+        "fala_confere": 0.94,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 8, 0 obrigatório(s), 1 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261014-224523-fio-b-como-o-aumento-para-60-impacta-seu",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-14T22:45:23.765602-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-15T18:30:00-03:00",
+    "categoria": "solar",
+    "chave": "pauta:lei-14300-fio-b",
+    "partes": [],
+    "titulo": "Fio B: como o aumento para 60 % impacta seu investimento solar",
+    "texto_falado": "Sabia que o Fio B pode encurtar o retorno do seu solar? Segundo a Lei 14.300/2022, energia injetada paga parte da tarifa TUSD Fio B. O percentual cobrado subiu para 60% em 2026, conforme escalonamento previsto. Mesmo com Fio B, o solar ainda reduz sua conta, mas o payback fica maior. Calcule seu novo retorno usando a taxa de 60% ou consulte um engenheiro especializado. Fio B mudou? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "O Fio B passou a cobrar parte da energia que você gera.\nEm 2026, o percentual é 60 % conforme o escalonamento da Lei 14.300/2022.\nSeu sistema solar ainda reduz a conta, mas o retorno do investimento aumenta.\nFonte: Lei 14.300/2022.\n\n#energiaSolar #FioB #ContaDeLuz #contadeluz #energia #energiasolar #economia",
+      "youtube": "O Fio B passou a cobrar parte da energia que você gera.\nEm 2026, o percentual é 60 % conforme o escalonamento da Lei 14.300/2022.\nSeu sistema solar ainda reduz a conta, mas o retorno do investimento aumenta.\nFonte: Lei 14.300/2022.\n\n#energiaSolar #FioB #ContaDeLuz #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 642323414,
+      "nome": "20261014-224523-fio-b-como-o-aumento-para-60-impacta-seu.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 38.3,
+        "lufs": -13.96,
+        "fala_confere": 0.95,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261014-225353-entenda-a-taxa-minima-por-que-voce-paga-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-14T22:53:53.445749-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-15T20:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:LIGHT SESA",
+    "partes": [],
+    "titulo": "Entenda a taxa mínima: por que você paga R$ 26,42 mesmo consumindo pouco",
+    "texto_falado": "Você sabia que, mesmo consumindo quase nada, paga R$ 26,42 na Light? A tarifa mínima da Light monofásica é 30 kWh, cerca de R$ 26,42 mensais (ANEEL). É um piso, não taxa extra; se usar mais, paga só o consumo extra. Confira na sua conta o valor da tarifa mínima; compare com a sua tarifa social. Lembre: o valor citado é tarifa residencial convencional, sem ICMS, PIS/Cofins, bandeira; pode mudar. Tem taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo usando pouquíssima energia, a Light cobra um valor mínimo por mês. É um piso de 30 kWh que equivale a cerca de R$ 26,42 (tarifa residencial convencional, sem impostos e sem bandeira). Se o consumo superar esse limite, paga‑se só o excedente. Verifique sua conta e compare com outras tarifas. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#taxaMínima #Light #contadeluz #energia #energiasolar #economia",
+      "youtube": "Mesmo usando pouquíssima energia, a Light cobra um valor mínimo por mês. É um piso de 30 kWh que equivale a cerca de R$ 26,42 (tarifa residencial convencional, sem impostos e sem bandeira). Se o consumo superar esse limite, paga‑se só o excedente. Verifique sua conta e compare com outras tarifas. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#taxaMínima #Light #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 642334239,
+      "nome": "20261014-225353-entenda-a-taxa-minima-por-que-voce-paga-.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 42.9,
+        "lufs": -14.34,
+        "fala_confere": 0.91,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

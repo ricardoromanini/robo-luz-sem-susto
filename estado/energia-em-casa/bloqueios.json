@@ -341,5 +341,12 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Na EDP Espírito Santo, 30 kWh mínimos custam R$ 25,31 por mês”: exemplo de empresa de energia específica, mas não há problema com a unidade ou objeto (fonte: https://pt.wikipedia.org/wiki/CPFL_Energia). Correção: manter o exemplo, pois é uma empresa brasileira",
     "em": "2026-10-11T22:45:31.216541"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na Neoenergia Brasília",
+    "chave": "taxamin:Neoenergia Brasília",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Brasília”: A empresa mencionada é a Neoenergia Coelba, que atua na Bahia, e não a Neoenergia Brasília. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-14T22:13:22.700431"
   }
 ]
