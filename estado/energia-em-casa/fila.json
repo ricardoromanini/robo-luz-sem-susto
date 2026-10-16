@@ -3407,5 +3407,134 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261015-222015-por-que-a-conta-tem-taxa-minima-mesmo-co",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-15T22:20:15.592829-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-16T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EDP ES",
+    "partes": [],
+    "titulo": "Por que a conta tem taxa mínima mesmo consumindo pouco?",
+    "texto_falado": "Você sabia que paga R$ 25,31 mesmo consumindo quase nada de energia na sua casa? Na EDP Espírito Santo, a taxa mínima cobre 30 kWh, custando R$ 25,31, tarifa residencial, segundo a ANEEL. É um piso, não taxa extra. tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira Lembre‑se: a sua pode variar (tarifa social, Tarifa Branca); verifique na conta Tem taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, a conta tem um valor mínimo.\nNa EDP Espírito Santo, 30 kWh custam cerca de R$ 25,31.\nÉ um piso, não taxa extra; sua tarifa pode variar para social ou branca.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#taxaminima #contadeluz #energia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, a conta tem um valor mínimo.\nNa EDP Espírito Santo, 30 kWh custam cerca de R$ 25,31.\nÉ um piso, não taxa extra; sua tarifa pode variar para social ou branca.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#taxaminima #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 645752417,
+      "nome": "20261015-222015-por-que-a-conta-tem-taxa-minima-mesmo-co.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 39.3,
+        "lufs": -13.6,
+        "fala_confere": 0.91,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261015-222742-taxa-minima-por-que-paga-r-28-40-sem-con",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-15T22:27:42.626625-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-16T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:EQUATORIAL PI",
+    "partes": [],
+    "titulo": "Taxa mínima: por que paga R$ 28,40 sem consumo",
+    "texto_falado": "Você sabia que paga R$ 28,40 todo mês mesmo sem usar energia? Na Equatorial Piauí, o consumo mínimo é 30 kWh, custando R$ 28,40 por mês, segundo a ANEEL. É um piso, não uma taxa extra; se consumir mais, paga só o excedente. Confira sua fatura; se o consumo aparecer como 0 kWh, o valor corresponde ao piso. Lembre: valores são tarifa residencial convencional, sem ICMS, PIS/Cofins e sem bandeira; sua pode variar. Piso ou não? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Entenda a taxa mínima da Equatorial Piauí: mesmo sem consumo, a conta tem piso de 30 kWh, equivalente a R$ 28,40 por mês (tarifa residencial convencional, sem impostos e sem bandeira). A regra vale nacionalmente, mas o valor varia por distribuidora. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #energiasolar #economia",
+      "youtube": "Entenda a taxa mínima da Equatorial Piauí: mesmo sem consumo, a conta tem piso de 30 kWh, equivalente a R$ 28,40 por mês (tarifa residencial convencional, sem impostos e sem bandeira). A regra vale nacionalmente, mas o valor varia por distribuidora. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 645781987,
+      "nome": "20261015-222742-taxa-minima-por-que-paga-r-28-40-sem-con.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 43.9,
+        "lufs": -14.12,
+        "fala_confere": 0.92,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 8, 0 obrigatório(s), 1 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261015-224130-taxa-minima-entenda-o-valor-que-voce-pag",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-15T22:41:30.744966-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-16T15:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:ELEKTRO",
+    "partes": [],
+    "titulo": "Taxa mínima: entenda o valor que você paga",
+    "texto_falado": "Você sabia que paga R$ 26,75 mesmo consumindo quase nada? A ANEEL determina um piso de 30 kWh para monofásicos, cobrando 30 kWh mínimos. Se consumir mais que 30 kWh, paga só o que usar; o piso não soma. Neoenergia Elektro, 30 kWh custam R$ 26,75; tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira. a sua pode variar (tarifa social, Tarifa Branca); Fonte: ANEEL Tem taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo consumindo pouco, a conta tem um piso mínimo. Na Neoenergia Elektro, 30 kWh equivalem a R$ 26,75 de tarifa residencial convencional, sem impostos e sem bandeira. A tarifa pode mudar conforme seu plano (social, branca). Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #Neoenergia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouco, a conta tem um piso mínimo. Na Neoenergia Elektro, 30 kWh equivalem a R$ 26,75 de tarifa residencial convencional, sem impostos e sem bandeira. A tarifa pode mudar conforme seu plano (social, branca). Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #Neoenergia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 645792295,
+      "nome": "20261015-224130-taxa-minima-entenda-o-valor-que-voce-pag.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 44.6,
+        "lufs": -14.57,
+        "fala_confere": 0.84,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

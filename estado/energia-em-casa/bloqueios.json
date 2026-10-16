@@ -348,5 +348,61 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Brasília”: A empresa mencionada é a Neoenergia Coelba, que atua na Bahia, e não a Neoenergia Brasília. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
     "em": "2026-10-14T22:13:22.700431"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Sergipe",
+    "chave": "calc:ferro:ESE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Energisa Sergipe”: A evidencia [0] menciona a Energisa Paraiba, mas o texto fala sobre a Energisa Sergipe, que nao e mencionada nas evidencias (fonte: https://pt.wikipedia.org/wiki/Energisa_Para%C3%ADba). Correção: Energisa Paraiba",
+    "em": "2026-10-15T22:12:58.142920"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Neoenergia Coelba",
+    "chave": "calc:ferro:COELBA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-15T22:16:34.323538"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na Neoenergia Elektro",
+    "chave": "taxamin:ELEKTRO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Elektro”: A empresa mencionada no texto é a Neoenergia Coelba, não Neoenergia Elektro. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-15T22:20:14.931254"
+  },
+  {
+    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
+    "chave": "pauta:airfryer-forno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “20”: o número 20 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê",
+    "em": "2026-10-15T22:23:02.249811"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Equatorial Goiás",
+    "chave": "calc:ferro:EQUATORIAL GO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-15T22:31:19.027597"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Tocantins",
+    "chave": "calc:ar:ETO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 11%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Energisa Tocantins”: A Energisa atua em vários estados, mas o texto não especifica se a tarifa é a mesma em todos. Além disso, a evidência [0] menciona a Energisa Paraíba, não a Energisa Tocantins. (fonte: https://pt.wikipedia.org/wiki/Energisa_Para%C3%ADba). Correção: Especificar a distribuidora de energia elétrica correta para a região em questão.",
+    "em": "2026-10-15T22:49:15.989252"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Amazonas Energia",
+    "chave": "calc:ar:Âmbar Amazonas",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-15T22:53:42.188380"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Enel São Paulo",
+    "chave": "calc:ar:ELETROPAULO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-15T22:58:15.956232"
   }
 ]
