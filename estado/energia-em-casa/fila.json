@@ -3536,5 +3536,52 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261016-223817-ar-condicionado-taxa-minima-e-air-fryer-",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-16T22:38:17.591267-03:00",
+    "formato": "longo",
+    "horario_publicacao": "2026-10-17T10:00:00-03:00",
+    "categoria": "resumo_semanal",
+    "chave": "longo:calc:ar:CPFL-PAULISTA+taxamin:ENEL RJ+pauta:airfryer-forno",
+    "partes": [
+      "calc:ar:CPFL-PAULISTA",
+      "taxamin:ENEL RJ",
+      "pauta:airfryer-forno"
+    ],
+    "titulo": "Ar-condicionado, taxa mínima e air fryer: o que pesa na conta",
+    "texto_falado": "Quanto o ar-condicionado acrescenta na conta? E por que a taxa mínima existe? Veja o que você precisa saber esta semana para entender sua conta sem susto. Vamos direto aos cálculos de consumo de energia. Explicamos o ar-condicionado, a taxa mínima e os aparelhos de cozinha. Começando pelo ar-condicionado. Em dias quentes, o aparelho ligado para dormir parece indispensável. Mas muitos temem a fatura. Para entender esse impacto, usamos os dados da distribuidora CPFL Paulista. A tarifa residencial convencional é de R$ 0,740 por quilowatt-hora. Esse valor equivale a cerca de 74 centavos por quilowatt-hora. Os dados oficiais são da ANEEL, vigentes desde 8 de abril de 2026. No nosso exemplo, consideramos um aparelho de doze mil BTU. Ele tem potência de cerca de 1.100 watts. A premissa do cálculo adota um uso de 8 horas por noite. Atenção: a potência real varia por modelo de aparelho. Calculamos o consumo estimado: potência vezes horas de uso vezes 30 dias. O resultado mensal é de… 264,0 quilowatt-hora. Multiplicando o consumo pela tarifa da CPFL Paulista, temos a estimativa. O custo estimado fica em… R$ 195,23 por mês só de tarifa. Mas atenção às ressalvas obrigatórias. Essa estimativa considera a tarifa residencial convencional. Ficam de fora os impostos e as bandeiras tarifárias. Com impostos como ICMS e PIS/Cofins, o valor final sobe. Além disso, a alíquota do ICMS muda em cada estado. Agora vamos ao segundo ponto: a taxa mínima da conta. Muita gente viaja e não consome quase nada. Mesmo assim, a fatura chega. O nome técnico é custo de disponibilidade. É uma regra nacional da ANEEL, prevista na Resolução Normativa 1.000 de 2021. Essa regra autoriza uma cobrança mínima obrigatória. Ela ocorre mesmo se o imóvel passar o mês inteiro fechado. Mas preste muita atenção neste detalhe importante. O custo de disponibilidade é um piso, e não uma taxa extra. Se o consumo do mês passar do mínimo, paga-se só o consumo. O valor mínimo não é somado a ele. O piso muda conforme a ligação. São cobrados 30 quilowatt-hora no monofásico, 50 no bifásico e 100 no trifásico. Isso vale para todo o país. Na distribuidora Enel Rio, no Rio de Janeiro, calculamos o custo da tarifa pura. Na Enel Rio, o piso monofásico equivale a R$ 31,83 por mês. O valor considera apenas a tarifa, antes de tributos. No padrão bifásico da Enel Rio, o piso de 50 quilowatt-hora custa R$ 53,05. Isso representa apenas a tarifa de energia. Já no padrão trifásico da Enel Rio, a exigência é de 100 quilowatt-hora. O valor da tarifa atinge… R$ 106,11 por mês. O terceiro tema da semana é na cozinha. Afinal, quem gasta mais energia: a air fryer ou o forno elétrico de bancada? Saiba que nenhum dos dois tem etiqueta de eficiência energética do Inmetro. Você não encontra letras comparativas nesses aparelhos. Segundo as tabelas do Inmetro, o consumidor encontra apenas a potência em watts. Essa informação é informada pelo fabricante. Mas calma: a air fryer tem certificação obrigatória do Inmetro. A exigência segue a Portaria 148 de 2022 para segurança. Vejamos potências reais encontradas no mercado. Uma air fryer de 4 litros costuma ter cerca de 1.500 watts. Já um forno de bancada de 44 litros tem, como exemplo, 1.775 watts. As potências são exemplos e variam por modelo. Como comparar o gasto? O gasto de cada uso é a potência multiplicada pelo tempo. Por isso, o tempo pesa muito. Não existe dado oficial sobre qual gasta menos por receita. Mas a air fryer tem espaço menor e costuma assar mais rápido. E uma informação da EPE: cozinhar pesa pouco na conta. O preparo representa entre 1,3% e 4,8% do consumo residencial. Lembre-se: sua tarifa pode variar se você estiver na Tarifa Social ou Tarifa Branca. Entender seus aparelhos evita sustos no bolso. Você usa mais a air fryer ou o forno elétrico em casa? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Confira o resumo da semana: quanto o ar-condicionado acrescenta na tarifa da CPFL Paulista, como funciona o custo de disponibilidade na Enel Rio e como comparar a potência da air fryer e do forno elétrico.\n\nValores estimados considerando a tarifa residencial convencional, sem impostos e sem adicionais de bandeiras tarifárias.\n\nFontes: ANEEL, Inmetro e EPE.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo; Potências são exemplos e variam por modelo; não existe dado oficial de qual gasta menos por receita. Fonte: ANEEL.\n\n#contadeluz #tarifadeenergia #arcondicionado #taxaminima #airfryer #luzsemsusto #energia #energiasolar #economia",
+      "youtube": "Confira o resumo da semana: quanto o ar-condicionado acrescenta na tarifa da CPFL Paulista, como funciona o custo de disponibilidade na Enel Rio e como comparar a potência da air fryer e do forno elétrico.\n\nValores estimados considerando a tarifa residencial convencional, sem impostos e sem adicionais de bandeiras tarifárias.\n\nFontes: ANEEL, Inmetro e EPE.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo; Potências são exemplos e variam por modelo; não existe dado oficial de qual gasta menos por receita. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-729/FactSheetConsumoPorClassesDeRenda_Final09032023.pdf\nhttps://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #tarifadeenergia #arcondicionado #taxaminima #airfryer #luzsemsusto #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 649251083,
+      "nome": "20261016-223817-ar-condicionado-taxa-minima-e-air-fryer-.mp4"
+    },
+    "capa": "/home/runner/work/robo-luz-sem-susto/robo-luz-sem-susto/saida/energia-em-casa/20261016-223817-ar-condicionado-taxa-minima-e-air-fryer-/capa.jpg",
+    "ia_redator": "gemini/gemini-flash-latest",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 259.8,
+        "lufs": -12.24,
+        "fala_confere": 0.92,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 4 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
