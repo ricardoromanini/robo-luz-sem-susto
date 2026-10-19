@@ -404,5 +404,47 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-10-15T22:58:15.956232"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Neoenergia Elektro",
+    "chave": "calc:chuveiro:ELEKTRO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-18T22:19:06.759066"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Rondônia",
+    "chave": "calc:ferro:ERO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-18T22:29:22.726267"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Copel",
+    "chave": "calc:ferro:COPEL-DIS",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 1%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “A Copel cobra 77 centavos por kWh na tarifa residencial”: A Copel não é a distribuidora de energia elétrica mencionada nas evidências, que citam a Neoenergia Pernambuco e a Itaipu Binacional (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Pernambuco). Correção: Substituir a Copel pela distribuidora de energia elétrica relevante para o contexto",
+    "em": "2026-10-18T22:33:00.433496"
+  },
+  {
+    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
+    "chave": "pauta:airfryer-forno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “20”: o número 20 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “air fryer”: o termo 'air fryer' é comum no Brasil, mas poderia ser traduzido para 'fritadeira de ar quente' para melhor se adequar ao padrão brasileiro (fonte: https://pt.wikipedia.org/wiki/Fritadeira). Correção: fritadeira de ar quente",
+    "em": "2026-10-18T22:37:00.781565"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Neoenergia Brasília",
+    "chave": "calc:ferro:Neoenergia Brasília",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 11%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-18T22:45:55.458936"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Neoenergia Cosern",
+    "chave": "calc:ferro:COSERN",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Cosern”: A empresa mencionada no texto é a Neoenergia Cosern, mas a evidência [0] menciona a Neoenergia Coelba, que é uma empresa de distribuição de energia elétrica que atua na Bahia. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-18T22:50:01.263244"
   }
 ]

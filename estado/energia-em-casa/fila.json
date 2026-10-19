@@ -3584,5 +3584,177 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261018-220818-sobe-6-6-entenda-o-impacto-na-sua-conta",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-18T22:08:18.722499-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-19T07:30:00-03:00",
+    "categoria": "reajuste_tarifa",
+    "chave": "reajuste:EQUATORIAL PA:2026-09-18",
+    "partes": [],
+    "titulo": "sobe 6,6%: entenda o impacto na sua conta",
+    "texto_falado": "A conta de luz subiu 6,6%: entenda o impacto na sua conta de luz A nova tarifa da Equatorial Pará é R$ 1,043 por kWh, diz ANEEL Antes era R$ 0,978/kWh; agora é R$ 1,043/kWh, alta de 6,6% Para 150 kWh, a tarifa sobe de R$ 146,75 a R$ 156,48, diferença de R$ 9,73 Verifique seu consumo mensal e compare com a conta anterior para detectar aumentos Viu o aumento? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "🚀 A tarifa residencial da Equatorial Pará aumentou 6,6%, passando de R$ 0,978 para R$ 1,043 por kWh.\nIsso eleva o custo de 150 kWh em cerca de R$ 9,73 por mês.\nLembre‑se: tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar.\nFonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #tarifa #EquatorialPará #economia #energiasolar",
+      "youtube": "🚀 A tarifa residencial da Equatorial Pará aumentou 6,6%, passando de R$ 0,978 para R$ 1,043 por kWh.\nIsso eleva o custo de 150 kWh em cerca de R$ 9,73 por mês.\nLembre‑se: tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar.\nFonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #tarifa #EquatorialPará #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 654906771,
+      "nome": "20261018-220818-sobe-6-6-entenda-o-impacto-na-sua-conta.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 53.7,
+        "lufs": -13.91,
+        "fala_confere": 0.77,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261018-221425-por-que-a-conta-tem-valor-minimo-mesmo-c",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-18T22:14:25.158055-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-19T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:Âmbar Amazonas",
+    "partes": [],
+    "titulo": "Por que a conta tem valor mínimo mesmo consumindo pouco?",
+    "texto_falado": "Você sabia que paga a conta mesmo consumindo quase nada de energia na sua casa? Na Amazonas Energia, o mínimo monofásico são 30 kWh, custando cerca de R$ 26,27 por mês para residências. É um piso nacional, não taxa extra; se consumir mais, paga só o excedente para todos. Verifique sua tarifa residencial convencional, sem impostos, e compare valores; consumo baixo pode exigir outra categoria local. Taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo consumindo pouquíssimo, a conta tem um valor mínimo. Na Amazonas Energia, 30 kWh custam cerca de R$ 26,27 por mês. Esse piso é regra nacional da ANEEL, não uma taxa extra. Compare sua tarifa residencial convencional (sem impostos) e veja se vale mudar. Fonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#taxaminima #contadeluz #energia #AmazonasEnergia #dicasdeenergia #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouquíssimo, a conta tem um valor mínimo. Na Amazonas Energia, 30 kWh custam cerca de R$ 26,27 por mês. Esse piso é regra nacional da ANEEL, não uma taxa extra. Compare sua tarifa residencial convencional (sem impostos) e veja se vale mudar. Fonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#taxaminima #contadeluz #energia #AmazonasEnergia #dicasdeenergia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 654925279,
+      "nome": "20261018-221425-por-que-a-conta-tem-valor-minimo-mesmo-c.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 37.1,
+        "lufs": -14.26,
+        "fala_confere": 0.96,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261018-223701-por-que-sua-conta-tem-valor-minimo-mesmo",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-18T22:37:01.463236-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-19T15:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:Neoenergia Brasília",
+    "partes": [],
+    "titulo": "Por que sua conta tem valor mínimo mesmo consumindo pouco?",
+    "texto_falado": "Você sabia que, mesmo consumindo quase nada, sua conta tem um valor mínimo? A ANEEL determina um consumo mínimo de 30 kWh monofásico, 50 kWh bifásico ou 100 kWh trifásico. É um piso, não taxa extra; se consumir acima do mínimo, paga só o excedente. Na Neoenergia Brasília, 30 kWh mínimos custam cerca de R$ 24,80, tarifa residencial sem impostos. Verifique seu consumo no medidor; se ficar abaixo do mínimo, paga apenas o piso. Valor mínimo? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo usando pouca energia, a conta tem um valor mínimo definido pela ANEEL. Na Neoenergia Brasília, o piso de 30 kWh corresponde a R$ 24,80 mensais, tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Verifique seu consumo no medidor; se ficar abaixo, paga só o piso. Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #energiasolar #economia",
+      "youtube": "Mesmo usando pouca energia, a conta tem um valor mínimo definido pela ANEEL. Na Neoenergia Brasília, o piso de 30 kWh corresponde a R$ 24,80 mensais, tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Verifique seu consumo no medidor; se ficar abaixo, paga só o piso. Fonte: ANEEL — REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 654952558,
+      "nome": "20261018-223701-por-que-sua-conta-tem-valor-minimo-mesmo.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 41.4,
+        "lufs": -13.86,
+        "fala_confere": 0.89,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261018-224317-por-que-a-conta-de-luz-tem-taxa-minima-m",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-18T22:43:17.722724-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-19T18:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:CEA",
+    "partes": [],
+    "titulo": "Por que a conta de luz tem taxa mínima mesmo consumindo pouco?",
+    "texto_falado": "Sua conta de luz tem cobrança mínima mesmo usando quase nada? Na CEA Equatorial, o mínimo monofásico de 30 kWh custa R$ 24,75 por mês. É um piso, não taxa extra; se usar mais, paga só o consumo real. Compare o valor mínimo da sua fase e evite consumir abaixo desse piso. Se sua tarifa for social ou branca, o valor mínimo pode ser diferente. Taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "A taxa mínima é um piso obrigatório da ANEEL. Se sua casa for monofásica, paga‑se ao menos R$ 24,75; bifásica, R$ 41,25; trifásica, R$ 82,51 (tarifa residencial convencional, sem impostos e sem bandeira). Valores podem mudar conforme sua tarifa (social, branca, etc.).\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #casa #luzsemsusto #energiasolar #economia",
+      "youtube": "A taxa mínima é um piso obrigatório da ANEEL. Se sua casa for monofásica, paga‑se ao menos R$ 24,75; bifásica, R$ 41,25; trifásica, R$ 82,51 (tarifa residencial convencional, sem impostos e sem bandeira). Valores podem mudar conforme sua tarifa (social, branca, etc.).\nFonte: ANEEL – REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #casa #luzsemsusto #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 654969552,
+      "nome": "20261018-224317-por-que-a-conta-de-luz-tem-taxa-minima-m.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 37.8,
+        "lufs": -14.25,
+        "fala_confere": 0.95,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
