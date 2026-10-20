@@ -3756,5 +3756,91 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261019-221608-por-que-sua-conta-tem-cobranca-minima",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-19T22:16:08.894713-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-20T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:ENEL RJ",
+    "partes": [],
+    "titulo": "Por que sua conta tem cobrança mínima?",
+    "texto_falado": "Mesmo usando pouquíssima energia, sua conta pode cobrar quase R$ 32? A ANEEL determina um consumo mínimo de 30 kWh para residências monofásicas. A taxa mínima funciona como piso: paga‑se só o consumo acima do mínimo. O piso de 30 kWh custa R$ 31,83, tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira. Confira o consumo; se abaixo, tem tarifa sem ICMS, PIS/Cofins e bandeira; a sua pode variar. Percebeu o piso na conta? Qual sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Entenda por que a Enel Rio cobra um valor mínimo mesmo com consumo baixo. A taxa é um piso, não um extra, e varia conforme a tarifa da sua região. Verifique seu consumo e saiba se seu valor já está fixo. Fonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #EnelRio #energia #economia #energiasolar",
+      "youtube": "Entenda por que a Enel Rio cobra um valor mínimo mesmo com consumo baixo. A taxa é um piso, não um extra, e varia conforme a tarifa da sua região. Verifique seu consumo e saiba se seu valor já está fixo. Fonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #EnelRio #energia #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 657927712,
+      "nome": "20261019-221608-por-que-sua-conta-tem-cobranca-minima.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 44.5,
+        "lufs": -13.66,
+        "fala_confere": 0.93,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261019-224421-air-fryer-de-ar-quente-vs-forno-eletrico",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-19T22:44:21.526537-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-20T11:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "pauta:airfryer-forno",
+    "partes": [],
+    "titulo": "Air fryer de ar quente vs forno elétrico: compare o consumo de energia",
+    "texto_falado": "Você sabia que o forno elétrico pode consumir mais energia que sua fritadeira de ar quente? A fritadeira de ar quente tem 1.500 W; o forno elétrico de bancada, 1.775 W, conforme Inmetro, modelo. Consumo = potência × tempo; 1 hora aproximadamente na fritadeira gera 1,5 kWh, no forno 1,775 kWh. Cozinhar representa 1,3% a 4,8% da conta, segundo a EPE; potências variam, sem dado oficial. Qual usa mais? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Potências das fritadeiras de ar quente e fornos elétricos são informadas pelos fabricantes (ex.: 1.500 W e 1.775 W). O consumo depende da potência multiplicada pelo tempo de uso, representando apenas 1,3 % a 4,8 % da conta de energia (EPE). Lembre‑se: os valores são exemplos e variam por modelo, sem dado oficial de qual gasta menos. Fonte: Inmetro, EPE.\n\n⚠️ Potências são exemplos e variam por modelo; não existe dado oficial de qual gasta menos por receita. Fonte: Inmetro e EPE.\n\n#energia #contadeluz #fritaderadearquente #fornoeletrico #economia #energiasolar",
+      "youtube": "Potências das fritadeiras de ar quente e fornos elétricos são informadas pelos fabricantes (ex.: 1.500 W e 1.775 W). O consumo depende da potência multiplicada pelo tempo de uso, representando apenas 1,3 % a 4,8 % da conta de energia (EPE). Lembre‑se: os valores são exemplos e variam por modelo, sem dado oficial de qual gasta menos. Fonte: Inmetro, EPE.\n\n⚠️ Potências são exemplos e variam por modelo; não existe dado oficial de qual gasta menos por receita. Fonte: Inmetro e EPE.\n\nFontes:\nhttps://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-729/FactSheetConsumoPorClassesDeRenda_Final09032023.pdf\nhttps://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica\n\n#energia #contadeluz #fritaderadearquente #fornoeletrico #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 657987728,
+      "nome": "20261019-224421-air-fryer-de-ar-quente-vs-forno-eletrico.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 40.8,
+        "lufs": -13.79,
+        "fala_confere": 0.9,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

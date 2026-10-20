@@ -446,5 +446,82 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Cosern”: A empresa mencionada no texto é a Neoenergia Cosern, mas a evidência [0] menciona a Neoenergia Coelba, que é uma empresa de distribuição de energia elétrica que atua na Bahia. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
     "em": "2026-10-18T22:50:01.263244"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Neoenergia Pernambuco",
+    "chave": "calc:chuveiro:Neoenergia PE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-19T22:10:59.398991"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Enel São Paulo",
+    "chave": "calc:ferro:ELETROPAULO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-19T22:13:56.177976"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Equatorial Piauí",
+    "chave": "calc:ferro:EQUATORIAL PI",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Piauí”: A distribuidora mencionada no texto é a Equatorial Piauí, mas a evidência [0] menciona a Equatorial Energia Alagoas, que é uma empresa de distribuição de energia elétrica com atuação no estado de Alagoas. (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Substituir por uma distribuidora de energia elétrica que atue no estado onde o texto será publicado.",
+    "em": "2026-10-19T22:16:08.040136"
+  },
+  {
+    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
+    "chave": "pauta:airfryer-forno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “775”: o número 775 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê",
+    "em": "2026-10-19T22:18:44.498232"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Paraíba",
+    "chave": "calc:ferro:EPB",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “quase quatro reais”: o texto afirma que o ferro de passar pode acrescentar quase quatro reais na conta, mas o cálculo apresentado resulta em R$ 3,65 por mês, antes de impostos. Correção: use o valor calculado de R$ 3,65 por mês, antes de impostos, em vez de quase quatro reais\n- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-19T22:27:22.686966"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da CPFL Piratininga",
+    "chave": "calc:chuveiro:CPFL-PIRATINING",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 1%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-19T22:30:13.053416"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Equatorial Goiás",
+    "chave": "calc:chuveiro:EQUATORIAL GO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Goiás”: A distribuidora mencionada é a Equatorial Goiás, mas a evidência [0] fala sobre a Equatorial Energia Alagoas, que é a distribuidora de energia elétrica com atuação no estado de Alagoas. (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Substituir por uma distribuidora de energia elétrica que atue no estado onde o chuveiro elétrico é utilizado.",
+    "em": "2026-10-19T22:34:11.059676"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Energisa Mato Grosso do Sul",
+    "chave": "calc:chuveiro:EMS",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Energisa MS”: A empresa mencionada no texto é a Energisa MS, mas a evidencia [0] fala sobre a Energisa Paraiba (fonte: https://pt.wikipedia.org/wiki/Energisa_Para%C3%ADba). Correção: Energisa Paraiba",
+    "em": "2026-10-19T22:37:49.866498"
+  },
+  {
+    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
+    "chave": "pauta:airfryer-forno",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “30”: o número 30 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê",
+    "em": "2026-10-19T22:40:36.070235"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da CEEE Equatorial",
+    "chave": "calc:chuveiro:CEEE-D",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-19T22:44:20.920256"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Equatorial Piauí",
+    "chave": "calc:ar:EQUATORIAL PI",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-19T22:47:32.787062"
   }
 ]
