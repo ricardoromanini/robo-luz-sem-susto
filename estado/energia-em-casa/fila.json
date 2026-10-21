@@ -3842,5 +3842,48 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261020-220834-por-que-sua-conta-pode-ter-cobranca-mini",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-20T22:08:34.654495-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-21T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:CEEE-D",
+    "partes": [],
+    "titulo": "Por que sua conta pode ter cobrança mínima mesmo sem consumo?",
+    "texto_falado": "Você sabia que pode pagar até R$ 82,20 na conta de luz sem usar energia? A ANEEL estabelece consumo mínimo de 30 kWh monofásico, 50 kWh bifásico ou 100 kWh trifásico Esse valor funciona como piso: se seu consumo ultrapassar, paga só o excedente, não soma Na CEEE Equatorial, o mínimo monofásico custa R$ 24,66, bifásico R$ 41,10, trifásico R$ 82,20 Confira sua tarifa residencial convencional, sem impostos, sem bandeira; a sua pode variar (social) Viu o mínimo? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo sem usar energia, sua conta tem um valor mínimo obrigatório.\nNa CEEE Equatorial esse piso pode chegar a R$ 82,20, dependendo do tipo de instalação.\nEntenda como funciona e evite surpresas na fatura.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #CEEEEquatorial #energiasolar #economia",
+      "youtube": "Mesmo sem usar energia, sua conta tem um valor mínimo obrigatório.\nNa CEEE Equatorial esse piso pode chegar a R$ 82,20, dependendo do tipo de instalação.\nEntenda como funciona e evite surpresas na fatura.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #CEEEEquatorial #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 661006997,
+      "nome": "20261020-220834-por-que-sua-conta-pode-ter-cobranca-mini.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 52.8,
+        "lufs": -14.45,
+        "fala_confere": 0.87,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
