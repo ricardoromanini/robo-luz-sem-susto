@@ -3673,7 +3673,7 @@
   },
   {
     "id": "20261018-223701-por-que-sua-conta-tem-valor-minimo-mesmo",
-    "status": "aguardando_aprovacao",
+    "status": "expirado",
     "criado_em": "2026-10-18T22:37:01.463236-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-19T15:30:00-03:00",
@@ -3716,7 +3716,7 @@
   },
   {
     "id": "20261018-224317-por-que-a-conta-de-luz-tem-taxa-minima-m",
-    "status": "aguardando_aprovacao",
+    "status": "expirado",
     "criado_em": "2026-10-18T22:43:17.722724-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-19T18:30:00-03:00",
