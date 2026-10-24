@@ -726,5 +726,89 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-10-22T23:11:14.750660"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Cemig",
+    "chave": "calc:ar:CEMIG-D",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-23T22:19:03.406487"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da EDP Espírito Santo",
+    "chave": "calc:chuveiro:EDP ES",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Um banho diário pode custar cerca de R$ 35 na tarifa da EDP Espírito Santo, sem impostos.”: O texto diz 'cerca de R$ 35', mas o cálculo apresentado anteriormente é de R$ 34,80. A diferença é pequena, mas a precisão é importante.. Correção: Use o valor exato de R$ 34,80 para manter a precisão.\n- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-23T22:22:26.894782"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Light",
+    "chave": "calc:ferro:LIGHT SESA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [⚖️ Revisor jurídico e de políticas] “rouba”: acusação/termo ofensivo (risco de difamação). Correção: remova ou reescreva este trecho\n- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-23T22:24:31.624652"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Enel Rio",
+    "chave": "calc:chuveiro:ENEL RJ",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Enel Rio”: A Enel Distribuição Ceará é a distribuidora de energia elétrica do estado do Ceará, mas o texto cita a Enel Rio, que não é mencionada nas evidìncias. (fonte: https://pt.wikipedia.org/wiki/Enel_Distribui%C3%A7%C3%A3o_Cear%C3%A1). Correção: Substituir Enel Rio por Enel Distribuição Ceará ou outra distribuidora de energia elétrica brasileira.",
+    "em": "2026-10-23T22:33:53.682388"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da RGE",
+    "chave": "calc:ferro:RGE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-23T22:36:49.556100"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Neoenergia Pernambuco",
+    "chave": "calc:ar:Neoenergia PE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Pernambuco”: A distribuidora mencionada no texto é a Neoenergia Pernambuco, mas a evidencia [0] fala sobre a Neoenergia Coelba, que atua na Bahia. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-23T22:40:21.365263"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Enel São Paulo",
+    "chave": "calc:ferro:ELETROPAULO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-23T22:43:03.731690"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da RGE",
+    "chave": "calc:ferro:RGE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-23T22:46:23.295948"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Tocantins",
+    "chave": "calc:ar:ETO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-23T22:48:30.905520"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Equatorial Piauí",
+    "chave": "calc:chuveiro:EQUATORIAL PI",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Piauí”: A distribuidora mencionada no texto é a Equatorial Piauí, mas a evidência [0] fala sobre a Equatorial Energia Alagoas. (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Substituir por uma distribuidora de energia elétrica que atue no estado onde o chuveiro elétrico é utilizado.",
+    "em": "2026-10-23T22:52:35.806395"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Equatorial Pará",
+    "chave": "calc:ferro:EQUATORIAL PA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Pará”: A distribuidora de energia elétrica mencionada no texto é a Equatorial Pará, mas as evidìncias fornecidas só mencionam a Equatorial Energia Alagoas. (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Substituir por uma distribuidora de energia elétrica que atue no estado onde o texto será publicado.",
+    "em": "2026-10-23T22:55:48.325544"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Neoenergia Pernambuco",
+    "chave": "calc:ar:Neoenergia PE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia PE”: A empresa mencionada é a Neoenergia Coelba, que atua na Bahia, e não Neoenergia PE, que não é mencionada nas evidências. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-23T22:58:33.315231"
   }
 ]

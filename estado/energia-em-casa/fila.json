@@ -3885,5 +3885,48 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261023-222432-por-que-a-cobra-r-23-04-mesmo-sem-usar-e",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-23T22:24:32.248708-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-24T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:COPEL-DIS",
+    "partes": [],
+    "titulo": "Por que a cobra R$ 23,04 mesmo sem usar energia?",
+    "texto_falado": "Você sabia que paga R$ 23,04 por mês mesmo sem usar energia na sua casa? A taxa mínima da Copel corresponde a 30 kWh para monofásico residencial, segundo a ANEEL. Esse piso equivale a R$ 23,04 de tarifa residencial convencional, sem impostos nem bandeira, conforme cálculo. Confira a fatura; se o consumo é menor que o mínimo, já está pago, simples. Taxa mínima? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Mesmo consumindo quase nada, sua conta de luz tem um valor mínimo. Na Copel, o piso de 30 kWh equivale a R$ 23,04 de tarifa residencial convencional, sem impostos nem bandeira. Se o consumo ficar abaixo desse limite, o valor já está incluído – não há cobrança adicional. Lembre‑se de que a tarifa pode variar conforme seu tipo de contrato. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #Copel #taxaminima #energia #economia #energiasolar",
+      "youtube": "Mesmo consumindo quase nada, sua conta de luz tem um valor mínimo. Na Copel, o piso de 30 kWh equivale a R$ 23,04 de tarifa residencial convencional, sem impostos nem bandeira. Se o consumo ficar abaixo desse limite, o valor já está incluído – não há cobrança adicional. Lembre‑se de que a tarifa pode variar conforme seu tipo de contrato. Fonte: ANEEL – REN 1.000/2021.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #Copel #taxaminima #energia #economia #energiasolar"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 670939016,
+      "nome": "20261023-222432-por-que-a-cobra-r-23-04-mesmo-sem-usar-e.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 37.1,
+        "lufs": -13.64,
+        "fala_confere": 0.91,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
