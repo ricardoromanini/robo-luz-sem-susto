@@ -3931,7 +3931,7 @@
   },
   {
     "id": "20261024-220815-sobe-0-9-o-que-muda-na-sua-conta",
-    "status": "aguardando_aprovacao",
+    "status": "aprovado",
     "criado_em": "2026-10-24T22:08:15.750128-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-25T07:30:00-03:00",
@@ -3970,6 +3970,7 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {}
+    "publicacoes": {},
+    "aprovado_por": "dono"
   }
 ]
