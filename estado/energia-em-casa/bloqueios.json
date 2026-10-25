@@ -810,5 +810,89 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia PE”: A empresa mencionada é a Neoenergia Coelba, que atua na Bahia, e não Neoenergia PE, que não é mencionada nas evidências. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
     "em": "2026-10-23T22:58:33.315231"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Mato Grosso do Sul",
+    "chave": "calc:ar:EMS",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T22:20:03.582914"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Enel Ceará",
+    "chave": "calc:ar:ENEL CE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T22:24:15.275886"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Neoenergia Cosern",
+    "chave": "calc:chuveiro:COSERN",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Cosern (RN)”: A empresa mencionada no texto é a Neoenergia Cosern, que atua no Rio Grande do Norte, mas a evidencia [0] fala sobre a Neoenergia Coelba, que atua na Bahia. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba (BA)",
+    "em": "2026-10-24T22:28:44.027115"
+  },
+  {
+    "tema": "A taxa mínima da conta de luz na Enel Ceará",
+    "chave": "taxamin:ENEL CE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Entenda a taxa mínima da conta de luz na Enel São Paulo”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Na Enel Ceará, 30 kWh equivalem a R$ 21,05 mensais”: A Enel Ceará não é mencionada nas evidências fornecidas, apenas a Enel Brasil. (fonte: https://pt.wikipedia.org/wiki/Enel_Brasil). Correção: Substituir por uma distribuidora de energia elétrica brasileira mencionada nas evidências, como a Enel Brasil.",
+    "em": "2026-10-24T22:33:59.268744"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da CPFL Paulista",
+    "chave": "calc:ferro:CPFL-PAULISTA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T22:37:33.714494"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Neoenergia Cosern",
+    "chave": "calc:ar:COSERN",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Um ar-condicionado ligado 8 horas por dia pode gastar até R$ 204,81 por mês?”: O texto diz '8 horas por dia', mas o dossiê diz '8 horas por noite'. Correção: Um ar-condicionado ligado 8 horas por noite pode gastar até R$ 204,81 por mês?\n- [🔎 Checador de fatos] “Um aparelho de 1.100 W funcionando 8 h diárias”: O texto diz '8 h diárias', mas o dossiê diz '8 horas por noite'. Correção: Um aparelho de 1.100 W funcionando 8 h por noite\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Cosern”: A empresa mencionada no texto é a Neoenergia Coelba, não Neoenergia Cosern (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-24T22:41:29.726474"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Neoenergia Cosern",
+    "chave": "calc:ferro:COSERN",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Cosern”: A empresa mencionada no texto é a Neoenergia Coelba, não Neoenergia Cosern (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-24T22:46:34.422428"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Neoenergia Brasília",
+    "chave": "calc:ar:Neoenergia Brasília",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 3%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T22:50:55.447393"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Enel Ceará",
+    "chave": "calc:chuveiro:ENEL CE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “38”: o número 38 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [🔎 Checador de fatos] “até R$ 30 por mês”: o cálculo apresentado no texto é de R$ 28,95 por mês, sem impostos e bandeira. Correção: remover a afirmação ou reescrever como 'pode custar cerca de R$ 28,95 por mês, antes de impostos e bandeira'\n- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T22:54:53.453711"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Tocantins",
+    "chave": "calc:ar:ETO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “24”: o número 24 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T22:57:32.716268"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Acre",
+    "chave": "calc:ferro:EAC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T23:04:04.382001"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da CEA Equatorial",
+    "chave": "calc:ar:CEA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-24T23:08:20.107864"
   }
 ]

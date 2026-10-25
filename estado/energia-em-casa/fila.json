@@ -3928,5 +3928,48 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261024-220815-sobe-0-9-o-que-muda-na-sua-conta",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-24T22:08:15.750128-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-25T07:30:00-03:00",
+    "categoria": "reajuste_tarifa",
+    "chave": "reajuste:Neoenergia Brasília:2026-10-22",
+    "partes": [],
+    "titulo": "sobe 0,9%: o que muda na sua conta",
+    "texto_falado": "A Neoenergia Brasília acaba de anunciar um aumento de 0,9% na tarifa de energia elétrica. A tarifa residencial convencional ficou R$ 0,834 por kWh, alta de 0,9% sobre o preço anterior. Com 150 kWh, a tarifa sobe de R$ 124,00 para R$ 125,15, de R$ 1,14 a mais. Cheque fatura, compare o kWh com R$ 0,834; se houver diferença, ligue para Neoenergia Brasília (DF). Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar. Fonte: ANEEL E aí? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "legenda": {
+      "social": "Neoenergia Brasília (DF) aumentou a tarifa residencial convencional para R$ 0,834/kWh, alta de 0,9% em relação ao valor anterior. Em um consumo de 150 kWh, a conta ganha cerca de R$ 1,14 a mais por mês. Verifique sua fatura e compare o valor kWh cobrado. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #tarifas #Neoenergia #ANEEL #energiasolar #economia",
+      "youtube": "Neoenergia Brasília (DF) aumentou a tarifa residencial convencional para R$ 0,834/kWh, alta de 0,9% em relação ao valor anterior. Em um consumo de 150 kWh, a conta ganha cerca de R$ 1,14 a mais por mês. Verifique sua fatura e compare o valor kWh cobrado. Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #tarifas #Neoenergia #ANEEL #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 673763193,
+      "nome": "20261024-220815-sobe-0-9-o-que-muda-na-sua-conta.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 47.8,
+        "lufs": -14.46,
+        "fala_confere": 0.81,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
