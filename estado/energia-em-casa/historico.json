@@ -1431,5 +1431,35 @@
       "views_total": 19,
       "coletado_em": "2026-10-19T08:14:47.282402"
     }
+  },
+  {
+    "id": "20261024-220815-sobe-0-9-o-que-muda-na-sua-conta",
+    "chave": "reajuste:Neoenergia Brasília:2026-10-22",
+    "categoria": "reajuste_tarifa",
+    "titulo": "sobe 0,9%: o que muda na sua conta",
+    "texto_falado": "A Neoenergia Brasília acaba de anunciar um aumento de 0,9% na tarifa de energia elétrica. A tarifa residencial convencional ficou R$ 0,834 por kWh, alta de 0,9% sobre o preço anterior. Com 150 kWh, a tarifa sobe de R$ 124,00 para R$ 125,15, de R$ 1,14 a mais. Cheque fatura, compare o kWh com R$ 0,834; se houver diferença, ligue para Neoenergia Brasília (DF). Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar. Fonte: ANEEL E aí? Qual é a sua distribuidora? Siga para ver quando sair a próxima atualização.",
+    "formato": "short",
+    "horario": "07:30",
+    "publicado_em": "2026-10-25T07:49:00.469798-03:00",
+    "publicacoes": {
+      "youtube": {
+        "id": "4DIU_Kip-Tc",
+        "url": "https://youtu.be/4DIU_Kip-Tc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18064390067527646",
+        "url": "https://www.instagram.com/reel/De6hoErCYuy/"
+      },
+      "tiktok": {
+        "id": "7700555189601848596",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/@luz.sem.susto/video/7700555189601848596"
+      },
+      "facebook": {
+        "id": "1464008228982895",
+        "url": "https://www.facebook.com/reel/1464008228982895"
+      }
+    }
   }
 ]

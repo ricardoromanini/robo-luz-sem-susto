@@ -3931,7 +3931,7 @@
   },
   {
     "id": "20261024-220815-sobe-0-9-o-que-muda-na-sua-conta",
-    "status": "aprovado",
+    "status": "publicado",
     "criado_em": "2026-10-24T22:08:15.750128-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-25T07:30:00-03:00",
@@ -3970,7 +3970,28 @@
       "rodadas": 2,
       "alertas_dossie": []
     },
-    "publicacoes": {},
-    "aprovado_por": "dono"
+    "publicacoes": {
+      "youtube": {
+        "id": "4DIU_Kip-Tc",
+        "url": "https://youtu.be/4DIU_Kip-Tc",
+        "privado": false
+      },
+      "instagram": {
+        "id": "18064390067527646",
+        "url": "https://www.instagram.com/reel/De6hoErCYuy/"
+      },
+      "tiktok": {
+        "id": "7700555189601848596",
+        "modo": "uploadpost",
+        "url": "https://www.tiktok.com/@luz.sem.susto/video/7700555189601848596"
+      },
+      "facebook": {
+        "id": "1464008228982895",
+        "url": "https://www.facebook.com/reel/1464008228982895"
+      }
+    },
+    "aprovado_por": "dono",
+    "tentativas": 0,
+    "publicado_em": "2026-10-25T07:49:00.464287-03:00"
   }
 ]
