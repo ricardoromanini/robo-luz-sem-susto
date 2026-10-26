@@ -894,5 +894,110 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-10-24T23:08:20.107864"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Enel Ceará",
+    "chave": "calc:ar:ENEL CE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 3%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:12:28.080000"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Celesc",
+    "chave": "calc:airfryer:CELESC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:16:28.242470"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Enel São Paulo",
+    "chave": "calc:ar:ELETROPAULO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:20:00.149115"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Light",
+    "chave": "calc:airfryer:LIGHT SESA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:24:26.579647"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Enel Rio",
+    "chave": "calc:airfryer:ENEL RJ",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “A tarifa residencial convencional da Enel Distribuição Ceará é R$ 1,061 por kWh, segundo a ANEEL.”: A tarifa mencionada é da Enel Rio (RJ), não da Enel Distribuição Ceará.. Correção: A tarifa residencial convencional da Enel Rio (RJ) é R$ 1,061 por kWh, segundo a ANEEL.\n- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 2%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:27:04.352047"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Energisa Tocantins",
+    "chave": "calc:airfryer:ETO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:30:22.223322"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Equatorial Maranhão",
+    "chave": "calc:chuveiro:EQUATORIAL MA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Maranhão”: A empresa mencionada no texto é a Equatorial Maranhão, mas a evidência [0] fala sobre a Equatorial Energia Alagoas. (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Substituir por uma empresa de energia elétrica que atue no estado onde o vídeo é destinado.",
+    "em": "2026-10-25T22:33:30.434512"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Cemig",
+    "chave": "calc:chuveiro:CEMIG-D",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Um chuveiro de 5,5 kW”: A potência do chuveiro é dada em watts (W), não em quilowatts (kW). O texto deve ser ajustado para refletir a unidade correta.. Correção: Um chuveiro de 5.500 W\n- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:38:10.639637"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Enel Rio",
+    "chave": "calc:chuveiro:ENEL RJ",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “quase quarenta e quatro reais por mês”: o cálculo apresentado no texto é de R$ 43,77, que é menor que quarenta e quatro reais. Correção: use o valor correto de R$ 43,77\n- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 12%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Enel Rio”: A Enel Distribuição Ceará é a empresa de distribuição de energia elétrica com atuação em todo o estado do Ceará, mas o texto cita Enel Rio, que não é mencionada nas evidìncias. (fonte: https://pt.wikipedia.org/wiki/Enel_Distribui%C3%A7%C3%A3o_Cear%C3%A1). Correção: Substituir por Enel Distribuição Ceará ou outra empresa de distribuição de energia elétrica relevante para o contexto.",
+    "em": "2026-10-25T22:42:17.946923"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Neoenergia Pernambuco",
+    "chave": "calc:ar:Neoenergia PE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Neoenergia Coelba”: Dossiê cita Neoenergia Pernambuco (PE), não Neoenergia Coelba. Correção: Substituir por Neoenergia Pernambuco (PE)\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 2%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:46:30.407900"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Neoenergia Coelba",
+    "chave": "calc:ferro:COELBA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [✍️ Revisor de qualidade] “Descubra quanto o ferro de passar pode pesar na sua conta.”: repetição de informação. Correção: remover a repetição",
+    "em": "2026-10-25T22:49:17.059353"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Equatorial Maranhão",
+    "chave": "calc:ferro:EQUATORIAL MA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Maranhão”: A empresa mencionada no texto é a Equatorial Maranhão, mas a evidência [0] fala sobre a Equatorial Energia Alagoas. (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Ajustar para uma empresa de energia elétrica que atua no estado onde o vídeo é destinado.",
+    "em": "2026-10-25T22:53:44.290291"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Enel São Paulo",
+    "chave": "calc:ar:ELETROPAULO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “24”: o número 24 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:57:40.349135"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da RGE",
+    "chave": "calc:chuveiro:RGE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T22:59:48.630448"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da CPFL Paulista",
+    "chave": "calc:airfryer:CPFL-PAULISTA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-25T23:02:56.686959"
   }
 ]
