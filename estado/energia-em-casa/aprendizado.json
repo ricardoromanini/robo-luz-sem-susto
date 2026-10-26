@@ -1,9 +1,9 @@
 {
-  "melhor_horario": "07:30",
+  "melhor_horario": "20:30",
   "multiplicador_categoria": {
-    "entenda_conta": 0.55,
-    "calculadora": 0.52,
+    "entenda_conta": 0.61,
+    "calculadora": 0.53,
     "seguranca": 2.0
   },
-  "atualizado_em": "2026-10-19T08:14:48.657003"
+  "atualizado_em": "2026-10-26T09:00:30.022712"
 }
