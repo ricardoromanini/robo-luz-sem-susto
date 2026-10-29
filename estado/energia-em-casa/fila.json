@@ -3992,7 +3992,8 @@
     },
     "aprovado_por": "dono",
     "tentativas": 0,
-    "publicado_em": "2026-10-25T07:49:00.464287-03:00"
+    "publicado_em": "2026-10-25T07:49:00.464287-03:00",
+    "video_apagado": true
   },
   {
     "id": "20261028-222155-taxa-minima-na-conta-de-luz-da-enel-bras",
