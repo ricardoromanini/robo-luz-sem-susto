@@ -3993,5 +3993,48 @@
     "aprovado_por": "dono",
     "tentativas": 0,
     "publicado_em": "2026-10-25T07:49:00.464287-03:00"
+  },
+  {
+    "id": "20261028-222155-taxa-minima-na-conta-de-luz-da-enel-bras",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-28T22:21:55.397387-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-29T07:30:00-03:00",
+    "categoria": "entenda_conta",
+    "chave": "taxamin:ENEL CE",
+    "partes": [],
+    "titulo": "Taxa mínima na conta de luz da Enel Brasil (Ceará): entenda o valor",
+    "texto_falado": "Você sabia que paga uma taxa mínima na conta de luz, mesmo usando pouca energia? Mesmo consumindo pouco, a conta tem um piso de 30 kWh monofásico, segundo a ANEEL Se o consumo ultrapassar 30 kWh, paga‑se só o que usar, o piso não se soma. Na Enel Brasil (Ceará), o piso de 30 kWh custa cerca de R$ 21,05. Valor sem impostos, sem bandeira; a sua pode variar. Verifique a seção 'taxa mínima' na conta. Qual seu valor de taxa mínima? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Mesmo consumindo pouca energia, sua conta tem um piso de 30 kWh.\nNa Enel Brasil (Ceará) esse mínimo custa cerca de R$ 21,05, tarifa residencial convencional sem impostos e sem bandeira.\nConfira a seção 'taxa mínima' na sua conta e compare com a sua tarifa.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #taxaminima #energia #EnelBrasil #consumo #energiasolar #economia",
+      "youtube": "Mesmo consumindo pouca energia, sua conta tem um piso de 30 kWh.\nNa Enel Brasil (Ceará) esse mínimo custa cerca de R$ 21,05, tarifa residencial convencional sem impostos e sem bandeira.\nConfira a seção 'taxa mínima' na sua conta e compare com a sua tarifa.\nFonte: ANEEL — REN 1.000/2021\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\nhttps://www2.aneel.gov.br/cedoc/ren20211000.html\n\n#contadeluz #taxaminima #energia #EnelBrasil #consumo #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 686956454,
+      "nome": "20261028-222155-taxa-minima-na-conta-de-luz-da-enel-bras.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 40.4,
+        "lufs": -14.37,
+        "fala_confere": 0.91,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
