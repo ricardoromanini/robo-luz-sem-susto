@@ -1083,5 +1083,47 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 2%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-10-28T23:13:12.197456"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Mato Grosso do Sul",
+    "chave": "calc:ferro:EMS",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Um ferro de 1,2 kW, usado 1 h por semana, consome cerca de 5 kWh por mês.”: O dossiê informa que o consumo estimado é de 5,1 kWh por mês, não 5 kWh.. Correção: Use o valor correto de 5,1 kWh por mês, conforme o dossiê.\n- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-30T22:28:03.417999"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Neoenergia Brasília",
+    "chave": "calc:ferro:Neoenergia Brasília",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Brasília”: A empresa de distribuição de energia elétrica mencionada é a Neoenergia Coelba, não a Neoenergia Brasília. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-10-30T22:31:44.084049"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da RGE",
+    "chave": "calc:airfryer:RGE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Tarifa residencial convencional da RGE: 94 centavos por kWh, sem impostos nem bandeira”: A tarifa de energia pode variar por região e empresa de distribuição de energia, mas o exemplo dado é específico da RGE, que atua no Rio Grande do Sul. No entanto, a Neoenergia Pernambuco, mencionada na evidência [1], atua em Pernambuco e tem sua própria tarifa. Além disso, a tarifa de 94 centavos por kWh pode não ser representativa de todas as regiões do Brasil. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Pernambuco). Correção: Incluir uma nota sobre a variação de tarifa por região e empresa de distribuição de energia",
+    "em": "2026-10-30T22:34:20.869144"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Neoenergia Coelba",
+    "chave": "calc:ar:COELBA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Coelba”: A empresa mencionada no texto é a Neoenergia Coelba, mas a evidencia [2] fala sobre a Neoenergia COSERN, que atua no Rio Grande do Norte. A Neoenergia Coelba atua na Bahia. (fonte: https://pt.wikipedia.org/wiki/Neoenergia_COSERN). Correção: Neoenergia COSERN",
+    "em": "2026-10-30T22:38:19.923189"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Equatorial Goiás",
+    "chave": "calc:ar:EQUATORIAL GO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-10-30T22:42:47.645436"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Enel São Paulo",
+    "chave": "calc:airfryer:ELETROPAULO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “R$ 18”: O cálculo apresentado no dossiê é de R$ 17,76, não R$ 18. Correção: Use o valor correto de R$ 17,76\n- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Tarifa residencial Enel SP”: A Enel atua em vários países, mas a tarifa mencionada não é específica do Brasil como um todo, e sim de uma região (SP). (fonte: https://pt.wikipedia.org/wiki/Enel). Correção: Tarifa residencial brasileira, considerando a variação por região",
+    "em": "2026-10-30T22:45:30.575376"
   }
 ]

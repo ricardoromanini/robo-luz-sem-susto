@@ -4037,5 +4037,134 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261030-220831-sobe-quase-2-entenda-o-que-mudou",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-30T22:08:31.516910-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-31T07:30:00-03:00",
+    "categoria": "reajuste_tarifa",
+    "chave": "reajuste:EDP SP:2026-10-23",
+    "partes": [],
+    "titulo": "sobe quase 2%: entenda o que mudou",
+    "texto_falado": "Sua conta de luz subiu quase 2% neste mês de novo? A ANEEL homologou nova tarifa: R$ 0,802 por kWh, a partir de 23/10/2026. Antes era R$ 0,787/kWh; agora R$ 0,802/kWh, alta de 1,9%. Para 150 kWh, a conta sobe de R$ 118,00 para R$ 120,25, diferença R$ 2,25. Verifique sua fatura; se houver tarifa social ou branca, o valor pode mudar. Na sua casa a tarifa mudou? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "🔌 A tarifa residencial convencional da EDP São Paulo subiu de R$ 0,787 para R$ 0,802/kWh, alta de 1,9%.\n➡️ Em um consumo de 150 kWh, a diferença é cerca de R$ 2,25 na conta.\n⚠️ Lembre‑se: tarifa residencial convencional, sem impostos e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca).\n📊 Fonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#contadeluz #energia #tarifa #EDP #energiasolar #economia",
+      "youtube": "🔌 A tarifa residencial convencional da EDP São Paulo subiu de R$ 0,787 para R$ 0,802/kWh, alta de 1,9%.\n➡️ Em um consumo de 150 kWh, a diferença é cerca de R$ 2,25 na conta.\n⚠️ Lembre‑se: tarifa residencial convencional, sem impostos e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca).\n📊 Fonte: ANEEL\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#contadeluz #energia #tarifa #EDP #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (curioso_animado)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 693962196,
+      "nome": "20261030-220831-sobe-quase-2-entenda-o-que-mudou.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 36.5,
+        "lufs": -14.05,
+        "fala_confere": 0.8,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261030-221340-sobe-2-6-o-que-muda-na-sua-conta",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-30T22:13:40.523141-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-31T11:30:00-03:00",
+    "categoria": "reajuste_tarifa",
+    "chave": "reajuste:CPFL-PIRATINING:2026-10-23",
+    "partes": [],
+    "titulo": "sobe 2,6%: o que muda na sua conta",
+    "texto_falado": "Sua conta de luz vai subir 2,6% a partir de hoje, já percebeu? A ANEEL homologou nova tarifa residencial convencional, sem impostos, R$ 0,759/kWh, antes R$ 0,740, fonte ANEEL. Para 150 kWh, a conta sobe de R$ 110,95 para R$ 113,82, diferença de R$ 2,87, tarifa convencional sem impostos. Confira seu consumo, evite desperdício, compare tarifas e veja se tem tarifa convencional. Use energia em horários de menor demanda e reduza o gasto. Sua tarifa mudou? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "⚡️ A tarifa residencial convencional da CPFL Piratininga subiu 2,6%, passando de R$ 0,740 para R$ 0,759 por kWh.\nExemplo: 150 kWh agora custam cerca de R$ 113,82, antes R$ 110,95 – diferença de R$ 2,87.\nConfira seu consumo e compare tarifas; a sua pode ser diferente (social, Branca).\nFonte: ANEEL. tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#energia #contadeluz #CPFL #tarifas #energiasolar #economia",
+      "youtube": "⚡️ A tarifa residencial convencional da CPFL Piratininga subiu 2,6%, passando de R$ 0,740 para R$ 0,759 por kWh.\nExemplo: 150 kWh agora custam cerca de R$ 113,82, antes R$ 110,95 – diferença de R$ 2,87.\nConfira seu consumo e compare tarifas; a sua pode ser diferente (social, Branca).\nFonte: ANEEL. tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#energia #contadeluz #CPFL #tarifas #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 693973834,
+      "nome": "20261030-221340-sobe-2-6-o-que-muda-na-sua-conta.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 52.7,
+        "lufs": -14.48,
+        "fala_confere": 0.9,
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 2 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
+  },
+  {
+    "id": "20261030-221912-sobe-7-entenda-o-impacto-na-sua-conta",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-10-30T22:19:12.886336-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-10-31T15:30:00-03:00",
+    "categoria": "reajuste_tarifa",
+    "chave": "reajuste:EQUATORIAL GO:2026-10-22",
+    "partes": [],
+    "titulo": "sobe 7%: entenda o impacto na sua conta",
+    "texto_falado": "Sua conta de luz vai subir 7% a partir de hoje? Entenda agora. A ANEEL homologou nova tarifa da Equatorial Goiás em 22 de outubro. A tarifa convencional, sem impostos e sem bandeira, subiu de 0,892 para 0,954 reais por kWh. Exemplo: 150 kWh custam R$ 133,77 antes e R$ 143,16 agora, quase R$ 9,40 a mais. Tarifa residencial convencional sem impostos (ICMS, PIS/Cofins) e sem bandeira; pode variar (social, Branca); Fonte: ANEEL. Você percebeu o aumento na sua conta? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "A ANEEL aprovou nova tarifa da Equatorial Goiás, que passou de R$ 0,892 para R$ 0,954 por kWh – um aumento de 7 %. Para quem consome 150 kWh por mês, isso representa cerca de R$ 9,40 a mais na conta. Lembre‑se: a tarifa residencial convencional é sem impostos e sem bandeira; a sua pode variar (social, Branca). Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\n#tarifa #energia #contadeluz #energiasolar #economia",
+      "youtube": "A ANEEL aprovou nova tarifa da Equatorial Goiás, que passou de R$ 0,892 para R$ 0,954 por kWh – um aumento de 7 %. Para quem consome 150 kWh por mês, isso representa cerca de R$ 9,40 a mais na conta. Lembre‑se: a tarifa residencial convencional é sem impostos e sem bandeira; a sua pode variar (social, Branca). Fonte: ANEEL.\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca). Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#tarifa #energia #contadeluz #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 693987885,
+      "nome": "20261030-221912-sobe-7-entenda-o-impacto-na-sua-conta.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 56.0,
+        "lufs": -14.23,
+        "fala_confere": 0.89,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 2,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]
