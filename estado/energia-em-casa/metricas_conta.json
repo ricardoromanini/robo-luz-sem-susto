@@ -54,5 +54,19 @@
       "instagram": 9,
       "facebook": 0
     }
+  },
+  {
+    "data": "2026-11-02",
+    "youtube": {
+      "inscritos": 10,
+      "views_total": 3822,
+      "videos": 38,
+      "canal_id": "UCIAjQCAHC583ecGiqZ6FTOw",
+      "horas_365d": 8.2
+    },
+    "meta": {
+      "instagram": 8,
+      "facebook": 0
+    }
   }
 ]
