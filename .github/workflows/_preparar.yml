@@ -32,6 +32,8 @@ on:
       META_PAGE_TOKEN_ENERGIA_EM_CASA: {required: false}
       FB_PAGE_ID_ENERGIA_EM_CASA: {required: false}
       IG_USER_ID_ENERGIA_EM_CASA: {required: false}
+      SHOPEE_APP_ID: {required: false}
+      SHOPEE_SECRET: {required: false}
 
 permissions:
   contents: write
@@ -69,6 +71,8 @@ jobs:
       META_PAGE_TOKEN_ENERGIA_EM_CASA: ${{ secrets.META_PAGE_TOKEN_ENERGIA_EM_CASA }}
       FB_PAGE_ID_ENERGIA_EM_CASA: ${{ secrets.FB_PAGE_ID_ENERGIA_EM_CASA }}
       IG_USER_ID_ENERGIA_EM_CASA: ${{ secrets.IG_USER_ID_ENERGIA_EM_CASA }}
+      SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}       # vídeos "Achado" (sem a chave, os achados ficam de fora)
+      SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
     steps:
       - uses: actions/checkout@v4
         with:

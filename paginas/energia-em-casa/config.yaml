@@ -139,9 +139,13 @@ categorias:
   seguranca:         {peso: 5, descricao: "Segurança elétrica em casa (sem ensinar serviço perigoso)"}
   solar:             {peso: 1, descricao: "Energia solar e geração distribuída (Lei 14.300)"}
   entenda_conta:     {peso: 3, descricao: "Entenda sua conta de luz e seus direitos"}
+  achado:            {peso: 2, descricao: "Dica de segurança com fonte + produto da Shopee que ajuda (link de afiliado; pautas em achados.yaml)"}
 
 # Frase final própria por tipo de tema (sem isca de engajamento)
 cta_por_categoria:
+  achado:
+    - "O link está na descrição, e tem mais achados no nosso canal de ofertas no Telegram."
+    - "Link na descrição. Siga a página para mais dicas que deixam sua casa segura."
   seguranca:
     - "Siga a página para deixar sua casa mais segura."
     - "Siga para mais dicas que evitam choque e incêndio em casa."
@@ -157,6 +161,7 @@ series:
   reajuste_tarifa: "SUA CONTA DE LUZ EXPLICADA"
   ranking: "SUA CONTA DE LUZ EXPLICADA"
   solar: "ENERGIA SOLAR SEM ENROLAÇÃO"
+  achado: "ACHADO DO SEU FAÍSCA"
   padrao: "SUA CONTA DE LUZ EXPLICADA"
 
 # Ressalvas que o texto SEMPRE precisa trazer quando o assunto aparece
@@ -164,8 +169,10 @@ ressalvas:
   tarifa: "valores sem impostos (ICMS, PIS/Cofins) e sem bandeira"
   seguranca: "serviço elétrico é com eletricista habilitado"
 
-# Afiliados (deixe vazio até se cadastrar). Link de afiliado SEMPRE vem com aviso.
+# Afiliados: vídeos "Achado" (achados.yaml) com produto da Shopee. Link de afiliado SEMPRE vem com aviso.
+# Ligado em 03/11/2026 (chaves SHOPEE_APP_ID / SHOPEE_SECRET; mesmas do robô C:\projetos\afiliados)
 afiliados:
-  ativo: false
-  aviso: "Link de afiliado: posso ganhar comissão, sem custo extra para você."
+  ativo: true
+  aviso: "#publi Link de afiliado: posso ganhar comissão, sem custo extra para você. O preço pode mudar."
+  canal_ofertas: "https://t.me/ofertasluzsemsusto"
   links: {}

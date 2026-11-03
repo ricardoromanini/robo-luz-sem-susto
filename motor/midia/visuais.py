@@ -529,6 +529,12 @@ def cena(pagina: Pagina, c: dict, pauta: dict, formato: str, usadas: set[str], r
     w, h = FORMATOS[formato]
     e_grafico = c["visual"] == "grafico" and bool(pauta.get("grafico"))
     credito = ""
+    if c["visual"] == "produto" and pauta.get("produto"):
+        foto = _foto_produto(pauta["produto"]["imagem"])
+        if foto is not None:  # sem foto (falha de download), a cena segue como as outras
+            fundo = {"tipo": "imagem", "imagem": _moldura(pagina, foto, w, h)}
+            camada = _camada(pagina, w, h, c, True, rodape, indice, total, False, layout="moldura")
+            return {"fundo": fundo, "camada": camada, "credito": "", "zoom": True}
     if e_grafico:
         fundo = {"tipo": "imagem", "imagem": grafico(pagina, pauta["grafico"], w, h)}
         com_midia, zoom = False, False
@@ -573,6 +579,21 @@ def cena(pagina: Pagina, c: dict, pauta: dict, formato: str, usadas: set[str], r
         return {"fundo": fundo, "camada": camada, "credito": credito, "zoom": zoom}
     camada = _camada(pagina, w, h, c, com_midia, rodape, indice, total, e_grafico)
     return {"fundo": fundo, "camada": camada, "credito": credito, "zoom": zoom}
+
+
+def _foto_produto(url: str) -> Image.Image | None:
+    """Foto do anúncio (vídeo "Achado"), centralizada num quadrado branco para não cortar o produto."""
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        foto = Image.open(io.BytesIO(r.content)).convert("RGB")
+    except Exception as e:  # noqa: BLE001
+        log.warning("não consegui baixar a foto do produto: %s", e)
+        return None
+    lado = max(foto.size)
+    quadro = Image.new("RGB", (lado, lado), (255, 255, 255))
+    quadro.paste(foto, ((lado - foto.width) // 2, (lado - foto.height) // 2))
+    return quadro
 
 
 def _mascote(pagina: Pagina) -> Image.Image | None:

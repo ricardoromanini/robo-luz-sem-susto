@@ -143,6 +143,8 @@ def escrever(pagina: Pagina, pauta: dict, formato: str = "short", observacoes: s
     if titulos_recentes:
         hist = "\nTÍTULOS RECENTES DA PÁGINA (não repita estrutura, gancho nem frases deles):\n- " + "\n- ".join(titulos_recentes[-15:]) + "\n"
     obs = f"\nCORREÇÕES PEDIDAS PELA EQUIPE DE VERIFICAÇÃO (obrigatório atender):\n{observacoes}\n" if observacoes else ""
+    if pauta.get("instrucao"):  # instrução própria do tipo de pauta (ex.: achado com produto)
+        obs = f"\nINSTRUÇÃO DESTA PAUTA (obrigatório):\n{pauta['instrucao']}\n" + obs
     usuario = USUARIO.format(
         fmt_nome=fmt["nome"], fmt_cenas=fmt["cenas"], fmt_palavras=fmt["palavras"], tema=pauta["tema"],
         categoria=pauta["categoria"], fatos=_texto_fatos(pauta), ressalvas="; ".join(pauta.get("ressalvas") or ["nenhuma"]),

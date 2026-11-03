@@ -68,6 +68,20 @@ def candidatas(pagina: Pagina) -> list[dict]:
              "busca_base": p.get("busca", ""),
              "ressalvas": [r for r in ress if r] + list(p.get("ressalvas") or []), "grafico": None,
              "pesquisa": list(p.get("pesquisa") or [])})  # termos de busca do pesquisador (opcional)
+
+    # --- achados (dica + produto da Shopee): o produto só é buscado quando a pauta for escolhida ---
+    if pagina.cfg.get("afiliados", {}).get("ativo"):
+        from .fontes import shopee
+
+        if shopee.ativo():
+            for p in ler_yaml_pagina(pagina, "achados.yaml", []) or []:
+                fatos = [{"id": f"F{i + 1}", "texto": f["texto"], "fonte": f.get("fonte", ""), "url": f.get("url", "")}
+                         for i, f in enumerate(p["fatos"])]
+                ress = [pagina.cfg.get("ressalvas", {}).get("seguranca")] if p.get("aviso_seguranca") else []
+                add({"tema": p["tema"], "categoria": "achado", "chave": f"achado:{p['id']}", "fatos": fatos,
+                     "busca_base": p.get("busca", ""), "grafico": None, "pesquisa": [],
+                     "ressalvas": [r for r in ress if r] + list(p.get("ressalvas") or []),
+                     "achado": {"busca": p["busca_shopee"], "exigir": p.get("exigir", []), "produto": p["produto"]}})
     return lista
 
 

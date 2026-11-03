@@ -81,6 +81,35 @@ def proximo_horario(pagina: Pagina, formato: str) -> str:
     return (agora + timedelta(days=1)).isoformat()
 
 
+def anexar_produto(pagina: Pagina, pauta: dict) -> bool:
+    """Pauta "achado": busca o produto do dia na Shopee e o põe no dossiê (preço, nota e vendas viram fatos,
+    para a voz só dizer o que está aqui). False = nenhum produto confiável hoje."""
+    from .fontes import shopee
+
+    a = pauta["achado"]
+    try:
+        p = shopee.melhor_oferta(a["busca"], a.get("exigir"))
+    except Exception as e:  # noqa: BLE001
+        log.warning("Shopee indisponível para o achado '%s': %s", pauta["tema"][:50], e)
+        return False
+    if not p:
+        log.info("achado '%s': nenhum produto bem avaliado hoje", pauta["tema"][:50])
+        return False
+    # preço NÃO entra no roteiro (muda todo dia e a equipe exige data/fonte colada a ele): fica só na descrição
+    pauta["fatos"].append({"id": f"F{len(pauta['fatos']) + 1}", "url": "",
+                           "fonte": f"Shopee, consultado em {pagina.agora():%d/%m/%Y}",
+                           "texto": f"Exemplo de {a['produto']} à venda na Shopee, com link de afiliado na descrição do vídeo "
+                                    f"(a página pode ganhar comissão, sem custo extra para quem compra)."})
+    pauta["ressalvas"] = list(pauta.get("ressalvas") or []) + ["#publi: link de afiliado na descrição"]
+    pauta["produto"] = {**p, "tipo": a["produto"]}
+    pauta["instrucao"] = (
+        f"Este vídeo é um ACHADO (publicidade com link de afiliado). Siga a estrutura normal e, na parte (d) DICA PRÁTICA, "
+        f"mostre o produto pelo TIPO (\"{a['produto']}\"), nunca pela marca nem pelo nome do anúncio. NÃO diga preço. "
+        f"Na fala, diga com estas palavras que o \"link de afiliado está na descrição\". Não diga que o produto substitui "
+        f"eletricista nem que resolve tudo; ele é um cuidado a mais.")
+    return True
+
+
 def escrever_e_verificar(pagina: Pagina, formato: str, excluir: set[str] | None = None, observacao_humana: str = "") -> tuple[dict, dict, dict]:
     """Retorna (pauta, roteiro, parecer) com parecer APROVADO — ou levanta erro."""
     hist = estado.historico(pagina)
@@ -93,6 +122,9 @@ def escrever_e_verificar(pagina: Pagina, formato: str, excluir: set[str] | None 
         if not escolhidas:
             raise RuntimeError("sem pautas disponíveis — acrescente pautas em pautas.yaml")
         pauta = _combinar(escolhidas) if formato == "longo" else escolhidas[0]
+        if pauta.get("achado") and not anexar_produto(pagina, pauta):
+            excluir.add(pauta["chave"])  # sem produto hoje: fica para outro dia
+            continue
         obs = observacao_humana
         for rodada in range(MAX_RODADAS_AJUSTE + 1):
             rot = roteiro.escrever(pagina, pauta, formato, obs, titulos)
@@ -133,6 +165,13 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
     if pauta.get("grafico") and not any(c["visual"] == "grafico" for c in rot["cenas"]) and len(rot["cenas"]) >= 3:
         alvo = min(2, len(rot["cenas"]) - 2)
         rot["cenas"][alvo]["visual"] = "grafico"
+    # achado: a foto do produto entra na fala que cita o produto ou o link (senão, na cena antes do "siga")
+    if pauta.get("produto") and len(rot["cenas"]) >= 3:
+        tipo = pauta["produto"]["tipo"].split(",")[0].lower()
+        meio = rot["cenas"][1:-1]
+        alvo = next((c for c in meio if "link" in c["fala"].lower()), None) \
+            or next((c for c in meio if tipo in c["fala"].lower()), None) or rot["cenas"][-2]
+        alvo["visual"] = "produto"
     cfg_cr = pagina.cfg.get("midia", {}).get("cortes_rapidos", {})
     troca_s = float(cfg_cr.get("troca_s", 4))
     # metade dos vídeos (sorteio fixo pelo nome da pasta) = grupo de teste; o resto fica como controle
@@ -153,7 +192,7 @@ def produzir_midia(pagina: Pagina, pauta: dict, rot: dict, formato: str, pasta, 
         visuais.previa(cm, w, h).save(pasta / f"cena_{i:02d}.jpg", quality=85)  # quadro para conferência
         cenas.append({"fundo_tipo": cm["fundo"]["tipo"], "fundo": fundo, "camada": camada, "zoom": cm["zoom"]})
         # CORTES RÁPIDOS (teste A/B): fala longa ganha uma 2ª imagem, para nenhuma ficar mais de ~4 s na tela
-        if (rapido and cm["fundo"]["tipo"] == "imagem" and c["visual"] != "grafico" and i < len(rot["cenas"]) - 1
+        if (rapido and cm["fundo"]["tipo"] == "imagem" and c["visual"] not in ("grafico", "produto") and i < len(rot["cenas"]) - 1
                 and duracoes[i] > troca_s + 0.8):
             cm2 = visuais.cena(pagina, c, pauta, fmt_video, usadas, rodape=rot.get("rodape", ""), indice=i,
                                total=len(rot["cenas"]), variacao=True)
@@ -188,8 +227,16 @@ def montar_legenda(pagina: Pagina, pauta: dict, rot: dict, creditos: list[str], 
     tags = " ".join(rot["hashtags"])
     aviso_ia = "Narração e roteiro produzidos com auxílio de IA e revisados por verificação de fatos." if rotulo_ia else ""
     cred = " · ".join(creditos)
-    social = "\n\n".join(x for x in [base, aviso_ia, cred, tags] if x)
-    yt_desc = "\n\n".join(x for x in [base, "Fontes:\n" + "\n".join(fontes) if fontes else "", aviso_ia, cred, tags] if x)
+    achado = ""
+    if pauta.get("produto"):  # o link vem primeiro: no YouTube só as 2 primeiras linhas aparecem sem abrir a descrição
+        af = pagina.cfg.get("afiliados", {})
+        preco = f"{pauta['produto']['preco']:.2f}".replace(".", ",")
+        achado = "\n".join(x for x in [f"🛒 {pauta['produto']['tipo'][0].upper() + pauta['produto']['tipo'][1:]} mostrado no vídeo "
+                                       f"(a partir de R$ {preco} em {pagina.agora():%d/%m}): {pauta['produto']['link']}",
+                                       af.get("aviso", ""),
+                                       f"📲 Mais achados todo dia: {af['canal_ofertas']}" if af.get("canal_ofertas") else ""] if x)
+    social = "\n\n".join(x for x in [achado, base, aviso_ia, cred, tags] if x)
+    yt_desc = "\n\n".join(x for x in [achado, base, "Fontes:\n" + "\n".join(fontes) if fontes else "", aviso_ia, cred, tags] if x)
     return {"social": social[:2150], "youtube": yt_desc[:4900]}
 
 

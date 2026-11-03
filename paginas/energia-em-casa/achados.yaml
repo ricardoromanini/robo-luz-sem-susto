@@ -1,0 +1,58 @@
+# =============================================================================
+#  ACHADOS: dica de segurança com fonte oficial + o produto (Shopee, link de afiliado) que ajuda.
+#  O produto é buscado na hora de gerar o vídeo (preço do dia). Os fatos de segurança vêm daqui e
+#  são os únicos permitidos no roteiro, como nas outras pautas.
+#  busca_shopee: o que procurar na Shopee · exigir: palavras que precisam estar no nome do produto
+#  produto: como a voz chama o produto (pelo TIPO, nunca pela marca)
+# =============================================================================
+
+- id: protetor-tomada
+  busca: "child safety outlet cover"
+  busca_shopee: "protetor de tomada criança"
+  exigir: ["protetor", "tomada"]
+  produto: "protetor de tomada"
+  tema: "Criança em casa: o protetor de tomada custa pouco e evita choque"
+  fatos:
+    - {texto: "A Sociedade Brasileira de Pediatria orienta: no quarto das crianças, as tomadas devem ter protetores.", fonte: "Sociedade Brasileira de Pediatria, Acidentes domésticos", url: "https://www.sbp.com.br/acidentes-domesticos/"}
+    - {texto: "Coloque protetores nas tomadas que ficam ao alcance das crianças.", fonte: "Copel, Energia elétrica sem riscos", url: "https://www.copel.com/site/educacao/energia-eletrica-sem-riscos/"}
+    - {texto: "Não deixe a fiação ao alcance das crianças.", fonte: "CPFL Energia, Dicas de Segurança", url: "https://www.cpfl.com.br/dicas-de-seguranca"}
+  ressalvas: ["o protetor de tomada não substitui a atenção de um adulto"]
+  aviso_seguranca: false
+
+- id: filtro-linha-no-lugar-do-benjamim
+  busca: "power strip with switch"
+  busca_shopee: "filtro de linha 10A"
+  exigir: ["filtro de linha"]
+  produto: "filtro de linha"
+  tema: "Troque o benjamim: o que olhar antes de ligar vários aparelhos na mesma tomada"
+  fatos:
+    - {texto: "Usar benjamim é perigoso: sobrecarregar uma tomada com vários aparelhos pode provocar superaquecimento.", fonte: "CPFL Energia, Dicas de Segurança", url: "https://www.cpfl.com.br/dicas-de-seguranca"}
+    - {texto: "A maioria dos benjamins aguenta 13 ampères, mas alguns são de apenas 10 ampères ou menos.", fonte: "Neoenergia Pernambuco, 2023", url: "https://www.neoenergia.com/web/pernambuco/w/saiba-como-evitar-acidentes-rede-eletrica-dentro-casa"}
+    - {texto: "Não ligue uma extensão em outra e não fabrique extensão por conta própria.", fonte: "Neoenergia Pernambuco, 2024", url: "https://www.neoenergia.com/web/pernambuco/w/atencao-confira-principais-dicas-evitar-choques-eletricos"}
+  ressalvas: ["respeite a corrente máxima indicada no produto"]
+  aviso_seguranca: false
+
+- id: carregador-homologado
+  busca: "phone charger plugged in"
+  busca_shopee: "carregador homologado anatel"
+  exigir: ["carregador", "anatel"]
+  produto: "carregador homologado pela Anatel"
+  tema: "Carregador de celular: por que ele precisa ter o selo da Anatel"
+  fatos:
+    - {texto: "Use sempre carregador e bateria homologados pela Anatel. Os não homologados podem ter circuito de segurança mal feito, ou nenhum.", fonte: "Anatel", url: "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/orientacoes-para-uso-seguro-de-telefones-celulares-e-seus-acessorios"}
+    - {texto: "O superaquecimento da bateria pode causar fogo ou explosão.", fonte: "Anatel", url: "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos/orientacoes-para-uso-seguro-de-telefones-celulares-e-seus-acessorios"}
+    - {texto: "O Corpo de Bombeiros de Santa Catarina alerta: não deixe o celular carregando em cima de cama, sofá ou almofada, que pegam fogo com facilidade.", fonte: "CBMSC, 2025", url: "https://www.cbm.sc.gov.br/index.php/blog-de-noticias/cuidados-com-celular-corpo-de-bombeiros-militar-de-sc-alerta-para-acidentes-com-baterias"}
+  ressalvas: ["confira o selo da Anatel na embalagem e no produto"]
+  aviso_seguranca: false
+
+- id: dps-protetor-surto
+  busca: "lightning storm house"
+  busca_shopee: "DPS protetor contra surtos"
+  exigir: ["dps"]
+  produto: "DPS, o protetor contra surtos"
+  tema: "Raio na rede queima aparelho? O DPS é a peça que segura o surto"
+  fatos:
+    - {texto: "DPS significa Dispositivo de Proteção contra Surtos; ele desvia picos de tensão, como os causados por descargas atmosféricas na rede, antes que cheguem aos aparelhos.", fonte: "ABNT NBR 5410 / NBR IEC 61643"}
+    - {texto: "O DPS fica instalado no quadro de distribuição e trabalha junto com o aterramento.", fonte: "ABNT NBR 5410"}
+    - {texto: "Filtro de linha comum (régua) não substitui o DPS no quadro.", fonte: "boas práticas"}
+  aviso_seguranca: true
