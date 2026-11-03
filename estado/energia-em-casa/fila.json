@@ -4040,7 +4040,7 @@
   },
   {
     "id": "20261030-220831-sobe-quase-2-entenda-o-que-mudou",
-    "status": "aguardando_aprovacao",
+    "status": "expirado",
     "criado_em": "2026-10-30T22:08:31.516910-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-31T07:30:00-03:00",
@@ -4083,7 +4083,7 @@
   },
   {
     "id": "20261030-221340-sobe-2-6-o-que-muda-na-sua-conta",
-    "status": "aguardando_aprovacao",
+    "status": "expirado",
     "criado_em": "2026-10-30T22:13:40.523141-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-31T11:30:00-03:00",
@@ -4126,7 +4126,7 @@
   },
   {
     "id": "20261030-221912-sobe-7-entenda-o-impacto-na-sua-conta",
-    "status": "aguardando_aprovacao",
+    "status": "expirado",
     "criado_em": "2026-10-30T22:19:12.886336-03:00",
     "formato": "short",
     "horario_publicacao": "2026-10-31T15:30:00-03:00",
