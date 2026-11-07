@@ -4209,5 +4209,52 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261106-223754-quanto-custa-ligar-o-ar-condicionado-por",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-11-06T22:37:54.974940-03:00",
+    "formato": "longo",
+    "horario_publicacao": "2026-11-07T10:00:00-03:00",
+    "categoria": "resumo_semanal",
+    "chave": "longo:calc:ar:COPEL-DIS+calc:ar:CPFL-PIRATINING+calc:ar:Neoenergia Brasília",
+    "partes": [
+      "calc:ar:COPEL-DIS",
+      "calc:ar:CPFL-PIRATINING",
+      "calc:ar:Neoenergia Brasília"
+    ],
+    "titulo": "Quanto custa ligar o ar-condicionado por mês? Veja a conta em três regiões",
+    "texto_falado": "Você sabe exatamente quanto custa deixar o ar-condicionado ligado a noite inteira na sua conta de luz? Muitas pessoas se assustam quando a fatura chega no fim do mês, mas a explicação está nos números da tarifa de energia cobrada na sua região. Hoje nós vamos entender, ponto por ponto, o impacto do ar-condicionado na conta de luz usando dados oficiais da Agência Nacional de Energia Elétrica, a ANEEL. Vamos comparar três tarifas vigentes no Brasil para ver a diferença no bolso. Para fazer este cálculo de forma justa, usamos um exemplo padronizado. Imagine um aparelho de ar-condicionado de doze mil BTUs, com potência estimada em cerca de mil e cem watts, funcionando oito horas por noite durante trinta dias no mês. Multiplicando essa potência pelo tempo de uso ao longo de um mês completo, chegamos a um consumo estimado de duzentos e sessenta e quatro quilowatts-hora por mês. Esse é o consumo de energia que vamos aplicar nas três concessionárias pesquisadas. Começando pela distribuidora Copel, que atende o estado do Paraná. A tarifa residencial convencional vigente para a Copel é de zero virgula sete meia oito reais por quilowatt-hora, ou seja, cerca de setenta e sete centavos por quilowatt-hora, em vigor desde vinte e quatro de junho de dois mil e vinte e seis. Aplicando os duzentos e sessenta e quatro quilowatts-hora estimados nessa tarifa da Copel, o custo estimado só da tarifa fica em duzentos e dois reais e setenta e cinco centavos por mês. É fundamental destacar que esse valor de duzentos e dois reais e setenta e cinco centavos reflete apenas a tarifa base cadastrada na ANEEL, sem considerar a inclusão de impostos como ICMS e PIS Cofins, e sem adicionar eventuais bandeiras tarifárias. Quando os impostos estaduais e federais entram no cálculo, o valor final a ser pago na conta fica maior. Lembrando que a alíquota de ICMS varia de estado para estado, impactando o preço total. Além disso, lembre-se de que a potência real do equipamento varia de acordo com o modelo e com a eficiência energética. Por isso, vale a pena conferir a potência exata impressa na etiqueta do aparelho. Agora vamos analisar o segundo exemplo da nossa lista semanal: a distribuidora CPFL Piratininga, que atende regiões do estado de São Paulo. Segundo os dados oficiais da ANEEL, a tarifa residencial convencional vigente da CPFL Piratininga é de zero virgula sete cinco nove reais por quilowatt-hora, cerca de setenta e seis centavos por quilowatt-hora, em vigor desde vinte e três de outubro de dois mil e vinte e seis. Usando a mesma estimativa de uso do ar-condicionado de doze mil BTUs durante oito horas por noite, o consumo mensal é o mesmo: duzentos e sessenta e quatro quilowatts-hora no mês. Multiplicando esse consumo pela tarifa da CPFL Piratininga, o custo estimado da tarifa chega a duzentos reais e trinta e dois centavos por mês. Assim como no caso anterior, o valor de duzentos reais e trinta e dois centavos é uma estimativa baseada apenas na tarifa base. O valor final cobrado na fatura será maior devido à cobrança de impostos e bandeiras. Vale reforçar que este valor considera a tarifa residencial convencional. Se a sua residência estiver enquadrada em outros regimes, como Tarifa Social ou Tarifa Branca, os valores cobrados por quilowatt-hora serão diferentes. Passando para o nosso terceiro caso da semana, vamos observar a distribuidora Neoenergia Brasília, responsável pelo atendimento no Distrito Federal. Na Neoenergia Brasília, a tarifa residencial convencional vigente é de zero virgula oito três quatro reais por quilowatt-hora, ou cerca de oitenta e três centavos por quilowatt-hora, em vigor desde vinte e dois de outubro de dois mil e vinte e seis, conforme os dados da ANEEL. Mantendo exatamente a mesma premissa do nosso exemplo, com duzentos e sessenta e quatro quilowatts-hora consumidos pelo ar-condicionado durante o mês... O custo estimado da tarifa na Neoenergia Brasília atinge duzentos e vinte reais e vinte e seis centavos por mês, antes de impostos e bandeiras. Com a incidência dos impostos federais e estaduais, além de eventuais adicionais de bandeiras tarifárias amarela ou vermelha, a fatura final para o consumidor no Distrito Federal terá um acréscimo em relação a essa tarifa base. Comparando as três distribuidoras pesquisadas nesta semana para o mesmo consumo de duzentos e sessenta e quatro quilowatts-hora: na CPFL Piratininga o custo de tarifa é de duzentos reais e trinta e dois centavos, na Copel fica em duzentos e dois reais e setenta e cinco centavos, e na Neoenergia Brasília atinge duzentos e vinte reais e vinte e seis centavos. Essa comparação mostra como o valor pago pelo uso do mesmo aparelho pode mudar dependendo da tarifa vigente na sua cidade e da distribuidora que atende a sua casa. Reforçando as ressalvas essenciais: todas as estimativas apresentadas consideram a tarifa residencial convencional sem impostos e sem bandeira tarifária. Além disso, a potência consumida depende do modelo específico e da temperatura configurada no seu ar-condicionado. Entender esses números ajuda você a acompanhar o consumo da sua casa sem mistério e sem surpresas no fim do mês. Quantas horas por noite o ar-condicionado fica ligado na sua casa? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Você sabe quanto custa usar o ar-condicionado à noite? Neste resumo semanal, analisamos os dados da ANEEL para as tarifas da Copel, CPFL Piratininga e Neoenergia Brasília. Entenda como o consumo em kWh se transforma em valor na tarifa base.\n\nFonte: ANEEL (tarifas convencionais residenciais sem impostos e sem bandeiras).\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\n#contadeluz #tarifadeenergia #arcondicionado #copel #cpflpiratininga #neoenergiabrasilia #contadeluz #energia #energiasolar #economia",
+      "youtube": "Você sabe quanto custa usar o ar-condicionado à noite? Neste resumo semanal, analisamos os dados da ANEEL para as tarifas da Copel, CPFL Piratininga e Neoenergia Brasília. Entenda como o consumo em kWh se transforma em valor na tarifa base.\n\nFonte: ANEEL (tarifas convencionais residenciais sem impostos e sem bandeiras).\n\n⚠️ Tarifa residencial convencional, sem impostos (ICMS, PIS/Cofins) e sem bandeira; a sua pode variar (tarifa social, Tarifa Branca); Potência é exemplo; varia por modelo. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica\n\n#contadeluz #tarifadeenergia #arcondicionado #copel #cpflpiratininga #neoenergiabrasilia #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Fenrir (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 719289032,
+      "nome": "20261106-223754-quanto-custa-ligar-o-ar-condicionado-por.mp4"
+    },
+    "capa": "/home/runner/work/robo-luz-sem-susto/robo-luz-sem-susto/saida/energia-em-casa/20261106-223754-quanto-custa-ligar-o-ar-condicionado-por/capa.jpg",
+    "ia_redator": "gemini/gemini-3.5-flash",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 281.8,
+        "lufs": -13.17,
+        "fala_confere": "sem transcrição",
+        "cortes_rapidos": false
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 1,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

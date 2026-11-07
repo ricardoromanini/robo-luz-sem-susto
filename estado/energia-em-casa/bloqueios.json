@@ -1,19 +1,5 @@
 [
   {
-    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
-    "chave": "pauta:chuveiro-verao-inverno",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “Sua conta de luz pode subir 13% só por mudar a chave do chuveiro?”: A afirmação é enganosa, pois o texto do dossiê não diz que mudar a chave do chuveiro aumenta a conta de luz em 13%, mas sim que o chuveiro responde por 13% do consumo residencial de eletricidade no Brasil em 2023.. Correção: Reescrever para refletir a informação correta, como 'O chuveiro responde por 13% do consumo residencial de eletricidade no Brasil em 2023, segundo a EPE.'\n- [🔎 Checador de fatos] “A posição da chave do chuveiro pode mudar até 13% da sua conta, segundo a EPE.”: A afirmação é enganosa, pois o texto do dossiê não diz que a posição da chave do chuveiro pode mudar até 13% da conta de luz.. Correção: Remover a afirmação ou reescrever para refletir a informação correta, como 'A EPE orienta usar a posição verão e reduzir o tempo do banho em dias quentes para economizar energia.'\n- [🌐 Pesquisador (internet e padrão brasileiro)] “13% do consumo residencial no Brasil em 2023, segundo a EPE”: Não há evidência que comprove essa informação (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: Verificar a fonte da EPE para confirmar a informação",
-    "em": "2026-10-03T22:11:20.605865"
-  },
-  {
-    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
-    "chave": "pauta:chuveiro-verao-inverno",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “No verão, a potência do chuveiro diminui, gastando menos energia e água (fonte EPE).”: A afirmação não especifica se a redução de potência é uma característica do chuveiro em si ou se é uma configuração específica, mas o termo 'verão' pode sugerir uma mudança sazonal que não é comum em todos os chuveiros brasileiros. (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: Especificar que a redução de potência se refere à configuração 'verão' em chuveiros que possuem essa opção.",
-    "em": "2026-10-03T22:21:48.579478"
-  },
-  {
     "tema": "Quanto custa o ar na tarifa da Enel Rio",
     "chave": "calc:ar:ENEL RJ",
     "decisao": "AJUSTAR",
@@ -1398,5 +1384,19 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 11%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-11-06T22:33:07.346022"
+  },
+  {
+    "tema": "O que você precisa saber sobre a sua conta de luz esta semana: Criança em casa: o protetor de tomada custa pouco e evita choque; Troque o benjamim: o que olhar antes de ligar vários aparelhos na mesma tomada; Carregador de celular: por que ele precisa ter o selo da Anatel",
+    "chave": "longo:achado:protetor-tomada+achado:filtro-linha-no-lugar-do-benjamim+achado:carregador-homologado",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “498 palavras”: texto curto demais para o formato (498 palavras; mínimo 650). Correção: desenvolva mais: explique o dado, dê contexto e uma dica prática usando o dossiê",
+    "em": "2026-11-06T22:42:50.256695"
+  },
+  {
+    "tema": "O que você precisa saber sobre a sua conta de luz esta semana: Quanto custa o chuveiro na tarifa da Celesc; Raio na rede queima aparelho? O DPS é a peça que segura o surto",
+    "chave": "longo:calc:chuveiro:CELESC+achado:dps-protetor-surto",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “470 palavras”: texto curto demais para o formato (470 palavras; mínimo 650). Correção: desenvolva mais: explique o dado, dê contexto e uma dica prática usando o dossiê",
+    "em": "2026-11-06T22:46:36.658864"
   }
 ]
