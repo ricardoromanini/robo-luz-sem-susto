@@ -1,54 +1,5 @@
 [
   {
-    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
-    "chave": "pauta:chuveiro-verao-inverno",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Chuveiros consomem cerca de 13% da energia residencial”: não há evidência que comprove essa porcentagem (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: inserir fonte confiável para comprovar a porcentagem de consumo de energia dos chuveiros",
-    "em": "2026-10-07T22:50:02.252068"
-  },
-  {
-    "tema": "A taxa mínima da conta de luz na Equatorial Piauí",
-    "chave": "taxamin:EQUATORIAL PI",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Taxa mínima da conta de luz: quanto paga na Energisa MS”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-09T22:12:37.543958"
-  },
-  {
-    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
-    "chave": "pauta:lei-14300-fio-b",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências fornecidas, e não há informações sobre seu conteúdo ou se ela trata do assunto em questão. (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022 e substituir por uma norma ou lei relevante e existente que trate do assunto.",
-    "em": "2026-10-09T22:14:58.118299"
-  },
-  {
-    "tema": "Quanto custa o ar na tarifa da Energisa Tocantins",
-    "chave": "calc:ar:ETO",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “24”: o número 24 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-09T22:19:07.122052"
-  },
-  {
-    "tema": "Quanto custa o chuveiro na tarifa da Equatorial Piauí",
-    "chave": "calc:chuveiro:EQUATORIAL PI",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Piauí”: A empresa mencionada é a Equatorial Energia Alagoas, não Equatorial Piauí (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Equatorial Energia Alagoas",
-    "em": "2026-10-09T22:21:53.077991"
-  },
-  {
-    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
-    "chave": "pauta:airfryer-forno",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “775”: o número 775 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [🔎 Checador de fatos] “Você sabia que cozinhar pode representar até 4,8% da sua conta de luz?”: A afirmação está próxima do fato, mas o texto não deixa claro que é uma porcentagem do consumo de eletricidade das residências, conforme a faixa de renda.. Correção: Cozinhar pode representar entre 1,3% e 4,8% do consumo de eletricidade das residências, conforme a faixa de renda.\n- [🔎 Checador de fatos] “Uma air fryer 4 L tem 1 500 W; forno 44 L, 1 775 W (fonte Inmetro, certificação).”: A certificação do Inmetro não é a fonte das potências informadas.. Correção: Uma air fryer 4 L tem 1 500 W; forno 44 L, 1 775 W (exemplos de potências informadas por fabricantes).\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Air fryer vs forno elétrico”: O termo 'air fryer' é comum no Brasil, mas o exemplo de potência e o contexto podem ser melhorados para atender ao padrão brasileiro. (fonte: https://pt.wikipedia.org/wiki/Fritadeira). Correção: Fritadeira vs forno elétrico: compare o consumo de energia em casa",
-    "em": "2026-10-09T22:33:33.526757"
-  },
-  {
-    "tema": "Quanto custa o ar na tarifa da Amazonas Energia",
-    "chave": "calc:ar:Âmbar Amazonas",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “Um ar-condicionado pode aumentar sua conta em mais de R$ 200 por mês, usando pouco tempo?”: O texto não especifica que o valor de R$ 200 é apenas da tarifa, sem impostos e bandeira, e que o uso é de 8 horas por noite.. Correção: Um ar-condicionado pode aumentar sua conta em cerca de R$ 231,18 por mês, apenas com a tarifa, sem impostos e bandeira, usando 8 horas por noite.\n- [🔎 Checador de fatos] “Paga mais de R$ 200?”: O texto não especifica que o valor de R$ 200 é apenas da tarifa, sem impostos e bandeira.. Correção: Paga cerca de R$ 231,18 por mês, apenas com a tarifa, sem impostos e bandeira?\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-09T22:50:44.004962"
-  },
-  {
     "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
     "chave": "pauta:airfryer-forno",
     "decisao": "AJUSTAR",
@@ -1398,5 +1349,54 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 11%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-11-07T22:39:19.790275"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Energisa Mato Grosso do Sul",
+    "chave": "calc:airfryer:EMS",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-08T22:10:43.872275"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da CEEE Equatorial",
+    "chave": "calc:ar:CEEE-D",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-08T22:13:03.815280"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da EDP Espírito Santo",
+    "chave": "calc:airfryer:EDP ES",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “20”: o número 20 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-08T22:15:13.349214"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Acre",
+    "chave": "calc:ferro:EAC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 13%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-08T22:18:12.869271"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da EDP São Paulo",
+    "chave": "calc:chuveiro:EDP SP",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “EDP São Paulo”: A EDP é uma empresa portuguesa e não tem uma filial chamada EDP São Paulo. A empresa de energia elétrica em São Paulo é a Enel Distribuição São Paulo, anteriormente conhecida como Eletropaulo. (fonte: https://pt.wikipedia.org/wiki/EDP). Correção: Substituir EDP São Paulo por Enel Distribuição São Paulo ou outra empresa de energia elétrica brasileira",
+    "em": "2026-11-08T22:21:50.544060"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Neoenergia Elektro",
+    "chave": "calc:chuveiro:ELEKTRO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Elektro”: A empresa mencionada no texto é a Neoenergia Coelba, não Neoenergia Elektro (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
+    "em": "2026-11-08T22:25:18.728808"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da CPFL Paulista",
+    "chave": "calc:ar:CPFL-PAULISTA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-08T22:29:41.524471"
   }
 ]
