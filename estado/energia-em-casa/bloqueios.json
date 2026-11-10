@@ -1,61 +1,5 @@
 [
   {
-    "tema": "Air fryer ou forno elétrico: como comparar o gasto de cada um",
-    "chave": "pauta:airfryer-forno",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “30”: o número 30 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Air fryer ou forno elétrico: qual pesa mais na conta de luz?”: O termo 'air fryer' é comum no Brasil, mas poderia ser traduzido para 'fritadeira de ar quente' para melhor se adequar ao padrão brasileiro. (fonte: https://pt.wikipedia.org/wiki/Fritadeira). Correção: Fritadeira de ar quente ou forno elétrico: qual pesa mais na conta de luz?",
-    "em": "2026-10-10T22:14:43.149035"
-  },
-  {
-    "tema": "Quanto custa o ar na tarifa da Energisa Acre",
-    "chave": "calc:ar:EAC",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-10T22:18:40.045078"
-  },
-  {
-    "tema": "Quanto custa o ferro na tarifa da Equatorial Piauí",
-    "chave": "calc:ferro:EQUATORIAL PI",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “10,2”: o número 10,2 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [🔎 Checador de fatos] “Usando um ferro de 1.200 W duas horas semanais, consome cerca de 10,2 kWh por mês.”: O cálculo não é explicitado no dossiê, mas pode ser feito com base nas informações fornecidas.. Correção: O consumo estimado pode ser calculado como 1.200 W * 2 horas/semana * 4 semanas/mês / 1000 (para converter W para kW) = 9,6 kWh/mês, que é próximo ao valor estimado de 10,2 kWh/mês.\n- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 14%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-10T22:23:08.296142"
-  },
-  {
-    "tema": "Quanto custa o ar na tarifa da Energisa Rondônia",
-    "chave": "calc:ar:ERO",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-10T22:27:11.678933"
-  },
-  {
-    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
-    "chave": "pauta:lei-14300-fio-b",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências como uma norma relacionada ao assunto (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022",
-    "em": "2026-10-10T22:31:42.316756"
-  },
-  {
-    "tema": "A taxa mínima da conta de luz na Equatorial Alagoas",
-    "chave": "taxamin:EQUATORIAL AL",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Por que sua conta tem taxa mínima mesmo sem usar energia?”: muito parecido com um post anterior (semelhança 5%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Segundo a ANEEL, o piso é 30 kWh monofásicos, 50 kWh bifásicos, 100 kWh trifásicos para residçncias”: A ANEEL não define explicitamente esses valores como piso para residçncias nas evidçncias fornecidas (fonte: https://pt.wikipedia.org/wiki/Ag%C3%AAncia_Nacional_de_Energia_El%C3%A9trica). Correção: Verificar a REN 1.000/2021 para confirmar os valores de piso de energia",
-    "em": "2026-10-10T22:36:44.423247"
-  },
-  {
-    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
-    "chave": "pauta:lei-14300-fio-b",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “60% de aumento no Fio B em 2026”: O texto diz que houve um aumento de 60% no Fio B em 2026, mas o dossiê diz que o Fio B é de 60% em 2026, não que aumentou 60% em relação ao ano anterior. Correção: Em 2026, o Fio B é de 60%, conforme a Lei 14.300/2022\n- [⚖️ Revisor jurídico e de políticas] “60% de aumento no Fio B em 2026: como isso afeta sua conta de luz”: 3. Legislação eleitoral (Lei 9.504/1997 e resoluções do TSE). Correção: Remover qualquer menção a ano de eleições (2026) ou reestruturar a frase para manter neutralidade\n- [🌐 Pesquisador (internet e padrão brasileiro)] “60% de aumento no Fio B em 2026”: A Lei 14.300/2022 não é mencionada nas evidências como uma lei que trata do Fio B ou do aumento de 60% em 2026. (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022 e sua relação com o Fio B.",
-    "em": "2026-10-10T22:39:58.024793"
-  },
-  {
-    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
-    "chave": "pauta:lei-14300-fio-b",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🌐 Pesquisador (internet e padrão brasileiro)] “Fio B chegou a 60% da tarifa em 2026”: Nenhuma das evidências fornece informações sobre o Fio B ou a Lei 14.300/2022 (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022 e do Fio B",
-    "em": "2026-10-10T22:52:53.170333"
-  },
-  {
     "tema": "Quanto custa o ar na tarifa da Equatorial Alagoas",
     "chave": "calc:ar:EQUATORIAL AL",
     "decisao": "AJUSTAR",
@@ -1398,5 +1342,61 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
     "em": "2026-11-08T22:29:41.524471"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Acre",
+    "chave": "calc:ferro:EAC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 9%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-09T22:16:57.233885"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Enel Rio",
+    "chave": "calc:chuveiro:ENEL RJ",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Enel Rio”: A empresa mencionada no texto é a Enel Distribuição Ceará, mas o texto fala em Enel Rio, que não é mencionada nas evidçncias. (fonte: https://pt.wikipedia.org/wiki/Enel_Distribui%C3%A7%C3%A3o_Cear%C3%A1). Correção: Enel Distribuição Ceará",
+    "em": "2026-11-09T22:20:56.963490"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da Enel Ceará",
+    "chave": "calc:airfryer:ENEL CE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 4%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-09T22:26:33.158926"
+  },
+  {
+    "tema": "Quanto custa o airfryer na tarifa da CEEE Equatorial",
+    "chave": "calc:airfryer:CEEE-D",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-09T22:30:13.868587"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Light",
+    "chave": "calc:chuveiro:LIGHT SESA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 13%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-09T22:33:15.987231"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Tocantins",
+    "chave": "calc:ar:ETO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-09T22:35:42.678403"
+  },
+  {
+    "tema": "Quanto custa o chuveiro na tarifa da Equatorial Maranhão",
+    "chave": "calc:chuveiro:EQUATORIAL MA",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o chuveiro elétrico por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 13%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Equatorial Maranhão”: A empresa mencionada no texto é a Equatorial Maranhão, mas a evidência [0] fala sobre a Equatorial Energia Alagoas. (fonte: https://pt.wikipedia.org/wiki/Equatorial_Energia_Alagoas). Correção: Verificar se a empresa mencionada é a certa para o contexto do texto.",
+    "em": "2026-11-09T22:38:24.006262"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Energisa Rondônia",
+    "chave": "calc:ferro:ERO",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “Sabia que passar roupa 1 hora por semana custa realmente quase R$ 4 na sua conta?”: O texto diz que o custo é de R$ 3,92 por mês apenas na tarifa, sem impostos e bandeira, mas o trecho inicial sugere que o custo final é de quase R$ 4, o que pode incluir impostos e bandeira, mas não está claro.. Correção: Reescrever para refletir que o custo de R$ 3,92 é apenas da tarifa, sem impostos e bandeira, e que o valor final pode variar.\n- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 11%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Sabia que passar roupa 1 hora por semana custa realmente quase R$ 4 na sua conta?”: O texto afirma que o custo é de R$ 3,92 por mês, e não R$ 4 (fonte: https://pt.wikipedia.org/wiki/Axia_Energia). Correção: Sabia que passar roupa 1 hora por semana custa realmente quase R$ 3,92 na sua conta?",
+    "em": "2026-11-09T22:40:28.075989"
   }
 ]
