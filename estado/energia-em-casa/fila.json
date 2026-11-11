@@ -4256,5 +4256,48 @@
       "alertas_dossie": []
     },
     "publicacoes": {}
+  },
+  {
+    "id": "20261110-220804-bandeira-verde-em-novembro-de-2026-o-que",
+    "status": "aguardando_aprovacao",
+    "criado_em": "2026-11-10T22:08:04.075954-03:00",
+    "formato": "short",
+    "horario_publicacao": "2026-11-11T07:30:00-03:00",
+    "categoria": "bandeira",
+    "chave": "bandeira:2026-11",
+    "partes": [],
+    "titulo": "Bandeira verde em novembro de 2026: o que isso muda na sua conta",
+    "texto_falado": "A bandeira verde em novembro 2026 indica que sua conta não terá acréscimo antes de impostos? A bandeira tarifária de novembro 2026 está verde, conforme a ANEEL. Fonte: ANEEL Bandeira verde não gera acréscimo antes de impostos; amarelo custa R$ 1,89/100 kWh, vermelho P1 R$ 4,46, P2 R$ 7,88. Confira a bandeira na sua conta; se for verde, não há custos extras antes de impostos. Sua conta está verde este mês? Salve este vídeo para consultar quando a conta chegar.",
+    "legenda": {
+      "social": "Em novembro de 2026 a bandeira tarifária está verde, o que significa que não há acréscimo antes de impostos na sua conta de luz. Veja como isso se compara às bandeiras amarela e vermelha e o que observar na sua fatura.\nFonte: ANEEL\n\n⚠️ Acréscimo antes de impostos. Fonte: ANEEL.\n\n#bandeiraverde #contadeluz #energia #energiasolar #economia",
+      "youtube": "Em novembro de 2026 a bandeira tarifária está verde, o que significa que não há acréscimo antes de impostos na sua conta de luz. Veja como isso se compara às bandeiras amarela e vermelha e o que observar na sua fatura.\nFonte: ANEEL\n\n⚠️ Acréscimo antes de impostos. Fonte: ANEEL.\n\nFontes:\nhttps://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias\n\n#bandeiraverde #contadeluz #energia #energiasolar #economia"
+    },
+    "rotulo_ia": false,
+    "voz": "Algenib (apresentador_firme)",
+    "video": {
+      "modo": "github_release",
+      "asset_id": 733628556,
+      "nome": "20261110-220804-bandeira-verde-em-novembro-de-2026-o-que.mp4"
+    },
+    "capa": null,
+    "ia_redator": "cloudflare/@cf/openai/gpt-oss-120b",
+    "ia_verificador": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "qc": {
+      "ok": true,
+      "problemas": [],
+      "info": {
+        "duracao_s": 42.8,
+        "lufs": -14.28,
+        "fala_confere": 0.9,
+        "cortes_rapidos": true
+      }
+    },
+    "equipe": {
+      "decisao": "APROVADO",
+      "resumo": "✅ 🔎 Checador de fatos: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ⚖️ Revisor jurídico e de políticas: APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões))\n✅ ✍️ Revisor de qualidade: APROVAR (nota 9, 0 obrigatório(s), 0 observação(ões))\n✅ 🌐 Pesquisador (internet e padrão brasileiro): APROVAR (nota 10, 0 obrigatório(s), 0 observação(ões)) · 3 fonte(s) consultada(s)\n👔 Editor-chefe: APROVADO",
+      "rodadas": 3,
+      "alertas_dossie": []
+    },
+    "publicacoes": {}
   }
 ]

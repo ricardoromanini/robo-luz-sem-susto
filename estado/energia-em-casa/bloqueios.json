@@ -1,54 +1,5 @@
 [
   {
-    "tema": "Quanto custa o ar na tarifa da Equatorial Alagoas",
-    "chave": "calc:ar:EQUATORIAL AL",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 15%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-10T23:04:50.666038"
-  },
-  {
-    "tema": "Quanto custa o ar na tarifa da Enel São Paulo",
-    "chave": "calc:ar:ELETROPAULO",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 8%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-10T23:09:30.167875"
-  },
-  {
-    "tema": "Energia solar em 2026: o que é o 'Fio B' e por que ele aumentou",
-    "chave": "pauta:lei-14300-fio-b",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “Sua conta de luz pode subir 60% por causa da energia solar hoje?”: A afirmação é enganosa, pois o Fio B de 60% se refere à parcela da tarifa paga sobre a energia injetada, não ao aumento da conta de luz em si.. Correção: Reescrever para refletir a informação correta sobre o Fio B e seu impacto na conta de luz.\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Lei 14.300/2022”: A Lei 14.300/2022 não foi encontrada nas evidências como uma lei relacionada à energia solar ou ao Fio B. (fonte: https://pt.wikipedia.org/wiki/Energia_solar). Correção: Verificar a existência e o conteúdo da Lei 14.300/2022 e substituí-la pela norma correta, se necessário.",
-    "em": "2026-10-11T22:11:36.967735"
-  },
-  {
-    "tema": "Quanto custa o ferro na tarifa da Neoenergia Pernambuco",
-    "chave": "calc:ferro:Neoenergia PE",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Neoenergia Pernambuco”: A empresa mencionada na evidência é a Neoenergia Coelba, que atua na Bahia, e não a Neoenergia Pernambuco (fonte: https://pt.wikipedia.org/wiki/Neoenergia_Coelba). Correção: Neoenergia Coelba",
-    "em": "2026-10-11T22:15:24.106615"
-  },
-  {
-    "tema": "Quanto custa o ar na tarifa da Celesc",
-    "chave": "calc:ar:CELESC",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-11T22:20:13.375071"
-  },
-  {
-    "tema": "Chave do chuveiro no verão ou no inverno: o que muda na conta de luz",
-    "chave": "pauta:chuveiro-verao-inverno",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [🔎 Checador de fatos] “mudar a chave do chuveiro pode reduzir até 10% da conta”: não há informação no dossiê sobre a redução de 10% na conta de luz. Correção: remover a afirmação ou reescrever como 'a economia varia conforme o modelo e o tempo de banho'\n- [🌐 Pesquisador (internet e padrão brasileiro)] “A potência diminui na temperatura baixa, gerando economia de energia e água.”: No Brasil, a temperatura baixa não é comum, e a economia de energia e água depende do modelo do chuveiro e do tempo de banho. (fonte: https://pt.wikipedia.org/wiki/Chuveiro). Correção: A potência diminui na temperatura baixa, gerando economia de energia e água, dependendo do modelo do chuveiro e do tempo de banho.",
-    "em": "2026-10-11T22:24:01.763787"
-  },
-  {
-    "tema": "Quanto custa o airfryer na tarifa da Cemig",
-    "chave": "calc:airfryer:CEMIG-D",
-    "decisao": "AJUSTAR",
-    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta a air fryer por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
-    "em": "2026-10-11T22:27:14.321935"
-  },
-  {
     "tema": "Quanto custa o ar na tarifa da Neoenergia Brasília",
     "chave": "calc:ar:Neoenergia Brasília",
     "decisao": "AJUSTAR",
@@ -1398,5 +1349,54 @@
     "decisao": "AJUSTAR",
     "correcoes": "- [🔎 Checador de fatos] “Sabia que passar roupa 1 hora por semana custa realmente quase R$ 4 na sua conta?”: O texto diz que o custo é de R$ 3,92 por mês apenas na tarifa, sem impostos e bandeira, mas o trecho inicial sugere que o custo final é de quase R$ 4, o que pode incluir impostos e bandeira, mas não está claro.. Correção: Reescrever para refletir que o custo de R$ 3,92 é apenas da tarifa, sem impostos e bandeira, e que o valor final pode variar.\n- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 11%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Sabia que passar roupa 1 hora por semana custa realmente quase R$ 4 na sua conta?”: O texto afirma que o custo é de R$ 3,92 por mês, e não R$ 4 (fonte: https://pt.wikipedia.org/wiki/Axia_Energia). Correção: Sabia que passar roupa 1 hora por semana custa realmente quase R$ 3,92 na sua conta?",
     "em": "2026-11-09T22:40:28.075989"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Celesc",
+    "chave": "calc:ar:CELESC",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [⚖️ Revisor jurídico e de políticas] “Um ar-condicionado pode aumentar sua conta em até R$ 200 por mês?”: 1. Código de Defesa do Consumidor (arts. 31 e 37). Correção: Um ar-condicionado pode aumentar sua conta em aproximadamente R$ 200,59 por mês, considerando a tarifa residencial convencional da Celesc.\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 6%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-10T22:19:45.283140"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da Energisa Mato Grosso do Sul",
+    "chave": "calc:ar:EMS",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 3%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-10T22:23:55.080740"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da EDP São Paulo",
+    "chave": "calc:ferro:EDP SP",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Um ferro de passar pode custar mais de quatro reais por mês na sua conta?”: O texto afirma que o ferro de passar pode custar mais de quatro reais por mês, mas o cálculo apresentado mais tarde no texto mostra que o custo é de cerca de R$ 4,12 mensais, o que está muito próximo do valor inicialmente mencionado, mas não deixa claro se o valor de R$ 4,12 já inclui impostos e bandeira. (fonte: https://pt.wikipedia.org/wiki/EDP). Correção: Esclarecer se o valor de R$ 4,12 já inclui impostos e bandeira.",
+    "em": "2026-11-10T22:28:53.357691"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Enel Rio",
+    "chave": "calc:ferro:ENEL RJ",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 11%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê\n- [🌐 Pesquisador (internet e padrão brasileiro)] “Enel Rio”: A empresa mencionada no texto é a Enel Rio, mas as evidências fornecidas mencionam a Enel Distribuição Ceará, que é uma empresa de distribuição de energia elétrica com atuação em todo o estado do Ceará. (fonte: https://pt.wikipedia.org/wiki/Enel_Distribui%C3%A7%C3%A3o_Cear%C3%A1). Correção: Deve ser mencionada a empresa de distribuição de energia elétrica correspondente à região em que o vídeo é destinado, como a Enel Distribuição Ceará, se for o caso.",
+    "em": "2026-11-10T22:32:11.410779"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da RGE",
+    "chave": "calc:ferro:RGE",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 7%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-10T22:35:50.232448"
+  },
+  {
+    "tema": "Quanto custa o ferro na tarifa da Equatorial Alagoas",
+    "chave": "calc:ferro:EQUATORIAL AL",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [✍️ Revisor de qualidade] “Quanto gasta o ferro de passar por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 13%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-10T22:38:15.208784"
+  },
+  {
+    "tema": "Quanto custa o ar na tarifa da CPFL Piratininga",
+    "chave": "calc:ar:CPFL-PIRATINING",
+    "decisao": "AJUSTAR",
+    "correcoes": "- [🔎 Checador de fatos] “24”: o número 24 não está no dossiê. Correção: remova ou troque por um número que esteja no dossiê\n- [✍️ Revisor de qualidade] “Quanto gasta o ar-condicionado por mês na conta de luz? Fizemos a conta”: muito parecido com um post anterior (semelhança 10%). Correção: mude a estrutura, o gancho e o ângulo; traga outro aspecto do dossiê",
+    "em": "2026-11-10T22:42:14.485305"
   }
 ]
